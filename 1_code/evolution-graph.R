@@ -39,7 +39,13 @@ fig <- df_animation |>
     text = ~name,
     textposition = "inside",
     textfont = list(size = 12, color = "white"),
-    hovertemplate = "<b>%{text}</b><br>Puntos: %{x}<extra></extra>",
+    customdata = ~jornada_points,
+    hovertemplate = paste(
+  "<b>%{text}</b><br>",
+  "Puntos jornada: %{customdata}<br>",
+  "Puntos acumulados: %{x}",
+  "<extra></extra>"
+),
     marker = list(line = list(color = "white", width = 1))
   ) |>
   layout(
