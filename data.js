@@ -23,6 +23,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "completed_trade_reconstructions": 169
     },
     "limitations": [
+      "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
       "Quedan algunos jugadores sin detalle histórico completo porque no aparecen en el catálogo público actual de Biwenger; sus fichas básicas sí se conservan cuando la API autenticada las devuelve.",
       "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5, roja=5 y segunda amarilla=5.",
       "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; no distingue perfectamente ventas al mercado si Biwenger no publica el vendedor."
@@ -149,7 +150,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_id": 8127478,
       "user_name": "Arregui",
       "league_position": 3,
-      "total_points_after_round": 92,
+      "total_points_after_round": 36,
       "lineup_points": 36,
       "team_value": 102410000
     },
@@ -158,12 +159,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4484,
       "round_name": "Jornada 1",
       "round_short": "J1",
-      "user_id": 6822272,
-      "user_name": "Ricardo J",
-      "league_position": 4,
-      "total_points_after_round": 10,
-      "lineup_points": 10,
-      "team_value": 157450000
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "league_position": 3,
+      "total_points_after_round": 36,
+      "lineup_points": 36,
+      "team_value": 78670000
     },
     {
       "round_order": 1,
@@ -184,7 +185,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J1",
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "league_position": 6,
+      "league_position": 5,
       "total_points_after_round": 22,
       "lineup_points": 22,
       "team_value": 78730000
@@ -194,12 +195,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4484,
       "round_name": "Jornada 1",
       "round_short": "J1",
-      "user_id": 11678835,
-      "user_name": "Julia",
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
       "league_position": 7,
-      "total_points_after_round": 36,
-      "lineup_points": 36,
-      "team_value": 78670000
+      "total_points_after_round": 10,
+      "lineup_points": 10,
+      "team_value": 157450000
     },
     {
       "round_order": 2,
@@ -218,9 +219,21 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4485,
       "round_name": "Jornada 2",
       "round_short": "J2",
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "league_position": 2,
+      "total_points_after_round": 83,
+      "lineup_points": 47,
+      "team_value": 102410000
+    },
+    {
+      "round_order": 2,
+      "round_id": 4485,
+      "round_name": "Jornada 2",
+      "round_short": "J2",
       "user_id": 10089858,
       "user_name": "Karlox F.C.",
-      "league_position": 2,
+      "league_position": 3,
       "total_points_after_round": 78,
       "lineup_points": 37,
       "team_value": 91370000
@@ -230,45 +243,9 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4485,
       "round_name": "Jornada 2",
       "round_short": "J2",
-      "user_id": 8127478,
-      "user_name": "Arregui",
-      "league_position": 3,
-      "total_points_after_round": 139,
-      "lineup_points": 47,
-      "team_value": 102410000
-    },
-    {
-      "round_order": 2,
-      "round_id": 4485,
-      "round_name": "Jornada 2",
-      "round_short": "J2",
-      "user_id": 6822272,
-      "user_name": "Ricardo J",
-      "league_position": 4,
-      "total_points_after_round": 43,
-      "lineup_points": 33,
-      "team_value": 157450000
-    },
-    {
-      "round_order": 2,
-      "round_id": 4485,
-      "round_name": "Jornada 2",
-      "round_short": "J2",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
-      "league_position": 5,
-      "total_points_after_round": 46,
-      "lineup_points": 24,
-      "team_value": 87480000
-    },
-    {
-      "round_order": 2,
-      "round_id": 4485,
-      "round_name": "Jornada 2",
-      "round_short": "J2",
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "league_position": 6,
+      "league_position": 4,
       "total_points_after_round": 75,
       "lineup_points": 53,
       "team_value": 78730000
@@ -280,10 +257,34 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J2",
       "user_id": 11678835,
       "user_name": "Julia",
-      "league_position": 7,
+      "league_position": 5,
       "total_points_after_round": 64,
       "lineup_points": 28,
       "team_value": 78670000
+    },
+    {
+      "round_order": 2,
+      "round_id": 4485,
+      "round_name": "Jornada 2",
+      "round_short": "J2",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "league_position": 6,
+      "total_points_after_round": 46,
+      "lineup_points": 24,
+      "team_value": 87480000
+    },
+    {
+      "round_order": 2,
+      "round_id": 4485,
+      "round_name": "Jornada 2",
+      "round_short": "J2",
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "league_position": 7,
+      "total_points_after_round": 43,
+      "lineup_points": 33,
+      "team_value": 157450000
     },
     {
       "round_order": 3,
@@ -302,9 +303,21 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4489,
       "round_name": "Jornada 6",
       "round_short": "J6",
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "league_position": 2,
+      "total_points_after_round": 119,
+      "lineup_points": 36,
+      "team_value": 102410000
+    },
+    {
+      "round_order": 3,
+      "round_id": 4489,
+      "round_name": "Jornada 6",
+      "round_short": "J6",
       "user_id": 10089858,
       "user_name": "Karlox F.C.",
-      "league_position": 2,
+      "league_position": 3,
       "total_points_after_round": 108,
       "lineup_points": 30,
       "team_value": 91370000
@@ -314,45 +327,9 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4489,
       "round_name": "Jornada 6",
       "round_short": "J6",
-      "user_id": 8127478,
-      "user_name": "Arregui",
-      "league_position": 3,
-      "total_points_after_round": 175,
-      "lineup_points": 36,
-      "team_value": 102410000
-    },
-    {
-      "round_order": 3,
-      "round_id": 4489,
-      "round_name": "Jornada 6",
-      "round_short": "J6",
-      "user_id": 6822272,
-      "user_name": "Ricardo J",
-      "league_position": 4,
-      "total_points_after_round": 72,
-      "lineup_points": 29,
-      "team_value": 157450000
-    },
-    {
-      "round_order": 3,
-      "round_id": 4489,
-      "round_name": "Jornada 6",
-      "round_short": "J6",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
-      "league_position": 5,
-      "total_points_after_round": 60,
-      "lineup_points": 14,
-      "team_value": 87480000
-    },
-    {
-      "round_order": 3,
-      "round_id": 4489,
-      "round_name": "Jornada 6",
-      "round_short": "J6",
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "league_position": 6,
+      "league_position": 4,
       "total_points_after_round": 104,
       "lineup_points": 29,
       "team_value": 78730000
@@ -364,10 +341,34 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J6",
       "user_id": 11678835,
       "user_name": "Julia",
-      "league_position": 7,
+      "league_position": 5,
       "total_points_after_round": 82,
       "lineup_points": 18,
       "team_value": 78670000
+    },
+    {
+      "round_order": 3,
+      "round_id": 4489,
+      "round_name": "Jornada 6",
+      "round_short": "J6",
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "league_position": 6,
+      "total_points_after_round": 72,
+      "lineup_points": 29,
+      "team_value": 157450000
+    },
+    {
+      "round_order": 3,
+      "round_id": 4489,
+      "round_name": "Jornada 6",
+      "round_short": "J6",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "league_position": 7,
+      "total_points_after_round": 60,
+      "lineup_points": 14,
+      "team_value": 87480000
     },
     {
       "round_order": 4,
@@ -386,9 +387,21 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4486,
       "round_name": "Jornada 3",
       "round_short": "J3",
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "league_position": 2,
+      "total_points_after_round": 152,
+      "lineup_points": 33,
+      "team_value": 102410000
+    },
+    {
+      "round_order": 4,
+      "round_id": 4486,
+      "round_name": "Jornada 3",
+      "round_short": "J3",
       "user_id": 10089858,
       "user_name": "Karlox F.C.",
-      "league_position": 2,
+      "league_position": 3,
       "total_points_after_round": 147,
       "lineup_points": 39,
       "team_value": 91370000
@@ -398,45 +411,9 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4486,
       "round_name": "Jornada 3",
       "round_short": "J3",
-      "user_id": 8127478,
-      "user_name": "Arregui",
-      "league_position": 3,
-      "total_points_after_round": 208,
-      "lineup_points": 33,
-      "team_value": 102410000
-    },
-    {
-      "round_order": 4,
-      "round_id": 4486,
-      "round_name": "Jornada 3",
-      "round_short": "J3",
-      "user_id": 6822272,
-      "user_name": "Ricardo J",
-      "league_position": 4,
-      "total_points_after_round": 119,
-      "lineup_points": 47,
-      "team_value": 157450000
-    },
-    {
-      "round_order": 4,
-      "round_id": 4486,
-      "round_name": "Jornada 3",
-      "round_short": "J3",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
-      "league_position": 5,
-      "total_points_after_round": 86,
-      "lineup_points": 26,
-      "team_value": 87480000
-    },
-    {
-      "round_order": 4,
-      "round_id": 4486,
-      "round_name": "Jornada 3",
-      "round_short": "J3",
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "league_position": 6,
+      "league_position": 4,
       "total_points_after_round": 145,
       "lineup_points": 41,
       "team_value": 78730000
@@ -446,12 +423,36 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4486,
       "round_name": "Jornada 3",
       "round_short": "J3",
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "league_position": 5,
+      "total_points_after_round": 119,
+      "lineup_points": 47,
+      "team_value": 157450000
+    },
+    {
+      "round_order": 4,
+      "round_id": 4486,
+      "round_name": "Jornada 3",
+      "round_short": "J3",
       "user_id": 11678835,
       "user_name": "Julia",
-      "league_position": 7,
+      "league_position": 6,
       "total_points_after_round": 104,
       "lineup_points": 22,
       "team_value": 78670000
+    },
+    {
+      "round_order": 4,
+      "round_id": 4486,
+      "round_name": "Jornada 3",
+      "round_short": "J3",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "league_position": 7,
+      "total_points_after_round": 86,
+      "lineup_points": 26,
+      "team_value": 87480000
     },
     {
       "round_order": 5,
@@ -470,9 +471,21 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4487,
       "round_name": "Jornada 4",
       "round_short": "J4",
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "league_position": 2,
+      "total_points_after_round": 220,
+      "lineup_points": 68,
+      "team_value": 102410000
+    },
+    {
+      "round_order": 5,
+      "round_id": 4487,
+      "round_name": "Jornada 4",
+      "round_short": "J4",
       "user_id": 10089858,
       "user_name": "Karlox F.C.",
-      "league_position": 2,
+      "league_position": 3,
       "total_points_after_round": 182,
       "lineup_points": 35,
       "team_value": 91370000
@@ -482,12 +495,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4487,
       "round_name": "Jornada 4",
       "round_short": "J4",
-      "user_id": 8127478,
-      "user_name": "Arregui",
-      "league_position": 3,
-      "total_points_after_round": 276,
-      "lineup_points": 68,
-      "team_value": 102410000
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "league_position": 4,
+      "total_points_after_round": 165,
+      "lineup_points": 20,
+      "team_value": 78730000
     },
     {
       "round_order": 5,
@@ -496,7 +509,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J4",
       "user_id": 6822272,
       "user_name": "Ricardo J",
-      "league_position": 4,
+      "league_position": 5,
       "total_points_after_round": 155,
       "lineup_points": 36,
       "team_value": 157450000
@@ -508,22 +521,10 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J4",
       "user_id": 6826480,
       "user_name": "Víctor Orta",
-      "league_position": 5,
+      "league_position": 6,
       "total_points_after_round": 128,
       "lineup_points": 42,
       "team_value": 87480000
-    },
-    {
-      "round_order": 5,
-      "round_id": 4487,
-      "round_name": "Jornada 4",
-      "round_short": "J4",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
-      "league_position": 6,
-      "total_points_after_round": 165,
-      "lineup_points": 20,
-      "team_value": 78730000
     },
     {
       "round_order": 5,
@@ -554,9 +555,21 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4488,
       "round_name": "Jornada 5",
       "round_short": "J5",
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "league_position": 2,
+      "total_points_after_round": 267,
+      "lineup_points": 47,
+      "team_value": 102410000
+    },
+    {
+      "round_order": 6,
+      "round_id": 4488,
+      "round_name": "Jornada 5",
+      "round_short": "J5",
       "user_id": 10089858,
       "user_name": "Karlox F.C.",
-      "league_position": 2,
+      "league_position": 3,
       "total_points_after_round": 233,
       "lineup_points": 51,
       "team_value": 91370000
@@ -566,12 +579,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4488,
       "round_name": "Jornada 5",
       "round_short": "J5",
-      "user_id": 8127478,
-      "user_name": "Arregui",
-      "league_position": 3,
-      "total_points_after_round": 323,
-      "lineup_points": 47,
-      "team_value": 102410000
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "league_position": 4,
+      "total_points_after_round": 211,
+      "lineup_points": 46,
+      "team_value": 78730000
     },
     {
       "round_order": 6,
@@ -580,7 +593,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J5",
       "user_id": 6822272,
       "user_name": "Ricardo J",
-      "league_position": 4,
+      "league_position": 5,
       "total_points_after_round": 186,
       "lineup_points": 31,
       "team_value": 157450000
@@ -592,22 +605,10 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J5",
       "user_id": 6826480,
       "user_name": "Víctor Orta",
-      "league_position": 5,
+      "league_position": 6,
       "total_points_after_round": 166,
       "lineup_points": 38,
       "team_value": 87480000
-    },
-    {
-      "round_order": 6,
-      "round_id": 4488,
-      "round_name": "Jornada 5",
-      "round_short": "J5",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
-      "league_position": 6,
-      "total_points_after_round": 211,
-      "lineup_points": 46,
-      "team_value": 78730000
     },
     {
       "round_order": 6,
@@ -638,9 +639,21 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4710,
       "round_name": "Jornada 6 (aplazada)",
       "round_short": "J6",
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "league_position": 2,
+      "total_points_after_round": 267,
+      "lineup_points": 36,
+      "team_value": 102410000
+    },
+    {
+      "round_order": 7,
+      "round_id": 4710,
+      "round_name": "Jornada 6 (aplazada)",
+      "round_short": "J6",
       "user_id": 10089858,
       "user_name": "Karlox F.C.",
-      "league_position": 2,
+      "league_position": 3,
       "total_points_after_round": 233,
       "lineup_points": 30,
       "team_value": 91370000
@@ -650,12 +663,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4710,
       "round_name": "Jornada 6 (aplazada)",
       "round_short": "J6",
-      "user_id": 8127478,
-      "user_name": "Arregui",
-      "league_position": 3,
-      "total_points_after_round": 323,
-      "lineup_points": 36,
-      "team_value": 102410000
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "league_position": 4,
+      "total_points_after_round": 211,
+      "lineup_points": 29,
+      "team_value": 78730000
     },
     {
       "round_order": 7,
@@ -664,7 +677,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J6",
       "user_id": 6822272,
       "user_name": "Ricardo J",
-      "league_position": 4,
+      "league_position": 5,
       "total_points_after_round": 186,
       "lineup_points": 29,
       "team_value": 157450000
@@ -676,22 +689,10 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J6",
       "user_id": 6826480,
       "user_name": "Víctor Orta",
-      "league_position": 5,
+      "league_position": 6,
       "total_points_after_round": 166,
       "lineup_points": 14,
       "team_value": 87480000
-    },
-    {
-      "round_order": 7,
-      "round_id": 4710,
-      "round_name": "Jornada 6 (aplazada)",
-      "round_short": "J6",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
-      "league_position": 6,
-      "total_points_after_round": 211,
-      "lineup_points": 29,
-      "team_value": 78730000
     },
     {
       "round_order": 7,
@@ -722,9 +723,21 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4490,
       "round_name": "Jornada 7",
       "round_short": "J7",
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "league_position": 2,
+      "total_points_after_round": 298,
+      "lineup_points": 31,
+      "team_value": 102410000
+    },
+    {
+      "round_order": 8,
+      "round_id": 4490,
+      "round_name": "Jornada 7",
+      "round_short": "J7",
       "user_id": 10089858,
       "user_name": "Karlox F.C.",
-      "league_position": 2,
+      "league_position": 3,
       "total_points_after_round": 284,
       "lineup_points": 51,
       "team_value": 91370000
@@ -734,12 +747,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4490,
       "round_name": "Jornada 7",
       "round_short": "J7",
-      "user_id": 8127478,
-      "user_name": "Arregui",
-      "league_position": 3,
-      "total_points_after_round": 354,
-      "lineup_points": 31,
-      "team_value": 102410000
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "league_position": 4,
+      "total_points_after_round": 233,
+      "lineup_points": 22,
+      "team_value": 78730000
     },
     {
       "round_order": 8,
@@ -748,7 +761,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J7",
       "user_id": 6822272,
       "user_name": "Ricardo J",
-      "league_position": 4,
+      "league_position": 5,
       "total_points_after_round": 227,
       "lineup_points": 41,
       "team_value": 157450000
@@ -760,22 +773,10 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J7",
       "user_id": 6826480,
       "user_name": "Víctor Orta",
-      "league_position": 5,
+      "league_position": 6,
       "total_points_after_round": 200,
       "lineup_points": 34,
       "team_value": 87480000
-    },
-    {
-      "round_order": 8,
-      "round_id": 4490,
-      "round_name": "Jornada 7",
-      "round_short": "J7",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
-      "league_position": 6,
-      "total_points_after_round": 233,
-      "lineup_points": 22,
-      "team_value": 78730000
     },
     {
       "round_order": 8,
@@ -806,9 +807,21 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4491,
       "round_name": "Jornada 8",
       "round_short": "J8",
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "league_position": 2,
+      "total_points_after_round": 348,
+      "lineup_points": 50,
+      "team_value": 102410000
+    },
+    {
+      "round_order": 9,
+      "round_id": 4491,
+      "round_name": "Jornada 8",
+      "round_short": "J8",
       "user_id": 10089858,
       "user_name": "Karlox F.C.",
-      "league_position": 2,
+      "league_position": 3,
       "total_points_after_round": 312,
       "lineup_points": 28,
       "team_value": 91370000
@@ -818,12 +831,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4491,
       "round_name": "Jornada 8",
       "round_short": "J8",
-      "user_id": 8127478,
-      "user_name": "Arregui",
-      "league_position": 3,
-      "total_points_after_round": 404,
-      "lineup_points": 50,
-      "team_value": 102410000
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "league_position": 4,
+      "total_points_after_round": 282,
+      "lineup_points": 49,
+      "team_value": 78730000
     },
     {
       "round_order": 9,
@@ -832,7 +845,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J8",
       "user_id": 6822272,
       "user_name": "Ricardo J",
-      "league_position": 4,
+      "league_position": 5,
       "total_points_after_round": 268,
       "lineup_points": 41,
       "team_value": 157450000
@@ -844,22 +857,10 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J8",
       "user_id": 6826480,
       "user_name": "Víctor Orta",
-      "league_position": 5,
+      "league_position": 6,
       "total_points_after_round": 227,
       "lineup_points": 27,
       "team_value": 87480000
-    },
-    {
-      "round_order": 9,
-      "round_id": 4491,
-      "round_name": "Jornada 8",
-      "round_short": "J8",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
-      "league_position": 6,
-      "total_points_after_round": 282,
-      "lineup_points": 49,
-      "team_value": 78730000
     },
     {
       "round_order": 9,
@@ -890,24 +891,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4492,
       "round_name": "Jornada 9",
       "round_short": "J9",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 346,
-      "lineup_points": 34,
-      "team_value": 91370000
+      "total_points_after_round": 386,
+      "lineup_points": 38,
+      "team_value": 102410000
     },
     {
       "round_order": 10,
       "round_id": 4492,
       "round_name": "Jornada 9",
       "round_short": "J9",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 442,
-      "lineup_points": 38,
-      "team_value": 102410000
+      "total_points_after_round": 346,
+      "lineup_points": 34,
+      "team_value": 91370000
     },
     {
       "round_order": 10,
@@ -926,24 +927,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4492,
       "round_name": "Jornada 9",
       "round_short": "J9",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 5,
-      "total_points_after_round": 268,
-      "lineup_points": 41,
-      "team_value": 87480000
+      "total_points_after_round": 304,
+      "lineup_points": 22,
+      "team_value": 78730000
     },
     {
       "round_order": 10,
       "round_id": 4492,
       "round_name": "Jornada 9",
       "round_short": "J9",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
       "league_position": 6,
-      "total_points_after_round": 304,
-      "lineup_points": 22,
-      "team_value": 78730000
+      "total_points_after_round": 268,
+      "lineup_points": 41,
+      "team_value": 87480000
     },
     {
       "round_order": 10,
@@ -974,24 +975,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4493,
       "round_name": "Jornada 10",
       "round_short": "J10",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 374,
-      "lineup_points": 28,
-      "team_value": 91370000
+      "total_points_after_round": 402,
+      "lineup_points": 16,
+      "team_value": 102410000
     },
     {
       "round_order": 11,
       "round_id": 4493,
       "round_name": "Jornada 10",
       "round_short": "J10",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 458,
-      "lineup_points": 16,
-      "team_value": 102410000
+      "total_points_after_round": 374,
+      "lineup_points": 28,
+      "team_value": 91370000
     },
     {
       "round_order": 11,
@@ -1010,21 +1011,9 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4493,
       "round_name": "Jornada 10",
       "round_short": "J10",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
-      "league_position": 5,
-      "total_points_after_round": 302,
-      "lineup_points": 34,
-      "team_value": 87480000
-    },
-    {
-      "round_order": 11,
-      "round_id": 4493,
-      "round_name": "Jornada 10",
-      "round_short": "J10",
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "league_position": 6,
+      "league_position": 5,
       "total_points_after_round": 334,
       "lineup_points": 30,
       "team_value": 78730000
@@ -1036,10 +1025,22 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J10",
       "user_id": 11678835,
       "user_name": "Julia",
-      "league_position": 7,
+      "league_position": 6,
       "total_points_after_round": 314,
       "lineup_points": 62,
       "team_value": 78670000
+    },
+    {
+      "round_order": 11,
+      "round_id": 4493,
+      "round_name": "Jornada 10",
+      "round_short": "J10",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "league_position": 7,
+      "total_points_after_round": 302,
+      "lineup_points": 34,
+      "team_value": 87480000
     },
     {
       "round_order": 12,
@@ -1058,24 +1059,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4494,
       "round_name": "Jornada 11",
       "round_short": "J11",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 441,
-      "lineup_points": 67,
-      "team_value": 91370000
+      "total_points_after_round": 451,
+      "lineup_points": 49,
+      "team_value": 102410000
     },
     {
       "round_order": 12,
       "round_id": 4494,
       "round_name": "Jornada 11",
       "round_short": "J11",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 507,
-      "lineup_points": 49,
-      "team_value": 102410000
+      "total_points_after_round": 441,
+      "lineup_points": 67,
+      "team_value": 91370000
     },
     {
       "round_order": 12,
@@ -1094,21 +1095,9 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4494,
       "round_name": "Jornada 11",
       "round_short": "J11",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
-      "league_position": 5,
-      "total_points_after_round": 338,
-      "lineup_points": 36,
-      "team_value": 87480000
-    },
-    {
-      "round_order": 12,
-      "round_id": 4494,
-      "round_name": "Jornada 11",
-      "round_short": "J11",
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "league_position": 6,
+      "league_position": 5,
       "total_points_after_round": 358,
       "lineup_points": 24,
       "team_value": 78730000
@@ -1120,10 +1109,22 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J11",
       "user_id": 11678835,
       "user_name": "Julia",
-      "league_position": 7,
+      "league_position": 6,
       "total_points_after_round": 348,
       "lineup_points": 34,
       "team_value": 78670000
+    },
+    {
+      "round_order": 12,
+      "round_id": 4494,
+      "round_name": "Jornada 11",
+      "round_short": "J11",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "league_position": 7,
+      "total_points_after_round": 338,
+      "lineup_points": 36,
+      "team_value": 87480000
     },
     {
       "round_order": 13,
@@ -1142,24 +1143,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4495,
       "round_name": "Jornada 12",
       "round_short": "J12",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 482,
-      "lineup_points": 41,
-      "team_value": 91370000
+      "total_points_after_round": 491,
+      "lineup_points": 40,
+      "team_value": 102410000
     },
     {
       "round_order": 13,
       "round_id": 4495,
       "round_name": "Jornada 12",
       "round_short": "J12",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 547,
-      "lineup_points": 40,
-      "team_value": 102410000
+      "total_points_after_round": 482,
+      "lineup_points": 41,
+      "team_value": 91370000
     },
     {
       "round_order": 13,
@@ -1178,21 +1179,9 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4495,
       "round_name": "Jornada 12",
       "round_short": "J12",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
-      "league_position": 5,
-      "total_points_after_round": 377,
-      "lineup_points": 39,
-      "team_value": 87480000
-    },
-    {
-      "round_order": 13,
-      "round_id": 4495,
-      "round_name": "Jornada 12",
-      "round_short": "J12",
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "league_position": 6,
+      "league_position": 5,
       "total_points_after_round": 403,
       "lineup_points": 45,
       "team_value": 78730000
@@ -1204,10 +1193,22 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J12",
       "user_id": 11678835,
       "user_name": "Julia",
-      "league_position": 7,
+      "league_position": 6,
       "total_points_after_round": 379,
       "lineup_points": 31,
       "team_value": 78670000
+    },
+    {
+      "round_order": 13,
+      "round_id": 4495,
+      "round_name": "Jornada 12",
+      "round_short": "J12",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "league_position": 7,
+      "total_points_after_round": 377,
+      "lineup_points": 39,
+      "team_value": 87480000
     },
     {
       "round_order": 14,
@@ -1241,7 +1242,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_id": 8127478,
       "user_name": "Arregui",
       "league_position": 3,
-      "total_points_after_round": 575,
+      "total_points_after_round": 519,
       "lineup_points": 28,
       "team_value": 102410000
     },
@@ -1262,24 +1263,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4496,
       "round_name": "Jornada 13",
       "round_short": "J13",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 5,
-      "total_points_after_round": 424,
-      "lineup_points": 47,
-      "team_value": 87480000
+      "total_points_after_round": 427,
+      "lineup_points": 24,
+      "team_value": 78730000
     },
     {
       "round_order": 14,
       "round_id": 4496,
       "round_name": "Jornada 13",
       "round_short": "J13",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
       "league_position": 6,
-      "total_points_after_round": 427,
-      "lineup_points": 24,
-      "team_value": 78730000
+      "total_points_after_round": 424,
+      "lineup_points": 47,
+      "team_value": 87480000
     },
     {
       "round_order": 14,
@@ -1325,7 +1326,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_id": 8127478,
       "user_name": "Arregui",
       "league_position": 3,
-      "total_points_after_round": 637,
+      "total_points_after_round": 581,
       "lineup_points": 62,
       "team_value": 102410000
     },
@@ -1394,24 +1395,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4502,
       "round_name": "Jornada 19",
       "round_short": "J19",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 644,
-      "lineup_points": 54,
-      "team_value": 91370000
+      "total_points_after_round": 649,
+      "lineup_points": 68,
+      "team_value": 102410000
     },
     {
       "round_order": 16,
       "round_id": 4502,
       "round_name": "Jornada 19",
       "round_short": "J19",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 705,
-      "lineup_points": 68,
-      "team_value": 102410000
+      "total_points_after_round": 644,
+      "lineup_points": 54,
+      "team_value": 91370000
     },
     {
       "round_order": 16,
@@ -1430,12 +1431,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4502,
       "round_name": "Jornada 19",
       "round_short": "J19",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
+      "user_id": 11678835,
+      "user_name": "Julia",
       "league_position": 5,
-      "total_points_after_round": 503,
-      "lineup_points": 39,
-      "team_value": 87480000
+      "total_points_after_round": 511,
+      "lineup_points": 68,
+      "team_value": 78670000
     },
     {
       "round_order": 16,
@@ -1454,12 +1455,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4502,
       "round_name": "Jornada 19",
       "round_short": "J19",
-      "user_id": 11678835,
-      "user_name": "Julia",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
       "league_position": 7,
-      "total_points_after_round": 511,
-      "lineup_points": 68,
-      "team_value": 78670000
+      "total_points_after_round": 503,
+      "lineup_points": 39,
+      "team_value": 87480000
     },
     {
       "round_order": 17,
@@ -1478,24 +1479,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4498,
       "round_name": "Jornada 15",
       "round_short": "J15",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 682,
-      "lineup_points": 38,
-      "team_value": 91370000
+      "total_points_after_round": 705,
+      "lineup_points": 56,
+      "team_value": 102410000
     },
     {
       "round_order": 17,
       "round_id": 4498,
       "round_name": "Jornada 15",
       "round_short": "J15",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 705,
-      "lineup_points": 56,
-      "team_value": 102410000
+      "total_points_after_round": 682,
+      "lineup_points": 38,
+      "team_value": 91370000
     },
     {
       "round_order": 17,
@@ -1526,24 +1527,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4498,
       "round_name": "Jornada 15",
       "round_short": "J15",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 11678835,
+      "user_name": "Julia",
       "league_position": 6,
-      "total_points_after_round": 536,
-      "lineup_points": 31,
-      "team_value": 78730000
+      "total_points_after_round": 541,
+      "lineup_points": 30,
+      "team_value": 78670000
     },
     {
       "round_order": 17,
       "round_id": 4498,
       "round_name": "Jornada 15",
       "round_short": "J15",
-      "user_id": 11678835,
-      "user_name": "Julia",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 7,
-      "total_points_after_round": 541,
-      "lineup_points": 30,
-      "team_value": 78670000
+      "total_points_after_round": 536,
+      "lineup_points": 31,
+      "team_value": 78730000
     },
     {
       "round_order": 18,
@@ -1562,24 +1563,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4499,
       "round_name": "Jornada 16",
       "round_short": "J16",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 726,
-      "lineup_points": 44,
-      "team_value": 91370000
+      "total_points_after_round": 750,
+      "lineup_points": 45,
+      "team_value": 102410000
     },
     {
       "round_order": 18,
       "round_id": 4499,
       "round_name": "Jornada 16",
       "round_short": "J16",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 750,
-      "lineup_points": 45,
-      "team_value": 102410000
+      "total_points_after_round": 726,
+      "lineup_points": 44,
+      "team_value": 91370000
     },
     {
       "round_order": 18,
@@ -1646,21 +1647,9 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4500,
       "round_name": "Jornada 17",
       "round_short": "J17",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
-      "league_position": 2,
-      "total_points_after_round": 770,
-      "lineup_points": 44,
-      "team_value": 91370000
-    },
-    {
-      "round_order": 19,
-      "round_id": 4500,
-      "round_name": "Jornada 17",
-      "round_short": "J17",
       "user_id": 8127478,
       "user_name": "Arregui",
-      "league_position": 3,
+      "league_position": 2,
       "total_points_after_round": 808,
       "lineup_points": 58,
       "team_value": 102410000
@@ -1670,12 +1659,12 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4500,
       "round_name": "Jornada 17",
       "round_short": "J17",
-      "user_id": 6822272,
-      "user_name": "Ricardo J",
-      "league_position": 4,
-      "total_points_after_round": 655,
-      "lineup_points": 47,
-      "team_value": 157450000
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "league_position": 3,
+      "total_points_after_round": 770,
+      "lineup_points": 44,
+      "team_value": 91370000
     },
     {
       "round_order": 19,
@@ -1684,10 +1673,22 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J17",
       "user_id": 6826480,
       "user_name": "Víctor Orta",
-      "league_position": 5,
+      "league_position": 4,
       "total_points_after_round": 660,
       "lineup_points": 57,
       "team_value": 87480000
+    },
+    {
+      "round_order": 19,
+      "round_id": 4500,
+      "round_name": "Jornada 17",
+      "round_short": "J17",
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "league_position": 5,
+      "total_points_after_round": 655,
+      "lineup_points": 47,
+      "team_value": 157450000
     },
     {
       "round_order": 19,
@@ -1730,24 +1731,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4501,
       "round_name": "Jornada 18",
       "round_short": "J18",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 812,
-      "lineup_points": 42,
-      "team_value": 91370000
+      "total_points_after_round": 838,
+      "lineup_points": 30,
+      "team_value": 102410000
     },
     {
       "round_order": 20,
       "round_id": 4501,
       "round_name": "Jornada 18",
       "round_short": "J18",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 838,
-      "lineup_points": 30,
-      "team_value": 102410000
+      "total_points_after_round": 812,
+      "lineup_points": 42,
+      "team_value": 91370000
     },
     {
       "round_order": 20,
@@ -1814,24 +1815,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4787,
       "round_name": "Jornada 19 (aplazada)",
       "round_short": "J19",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 812,
-      "lineup_points": 54,
-      "team_value": 91370000
+      "total_points_after_round": 838,
+      "lineup_points": 68,
+      "team_value": 102410000
     },
     {
       "round_order": 21,
       "round_id": 4787,
       "round_name": "Jornada 19 (aplazada)",
       "round_short": "J19",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 838,
-      "lineup_points": 68,
-      "team_value": 102410000
+      "total_points_after_round": 812,
+      "lineup_points": 54,
+      "team_value": 91370000
     },
     {
       "round_order": 21,
@@ -1898,24 +1899,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4503,
       "round_name": "Jornada 20",
       "round_short": "J20",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 843,
-      "lineup_points": 31,
-      "team_value": 91370000
+      "total_points_after_round": 870,
+      "lineup_points": 32,
+      "team_value": 102410000
     },
     {
       "round_order": 22,
       "round_id": 4503,
       "round_name": "Jornada 20",
       "round_short": "J20",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 870,
-      "lineup_points": 32,
-      "team_value": 102410000
+      "total_points_after_round": 843,
+      "lineup_points": 31,
+      "team_value": 91370000
     },
     {
       "round_order": 22,
@@ -1982,24 +1983,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4504,
       "round_name": "Jornada 21",
       "round_short": "J21",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 890,
-      "lineup_points": 47,
-      "team_value": 91370000
+      "total_points_after_round": 913,
+      "lineup_points": 43,
+      "team_value": 102410000
     },
     {
       "round_order": 23,
       "round_id": 4504,
       "round_name": "Jornada 21",
       "round_short": "J21",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 913,
-      "lineup_points": 43,
-      "team_value": 102410000
+      "total_points_after_round": 890,
+      "lineup_points": 47,
+      "team_value": 91370000
     },
     {
       "round_order": 23,
@@ -2066,24 +2067,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4505,
       "round_name": "Jornada 22",
       "round_short": "J22",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 939,
-      "lineup_points": 49,
-      "team_value": 91370000
+      "total_points_after_round": 947,
+      "lineup_points": 34,
+      "team_value": 102410000
     },
     {
       "round_order": 24,
       "round_id": 4505,
       "round_name": "Jornada 22",
       "round_short": "J22",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 947,
-      "lineup_points": 34,
-      "team_value": 102410000
+      "total_points_after_round": 939,
+      "lineup_points": 49,
+      "team_value": 91370000
     },
     {
       "round_order": 24,
@@ -2114,24 +2115,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4505,
       "round_name": "Jornada 22",
       "round_short": "J22",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 11678835,
+      "user_name": "Julia",
       "league_position": 6,
-      "total_points_after_round": 779,
-      "lineup_points": 38,
-      "team_value": 78730000
+      "total_points_after_round": 785,
+      "lineup_points": 45,
+      "team_value": 78670000
     },
     {
       "round_order": 24,
       "round_id": 4505,
       "round_name": "Jornada 22",
       "round_short": "J22",
-      "user_id": 11678835,
-      "user_name": "Julia",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 7,
-      "total_points_after_round": 785,
-      "lineup_points": 45,
-      "team_value": 78670000
+      "total_points_after_round": 779,
+      "lineup_points": 38,
+      "team_value": 78730000
     },
     {
       "round_order": 25,
@@ -2150,24 +2151,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4506,
       "round_name": "Jornada 23",
       "round_short": "J23",
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
+      "user_id": 8127478,
+      "user_name": "Arregui",
       "league_position": 2,
-      "total_points_after_round": 1005,
-      "lineup_points": 66,
-      "team_value": 91370000
+      "total_points_after_round": 1006,
+      "lineup_points": 59,
+      "team_value": 102410000
     },
     {
       "round_order": 25,
       "round_id": 4506,
       "round_name": "Jornada 23",
       "round_short": "J23",
-      "user_id": 8127478,
-      "user_name": "Arregui",
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
       "league_position": 3,
-      "total_points_after_round": 1006,
-      "lineup_points": 59,
-      "team_value": 102410000
+      "total_points_after_round": 1005,
+      "lineup_points": 66,
+      "team_value": 91370000
     },
     {
       "round_order": 25,
@@ -2198,24 +2199,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4506,
       "round_name": "Jornada 23",
       "round_short": "J23",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 11678835,
+      "user_name": "Julia",
       "league_position": 6,
-      "total_points_after_round": 811,
-      "lineup_points": 32,
-      "team_value": 78730000
+      "total_points_after_round": 829,
+      "lineup_points": 44,
+      "team_value": 78670000
     },
     {
       "round_order": 25,
       "round_id": 4506,
       "round_name": "Jornada 23",
       "round_short": "J23",
-      "user_id": 11678835,
-      "user_name": "Julia",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 7,
-      "total_points_after_round": 829,
-      "lineup_points": 44,
-      "team_value": 78670000
+      "total_points_after_round": 811,
+      "lineup_points": 32,
+      "team_value": 78730000
     },
     {
       "round_order": 26,
@@ -2282,24 +2283,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4507,
       "round_name": "Jornada 24",
       "round_short": "J24",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 11678835,
+      "user_name": "Julia",
       "league_position": 6,
-      "total_points_after_round": 857,
-      "lineup_points": 46,
-      "team_value": 78730000
+      "total_points_after_round": 871,
+      "lineup_points": 42,
+      "team_value": 78670000
     },
     {
       "round_order": 26,
       "round_id": 4507,
       "round_name": "Jornada 24",
       "round_short": "J24",
-      "user_id": 11678835,
-      "user_name": "Julia",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 7,
-      "total_points_after_round": 871,
-      "lineup_points": 42,
-      "team_value": 78670000
+      "total_points_after_round": 857,
+      "lineup_points": 46,
+      "team_value": 78730000
     },
     {
       "round_order": 27,
@@ -2366,24 +2367,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4801,
       "round_name": "Jornada 16 (aplazada)",
       "round_short": "J16",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 11678835,
+      "user_name": "Julia",
       "league_position": 6,
-      "total_points_after_round": 857,
-      "lineup_points": 37,
-      "team_value": 78730000
+      "total_points_after_round": 871,
+      "lineup_points": 22,
+      "team_value": 78670000
     },
     {
       "round_order": 27,
       "round_id": 4801,
       "round_name": "Jornada 16 (aplazada)",
       "round_short": "J16",
-      "user_id": 11678835,
-      "user_name": "Julia",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 7,
-      "total_points_after_round": 871,
-      "lineup_points": 22,
-      "team_value": 78670000
+      "total_points_after_round": 857,
+      "lineup_points": 37,
+      "team_value": 78730000
     },
     {
       "round_order": 28,
@@ -2872,7 +2873,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_short": "J29",
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "league_position": 6,
+      "league_position": 5,
       "total_points_after_round": 1086,
       "lineup_points": 53,
       "team_value": 78730000
@@ -3026,24 +3027,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4514,
       "round_name": "Jornada 31",
       "round_short": "J31",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 5,
-      "total_points_after_round": 1180,
-      "lineup_points": 43,
-      "team_value": 87480000
+      "total_points_after_round": 1199,
+      "lineup_points": 64,
+      "team_value": 78730000
     },
     {
       "round_order": 35,
       "round_id": 4514,
       "round_name": "Jornada 31",
       "round_short": "J31",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
       "league_position": 6,
-      "total_points_after_round": 1199,
-      "lineup_points": 64,
-      "team_value": 78730000
+      "total_points_after_round": 1180,
+      "lineup_points": 43,
+      "team_value": 87480000
     },
     {
       "round_order": 35,
@@ -3110,24 +3111,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4516,
       "round_name": "Jornada 33",
       "round_short": "J33",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 5,
-      "total_points_after_round": 1223,
-      "lineup_points": 43,
-      "team_value": 87480000
+      "total_points_after_round": 1257,
+      "lineup_points": 58,
+      "team_value": 78730000
     },
     {
       "round_order": 36,
       "round_id": 4516,
       "round_name": "Jornada 33",
       "round_short": "J33",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
       "league_position": 6,
-      "total_points_after_round": 1257,
-      "lineup_points": 58,
-      "team_value": 78730000
+      "total_points_after_round": 1223,
+      "lineup_points": 43,
+      "team_value": 87480000
     },
     {
       "round_order": 36,
@@ -3194,24 +3195,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4515,
       "round_name": "Jornada 32",
       "round_short": "J32",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 5,
-      "total_points_after_round": 1280,
-      "lineup_points": 57,
-      "team_value": 87480000
+      "total_points_after_round": 1298,
+      "lineup_points": 41,
+      "team_value": 78730000
     },
     {
       "round_order": 37,
       "round_id": 4515,
       "round_name": "Jornada 32",
       "round_short": "J32",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
       "league_position": 6,
-      "total_points_after_round": 1298,
-      "lineup_points": 41,
-      "team_value": 78730000
+      "total_points_after_round": 1280,
+      "lineup_points": 57,
+      "team_value": 87480000
     },
     {
       "round_order": 37,
@@ -3278,24 +3279,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4517,
       "round_name": "Jornada 34",
       "round_short": "J34",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 5,
-      "total_points_after_round": 1327,
-      "lineup_points": 47,
-      "team_value": 87480000
+      "total_points_after_round": 1354,
+      "lineup_points": 56,
+      "team_value": 78730000
     },
     {
       "round_order": 38,
       "round_id": 4517,
       "round_name": "Jornada 34",
       "round_short": "J34",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
       "league_position": 6,
-      "total_points_after_round": 1354,
-      "lineup_points": 56,
-      "team_value": 78730000
+      "total_points_after_round": 1327,
+      "lineup_points": 47,
+      "team_value": 87480000
     },
     {
       "round_order": 38,
@@ -3362,24 +3363,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4518,
       "round_name": "Jornada 35",
       "round_short": "J35",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 5,
-      "total_points_after_round": 1377,
-      "lineup_points": 50,
-      "team_value": 87480000
+      "total_points_after_round": 1385,
+      "lineup_points": 31,
+      "team_value": 78730000
     },
     {
       "round_order": 39,
       "round_id": 4518,
       "round_name": "Jornada 35",
       "round_short": "J35",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
       "league_position": 6,
-      "total_points_after_round": 1385,
-      "lineup_points": 31,
-      "team_value": 78730000
+      "total_points_after_round": 1377,
+      "lineup_points": 50,
+      "team_value": 87480000
     },
     {
       "round_order": 39,
@@ -3446,24 +3447,24 @@ window.BIWENGER_DASHBOARD_DATA = {
       "round_id": 4519,
       "round_name": "Jornada 36",
       "round_short": "J36",
-      "user_id": 6826480,
-      "user_name": "Víctor Orta",
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
       "league_position": 5,
-      "total_points_after_round": 1403,
-      "lineup_points": 26,
-      "team_value": 87480000
+      "total_points_after_round": 1428,
+      "lineup_points": 43,
+      "team_value": 78730000
     },
     {
       "round_order": 40,
       "round_id": 4519,
       "round_name": "Jornada 36",
       "round_short": "J36",
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
       "league_position": 6,
-      "total_points_after_round": 1428,
-      "lineup_points": 43,
-      "team_value": 78730000
+      "total_points_after_round": 1403,
+      "lineup_points": 26,
+      "team_value": 87480000
     },
     {
       "round_order": 40,
@@ -3682,7 +3683,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 36,
       "lineup_position": 4,
-      "total_points_after_round": 92,
+      "total_points_after_round": 36,
       "round_rank": 3.0,
       "reverse_round_rank": 4.0
     },
@@ -3773,7 +3774,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 47,
       "lineup_position": 2,
-      "total_points_after_round": 139,
+      "total_points_after_round": 83,
       "round_rank": 2.0,
       "reverse_round_rank": 6.0
     },
@@ -3864,7 +3865,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 36,
       "lineup_position": 2,
-      "total_points_after_round": 175,
+      "total_points_after_round": 119,
       "round_rank": 2.0,
       "reverse_round_rank": 6.0
     },
@@ -3955,7 +3956,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 33,
       "lineup_position": 5,
-      "total_points_after_round": 208,
+      "total_points_after_round": 152,
       "round_rank": 5.0,
       "reverse_round_rank": 3.0
     },
@@ -4046,7 +4047,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 68,
       "lineup_position": 1,
-      "total_points_after_round": 276,
+      "total_points_after_round": 220,
       "round_rank": 1.0,
       "reverse_round_rank": 7.0
     },
@@ -4137,7 +4138,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 47,
       "lineup_position": 3,
-      "total_points_after_round": 323,
+      "total_points_after_round": 267,
       "round_rank": 3.0,
       "reverse_round_rank": 5.0
     },
@@ -4228,7 +4229,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 36,
       "lineup_position": 2,
-      "total_points_after_round": 323,
+      "total_points_after_round": 267,
       "round_rank": 2.0,
       "reverse_round_rank": 6.0
     },
@@ -4319,7 +4320,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 31,
       "lineup_position": 5,
-      "total_points_after_round": 354,
+      "total_points_after_round": 298,
       "round_rank": 5.0,
       "reverse_round_rank": 3.0
     },
@@ -4410,7 +4411,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 50,
       "lineup_position": 2,
-      "total_points_after_round": 404,
+      "total_points_after_round": 348,
       "round_rank": 1.0,
       "reverse_round_rank": 6.0
     },
@@ -4501,7 +4502,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 38,
       "lineup_position": 5,
-      "total_points_after_round": 442,
+      "total_points_after_round": 386,
       "round_rank": 5.0,
       "reverse_round_rank": 3.0
     },
@@ -4592,7 +4593,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 16,
       "lineup_position": 7,
-      "total_points_after_round": 458,
+      "total_points_after_round": 402,
       "round_rank": 7.0,
       "reverse_round_rank": 1.0
     },
@@ -4683,7 +4684,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 49,
       "lineup_position": 3,
-      "total_points_after_round": 507,
+      "total_points_after_round": 451,
       "round_rank": 3.0,
       "reverse_round_rank": 5.0
     },
@@ -4774,7 +4775,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 40,
       "lineup_position": 4,
-      "total_points_after_round": 547,
+      "total_points_after_round": 491,
       "round_rank": 4.0,
       "reverse_round_rank": 4.0
     },
@@ -4865,7 +4866,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 28,
       "lineup_position": 6,
-      "total_points_after_round": 575,
+      "total_points_after_round": 519,
       "round_rank": 6.0,
       "reverse_round_rank": 2.0
     },
@@ -4956,7 +4957,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 62,
       "lineup_position": 1,
-      "total_points_after_round": 637,
+      "total_points_after_round": 581,
       "round_rank": 1.0,
       "reverse_round_rank": 7.0
     },
@@ -5047,7 +5048,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Arregui",
       "lineup_points": 68,
       "lineup_position": 1,
-      "total_points_after_round": 705,
+      "total_points_after_round": 649,
       "round_rank": 1.0,
       "reverse_round_rank": 6.0
     },

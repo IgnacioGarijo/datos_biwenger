@@ -14,6 +14,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "0_data" / "biwenger"
 DOCS = ROOT / "docs"
 WEB_DIRS = [ROOT, DOCS]
+ARREGUI_USER_ID = 8127478
+ARREGUI_MANUAL_POINTS = 56
+ARREGUI_MANUAL_POINTS_ROUND_NAME = "Jornada 15"
 
 
 def clean_number(series: pd.Series) -> pd.Series:
@@ -39,6 +42,29 @@ def hhi(values: pd.Series) -> float:
         return np.nan
     shares = positive / total
     return float((shares**2).sum())
+
+
+def apply_manual_standing_adjustments(standings: pd.DataFrame) -> pd.DataFrame:
+    """Move Arregui's manual Jornada 15 points out of the pre-season baseline."""
+    adjusted = standings.copy()
+    target_rounds = adjusted[
+        (adjusted["user_id"] == ARREGUI_USER_ID)
+        & (adjusted["round_name"] == ARREGUI_MANUAL_POINTS_ROUND_NAME)
+    ]
+    if target_rounds.empty:
+        return adjusted
+
+    first_target_order = target_rounds["round_order"].min()
+    mask = (adjusted["user_id"] == ARREGUI_USER_ID) & (adjusted["round_order"] < first_target_order)
+    for column in ["total_points_before_round", "total_points_after_round"]:
+        adjusted.loc[mask, column] = adjusted.loc[mask, column] - ARREGUI_MANUAL_POINTS
+
+    adjusted["league_position"] = (
+        adjusted.groupby("round_order")["total_points_after_round"]
+        .rank(method="min", ascending=False)
+        .astype(int)
+    )
+    return adjusted
 
 
 def main() -> None:
@@ -86,6 +112,8 @@ def main() -> None:
     for col in ["date", "amount", "player_id", "to_user_id"]:
         if col in movements:
             movements[col] = clean_number(movements[col])
+
+    standings = apply_manual_standing_adjustments(standings)
 
     teams = (
         standings[["user_id", "user_name"]]
@@ -426,6 +454,7 @@ def main() -> None:
                 "completed_trade_reconstructions": int(len(trades)),
             },
             "limitations": [
+                "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
                 "Quedan algunos jugadores sin detalle histórico completo porque no aparecen en el catálogo público actual de Biwenger; sus fichas básicas sí se conservan cuando la API autenticada las devuelve.",
                 "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5, roja=5 y segunda amarilla=5.",
                 "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; no distingue perfectamente ventas al mercado si Biwenger no publica el vendedor.",
