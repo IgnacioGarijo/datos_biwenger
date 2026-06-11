@@ -1,6 +1,17 @@
 const data = window.BIWENGER_DASHBOARD_DATA;
 
 const palette = ["#007f79", "#d95f43", "#2d6cdf", "#d6a013", "#248f5a", "#7a4cc2", "#17202a"];
+const teamImages = new Map(
+  [
+    ["Los vengadores", "0_data/img/vengadores.png"],
+    ["Karlox F.C.", "0_data/img/karlox.png"],
+    ["Arregui", "0_data/img/arregui.png"],
+    ["Ricardo J", "0_data/img/ricardo.svg"],
+    ["Víctor Orta", "0_data/img/ignacio.webp"],
+    ["CD Cornisa Azul", "0_data/img/alfonso.avif"],
+    ["Julia", "0_data/img/julia.jpg"],
+  ].map(([name, path]) => [teamKey(name), path]),
+);
 
 const baseLayout = {
   margin: { l: 64, r: 24, t: 24, b: 68 },
@@ -30,13 +41,68 @@ function teamColor(name) {
   return palette[(idx < 0 ? 0 : idx) % palette.length];
 }
 
+function teamKey(name) {
+  return String(name || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function teamImage(name) {
+  return teamImages.get(teamKey(name)) || "";
+}
+
+function imageForChart(name, x, y, options = {}) {
+  const source = teamImage(name);
+  if (!source) return null;
+  return {
+    source,
+    xref: "x",
+    yref: "y",
+    x,
+    y,
+    sizex: options.sizex ?? 24,
+    sizey: options.sizey ?? 0.65,
+    xanchor: options.xanchor ?? "center",
+    yanchor: options.yanchor ?? "middle",
+    sizing: "contain",
+    layer: "above",
+  };
+}
+
+function horizontalTipImages(rows, xKey, yKey, maxValue) {
+  const imageWidth = maxValue <= 1 ? maxValue * 0.08 : Math.max(maxValue * 0.055, 0.35);
+  return rows
+    .map((row) =>
+      imageForChart(row.user_name || row[yKey], row[xKey] + maxValue * 0.035, row[yKey], {
+        sizex: imageWidth,
+        sizey: 0.72,
+      }),
+    )
+    .filter(Boolean);
+}
+
+function verticalTopImages(rows, xKey, yKey, maxValue) {
+  return rows
+    .map((row) =>
+      imageForChart(row.user_name || row[xKey], row[xKey], row[yKey] + maxValue * 0.08, {
+        sizex: 0.52,
+        sizey: Math.max(maxValue * 0.12, 1),
+      }),
+    )
+    .filter(Boolean);
+}
+
 function renderScoreboard() {
   const el = document.getElementById("scoreboard");
   el.innerHTML = data.latest_standings
     .map(
       (row) => `
         <article class="team-tile">
-          <span class="rank">${row.league_position}</span>
+          <div class="tile-top">
+            <img class="team-avatar" src="${teamImage(row.user_name)}" alt="" loading="lazy" />
+            <span class="rank">${row.league_position}</span>
+          </div>
           <h2>${row.user_name}</h2>
           <p>${fmt.format(row.total_points_after_round)} pts · ${money.format(row.team_value)} €</p>
         </article>
@@ -47,6 +113,8 @@ function renderScoreboard() {
 
 function makeBar(id, rows, xKey, yKey, options = {}) {
   const sorted = options.ascending ? byValue(rows, xKey, false) : byValue(rows, xKey, true);
+  const maxValue = Math.max(...sorted.map((row) => Math.abs(row[xKey] || 0)), 1);
+  const minValue = Math.min(...sorted.map((row) => row[xKey] || 0), 0);
   Plotly.newPlot(
     id,
     [
@@ -65,7 +133,12 @@ function makeBar(id, rows, xKey, yKey, options = {}) {
       ...baseLayout,
       height: options.height || 380,
       margin: { l: 132, r: 24, t: 18, b: 44 },
-      xaxis: { ...baseLayout.xaxis, title: options.xTitle || "" },
+      images: options.logos === false ? [] : horizontalTipImages(sorted, xKey, yKey, maxValue),
+      xaxis: {
+        ...baseLayout.xaxis,
+        title: options.xTitle || "",
+        range: options.xRange || [minValue < 0 ? minValue * 1.15 : 0, maxValue * 1.18],
+      },
       yaxis: { ...baseLayout.yaxis, autorange: "reversed" },
     },
     config,
@@ -106,6 +179,25 @@ function renderPositions() {
     };
   }
 
+  function imageLayer(round) {
+    const iconSizeX = maxPoints * 0.055;
+    return rowsForRound(round)
+      .map((row, index) => ({
+        source: teamImage(row.user_name),
+        xref: "x",
+        yref: "y",
+        x: row.total_points_after_round + maxPoints * 0.045,
+        y: index + 1,
+        sizex: iconSizeX,
+        sizey: 0.62,
+        xanchor: "center",
+        yanchor: "middle",
+        sizing: "contain",
+        layer: "above",
+      }))
+      .filter((image) => image.source);
+  }
+
   function traceForTeam(team, round) {
     const row = rankForRound(round).get(team);
     return {
@@ -130,6 +222,7 @@ function renderPositions() {
     data: teams.map((team) => traceForTeam(team, round)),
     layout: {
       annotations: [titleAnnotation(round)],
+      images: imageLayer(round),
     },
   }));
 
@@ -141,6 +234,7 @@ function renderPositions() {
       height: 620,
       margin: { l: 18, r: 150, t: 94, b: 78 },
       annotations: [titleAnnotation(rounds[0])],
+      images: imageLayer(rounds[0]),
       bargap: 0.25,
       yaxis: {
         title: "",
@@ -149,7 +243,7 @@ function renderPositions() {
         showgrid: false,
         zeroline: false,
       },
-      xaxis: { title: "Puntos totales", range: [0, maxPoints * 1.12], gridcolor: "#ece7dc" },
+      xaxis: { title: "Puntos totales", range: [0, maxPoints * 1.18], gridcolor: "#ece7dc", zeroline: false },
       showlegend: false,
       updatemenus: [
         {
@@ -201,6 +295,11 @@ function renderPositions() {
 
 function renderWinsLosses() {
   const rows = byValue(data.round_counts, "jornadas_ganadas", true);
+  const topRows = rows.map((row) => ({
+    user_name: row.user_name,
+    chart_top: Math.max(row.jornadas_ganadas || 0, row.jornadas_perdidas || 0),
+  }));
+  const maxRoundCount = Math.max(...topRows.map((row) => row.chart_top), 1);
   Plotly.newPlot(
     "winsLossesChart",
     [
@@ -223,7 +322,8 @@ function renderWinsLosses() {
       ...baseLayout,
       barmode: "group",
       height: 380,
-      yaxis: { title: "Jornadas" },
+      images: verticalTopImages(topRows, "user_name", "chart_top", maxRoundCount),
+      yaxis: { title: "Jornadas", range: [0, maxRoundCount * 1.25] },
       xaxis: { tickangle: -28 },
       legend: { orientation: "h" },
     },
@@ -289,6 +389,7 @@ function renderGoalCharts() {
 }
 
 function renderDiscipline() {
+  const maxPalos = Math.max(...data.discipline.map((row) => row.palos_index || 0), 1);
   Plotly.newPlot(
     "disciplineChart",
     [
@@ -304,8 +405,9 @@ function renderDiscipline() {
     {
       ...baseLayout,
       height: 380,
+      images: verticalTopImages(data.discipline, "user_name", "palos_index", maxPalos),
       xaxis: { tickangle: -28 },
-      yaxis: { title: "Índice parcial" },
+      yaxis: { title: "Índice parcial", range: [0, maxPalos * 1.25] },
     },
     config,
   );

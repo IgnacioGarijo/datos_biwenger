@@ -119,6 +119,22 @@ main {
   box-shadow: var(--shadow);
 }
 
+.tile-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.team-avatar {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border: 2px solid #f1eee7;
+  border-radius: 50%;
+  background: #f1eee7;
+}
+
 .team-tile .rank {
   display: inline-grid;
   place-items: center;
