@@ -1,0 +1,4457 @@
+{
+  "status": 200,
+  "data": {
+    "id": 32363,
+    "name": "Isaac Romero",
+    "slug": "isaac-romero",
+    "position": 4,
+    "price": 310000,
+    "fantasyPrice": 10000000,
+    "country": "ES",
+    "number": 7,
+    "birthday": 20000518,
+    "status": "ok",
+    "priceIncrement": -10000,
+    "competition": {
+      "id": 1,
+      "name": "Primera División",
+      "slug": "la-liga",
+      "sport": "football",
+      "currency": "€"
+    },
+    "team": {
+      "id": 17,
+      "name": "Sevilla",
+      "slug": "sevilla",
+      "nextGames": []
+    },
+    "prices": [
+      [
+        250611,
+        1010000
+      ],
+      [
+        250612,
+        1000000
+      ],
+      [
+        250613,
+        980000
+      ],
+      [
+        250614,
+        960000
+      ],
+      [
+        250615,
+        940000
+      ],
+      [
+        250616,
+        920000
+      ],
+      [
+        250617,
+        910000
+      ],
+      [
+        250618,
+        970000
+      ],
+      [
+        250619,
+        960000
+      ],
+      [
+        250620,
+        940000
+      ],
+      [
+        250621,
+        930000
+      ],
+      [
+        250622,
+        920000
+      ],
+      [
+        250623,
+        910000
+      ],
+      [
+        250624,
+        900000
+      ],
+      [
+        250625,
+        890000
+      ],
+      [
+        250626,
+        870000
+      ],
+      [
+        250627,
+        860000
+      ],
+      [
+        250628,
+        850000
+      ],
+      [
+        250629,
+        840000
+      ],
+      [
+        250630,
+        830000
+      ],
+      [
+        250701,
+        850000
+      ],
+      [
+        250702,
+        860000
+      ],
+      [
+        250703,
+        870000
+      ],
+      [
+        250704,
+        880000
+      ],
+      [
+        250705,
+        900000
+      ],
+      [
+        250706,
+        940000
+      ],
+      [
+        250707,
+        970000
+      ],
+      [
+        250708,
+        1010000
+      ],
+      [
+        250709,
+        1050000
+      ],
+      [
+        250710,
+        1090000
+      ],
+      [
+        250711,
+        1110000
+      ],
+      [
+        250712,
+        1140000
+      ],
+      [
+        250713,
+        1150000
+      ],
+      [
+        250714,
+        1160000
+      ],
+      [
+        250715,
+        1180000
+      ],
+      [
+        250716,
+        1210000
+      ],
+      [
+        250717,
+        1240000
+      ],
+      [
+        250718,
+        1290000
+      ],
+      [
+        250719,
+        1350000
+      ],
+      [
+        250720,
+        1400000
+      ],
+      [
+        250721,
+        1450000
+      ],
+      [
+        250722,
+        1510000
+      ],
+      [
+        250723,
+        1570000
+      ],
+      [
+        250724,
+        1620000
+      ],
+      [
+        250725,
+        1650000
+      ],
+      [
+        250726,
+        1680000
+      ],
+      [
+        250727,
+        1700000
+      ],
+      [
+        250728,
+        1720000
+      ],
+      [
+        250729,
+        1750000
+      ],
+      [
+        250730,
+        1780000
+      ],
+      [
+        250731,
+        1810000
+      ],
+      [
+        250801,
+        1830000
+      ],
+      [
+        250802,
+        1820000
+      ],
+      [
+        250803,
+        1690000
+      ],
+      [
+        250804,
+        1580000
+      ],
+      [
+        250805,
+        1500000
+      ],
+      [
+        250806,
+        1470000
+      ],
+      [
+        250807,
+        1440000
+      ],
+      [
+        250808,
+        1420000
+      ],
+      [
+        250809,
+        1400000
+      ],
+      [
+        250810,
+        1390000
+      ],
+      [
+        250811,
+        1370000
+      ],
+      [
+        250812,
+        1360000
+      ],
+      [
+        250813,
+        1350000
+      ],
+      [
+        250814,
+        1340000
+      ],
+      [
+        250815,
+        1340000
+      ],
+      [
+        250816,
+        1340000
+      ],
+      [
+        250817,
+        1340000
+      ],
+      [
+        250818,
+        1330000
+      ],
+      [
+        250819,
+        1300000
+      ],
+      [
+        250820,
+        1280000
+      ],
+      [
+        250821,
+        1270000
+      ],
+      [
+        250822,
+        1260000
+      ],
+      [
+        250823,
+        1240000
+      ],
+      [
+        250824,
+        1230000
+      ],
+      [
+        250825,
+        1220000
+      ],
+      [
+        250826,
+        1210000
+      ],
+      [
+        250827,
+        1200000
+      ],
+      [
+        250828,
+        1200000
+      ],
+      [
+        250829,
+        1220000
+      ],
+      [
+        250830,
+        1230000
+      ],
+      [
+        250831,
+        1320000
+      ],
+      [
+        250901,
+        1440000
+      ],
+      [
+        250902,
+        1570000
+      ],
+      [
+        250903,
+        1710000
+      ],
+      [
+        250904,
+        1850000
+      ],
+      [
+        250905,
+        1980000
+      ],
+      [
+        250906,
+        2090000
+      ],
+      [
+        250907,
+        2190000
+      ],
+      [
+        250908,
+        2280000
+      ],
+      [
+        250909,
+        2360000
+      ],
+      [
+        250910,
+        2420000
+      ],
+      [
+        250911,
+        2480000
+      ],
+      [
+        250912,
+        2530000
+      ],
+      [
+        250913,
+        2670000
+      ],
+      [
+        250914,
+        2850000
+      ],
+      [
+        250915,
+        3040000
+      ],
+      [
+        250916,
+        3150000
+      ],
+      [
+        250917,
+        3240000
+      ],
+      [
+        250918,
+        3310000
+      ],
+      [
+        250919,
+        3380000
+      ],
+      [
+        250920,
+        3420000
+      ],
+      [
+        250921,
+        3460000
+      ],
+      [
+        250922,
+        3490000
+      ],
+      [
+        250923,
+        3510000
+      ],
+      [
+        250924,
+        3530000
+      ],
+      [
+        250925,
+        3540000
+      ],
+      [
+        250926,
+        3550000
+      ],
+      [
+        250927,
+        3540000
+      ],
+      [
+        250928,
+        3530000
+      ],
+      [
+        250929,
+        3450000
+      ],
+      [
+        250930,
+        3320000
+      ],
+      [
+        251001,
+        3200000
+      ],
+      [
+        251002,
+        3130000
+      ],
+      [
+        251003,
+        3080000
+      ],
+      [
+        251004,
+        3020000
+      ],
+      [
+        251005,
+        2990000
+      ],
+      [
+        251006,
+        3050000
+      ],
+      [
+        251007,
+        3100000
+      ],
+      [
+        251008,
+        3150000
+      ],
+      [
+        251009,
+        3190000
+      ],
+      [
+        251010,
+        3230000
+      ],
+      [
+        251011,
+        3260000
+      ],
+      [
+        251012,
+        3290000
+      ],
+      [
+        251013,
+        3310000
+      ],
+      [
+        251014,
+        3330000
+      ],
+      [
+        251015,
+        3360000
+      ],
+      [
+        251016,
+        3380000
+      ],
+      [
+        251017,
+        3400000
+      ],
+      [
+        251018,
+        3410000
+      ],
+      [
+        251019,
+        3410000
+      ],
+      [
+        251020,
+        3360000
+      ],
+      [
+        251021,
+        3300000
+      ],
+      [
+        251022,
+        3260000
+      ],
+      [
+        251023,
+        3220000
+      ],
+      [
+        251024,
+        3190000
+      ],
+      [
+        251025,
+        3130000
+      ],
+      [
+        251026,
+        3110000
+      ],
+      [
+        251027,
+        3040000
+      ],
+      [
+        251028,
+        3010000
+      ],
+      [
+        251029,
+        2980000
+      ],
+      [
+        251030,
+        2950000
+      ],
+      [
+        251031,
+        2930000
+      ],
+      [
+        251101,
+        2890000
+      ],
+      [
+        251102,
+        2860000
+      ],
+      [
+        251103,
+        2820000
+      ],
+      [
+        251104,
+        2790000
+      ],
+      [
+        251105,
+        2770000
+      ],
+      [
+        251106,
+        2690000
+      ],
+      [
+        251107,
+        2490000
+      ],
+      [
+        251108,
+        2320000
+      ],
+      [
+        251109,
+        2260000
+      ],
+      [
+        251110,
+        2210000
+      ],
+      [
+        251111,
+        2150000
+      ],
+      [
+        251112,
+        2110000
+      ],
+      [
+        251113,
+        2090000
+      ],
+      [
+        251114,
+        2040000
+      ],
+      [
+        251115,
+        2010000
+      ],
+      [
+        251116,
+        1980000
+      ],
+      [
+        251117,
+        1950000
+      ],
+      [
+        251118,
+        1920000
+      ],
+      [
+        251119,
+        1890000
+      ],
+      [
+        251120,
+        1860000
+      ],
+      [
+        251121,
+        1830000
+      ],
+      [
+        251122,
+        1810000
+      ],
+      [
+        251123,
+        1800000
+      ],
+      [
+        251124,
+        1790000
+      ],
+      [
+        251125,
+        1770000
+      ],
+      [
+        251126,
+        1750000
+      ],
+      [
+        251127,
+        1740000
+      ],
+      [
+        251128,
+        1740000
+      ],
+      [
+        251129,
+        1740000
+      ],
+      [
+        251130,
+        1740000
+      ],
+      [
+        251201,
+        1700000
+      ],
+      [
+        251202,
+        1580000
+      ],
+      [
+        251203,
+        1530000
+      ],
+      [
+        251204,
+        1500000
+      ],
+      [
+        251205,
+        1480000
+      ],
+      [
+        251206,
+        1460000
+      ],
+      [
+        251207,
+        1440000
+      ],
+      [
+        251208,
+        1420000
+      ],
+      [
+        251209,
+        1400000
+      ],
+      [
+        251210,
+        1390000
+      ],
+      [
+        251211,
+        1370000
+      ],
+      [
+        251212,
+        1350000
+      ],
+      [
+        251213,
+        1340000
+      ],
+      [
+        251214,
+        1330000
+      ],
+      [
+        251215,
+        1330000
+      ],
+      [
+        251216,
+        1330000
+      ],
+      [
+        251217,
+        1340000
+      ],
+      [
+        251218,
+        1360000
+      ],
+      [
+        251219,
+        1380000
+      ],
+      [
+        251220,
+        1390000
+      ],
+      [
+        251221,
+        1400000
+      ],
+      [
+        251222,
+        1400000
+      ],
+      [
+        251223,
+        1390000
+      ],
+      [
+        251224,
+        1370000
+      ],
+      [
+        251225,
+        1350000
+      ],
+      [
+        251226,
+        1340000
+      ],
+      [
+        251227,
+        1330000
+      ],
+      [
+        251228,
+        1320000
+      ],
+      [
+        251229,
+        1320000
+      ],
+      [
+        251230,
+        1320000
+      ],
+      [
+        251231,
+        1330000
+      ],
+      [
+        260101,
+        1350000
+      ],
+      [
+        260102,
+        1390000
+      ],
+      [
+        260103,
+        1400000
+      ],
+      [
+        260104,
+        1410000
+      ],
+      [
+        260105,
+        1370000
+      ],
+      [
+        260106,
+        1270000
+      ],
+      [
+        260107,
+        1230000
+      ],
+      [
+        260108,
+        1210000
+      ],
+      [
+        260109,
+        1200000
+      ],
+      [
+        260110,
+        1180000
+      ],
+      [
+        260111,
+        1170000
+      ],
+      [
+        260112,
+        1160000
+      ],
+      [
+        260113,
+        1150000
+      ],
+      [
+        260114,
+        1130000
+      ],
+      [
+        260115,
+        1110000
+      ],
+      [
+        260116,
+        1100000
+      ],
+      [
+        260117,
+        1080000
+      ],
+      [
+        260118,
+        1070000
+      ],
+      [
+        260119,
+        1060000
+      ],
+      [
+        260120,
+        1060000
+      ],
+      [
+        260121,
+        1040000
+      ],
+      [
+        260122,
+        1040000
+      ],
+      [
+        260123,
+        1040000
+      ],
+      [
+        260124,
+        1030000
+      ],
+      [
+        260125,
+        1020000
+      ],
+      [
+        260126,
+        1000000
+      ],
+      [
+        260127,
+        990000
+      ],
+      [
+        260128,
+        980000
+      ],
+      [
+        260129,
+        970000
+      ],
+      [
+        260130,
+        970000
+      ],
+      [
+        260131,
+        960000
+      ],
+      [
+        260201,
+        950000
+      ],
+      [
+        260202,
+        940000
+      ],
+      [
+        260203,
+        930000
+      ],
+      [
+        260204,
+        910000
+      ],
+      [
+        260205,
+        900000
+      ],
+      [
+        260206,
+        890000
+      ],
+      [
+        260207,
+        870000
+      ],
+      [
+        260208,
+        860000
+      ],
+      [
+        260209,
+        850000
+      ],
+      [
+        260210,
+        830000
+      ],
+      [
+        260211,
+        810000
+      ],
+      [
+        260212,
+        800000
+      ],
+      [
+        260213,
+        790000
+      ],
+      [
+        260214,
+        780000
+      ],
+      [
+        260215,
+        770000
+      ],
+      [
+        260216,
+        760000
+      ],
+      [
+        260217,
+        750000
+      ],
+      [
+        260218,
+        740000
+      ],
+      [
+        260219,
+        730000
+      ],
+      [
+        260220,
+        720000
+      ],
+      [
+        260221,
+        710000
+      ],
+      [
+        260222,
+        710000
+      ],
+      [
+        260223,
+        700000
+      ],
+      [
+        260224,
+        690000
+      ],
+      [
+        260225,
+        680000
+      ],
+      [
+        260226,
+        670000
+      ],
+      [
+        260227,
+        660000
+      ],
+      [
+        260228,
+        650000
+      ],
+      [
+        260301,
+        650000
+      ],
+      [
+        260302,
+        660000
+      ],
+      [
+        260303,
+        670000
+      ],
+      [
+        260304,
+        680000
+      ],
+      [
+        260305,
+        690000
+      ],
+      [
+        260306,
+        700000
+      ],
+      [
+        260307,
+        700000
+      ],
+      [
+        260308,
+        700000
+      ],
+      [
+        260309,
+        690000
+      ],
+      [
+        260310,
+        670000
+      ],
+      [
+        260311,
+        650000
+      ],
+      [
+        260312,
+        640000
+      ],
+      [
+        260313,
+        630000
+      ],
+      [
+        260314,
+        620000
+      ],
+      [
+        260315,
+        620000
+      ],
+      [
+        260316,
+        610000
+      ],
+      [
+        260317,
+        590000
+      ],
+      [
+        260318,
+        580000
+      ],
+      [
+        260319,
+        570000
+      ],
+      [
+        260320,
+        560000
+      ],
+      [
+        260321,
+        550000
+      ],
+      [
+        260322,
+        540000
+      ],
+      [
+        260323,
+        530000
+      ],
+      [
+        260324,
+        520000
+      ],
+      [
+        260325,
+        520000
+      ],
+      [
+        260326,
+        520000
+      ],
+      [
+        260327,
+        520000
+      ],
+      [
+        260328,
+        520000
+      ],
+      [
+        260329,
+        520000
+      ],
+      [
+        260330,
+        520000
+      ],
+      [
+        260331,
+        520000
+      ],
+      [
+        260401,
+        520000
+      ],
+      [
+        260402,
+        520000
+      ],
+      [
+        260403,
+        520000
+      ],
+      [
+        260404,
+        520000
+      ],
+      [
+        260405,
+        520000
+      ],
+      [
+        260406,
+        510000
+      ],
+      [
+        260407,
+        500000
+      ],
+      [
+        260408,
+        490000
+      ],
+      [
+        260409,
+        490000
+      ],
+      [
+        260410,
+        490000
+      ],
+      [
+        260411,
+        490000
+      ],
+      [
+        260412,
+        490000
+      ],
+      [
+        260413,
+        500000
+      ],
+      [
+        260414,
+        510000
+      ],
+      [
+        260415,
+        520000
+      ],
+      [
+        260416,
+        530000
+      ],
+      [
+        260417,
+        540000
+      ],
+      [
+        260418,
+        550000
+      ],
+      [
+        260419,
+        560000
+      ],
+      [
+        260420,
+        560000
+      ],
+      [
+        260421,
+        560000
+      ],
+      [
+        260422,
+        560000
+      ],
+      [
+        260423,
+        560000
+      ],
+      [
+        260424,
+        560000
+      ],
+      [
+        260425,
+        550000
+      ],
+      [
+        260426,
+        550000
+      ],
+      [
+        260427,
+        550000
+      ],
+      [
+        260428,
+        550000
+      ],
+      [
+        260429,
+        550000
+      ],
+      [
+        260430,
+        550000
+      ],
+      [
+        260501,
+        570000
+      ],
+      [
+        260502,
+        570000
+      ],
+      [
+        260503,
+        570000
+      ],
+      [
+        260504,
+        570000
+      ],
+      [
+        260505,
+        570000
+      ],
+      [
+        260506,
+        570000
+      ],
+      [
+        260507,
+        560000
+      ],
+      [
+        260508,
+        550000
+      ],
+      [
+        260509,
+        540000
+      ],
+      [
+        260510,
+        540000
+      ],
+      [
+        260511,
+        540000
+      ],
+      [
+        260512,
+        530000
+      ],
+      [
+        260513,
+        520000
+      ],
+      [
+        260514,
+        510000
+      ],
+      [
+        260515,
+        500000
+      ],
+      [
+        260516,
+        500000
+      ],
+      [
+        260517,
+        500000
+      ],
+      [
+        260518,
+        490000
+      ],
+      [
+        260519,
+        490000
+      ],
+      [
+        260520,
+        490000
+      ],
+      [
+        260521,
+        490000
+      ],
+      [
+        260522,
+        490000
+      ],
+      [
+        260523,
+        500000
+      ],
+      [
+        260524,
+        490000
+      ],
+      [
+        260525,
+        480000
+      ],
+      [
+        260526,
+        470000
+      ],
+      [
+        260527,
+        460000
+      ],
+      [
+        260528,
+        450000
+      ],
+      [
+        260529,
+        440000
+      ],
+      [
+        260530,
+        430000
+      ],
+      [
+        260531,
+        420000
+      ],
+      [
+        260601,
+        410000
+      ],
+      [
+        260602,
+        400000
+      ],
+      [
+        260603,
+        390000
+      ],
+      [
+        260604,
+        380000
+      ],
+      [
+        260605,
+        370000
+      ],
+      [
+        260606,
+        360000
+      ],
+      [
+        260607,
+        350000
+      ],
+      [
+        260608,
+        340000
+      ],
+      [
+        260609,
+        330000
+      ],
+      [
+        260610,
+        320000
+      ],
+      [
+        260611,
+        310000
+      ]
+    ],
+    "news": [
+      {
+        "id": 707668,
+        "source": "as",
+        "title": "Marcos Alonso catapulta al Celta",
+        "url": "https://as.com/futbol/primera/marcos-alonso-catapulta-al-celta-f202601-n/",
+        "date": 1768255384,
+        "photo": "",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 700111,
+        "source": "as",
+        "title": "El Sevilla aplasta al ‘BlandiBarça’",
+        "url": "https://as.com/futbol/el-sevilla-aplasta-al-blandibarca-n/",
+        "date": 1759682774,
+        "photo": "",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 680298,
+        "source": "blog",
+        "title": "Los 5 recomendables de Gurú Biwenger: Jornada 19",
+        "url": "https://biwenger.as.com/blog/los-5-recomendables-de-guru-biwenger-jornada-19/",
+        "date": 1736520382,
+        "photo": "https://cdn.biwenger.com/wp/2024/11/f.elconfidencial.com_original_c32_10f_aee_c3210faeec39156bec987c6365260600-1.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 677197,
+        "source": "blog",
+        "title": "Los 5 recomendables de Gurú Biwenger: Jornada 15",
+        "url": "https://biwenger.as.com/blog/los-5-recomendables-de-guru-biwenger-jornada-15/",
+        "date": 1732803311,
+        "photo": "https://cdn.biwenger.com/wp/2024/11/f.elconfidencial.com_original_c32_10f_aee_c3210faeec39156bec987c6365260600.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 676745,
+        "source": "as",
+        "title": "El regreso de Isaac Romero",
+        "url": "https://as.com/futbol/primera/el-regreso-de-isaac-romero-n/",
+        "date": 1732469296,
+        "photo": "",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 671659,
+        "source": "blog",
+        "title": "Pedri, una garantía de éxito en Biwenger",
+        "url": "https://biwenger.as.com/blog/pedri-una-garantia-de-exito-en-biwenger/",
+        "date": 1727357217,
+        "photo": "https://cdn.biwenger.com/wp/2024/08/pedri-fc-barcelona-2023-24-1695036009-116903.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 670615,
+        "source": "as",
+        "title": "El (pen)último servicio de Navas",
+        "url": "https://as.com/actualidad/album/el-penultimo-servicio-de-navas-n/",
+        "date": 1726339956,
+        "photo": "",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 669740,
+        "source": "as",
+        "title": "Otro año igual",
+        "url": "https://as.com/futbol/primera/otro-ano-igual-n/",
+        "date": 1725217213,
+        "photo": "",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 668248,
+        "source": "blog",
+        "title": "Análisis Biwenger: Sevilla FC",
+        "url": "https://biwenger.as.com/blog/analisis-biwenger-sevilla-fc/",
+        "date": 1723555190,
+        "photo": "https://cdn.biwenger.com/wp/2024/08/f.elconfidencial.com_original_c32_10f_aee_c3210faeec39156bec987c6365260600.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 668235,
+        "source": "blog",
+        "title": "¡Isaac Romero te invita a jugar en su Liga Biwenger con premios!",
+        "url": "https://biwenger.as.com/blog/isaac-romero-te-invita-a-jugar-en-su-liga-biwenger-con-premios/",
+        "date": 1723547410,
+        "photo": "https://cdn.biwenger.com/wp/2024/08/BLOG_TABLON-5.jpg",
+        "video": "",
+        "comments": 0
+      }
+    ],
+    "threads": [
+      {
+        "id": 669350,
+        "source": "forum",
+        "title": "Isaac Romero…",
+        "url": "https://foro.biwenger.com/hilos/isaac-romero%E2%80%A6.175243/",
+        "date": 1766672056,
+        "photo": "",
+        "video": "",
+        "comments": 165
+      },
+      {
+        "id": 699042,
+        "source": "forum",
+        "title": "Venta Hassan o Isaac Romero",
+        "url": "https://foro.biwenger.com/hilos/venta-hassan-o-isaac-romero.177767/",
+        "date": 1759086417,
+        "photo": "",
+        "video": "",
+        "comments": 4
+      }
+    ],
+    "iconHero": "i/p/hero/32363.png",
+    "playedHome": 15,
+    "playedAway": 14,
+    "reports": [
+      {
+        "home": false,
+        "match": {
+          "id": 46122,
+          "date": 1755451800,
+          "status": "finished",
+          "home": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 3
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "round": {
+            "id": 4484,
+            "name": "Jornada 1",
+            "short": "J1"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 87
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 1,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1340000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 1,
+          "score6": -1,
+          "roundPhase": 1,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 4,
+          "picas": 1,
+          "sofascore": 6.6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46139,
+          "date": 1756150200,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "round": {
+            "id": 4485,
+            "name": "Jornada 2",
+            "short": "J2"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 696971,
+            "source": "as",
+            "title": "Un milagro llamado Liso",
+            "url": "https://as.com/futbol/primera/un-milagro-llamado-liso-n/",
+            "date": 1756157758,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              }
+            ],
+            "players": [
+              {
+                "id": 19506,
+                "name": "Bordalás",
+                "slug": "bordalas"
+              },
+              {
+                "id": 25396,
+                "name": "Juanlu",
+                "slug": "juanlu-sanchez",
+                "altPositions": [
+                  2
+                ]
+              },
+              {
+                "id": 38071,
+                "name": "Adrián Liso",
+                "slug": "adrian-liso",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 67
+          },
+          {
+            "type": 10,
+            "period": "secondTime",
+            "metadata": 71
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 1,
+          "6": 1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1220000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 1,
+          "score6": 1,
+          "roundPhase": 2,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 23,
+          "picas": 1,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46148,
+          "date": 1756575000,
+          "status": "finished",
+          "home": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 0
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "round": {
+            "id": 4486,
+            "name": "Jornada 3",
+            "short": "J3"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 697309,
+            "source": "as",
+            "title": "El Sevilla galopa y atropella al Girona",
+            "url": "https://as.com/futbol/primera/el-sevilla-galopa-y-atropella-al-girona-n/",
+            "date": 1756582126,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              },
+              {
+                "id": 289,
+                "name": "Girona",
+                "slug": "girona"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 1,
+            "period": "secondTime",
+            "metadata": 55
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 84
+          }
+        ],
+        "points": {
+          "1": 9,
+          "2": 10,
+          "5": 10,
+          "3": 8,
+          "6": 10
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1230000,
+          "score1": 9,
+          "score2": 10,
+          "score5": 10,
+          "score3": 8,
+          "score6": 10,
+          "roundPhase": 3,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": true,
+          "goals": 1,
+          "minutesPlayed": 84,
+          "picas": 2,
+          "sofascore": 7.5
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46151,
+          "date": 1757703600,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "round": {
+            "id": 4487,
+            "name": "Jornada 4",
+            "short": "J4"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 1,
+            "period": "firstTime",
+            "metadata": 28
+          },
+          {
+            "type": 6,
+            "period": "firstTime",
+            "metadata": 44
+          }
+        ],
+        "points": {
+          "1": 9,
+          "2": 5,
+          "5": 7,
+          "3": 6,
+          "6": 12
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 2530000,
+          "score1": 9,
+          "score2": 5,
+          "score5": 7,
+          "score3": 6,
+          "score6": 12,
+          "roundPhase": 4,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 2,
+          "tie": true,
+          "cleanSheet": false,
+          "goals": 1,
+          "yellowCard": 1,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46170,
+          "date": 1758385800,
+          "status": "finished",
+          "home": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 1
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "round": {
+            "id": 4488,
+            "name": "Jornada 5",
+            "short": "J5"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 86
+          }
+        ],
+        "points": {
+          "1": 6,
+          "2": 2,
+          "5": 4,
+          "3": 3,
+          "6": 2
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 3420000,
+          "score1": 6,
+          "score2": 2,
+          "score5": 4,
+          "score3": 3,
+          "score6": 2,
+          "roundPhase": 5,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": false,
+          "minutesPlayed": 86,
+          "picas": 2,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "match": {
+          "id": 46171,
+          "date": 1758655800,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 2
+          },
+          "round": {
+            "id": 4710,
+            "name": "Jornada 6 (aplazada)",
+            "short": "J6",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46184,
+          "date": 1759060800,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "round": {
+            "id": 4490,
+            "name": "Jornada 7",
+            "short": "J7"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 69
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": -1,
+          "6": 2
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 3530000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": -1,
+          "score6": 2,
+          "roundPhase": 7,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 69,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46191,
+          "date": 1759673700,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 4
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "round": {
+            "id": 4491,
+            "name": "Jornada 8",
+            "short": "J8"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 700111,
+            "source": "as",
+            "title": "El Sevilla aplasta al ‘BlandiBarça’",
+            "url": "https://as.com/futbol/el-sevilla-aplasta-al-blandibarca-n/",
+            "date": 1759682774,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              }
+            ],
+            "players": [
+              {
+                "id": 26945,
+                "name": "Lewandowski",
+                "slug": "lewandowski"
+              },
+              {
+                "id": 32363,
+                "name": "Isaac Romero",
+                "slug": "isaac-romero",
+                "altPositions": [
+                  3
+                ]
+              },
+              {
+                "id": 38964,
+                "name": "Alexis Sánchez",
+                "slug": "alexis-sanchez",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 1,
+            "period": "firstTime",
+            "metadata": 36
+          },
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 50
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 61
+          }
+        ],
+        "points": {
+          "1": 13,
+          "2": 9,
+          "5": 11,
+          "3": 5,
+          "6": 10
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 2990000,
+          "score1": 13,
+          "score2": 9,
+          "score5": 11,
+          "score3": 5,
+          "score6": 10,
+          "roundPhase": 8,
+          "home": true,
+          "homeScore": 4,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": false,
+          "goals": 1,
+          "yellowCard": 1,
+          "minutesPlayed": 61,
+          "picas": 3,
+          "sofascore": 7.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46203,
+          "date": 1760788800,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 3
+          },
+          "round": {
+            "id": 4492,
+            "name": "Jornada 9",
+            "short": "J9"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 71
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 3,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 3410000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 3,
+          "score6": -1,
+          "roundPhase": 9,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 3,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 71,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46213,
+          "date": 1761332400,
+          "status": "finished",
+          "home": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 2
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "round": {
+            "id": 4493,
+            "name": "Jornada 10",
+            "short": "J10"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 701569,
+            "source": "as",
+            "title": "Siempre Mikel Oyarzabal",
+            "url": "https://as.com/futbol/primera/siempre-mikel-oyarzabal-f202510-n/",
+            "date": 1761339666,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 13,
+                "name": "Real Sociedad",
+                "slug": "real-sociedad"
+              },
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              }
+            ],
+            "players": [
+              {
+                "id": 2603,
+                "name": "Oyarzabal",
+                "slug": "oyarzabal"
+              },
+              {
+                "id": 38235,
+                "name": "Sergio Francisco",
+                "slug": "sergio-francisco"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 66
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 2,
+          "6": -2
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 3190000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 2,
+          "score6": -2,
+          "roundPhase": 10,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 66,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46230,
+          "date": 1762010100,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 3
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "round": {
+            "id": 4494,
+            "name": "Jornada 11",
+            "short": "J11"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 54
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 79
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 2,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 2890000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 2,
+          "score6": -1,
+          "roundPhase": 11,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "yellowCard": 1,
+          "minutesPlayed": 79,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "match": {
+          "id": 46233,
+          "date": 1762614900,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 0
+          },
+          "round": {
+            "id": 4495,
+            "name": "Jornada 12",
+            "short": "J12"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 702823,
+            "source": "as",
+            "title": "Vargas alivia al Sevilla",
+            "url": "https://as.com/futbol/vargas-alivia-al-sevilla-f202511-n/",
+            "date": 1762623144,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              },
+              {
+                "id": 93,
+                "name": "Osasuna",
+                "slug": "osasuna"
+              }
+            ],
+            "players": []
+          }
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46242,
+          "date": 1764014400,
+          "status": "finished",
+          "home": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 2
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "round": {
+            "id": 4496,
+            "name": "Jornada 13",
+            "short": "J13"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 704042,
+            "source": "as",
+            "title": "El Espanyol alcanza al Betis, el Sevilla lo lamenta antes del derbi",
+            "url": "https://as.com/futbol/primera/el-espanyol-alcanza-al-betis-el-sevilla-lo-lamenta-antes-del-derbi-f202511-n/",
+            "date": 1764022280,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 7,
+                "name": "Espanyol",
+                "slug": "espanyol"
+              },
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              }
+            ],
+            "players": [
+              {
+                "id": 33789,
+                "name": "Manolo González",
+                "slug": "manolo-gonzalez"
+              },
+              {
+                "id": 37403,
+                "name": "Almeyda",
+                "slug": "almeyda"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "doubt"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46251,
+          "date": 1764515700,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "away": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 2
+          },
+          "round": {
+            "id": 4497,
+            "name": "Jornada 14",
+            "short": "J14"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 61
+          },
+          {
+            "type": 7,
+            "period": "secondTime",
+            "metadata": 84
+          }
+        ],
+        "points": {
+          "1": -8,
+          "2": -3,
+          "5": -6,
+          "3": -4,
+          "6": -3
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1740000,
+          "score1": -8,
+          "score2": -3,
+          "score5": -6,
+          "score3": -4,
+          "score6": -3,
+          "roundPhase": 14,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": false,
+          "redCard": 1,
+          "minutesPlayed": 23,
+          "picas": 0,
+          "sofascore": 5.5
+        }
+      },
+      {
+        "match": {
+          "id": 46263,
+          "date": 1765120500,
+          "status": "finished",
+          "home": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 1
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "round": {
+            "id": 4498,
+            "name": "Jornada 15",
+            "short": "J15"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "sanctioned"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46271,
+          "date": 1765717200,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 4
+          },
+          "away": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 0
+          },
+          "round": {
+            "id": 4499,
+            "name": "Jornada 16",
+            "short": "J16"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "sanctioned"
+        },
+        "home": true
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46285,
+          "date": 1766260800,
+          "status": "finished",
+          "home": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 2
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "round": {
+            "id": 4500,
+            "name": "Jornada 17",
+            "short": "J17"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 70
+          }
+        ],
+        "points": {
+          "1": -2,
+          "2": 1,
+          "5": -1,
+          "3": 4,
+          "6": 2
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1390000,
+          "score1": -2,
+          "score2": 1,
+          "score5": -1,
+          "score3": 4,
+          "score6": 2,
+          "roundPhase": 17,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 70,
+          "picas": 0,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46291,
+          "date": 1767531600,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "away": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 3
+          },
+          "round": {
+            "id": 4501,
+            "name": "Jornada 18",
+            "short": "J18"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 59
+          },
+          {
+            "type": 11,
+            "period": "secondTime",
+            "metadata": 92
+          }
+        ],
+        "points": {
+          "1": -2,
+          "2": -1,
+          "5": -2,
+          "3": 1,
+          "6": -2
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1410000,
+          "score1": -2,
+          "score2": -1,
+          "score5": -2,
+          "score3": 1,
+          "score6": -2,
+          "roundPhase": 18,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 3,
+          "lost": true,
+          "cleanSheet": false,
+          "penaltyMissed": 1,
+          "minutesPlayed": 31,
+          "picas": 0,
+          "sofascore": 5.9
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46302,
+          "date": 1768248000,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "away": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 1
+          },
+          "round": {
+            "id": 4787,
+            "name": "Jornada 19 (aplazada)",
+            "short": "J19",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 707668,
+            "source": "as",
+            "title": "Marcos Alonso catapulta al Celta",
+            "url": "https://as.com/futbol/primera/marcos-alonso-catapulta-al-celta-f202601-n/",
+            "date": 1768255384,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 5,
+                "name": "Celta",
+                "slug": "celta"
+              },
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              }
+            ],
+            "players": [
+              {
+                "id": 1523,
+                "name": "Iago Aspas",
+                "slug": "iago-aspas",
+                "altPositions": [
+                  3
+                ]
+              },
+              {
+                "id": 32363,
+                "name": "Isaac Romero",
+                "slug": "isaac-romero",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 58
+          },
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 61
+          }
+        ],
+        "points": {
+          "1": -2,
+          "2": 2,
+          "5": 0,
+          "3": 3,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1160000,
+          "score1": -2,
+          "score2": 2,
+          "score5": 0,
+          "score3": 3,
+          "score6": -1,
+          "roundPhase": 19,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": true,
+          "yellowCard": 1,
+          "minutesPlayed": 58,
+          "picas": 0,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46318,
+          "date": 1768852800,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "round": {
+            "id": 4503,
+            "name": "Jornada 20",
+            "short": "J20"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 708248,
+            "source": "as",
+            "title": "Akor Adams llega a tiempo",
+            "url": "https://as.com/futbol/akor-adams-llega-a-tiempo-f202601-n/",
+            "date": 1768860340,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 63
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 3,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1060000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 3,
+          "score6": 0,
+          "roundPhase": 20,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 2,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 63,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46322,
+          "date": 1769275800,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "away": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 1
+          },
+          "round": {
+            "id": 4504,
+            "name": "Jornada 21",
+            "short": "J21"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 81
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 2,
+          "6": 1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1030000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 2,
+          "score6": 1,
+          "roundPhase": 21,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": false,
+          "minutesPlayed": 81,
+          "picas": 1,
+          "sofascore": 6.2
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46335,
+          "date": 1770062400,
+          "status": "finished",
+          "home": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 4
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "round": {
+            "id": 4505,
+            "name": "Jornada 22",
+            "short": "J22"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 709534,
+            "source": "as",
+            "title": "Virgili, el clavo ardiendo de Son Moix",
+            "url": "https://as.com/futbol/primera/virgili-es-el-clavo-ardiendo-de-son-moix-f202602-n/",
+            "date": 1770070264,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              },
+              {
+                "id": 465,
+                "name": "Mallorca",
+                "slug": "mallorca"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 79
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 1,
+          "5": 1,
+          "3": 0,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 940000,
+          "score1": 0,
+          "score2": 1,
+          "score5": 1,
+          "score3": 0,
+          "score6": -1,
+          "roundPhase": 22,
+          "away": true,
+          "homeScore": 4,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 11,
+          "picas": "SC",
+          "sofascore": 6.3
+        }
+      },
+      {
+        "match": {
+          "id": 46342,
+          "date": 1770563700,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 1
+          },
+          "round": {
+            "id": 4506,
+            "name": "Jornada 23",
+            "short": "J23"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46351,
+          "date": 1771090200,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 1
+          },
+          "round": {
+            "id": 4507,
+            "name": "Jornada 24",
+            "short": "J24"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 70
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 0,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 780000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 0,
+          "score6": 0,
+          "roundPhase": 24,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 20,
+          "picas": 1,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "match": {
+          "id": 46364,
+          "date": 1771765200,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "round": {
+            "id": 4508,
+            "name": "Jornada 25",
+            "short": "J25"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46374,
+          "date": 1772386200,
+          "status": "finished",
+          "home": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 2
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "round": {
+            "id": 4509,
+            "name": "Jornada 26",
+            "short": "J26"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 70
+          },
+          {
+            "type": 1,
+            "period": "secondTime",
+            "metadata": 85
+          },
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 85
+          }
+        ],
+        "points": {
+          "1": 9,
+          "2": 10,
+          "5": 10,
+          "3": 3,
+          "6": 9
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 650000,
+          "score1": 9,
+          "score2": 10,
+          "score5": 10,
+          "score3": 3,
+          "score6": 9,
+          "roundPhase": 26,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 2,
+          "tie": true,
+          "cleanSheet": true,
+          "goals": 1,
+          "yellowCard": 1,
+          "minutesPlayed": 20,
+          "picas": 2,
+          "sofascore": 7.5
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46382,
+          "date": 1772991000,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "round": {
+            "id": 4510,
+            "name": "Jornada 27",
+            "short": "J27"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 67
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 0,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 700000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 0,
+          "score6": 0,
+          "roundPhase": 27,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 23,
+          "picas": 1,
+          "sofascore": 6.6
+        }
+      },
+      {
+        "match": {
+          "id": 46398,
+          "date": 1773587700,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 5
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "round": {
+            "id": 4511,
+            "name": "Jornada 28",
+            "short": "J28"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "warned"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46406,
+          "date": 1774123200,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "away": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 2
+          },
+          "round": {
+            "id": 4512,
+            "name": "Jornada 29",
+            "short": "J29"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 713175,
+            "source": "as",
+            "title": "El Valencia saca la cabeza",
+            "url": "https://as.com/futbol/primera/el-valencia-saca-la-cabeza-f202603-n/",
+            "date": 1774130549,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              },
+              {
+                "id": 18,
+                "name": "Valencia",
+                "slug": "valencia"
+              }
+            ],
+            "players": [
+              {
+                "id": 38964,
+                "name": "Alexis Sánchez",
+                "slug": "alexis-sanchez",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 3,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 550000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 3,
+          "score6": -1,
+          "roundPhase": 29,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 45,
+          "picas": 1,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46416,
+          "date": 1775406600,
+          "status": "finished",
+          "home": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 1
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "round": {
+            "id": 4513,
+            "name": "Jornada 30",
+            "short": "J30"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 714157,
+            "source": "as",
+            "title": "El Oviedo se agarra a Primera y mete al Sevilla en más problemas",
+            "url": "https://as.com/futbol/primera/el-oviedo-se-agarra-a-primera-el-1-0-mete-en-problemas-al-sevilla-f202604-n/",
+            "date": 1775415319,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              },
+              {
+                "id": 779,
+                "name": "Real Oviedo",
+                "slug": "real-oviedo"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 72
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 0,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 520000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 0,
+          "score6": -1,
+          "roundPhase": 30,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 18,
+          "picas": 1,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46425,
+          "date": 1775934000,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4514,
+            "name": "Jornada 31",
+            "short": "J31"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 10,
+            "period": "secondTime",
+            "metadata": 58
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 70
+          }
+        ],
+        "points": {
+          "1": 6,
+          "2": 5,
+          "5": 6,
+          "3": 5,
+          "6": 3
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 490000,
+          "score1": 6,
+          "score2": 5,
+          "score5": 6,
+          "score3": 5,
+          "score6": 3,
+          "roundPhase": 31,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": false,
+          "minutesPlayed": 70,
+          "picas": 2,
+          "sofascore": 7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46448,
+          "date": 1776963600,
+          "status": "finished",
+          "home": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 2
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "round": {
+            "id": 4516,
+            "name": "Jornada 33",
+            "short": "J33"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 72
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 4,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 560000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 4,
+          "score6": -1,
+          "roundPhase": 33,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 72,
+          "picas": 1,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46437,
+          "date": 1777221000,
+          "status": "finished",
+          "home": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 2
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "round": {
+            "id": 4515,
+            "name": "Jornada 32",
+            "short": "J32"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 715804,
+            "source": "as",
+            "title": "La crueldad se ceba con el Sevilla",
+            "url": "https://as.com/futbol/la-crueldad-se-ceba-con-el-sevilla-f202604-n/",
+            "date": 1777228901,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              },
+              {
+                "id": 93,
+                "name": "Osasuna",
+                "slug": "osasuna"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 87
+          }
+        ],
+        "points": {
+          "1": -2,
+          "2": 1,
+          "5": -1,
+          "3": 2,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 550000,
+          "score1": -2,
+          "score2": 1,
+          "score5": -1,
+          "score3": 2,
+          "score6": -1,
+          "roundPhase": 32,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 87,
+          "picas": 0,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46451,
+          "date": 1777921200,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 0
+          },
+          "round": {
+            "id": 4517,
+            "name": "Jornada 34",
+            "short": "J34"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 1,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 570000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 1,
+          "score6": 0,
+          "roundPhase": 34,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 45,
+          "picas": 1,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46463,
+          "date": 1778336100,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "away": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 1
+          },
+          "round": {
+            "id": 4518,
+            "name": "Jornada 35",
+            "short": "J35"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 1,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 540000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 1,
+          "score6": 0,
+          "roundPhase": 35,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 45,
+          "picas": 1,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "match": {
+          "id": 46473,
+          "date": 1778691600,
+          "status": "finished",
+          "home": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 2
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 3
+          },
+          "round": {
+            "id": 4519,
+            "name": "Jornada 36",
+            "short": "J36"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "doubt"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46481,
+          "date": 1779037200,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "away": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 1
+          },
+          "round": {
+            "id": 4520,
+            "name": "Jornada 37",
+            "short": "J37"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717319,
+            "source": "as",
+            "title": "Cumple el Madrid, se salva el Sevilla",
+            "url": "https://as.com/futbol/primera/cumple-el-madrid-se-salva-el-sevilla-f202605-n/",
+            "date": 1779044123,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 15,
+                "name": "Real Madrid",
+                "slug": "real-madrid"
+              },
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              }
+            ],
+            "players": [
+              {
+                "id": 15568,
+                "name": "Vinícius Jr",
+                "slug": "vinicius-junior"
+              },
+              {
+                "id": 19577,
+                "name": "Mbappé",
+                "slug": "mbappe"
+              },
+              {
+                "id": 39769,
+                "name": "Álvaro Arbeloa",
+                "slug": "alvaro-arbeloa"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 78
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 3,
+          "5": 2,
+          "3": 1,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 500000,
+          "score1": 0,
+          "score2": 3,
+          "score5": 2,
+          "score3": 1,
+          "score6": -1,
+          "roundPhase": 37,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 12,
+          "picas": "SC",
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46493,
+          "date": 1779562800,
+          "status": "finished",
+          "home": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 1
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "round": {
+            "id": 4521,
+            "name": "Jornada 38",
+            "short": "J38"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717814,
+            "source": "as",
+            "title": "Ilaix pone la música de la Europa League",
+            "url": "https://as.com/futbol/primera/ilaix-pone-la-musica-de-la-europa-league-f202605-n/",
+            "date": 1779571257,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 5,
+                "name": "Celta",
+                "slug": "celta"
+              },
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              }
+            ],
+            "players": [
+              {
+                "id": 21084,
+                "name": "Ilaix Moriba",
+                "slug": "ilaix-moriba"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 64
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 0,
+          "5": 1,
+          "3": 3,
+          "6": -2
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 500000,
+          "score1": 2,
+          "score2": 0,
+          "score5": 1,
+          "score3": 3,
+          "score6": -2,
+          "roundPhase": 38,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 64,
+          "picas": 1,
+          "sofascore": 6.1
+        }
+      }
+    ],
+    "seasons": [
+      {
+        "id": "2026",
+        "name": "Temporada 2025/2026",
+        "slug": "2025-2026",
+        "names": {
+          "es": "Temporada 2025/2026",
+          "ca": "Temporada 2025/2026",
+          "eu": "2025/2026 Denboraldia",
+          "gl": "Tempada 2025/2026",
+          "es-419": "Temporada 2025/2026"
+        },
+        "games": 29,
+        "points": {
+          "1": 68,
+          "2": 73,
+          "5": 75,
+          "3": 62,
+          "6": 33
+        },
+        "selected": true
+      },
+      {
+        "id": "2025",
+        "name": "Temporada 2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "Temporada 2024/2025",
+          "ca": "Temporada 2024/2025",
+          "eu": "2024/2025 Denboraldia",
+          "gl": "Tempada 2024/2025",
+          "es-419": "Temporada 2024/2025"
+        },
+        "games": 31,
+        "points": {
+          "1": 86,
+          "2": 95,
+          "5": 98,
+          "3": 93,
+          "6": 58
+        }
+      },
+      {
+        "id": "2024",
+        "name": "Temporada 2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "Temporada 2023/2024",
+          "ca": "Temporada 2023/2024",
+          "eu": "2023/2024 Denboraldia",
+          "gl": "Tempada 2023/2024",
+          "es-419": "Temporada 2023/2024"
+        },
+        "games": 14,
+        "points": {
+          "1": 76,
+          "2": 72,
+          "5": 77,
+          "3": 70,
+          "6": 85
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2024",
+        "slug": "2024",
+        "names": {
+          "es": "2024",
+          "ca": "2024",
+          "eu": "2024",
+          "gl": "2024",
+          "es-419": "2024"
+        },
+        "games": 2,
+        "points": {
+          "1": 18,
+          "2": 19,
+          "5": 19
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 32367,
+          "slug": "isaac-romero"
+        }
+      }
+    ],
+    "canonicalURL": "https://biwenger.as.com/blog/jugadores/isaac-romero/"
+  }
+}

@@ -1,0 +1,4381 @@
+{
+  "status": 200,
+  "data": {
+    "id": 26678,
+    "name": "Christensen",
+    "slug": "christensen",
+    "position": 2,
+    "price": 230000,
+    "fantasyPrice": 12000000,
+    "country": "DK",
+    "number": 15,
+    "birthday": 19960410,
+    "status": "ok",
+    "priceIncrement": 0,
+    "competition": {
+      "id": 1,
+      "name": "Primera División",
+      "slug": "la-liga",
+      "sport": "football",
+      "currency": "€"
+    },
+    "team": {
+      "id": 3,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "nextGames": []
+    },
+    "prices": [
+      [
+        250611,
+        1020000
+      ],
+      [
+        250612,
+        1000000
+      ],
+      [
+        250613,
+        990000
+      ],
+      [
+        250614,
+        970000
+      ],
+      [
+        250615,
+        970000
+      ],
+      [
+        250616,
+        960000
+      ],
+      [
+        250617,
+        940000
+      ],
+      [
+        250618,
+        920000
+      ],
+      [
+        250619,
+        910000
+      ],
+      [
+        250620,
+        900000
+      ],
+      [
+        250621,
+        890000
+      ],
+      [
+        250622,
+        880000
+      ],
+      [
+        250623,
+        870000
+      ],
+      [
+        250624,
+        850000
+      ],
+      [
+        250625,
+        830000
+      ],
+      [
+        250626,
+        810000
+      ],
+      [
+        250627,
+        800000
+      ],
+      [
+        250628,
+        780000
+      ],
+      [
+        250629,
+        760000
+      ],
+      [
+        250630,
+        750000
+      ],
+      [
+        250701,
+        740000
+      ],
+      [
+        250702,
+        740000
+      ],
+      [
+        250703,
+        720000
+      ],
+      [
+        250704,
+        710000
+      ],
+      [
+        250705,
+        700000
+      ],
+      [
+        250706,
+        690000
+      ],
+      [
+        250707,
+        680000
+      ],
+      [
+        250708,
+        670000
+      ],
+      [
+        250709,
+        660000
+      ],
+      [
+        250710,
+        650000
+      ],
+      [
+        250711,
+        650000
+      ],
+      [
+        250712,
+        640000
+      ],
+      [
+        250713,
+        630000
+      ],
+      [
+        250714,
+        620000
+      ],
+      [
+        250715,
+        610000
+      ],
+      [
+        250716,
+        590000
+      ],
+      [
+        250717,
+        570000
+      ],
+      [
+        250718,
+        560000
+      ],
+      [
+        250719,
+        550000
+      ],
+      [
+        250720,
+        540000
+      ],
+      [
+        250721,
+        530000
+      ],
+      [
+        250722,
+        520000
+      ],
+      [
+        250723,
+        510000
+      ],
+      [
+        250724,
+        500000
+      ],
+      [
+        250725,
+        480000
+      ],
+      [
+        250726,
+        470000
+      ],
+      [
+        250727,
+        460000
+      ],
+      [
+        250728,
+        450000
+      ],
+      [
+        250729,
+        440000
+      ],
+      [
+        250730,
+        430000
+      ],
+      [
+        250731,
+        420000
+      ],
+      [
+        250801,
+        420000
+      ],
+      [
+        250802,
+        420000
+      ],
+      [
+        250803,
+        420000
+      ],
+      [
+        250804,
+        420000
+      ],
+      [
+        250805,
+        420000
+      ],
+      [
+        250806,
+        420000
+      ],
+      [
+        250807,
+        420000
+      ],
+      [
+        250808,
+        480000
+      ],
+      [
+        250809,
+        600000
+      ],
+      [
+        250810,
+        800000
+      ],
+      [
+        250811,
+        1040000
+      ],
+      [
+        250812,
+        1230000
+      ],
+      [
+        250813,
+        1360000
+      ],
+      [
+        250814,
+        1450000
+      ],
+      [
+        250815,
+        1510000
+      ],
+      [
+        250816,
+        1540000
+      ],
+      [
+        250817,
+        1540000
+      ],
+      [
+        250818,
+        1440000
+      ],
+      [
+        250819,
+        1360000
+      ],
+      [
+        250820,
+        1280000
+      ],
+      [
+        250821,
+        1230000
+      ],
+      [
+        250822,
+        1190000
+      ],
+      [
+        250823,
+        1160000
+      ],
+      [
+        250824,
+        1160000
+      ],
+      [
+        250825,
+        1170000
+      ],
+      [
+        250826,
+        1190000
+      ],
+      [
+        250827,
+        1210000
+      ],
+      [
+        250828,
+        1230000
+      ],
+      [
+        250829,
+        1250000
+      ],
+      [
+        250830,
+        1260000
+      ],
+      [
+        250831,
+        1270000
+      ],
+      [
+        250901,
+        1300000
+      ],
+      [
+        250902,
+        1340000
+      ],
+      [
+        250903,
+        1390000
+      ],
+      [
+        250904,
+        1430000
+      ],
+      [
+        250905,
+        1470000
+      ],
+      [
+        250906,
+        1500000
+      ],
+      [
+        250907,
+        1530000
+      ],
+      [
+        250908,
+        1560000
+      ],
+      [
+        250909,
+        1590000
+      ],
+      [
+        250910,
+        1610000
+      ],
+      [
+        250911,
+        1630000
+      ],
+      [
+        250912,
+        1640000
+      ],
+      [
+        250913,
+        1650000
+      ],
+      [
+        250914,
+        1670000
+      ],
+      [
+        250915,
+        1670000
+      ],
+      [
+        250916,
+        1600000
+      ],
+      [
+        250917,
+        1510000
+      ],
+      [
+        250918,
+        1440000
+      ],
+      [
+        250919,
+        1420000
+      ],
+      [
+        250920,
+        1400000
+      ],
+      [
+        250921,
+        1400000
+      ],
+      [
+        250922,
+        1430000
+      ],
+      [
+        250923,
+        1480000
+      ],
+      [
+        250924,
+        1530000
+      ],
+      [
+        250925,
+        1570000
+      ],
+      [
+        250926,
+        1600000
+      ],
+      [
+        250927,
+        1610000
+      ],
+      [
+        250928,
+        1620000
+      ],
+      [
+        250929,
+        1650000
+      ],
+      [
+        250930,
+        1690000
+      ],
+      [
+        251001,
+        1730000
+      ],
+      [
+        251002,
+        1770000
+      ],
+      [
+        251003,
+        1810000
+      ],
+      [
+        251004,
+        1830000
+      ],
+      [
+        251005,
+        1850000
+      ],
+      [
+        251006,
+        1840000
+      ],
+      [
+        251007,
+        1770000
+      ],
+      [
+        251008,
+        1680000
+      ],
+      [
+        251009,
+        1630000
+      ],
+      [
+        251010,
+        1600000
+      ],
+      [
+        251011,
+        1580000
+      ],
+      [
+        251012,
+        1560000
+      ],
+      [
+        251013,
+        1540000
+      ],
+      [
+        251014,
+        1520000
+      ],
+      [
+        251015,
+        1500000
+      ],
+      [
+        251016,
+        1480000
+      ],
+      [
+        251017,
+        1460000
+      ],
+      [
+        251018,
+        1440000
+      ],
+      [
+        251019,
+        1430000
+      ],
+      [
+        251020,
+        1410000
+      ],
+      [
+        251021,
+        1400000
+      ],
+      [
+        251022,
+        1390000
+      ],
+      [
+        251023,
+        1370000
+      ],
+      [
+        251024,
+        1350000
+      ],
+      [
+        251025,
+        1330000
+      ],
+      [
+        251026,
+        1320000
+      ],
+      [
+        251027,
+        1290000
+      ],
+      [
+        251028,
+        1250000
+      ],
+      [
+        251029,
+        1210000
+      ],
+      [
+        251030,
+        1180000
+      ],
+      [
+        251031,
+        1160000
+      ],
+      [
+        251101,
+        1140000
+      ],
+      [
+        251102,
+        1120000
+      ],
+      [
+        251103,
+        1070000
+      ],
+      [
+        251104,
+        1030000
+      ],
+      [
+        251105,
+        1020000
+      ],
+      [
+        251106,
+        1010000
+      ],
+      [
+        251107,
+        1000000
+      ],
+      [
+        251108,
+        990000
+      ],
+      [
+        251109,
+        980000
+      ],
+      [
+        251110,
+        970000
+      ],
+      [
+        251111,
+        960000
+      ],
+      [
+        251112,
+        950000
+      ],
+      [
+        251113,
+        950000
+      ],
+      [
+        251114,
+        940000
+      ],
+      [
+        251115,
+        930000
+      ],
+      [
+        251116,
+        920000
+      ],
+      [
+        251117,
+        910000
+      ],
+      [
+        251118,
+        900000
+      ],
+      [
+        251119,
+        890000
+      ],
+      [
+        251120,
+        880000
+      ],
+      [
+        251121,
+        870000
+      ],
+      [
+        251122,
+        860000
+      ],
+      [
+        251123,
+        850000
+      ],
+      [
+        251124,
+        830000
+      ],
+      [
+        251125,
+        820000
+      ],
+      [
+        251126,
+        810000
+      ],
+      [
+        251127,
+        810000
+      ],
+      [
+        251128,
+        810000
+      ],
+      [
+        251129,
+        810000
+      ],
+      [
+        251130,
+        810000
+      ],
+      [
+        251201,
+        800000
+      ],
+      [
+        251202,
+        800000
+      ],
+      [
+        251203,
+        790000
+      ],
+      [
+        251204,
+        780000
+      ],
+      [
+        251205,
+        770000
+      ],
+      [
+        251206,
+        760000
+      ],
+      [
+        251207,
+        760000
+      ],
+      [
+        251208,
+        760000
+      ],
+      [
+        251209,
+        760000
+      ],
+      [
+        251210,
+        760000
+      ],
+      [
+        251211,
+        760000
+      ],
+      [
+        251212,
+        760000
+      ],
+      [
+        251213,
+        760000
+      ],
+      [
+        251214,
+        750000
+      ],
+      [
+        251215,
+        740000
+      ],
+      [
+        251216,
+        720000
+      ],
+      [
+        251217,
+        710000
+      ],
+      [
+        251218,
+        710000
+      ],
+      [
+        251219,
+        710000
+      ],
+      [
+        251220,
+        710000
+      ],
+      [
+        251221,
+        710000
+      ],
+      [
+        251222,
+        690000
+      ],
+      [
+        251223,
+        640000
+      ],
+      [
+        251224,
+        610000
+      ],
+      [
+        251225,
+        590000
+      ],
+      [
+        251226,
+        580000
+      ],
+      [
+        251227,
+        570000
+      ],
+      [
+        251228,
+        560000
+      ],
+      [
+        251229,
+        550000
+      ],
+      [
+        251230,
+        540000
+      ],
+      [
+        251231,
+        530000
+      ],
+      [
+        260101,
+        520000
+      ],
+      [
+        260102,
+        510000
+      ],
+      [
+        260103,
+        500000
+      ],
+      [
+        260104,
+        490000
+      ],
+      [
+        260105,
+        480000
+      ],
+      [
+        260106,
+        470000
+      ],
+      [
+        260107,
+        460000
+      ],
+      [
+        260108,
+        450000
+      ],
+      [
+        260109,
+        440000
+      ],
+      [
+        260110,
+        430000
+      ],
+      [
+        260111,
+        430000
+      ],
+      [
+        260112,
+        430000
+      ],
+      [
+        260113,
+        420000
+      ],
+      [
+        260114,
+        410000
+      ],
+      [
+        260115,
+        380000
+      ],
+      [
+        260116,
+        370000
+      ],
+      [
+        260117,
+        360000
+      ],
+      [
+        260118,
+        350000
+      ],
+      [
+        260119,
+        340000
+      ],
+      [
+        260120,
+        340000
+      ],
+      [
+        260121,
+        330000
+      ],
+      [
+        260122,
+        330000
+      ],
+      [
+        260123,
+        320000
+      ],
+      [
+        260124,
+        320000
+      ],
+      [
+        260125,
+        320000
+      ],
+      [
+        260126,
+        320000
+      ],
+      [
+        260127,
+        320000
+      ],
+      [
+        260128,
+        320000
+      ],
+      [
+        260129,
+        320000
+      ],
+      [
+        260130,
+        320000
+      ],
+      [
+        260131,
+        320000
+      ],
+      [
+        260201,
+        320000
+      ],
+      [
+        260202,
+        320000
+      ],
+      [
+        260203,
+        320000
+      ],
+      [
+        260204,
+        320000
+      ],
+      [
+        260205,
+        320000
+      ],
+      [
+        260206,
+        320000
+      ],
+      [
+        260207,
+        320000
+      ],
+      [
+        260208,
+        320000
+      ],
+      [
+        260209,
+        320000
+      ],
+      [
+        260210,
+        320000
+      ],
+      [
+        260211,
+        320000
+      ],
+      [
+        260212,
+        320000
+      ],
+      [
+        260213,
+        320000
+      ],
+      [
+        260214,
+        320000
+      ],
+      [
+        260215,
+        320000
+      ],
+      [
+        260216,
+        320000
+      ],
+      [
+        260217,
+        320000
+      ],
+      [
+        260218,
+        320000
+      ],
+      [
+        260219,
+        320000
+      ],
+      [
+        260220,
+        320000
+      ],
+      [
+        260221,
+        320000
+      ],
+      [
+        260222,
+        320000
+      ],
+      [
+        260223,
+        320000
+      ],
+      [
+        260224,
+        320000
+      ],
+      [
+        260225,
+        320000
+      ],
+      [
+        260226,
+        320000
+      ],
+      [
+        260227,
+        320000
+      ],
+      [
+        260228,
+        320000
+      ],
+      [
+        260301,
+        320000
+      ],
+      [
+        260302,
+        320000
+      ],
+      [
+        260303,
+        320000
+      ],
+      [
+        260304,
+        320000
+      ],
+      [
+        260305,
+        320000
+      ],
+      [
+        260306,
+        320000
+      ],
+      [
+        260307,
+        320000
+      ],
+      [
+        260308,
+        320000
+      ],
+      [
+        260309,
+        320000
+      ],
+      [
+        260310,
+        320000
+      ],
+      [
+        260311,
+        320000
+      ],
+      [
+        260312,
+        320000
+      ],
+      [
+        260313,
+        320000
+      ],
+      [
+        260314,
+        320000
+      ],
+      [
+        260315,
+        320000
+      ],
+      [
+        260316,
+        320000
+      ],
+      [
+        260317,
+        320000
+      ],
+      [
+        260318,
+        320000
+      ],
+      [
+        260319,
+        320000
+      ],
+      [
+        260320,
+        320000
+      ],
+      [
+        260321,
+        320000
+      ],
+      [
+        260322,
+        320000
+      ],
+      [
+        260323,
+        320000
+      ],
+      [
+        260324,
+        320000
+      ],
+      [
+        260325,
+        320000
+      ],
+      [
+        260326,
+        320000
+      ],
+      [
+        260327,
+        320000
+      ],
+      [
+        260328,
+        320000
+      ],
+      [
+        260329,
+        320000
+      ],
+      [
+        260330,
+        320000
+      ],
+      [
+        260331,
+        320000
+      ],
+      [
+        260401,
+        320000
+      ],
+      [
+        260402,
+        320000
+      ],
+      [
+        260403,
+        320000
+      ],
+      [
+        260404,
+        320000
+      ],
+      [
+        260405,
+        320000
+      ],
+      [
+        260406,
+        320000
+      ],
+      [
+        260407,
+        320000
+      ],
+      [
+        260408,
+        320000
+      ],
+      [
+        260409,
+        320000
+      ],
+      [
+        260410,
+        320000
+      ],
+      [
+        260411,
+        320000
+      ],
+      [
+        260412,
+        320000
+      ],
+      [
+        260413,
+        320000
+      ],
+      [
+        260414,
+        320000
+      ],
+      [
+        260415,
+        320000
+      ],
+      [
+        260416,
+        320000
+      ],
+      [
+        260417,
+        320000
+      ],
+      [
+        260418,
+        320000
+      ],
+      [
+        260419,
+        320000
+      ],
+      [
+        260420,
+        320000
+      ],
+      [
+        260421,
+        320000
+      ],
+      [
+        260422,
+        320000
+      ],
+      [
+        260423,
+        320000
+      ],
+      [
+        260424,
+        320000
+      ],
+      [
+        260425,
+        320000
+      ],
+      [
+        260426,
+        320000
+      ],
+      [
+        260427,
+        320000
+      ],
+      [
+        260428,
+        320000
+      ],
+      [
+        260429,
+        320000
+      ],
+      [
+        260430,
+        320000
+      ],
+      [
+        260501,
+        320000
+      ],
+      [
+        260502,
+        320000
+      ],
+      [
+        260503,
+        320000
+      ],
+      [
+        260504,
+        320000
+      ],
+      [
+        260505,
+        320000
+      ],
+      [
+        260506,
+        320000
+      ],
+      [
+        260507,
+        320000
+      ],
+      [
+        260508,
+        320000
+      ],
+      [
+        260509,
+        320000
+      ],
+      [
+        260510,
+        320000
+      ],
+      [
+        260511,
+        320000
+      ],
+      [
+        260512,
+        320000
+      ],
+      [
+        260513,
+        320000
+      ],
+      [
+        260514,
+        320000
+      ],
+      [
+        260515,
+        320000
+      ],
+      [
+        260516,
+        320000
+      ],
+      [
+        260517,
+        320000
+      ],
+      [
+        260518,
+        320000
+      ],
+      [
+        260519,
+        320000
+      ],
+      [
+        260520,
+        320000
+      ],
+      [
+        260521,
+        320000
+      ],
+      [
+        260522,
+        320000
+      ],
+      [
+        260523,
+        320000
+      ],
+      [
+        260524,
+        310000
+      ],
+      [
+        260525,
+        300000
+      ],
+      [
+        260526,
+        290000
+      ],
+      [
+        260527,
+        280000
+      ],
+      [
+        260528,
+        270000
+      ],
+      [
+        260529,
+        260000
+      ],
+      [
+        260530,
+        250000
+      ],
+      [
+        260531,
+        250000
+      ],
+      [
+        260601,
+        250000
+      ],
+      [
+        260602,
+        250000
+      ],
+      [
+        260603,
+        250000
+      ],
+      [
+        260604,
+        250000
+      ],
+      [
+        260605,
+        250000
+      ],
+      [
+        260606,
+        250000
+      ],
+      [
+        260607,
+        250000
+      ],
+      [
+        260608,
+        240000
+      ],
+      [
+        260609,
+        230000
+      ],
+      [
+        260610,
+        230000
+      ],
+      [
+        260611,
+        230000
+      ]
+    ],
+    "news": [
+      {
+        "id": 660357,
+        "source": "blog",
+        "title": "Portu adelanta el alirón blanco",
+        "url": "https://biwenger.as.com/blog/portu-adelanta-el-aliron-blanco/",
+        "date": 1715002605,
+        "photo": "https://cdn.biwenger.com/wp/2024/02/portu.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 637061,
+        "source": "blog",
+        "title": "Benzema busca el Pichichi",
+        "url": "https://biwenger.as.com/blog/benzema-busca-el-pichichi/",
+        "date": 1683019991,
+        "photo": "https://cdn.biwenger.com/wp/2022/03/benzemarmamallo11.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 633558,
+        "source": "blog",
+        "title": "Jugadores para elegir como Capitán: Jornada 24",
+        "url": "https://biwenger.as.com/blog/jugadores-para-elegir-como-capitan-jornada-24/",
+        "date": 1677841367,
+        "photo": "https://cdn.biwenger.com/wp/2022/08/fs0t4i9wqaukl3e.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 632597,
+        "source": "blog",
+        "title": "Canales brilla en Almería",
+        "url": "https://biwenger.as.com/blog/canales-brilla-en-almeria/",
+        "date": 1676545368,
+        "photo": "https://cdn.biwenger.com/wp/2023/02/canales.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 631984,
+        "source": "blog",
+        "title": "Sancet, el nuevo Aduriz",
+        "url": "https://biwenger.as.com/blog/sancet-el-nuevo-aduriz/",
+        "date": 1675786395,
+        "photo": "https://cdn.biwenger.com/wp/2023/02/sancet-1.jpg",
+        "video": "",
+        "comments": 0
+      }
+    ],
+    "threads": [
+      {
+        "id": 675437,
+        "source": "forum",
+        "title": "Christensen?",
+        "url": "https://foro.biwenger.com/hilos/christensen.176337/",
+        "date": 1765348255,
+        "photo": "",
+        "video": "",
+        "comments": 59
+      }
+    ],
+    "playedHome": 6,
+    "playedAway": 7,
+    "reports": [
+      {
+        "match": {
+          "id": 46126,
+          "date": 1755365400,
+          "status": "finished",
+          "home": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 0
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "round": {
+            "id": 4484,
+            "name": "Jornada 1",
+            "short": "J1"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 696329,
+            "source": "as",
+            "title": "Es mala idea enfadar a Lamine",
+            "url": "https://as.com/futbol/primera/es-mala-idea-enfadar-a-lamine-n/",
+            "date": 1755375149,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 465,
+                "name": "Mallorca",
+                "slug": "mallorca"
+              }
+            ],
+            "players": [
+              {
+                "id": 15430,
+                "name": "Joan García",
+                "slug": "joan-garcia"
+              },
+              {
+                "id": 19508,
+                "name": "Arrasate",
+                "slug": "arrasate"
+              },
+              {
+                "id": 26271,
+                "name": "Yamal",
+                "slug": "lamine-yamal"
+              },
+              {
+                "id": 26930,
+                "name": "Raphinha",
+                "slug": "raphinha"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46136,
+          "date": 1755977400,
+          "status": "finished",
+          "home": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 2
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "round": {
+            "id": 4485,
+            "name": "Jornada 2",
+            "short": "J2"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 76
+          }
+        ],
+        "points": {
+          "1": 6,
+          "2": 5,
+          "5": 6,
+          "3": 0,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1160000,
+          "score1": 6,
+          "score2": 5,
+          "score5": 6,
+          "score3": 0,
+          "score6": 1,
+          "roundPhase": 2,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 3,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 15,
+          "picas": 2,
+          "sofascore": 7.1
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46147,
+          "date": 1756668600,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "round": {
+            "id": 4486,
+            "name": "Jornada 3",
+            "short": "J3"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 3,
+          "5": 5,
+          "3": 3,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1270000,
+          "score1": 6,
+          "score2": 3,
+          "score5": 5,
+          "score3": 3,
+          "score6": 2,
+          "roundPhase": 3,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "match": {
+          "id": 46157,
+          "date": 1757876400,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 6
+          },
+          "away": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 0
+          },
+          "round": {
+            "id": 4487,
+            "name": "Jornada 4",
+            "short": "J4"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46168,
+          "date": 1758481200,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4488,
+            "name": "Jornada 5",
+            "short": "J5"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 54
+          }
+        ],
+        "points": {
+          "1": 10,
+          "2": 7,
+          "5": 9,
+          "3": 6,
+          "6": 4
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1400000,
+          "score1": 10,
+          "score2": 7,
+          "score5": 9,
+          "score3": 6,
+          "score6": 4,
+          "roundPhase": 5,
+          "home": true,
+          "homeScore": 3,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "yellowCard": 1,
+          "minutesPlayed": 90,
+          "picas": 3,
+          "sofascore": 7.5
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46175,
+          "date": 1758828600,
+          "status": "finished",
+          "home": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 1
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "round": {
+            "id": 4710,
+            "name": "Jornada 6 (aplazada)",
+            "short": "J6",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 699232,
+            "source": "as",
+            "title": "El Barça derriba el muro de Aarón",
+            "url": "https://as.com/futbol/el-barca-derriba-el-muro-de-aaron-n/",
+            "date": 1758836310,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 779,
+                "name": "Real Oviedo",
+                "slug": "real-oviedo"
+              }
+            ],
+            "players": [
+              {
+                "id": 20,
+                "name": "Eric García",
+                "slug": "eric-garcia",
+                "altPositions": [
+                  3
+                ]
+              },
+              {
+                "id": 26945,
+                "name": "Lewandowski",
+                "slug": "lewandowski"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 91
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 0,
+          "5": 0,
+          "3": 0,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1570000,
+          "score1": 0,
+          "score2": 0,
+          "score5": 0,
+          "score3": 0,
+          "score6": 1,
+          "roundPhase": 6,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 3,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 1,
+          "picas": "SC"
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46188,
+          "date": 1759077000,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "away": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 1
+          },
+          "round": {
+            "id": 4490,
+            "name": "Jornada 7",
+            "short": "J7"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 699457,
+            "source": "as",
+            "title": "Lamine reaparece y pone al Barça líder",
+            "url": "https://as.com/futbol/lamine-reaparece-y-pone-al-barca-lider-n/",
+            "date": 1759086231,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 13,
+                "name": "Real Sociedad",
+                "slug": "real-sociedad"
+              }
+            ],
+            "players": [
+              {
+                "id": 6871,
+                "name": "Odriozola",
+                "slug": "odriozola"
+              },
+              {
+                "id": 26271,
+                "name": "Yamal",
+                "slug": "lamine-yamal"
+              },
+              {
+                "id": 26945,
+                "name": "Lewandowski",
+                "slug": "lewandowski"
+              },
+              {
+                "id": 38235,
+                "name": "Sergio Francisco",
+                "slug": "sergio-francisco"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 6,
+          "5": 6,
+          "3": 2,
+          "6": 5
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1620000,
+          "score1": 6,
+          "score2": 6,
+          "score5": 6,
+          "score3": 2,
+          "score6": 5,
+          "roundPhase": 7,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.3
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46191,
+          "date": 1759673700,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 4
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "round": {
+            "id": 4491,
+            "name": "Jornada 8",
+            "short": "J8"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 700111,
+            "source": "as",
+            "title": "El Sevilla aplasta al ‘BlandiBarça’",
+            "url": "https://as.com/futbol/el-sevilla-aplasta-al-blandibarca-n/",
+            "date": 1759682774,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              }
+            ],
+            "players": [
+              {
+                "id": 26945,
+                "name": "Lewandowski",
+                "slug": "lewandowski"
+              },
+              {
+                "id": 32363,
+                "name": "Isaac Romero",
+                "slug": "isaac-romero",
+                "altPositions": [
+                  3
+                ]
+              },
+              {
+                "id": 38964,
+                "name": "Alexis Sánchez",
+                "slug": "alexis-sanchez",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 88
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 0,
+          "5": 0,
+          "3": -1,
+          "6": -1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1850000,
+          "score1": 0,
+          "score2": 0,
+          "score5": 0,
+          "score3": -1,
+          "score6": -1,
+          "roundPhase": 8,
+          "away": true,
+          "homeScore": 4,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 2,
+          "picas": "SC",
+          "sofascore": 6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46207,
+          "date": 1760796900,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "away": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 1
+          },
+          "round": {
+            "id": 4492,
+            "name": "Jornada 9",
+            "short": "J9"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 63
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 0,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1440000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 0,
+          "score6": 2,
+          "roundPhase": 9,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 27,
+          "picas": 1,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "match": {
+          "id": 46211,
+          "date": 1761491700,
+          "status": "finished",
+          "home": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 2
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "round": {
+            "id": 4493,
+            "name": "Jornada 10",
+            "short": "J10"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 701706,
+            "source": "as",
+            "title": "El Madrid cancela su deuda",
+            "url": "https://as.com/futbol/primera/el-madrid-cancela-su-deuda-f202510-n/",
+            "date": 1761499314,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 15,
+                "name": "Real Madrid",
+                "slug": "real-madrid"
+              }
+            ],
+            "players": [
+              {
+                "id": 15568,
+                "name": "Vinícius Jr",
+                "slug": "vinicius-junior"
+              },
+              {
+                "id": 19441,
+                "name": "Pedri",
+                "slug": "pedri"
+              },
+              {
+                "id": 19577,
+                "name": "Mbappé",
+                "slug": "mbappe"
+              },
+              {
+                "id": 26271,
+                "name": "Yamal",
+                "slug": "lamine-yamal"
+              },
+              {
+                "id": 30477,
+                "name": "Bellingham",
+                "slug": "jude-bellingham"
+              },
+              {
+                "id": 31243,
+                "name": "Fermín",
+                "slug": "fermin-lopez",
+                "altPositions": [
+                  4
+                ]
+              },
+              {
+                "id": 37646,
+                "name": "Xabi Alonso",
+                "slug": "xabi-alonso"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46228,
+          "date": 1762104600,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4494,
+            "name": "Jornada 11",
+            "short": "J11"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "doubt"
+        },
+        "home": true
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46234,
+          "date": 1762718400,
+          "status": "finished",
+          "home": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 2
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 4
+          },
+          "round": {
+            "id": 4495,
+            "name": "Jornada 12",
+            "short": "J12"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 702966,
+            "source": "as",
+            "title": "Con Lewandowski, el Barça es otro",
+            "url": "https://as.com/futbol/con-lewandowski-el-barca-es-otro-f202511-n/",
+            "date": 1762728973,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 5,
+                "name": "Celta",
+                "slug": "celta"
+              }
+            ],
+            "players": [
+              {
+                "id": 1523,
+                "name": "Iago Aspas",
+                "slug": "iago-aspas",
+                "altPositions": [
+                  3
+                ]
+              },
+              {
+                "id": 14615,
+                "name": "Claudio Giráldez",
+                "slug": "claudio-giraldez"
+              },
+              {
+                "id": 26271,
+                "name": "Yamal",
+                "slug": "lamine-yamal"
+              },
+              {
+                "id": 26945,
+                "name": "Lewandowski",
+                "slug": "lewandowski"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 86
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 3,
+          "5": 2,
+          "3": 0,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 980000,
+          "score1": 0,
+          "score2": 3,
+          "score5": 2,
+          "score3": 0,
+          "score6": 1,
+          "roundPhase": 12,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 4,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 4,
+          "picas": "SC",
+          "sofascore": 6.7
+        }
+      },
+      {
+        "match": {
+          "id": 46247,
+          "date": 1763824500,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 4
+          },
+          "away": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 0
+          },
+          "round": {
+            "id": 4496,
+            "name": "Jornada 13",
+            "short": "J13"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46259,
+          "date": 1764429300,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 1
+          },
+          "round": {
+            "id": 4497,
+            "name": "Jornada 14",
+            "short": "J14"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 84
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 3,
+          "5": 2,
+          "3": 0,
+          "6": 0
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 810000,
+          "score1": 0,
+          "score2": 3,
+          "score5": 2,
+          "score3": 0,
+          "score6": 0,
+          "roundPhase": 14,
+          "home": true,
+          "homeScore": 3,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 6,
+          "picas": "SC",
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46309,
+          "date": 1764705600,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4502,
+            "name": "Jornada 19",
+            "short": "J19"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 88
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 3,
+          "5": 2,
+          "3": 0,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 800000,
+          "score1": 0,
+          "score2": 3,
+          "score5": 2,
+          "score3": 0,
+          "score6": 1,
+          "roundPhase": 19,
+          "home": true,
+          "homeScore": 3,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 2,
+          "picas": "SC",
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46266,
+          "date": 1765042200,
+          "status": "finished",
+          "home": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 3
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 5
+          },
+          "round": {
+            "id": 4498,
+            "name": "Jornada 15",
+            "short": "J15"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 3,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 760000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 3,
+          "score6": 2,
+          "roundPhase": 15,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 5,
+          "win": true,
+          "cleanSheet": false,
+          "minutesPlayed": 45,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46278,
+          "date": 1765647000,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "away": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 0
+          },
+          "round": {
+            "id": 4499,
+            "name": "Jornada 16",
+            "short": "J16"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 88
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 0,
+          "5": 0,
+          "3": 1,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 760000,
+          "score1": 0,
+          "score2": 0,
+          "score5": 0,
+          "score3": 1,
+          "score6": 1,
+          "roundPhase": 16,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 2,
+          "picas": "SC"
+        }
+      },
+      {
+        "match": {
+          "id": 46281,
+          "date": 1766330100,
+          "status": "finished",
+          "home": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 0
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "round": {
+            "id": 4500,
+            "name": "Jornada 17",
+            "short": "J17"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46293,
+          "date": 1767470400,
+          "status": "finished",
+          "home": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 0
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "round": {
+            "id": 4501,
+            "name": "Jornada 18",
+            "short": "J18"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46313,
+          "date": 1768766400,
+          "status": "finished",
+          "home": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 2
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "round": {
+            "id": 4503,
+            "name": "Jornada 20",
+            "short": "J20"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46328,
+          "date": 1769354100,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 0
+          },
+          "round": {
+            "id": 4504,
+            "name": "Jornada 21",
+            "short": "J21"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46338,
+          "date": 1769889600,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "round": {
+            "id": 4505,
+            "name": "Jornada 22",
+            "short": "J22"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46347,
+          "date": 1770477300,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 0
+          },
+          "round": {
+            "id": 4506,
+            "name": "Jornada 23",
+            "short": "J23"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46358,
+          "date": 1771272000,
+          "status": "finished",
+          "home": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 2
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "round": {
+            "id": 4507,
+            "name": "Jornada 24",
+            "short": "J24"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46366,
+          "date": 1771773300,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 0
+          },
+          "round": {
+            "id": 4508,
+            "name": "Jornada 25",
+            "short": "J25"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46379,
+          "date": 1772291700,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 4
+          },
+          "away": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 1
+          },
+          "round": {
+            "id": 4509,
+            "name": "Jornada 26",
+            "short": "J26"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46390,
+          "date": 1772913600,
+          "status": "finished",
+          "home": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 0
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "round": {
+            "id": 4510,
+            "name": "Jornada 27",
+            "short": "J27"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46398,
+          "date": 1773587700,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 5
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "round": {
+            "id": 4511,
+            "name": "Jornada 28",
+            "short": "J28"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46402,
+          "date": 1774184400,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4512,
+            "name": "Jornada 29",
+            "short": "J29"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46412,
+          "date": 1775329200,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "round": {
+            "id": 4513,
+            "name": "Jornada 30",
+            "short": "J30"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46429,
+          "date": 1775925000,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 4
+          },
+          "away": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 1
+          },
+          "round": {
+            "id": 4514,
+            "name": "Jornada 31",
+            "short": "J31"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46449,
+          "date": 1776886200,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "away": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 0
+          },
+          "round": {
+            "id": 4516,
+            "name": "Jornada 33",
+            "short": "J33"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46435,
+          "date": 1777126500,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "round": {
+            "id": 4515,
+            "name": "Jornada 32",
+            "short": "J32"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46452,
+          "date": 1777748400,
+          "status": "finished",
+          "home": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 1
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "round": {
+            "id": 4517,
+            "name": "Jornada 34",
+            "short": "J34"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46461,
+          "date": 1778439600,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "away": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 0
+          },
+          "round": {
+            "id": 4518,
+            "name": "Jornada 35",
+            "short": "J35"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 716844,
+            "source": "as",
+            "title": "El Madrid no discute el alirón",
+            "url": "https://as.com/futbol/primera/el-madrid-no-discute-el-aliron-f202605-n/",
+            "date": 1778446537,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 15,
+                "name": "Real Madrid",
+                "slug": "real-madrid"
+              }
+            ],
+            "players": [
+              {
+                "id": 15568,
+                "name": "Vinícius Jr",
+                "slug": "vinicius-junior"
+              },
+              {
+                "id": 19441,
+                "name": "Pedri",
+                "slug": "pedri"
+              },
+              {
+                "id": 26048,
+                "name": "Tchouameni",
+                "slug": "tchouameni",
+                "altPositions": [
+                  2
+                ]
+              },
+              {
+                "id": 26930,
+                "name": "Raphinha",
+                "slug": "raphinha"
+              },
+              {
+                "id": 39769,
+                "name": "Álvaro Arbeloa",
+                "slug": "alvaro-arbeloa"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "doubt"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46480,
+          "date": 1778700600,
+          "status": "finished",
+          "home": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 1
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 0
+          },
+          "round": {
+            "id": 4519,
+            "name": "Jornada 36",
+            "short": "J36"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "doubt"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46488,
+          "date": 1779045300,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 1
+          },
+          "round": {
+            "id": 4520,
+            "name": "Jornada 37",
+            "short": "J37"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46500,
+          "date": 1779562800,
+          "status": "finished",
+          "home": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 3
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "round": {
+            "id": 4521,
+            "name": "Jornada 38",
+            "short": "J38"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717819,
+            "source": "as",
+            "title": "Final feliz para el Valencia",
+            "url": "https://as.com/futbol/primera/final-feliz-para-el-valencia-f202605-n/",
+            "date": 1779572520,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 18,
+                "name": "Valencia",
+                "slug": "valencia"
+              }
+            ],
+            "players": [
+              {
+                "id": 26945,
+                "name": "Lewandowski",
+                "slug": "lewandowski"
+              },
+              {
+                "id": 30123,
+                "name": "Javi Guerra",
+                "slug": "javier-guerra"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 62
+          },
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 70
+          }
+        ],
+        "points": {
+          "1": -2,
+          "2": 0,
+          "5": -1,
+          "3": 0,
+          "6": -1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 320000,
+          "score1": -2,
+          "score2": 0,
+          "score5": -1,
+          "score3": 0,
+          "score6": -1,
+          "roundPhase": 38,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "yellowCard": 1,
+          "minutesPlayed": 28,
+          "picas": 0,
+          "sofascore": 6
+        }
+      }
+    ],
+    "seasons": [
+      {
+        "id": "2026",
+        "name": "Temporada 2025/2026",
+        "slug": "2025-2026",
+        "names": {
+          "es": "Temporada 2025/2026",
+          "ca": "Temporada 2025/2026",
+          "eu": "2025/2026 Denboraldia",
+          "gl": "Tempada 2025/2026",
+          "es-419": "Temporada 2025/2026"
+        },
+        "games": 13,
+        "points": {
+          "1": 30,
+          "2": 35,
+          "5": 36,
+          "3": 14,
+          "6": 18
+        },
+        "selected": true
+      },
+      {
+        "id": "2025",
+        "name": "Temporada 2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "Temporada 2024/2025",
+          "ca": "Temporada 2024/2025",
+          "eu": "2024/2025 Denboraldia",
+          "gl": "Tempada 2024/2025",
+          "es-419": "Temporada 2024/2025"
+        },
+        "games": 5,
+        "points": {
+          "1": 22,
+          "2": 19,
+          "5": 22,
+          "3": 9,
+          "6": 10
+        }
+      },
+      {
+        "id": "2024",
+        "name": "Temporada 2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "Temporada 2023/2024",
+          "ca": "Temporada 2023/2024",
+          "eu": "2023/2024 Denboraldia",
+          "gl": "Tempada 2023/2024",
+          "es-419": "Temporada 2023/2024"
+        },
+        "games": 30,
+        "points": {
+          "1": 94,
+          "2": 139,
+          "5": 124,
+          "3": 120,
+          "6": 82
+        }
+      },
+      {
+        "id": "2023",
+        "name": "Temporada 2022/2023",
+        "slug": "2022-2023",
+        "names": {
+          "es": "Temporada 2022/2023",
+          "ca": "Temporada 2022/2023",
+          "eu": "2022/2023 Denboraldia",
+          "gl": "Tempada 2022/2023",
+          "es-419": "Temporada 2022/2023"
+        },
+        "games": 23,
+        "points": {
+          "1": 121,
+          "2": 121,
+          "5": 125,
+          "3": 105,
+          "6": 111
+        }
+      },
+      {
+        "id": "2026",
+        "name": "2025/2026",
+        "slug": "2025-2026",
+        "names": {
+          "es": "2025/2026",
+          "ca": "2025/2026",
+          "eu": "2025/2026",
+          "gl": "2025/2026",
+          "es-419": "2025/2026"
+        },
+        "games": 4,
+        "points": {
+          "1": 0,
+          "2": 5,
+          "5": 3,
+          "3": 1
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5928,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2025",
+        "name": "2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "2024/2025",
+          "ca": "2024/2025",
+          "eu": "2024/2025",
+          "gl": "2024/2025",
+          "es-419": "2024/2025"
+        },
+        "games": 1,
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": null,
+          "3": 0
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5928,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "Eurocopa 2024",
+        "slug": "euro-2024",
+        "names": {
+          "es": "Eurocopa 2024",
+          "ca": "Eurocopa 2024",
+          "eu": "Eurocopa 2024",
+          "gl": "Eurocopa 2024",
+          "es-419": "Eurocopa 2024"
+        },
+        "games": 4,
+        "points": {
+          "1": 12,
+          "2": 19,
+          "5": 16
+        },
+        "competition": {
+          "id": 50,
+          "name": "Eurocopa",
+          "slug": "euro"
+        },
+        "player": {
+          "id": 4223,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "2023/2024",
+          "ca": "2023/2024",
+          "eu": "2023/2024",
+          "gl": "2023/2024",
+          "es-419": "2023/2024"
+        },
+        "games": 7,
+        "points": {
+          "1": 11,
+          "2": 39,
+          "5": null,
+          "3": 24
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5928,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2024",
+        "slug": "2024",
+        "names": {
+          "es": "2024",
+          "ca": "2024",
+          "eu": "2024",
+          "gl": "2024",
+          "es-419": "2024"
+        },
+        "games": 2,
+        "points": {
+          "1": 8,
+          "2": 13,
+          "5": 11
+        },
+        "competition": {
+          "id": 58,
+          "name": "Supercopa de España",
+          "slug": "supercopa"
+        },
+        "player": {
+          "id": 18375,
+          "slug": "christensen"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2024",
+        "slug": "2024",
+        "names": {
+          "es": "2024",
+          "ca": "2024",
+          "eu": "2024",
+          "gl": "2024",
+          "es-419": "2024"
+        },
+        "games": 2,
+        "points": {
+          "1": 0,
+          "2": 6,
+          "5": 4
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 29449,
+          "slug": "christensen"
+        }
+      },
+      {
+        "id": "2023",
+        "name": "2022/2023",
+        "slug": "2022-2023",
+        "names": {
+          "es": "2022/2023",
+          "ca": "2022/2023",
+          "eu": "2022/2023",
+          "gl": "2022/2023",
+          "es-419": "2022/2023"
+        },
+        "games": 3,
+        "points": {
+          "1": null,
+          "2": 15,
+          "5": null,
+          "3": 12
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5928,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2023",
+        "name": "2023",
+        "slug": "2023",
+        "names": {
+          "es": "2023",
+          "ca": "2023",
+          "eu": "2023",
+          "gl": "2023",
+          "es-419": "2023"
+        },
+        "games": 2,
+        "points": {
+          "1": 8,
+          "2": 7,
+          "5": 8
+        },
+        "competition": {
+          "id": 58,
+          "name": "Supercopa de España",
+          "slug": "supercopa"
+        },
+        "player": {
+          "id": 18375,
+          "slug": "christensen"
+        }
+      },
+      {
+        "id": "2023",
+        "name": "2023",
+        "slug": "2023",
+        "names": {
+          "es": "2023",
+          "ca": "2023",
+          "eu": "2023",
+          "gl": "2023",
+          "es-419": "2023"
+        },
+        "games": 2,
+        "points": {
+          "1": 12,
+          "2": 9,
+          "5": 11
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 29449,
+          "slug": "christensen"
+        }
+      },
+      {
+        "id": "2022",
+        "name": "2021/2022",
+        "slug": "2021-2022",
+        "names": {
+          "es": "2021/2022",
+          "ca": "2021/2022",
+          "eu": "2021/2022",
+          "gl": "2021/2022",
+          "es-419": "2021/2022"
+        },
+        "games": 8,
+        "points": {
+          "1": null,
+          "2": 46,
+          "5": null,
+          "3": 43
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5928,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2022",
+        "name": "Temporada 2021/2022",
+        "slug": "2021-2022",
+        "names": {
+          "es": "Temporada 2021/2022",
+          "ca": "Temporada 2021/2022",
+          "eu": "2021/2022 Denboraldia",
+          "gl": "Tempada 2021/2022",
+          "es-419": "Temporada 2021/2022"
+        },
+        "games": 19,
+        "points": {
+          "2": 90,
+          "3": 86
+        },
+        "competition": {
+          "id": 3,
+          "name": "Premier League",
+          "slug": "premier-league"
+        },
+        "player": {
+          "id": 10144,
+          "slug": "christensen"
+        }
+      },
+      {
+        "id": "2022",
+        "name": "Catar 2022",
+        "slug": "qatar-2022",
+        "names": {
+          "es": "Catar 2022",
+          "ca": "Catar 2022",
+          "eu": "Catar 2022",
+          "gl": "Catar 2022",
+          "es-419": "Catar 2022"
+        },
+        "games": 3,
+        "points": {
+          "1": 19,
+          "2": 28,
+          "5": 25,
+          "3": 17
+        },
+        "competition": {
+          "id": 53,
+          "name": "Mundial",
+          "slug": "world-cup"
+        },
+        "player": {
+          "id": 14182,
+          "slug": "andreas-christensen"
+        }
+      },
+      {
+        "id": "2021",
+        "name": "2020/2021",
+        "slug": "2020-2021",
+        "names": {
+          "es": "2020/2021",
+          "ca": "2020/2021",
+          "eu": "2020/2021",
+          "gl": "2020/2021",
+          "es-419": "2020/2021"
+        },
+        "games": 7,
+        "points": {
+          "1": null,
+          "2": 30,
+          "5": null,
+          "3": 33
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5928,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2021",
+        "name": "Temporada 2020/2021",
+        "slug": "2020-2021",
+        "names": {
+          "es": "Temporada 2020/2021",
+          "ca": "Temporada 2020/2021",
+          "eu": "2020/2021 Denboraldia",
+          "gl": "Tempada 2020/2021",
+          "es-419": "Temporada 2020/2021"
+        },
+        "games": 17,
+        "points": {
+          "2": 79,
+          "3": 81
+        },
+        "competition": {
+          "id": 3,
+          "name": "Premier League",
+          "slug": "premier-league"
+        },
+        "player": {
+          "id": 10144,
+          "slug": "christensen"
+        }
+      },
+      {
+        "id": "2020",
+        "name": "Eurocopa 2020",
+        "slug": "euro-2020",
+        "names": {
+          "es": "Eurocopa 2020",
+          "ca": "Eurocopa 2020",
+          "eu": "Eurocopa 2020",
+          "gl": "Eurocopa 2020",
+          "es-419": "Eurocopa 2020"
+        },
+        "games": 6,
+        "points": {
+          "1": 33,
+          "2": 35,
+          "5": 37
+        },
+        "competition": {
+          "id": 50,
+          "name": "Eurocopa",
+          "slug": "euro"
+        },
+        "player": {
+          "id": 4223,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2020",
+        "name": "2019/2020",
+        "slug": "2019-2020",
+        "names": {
+          "es": "2019/2020",
+          "ca": "2019/2020",
+          "eu": "2019/2020",
+          "gl": "2019/2020",
+          "es-419": "2019/2020"
+        },
+        "games": 4,
+        "points": {
+          "1": null,
+          "2": 8,
+          "5": null,
+          "3": 13
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5928,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2020",
+        "name": "Temporada 2019/2020",
+        "slug": "2019-2020",
+        "names": {
+          "es": "Temporada 2019/2020",
+          "ca": "Temporada 2019/2020",
+          "eu": "2019/2020 Denboraldia",
+          "gl": "Tempada 2019/2020",
+          "es-419": "Temporada 2019/2020"
+        },
+        "games": 21,
+        "points": {
+          "2": 88,
+          "3": 83
+        },
+        "competition": {
+          "id": 3,
+          "name": "Premier League",
+          "slug": "premier-league"
+        },
+        "player": {
+          "id": 10144,
+          "slug": "christensen"
+        }
+      },
+      {
+        "id": "2019",
+        "name": "Temporada 2018/2019",
+        "slug": "2018-2019",
+        "names": {
+          "es": "Temporada 2018/2019",
+          "ca": "Temporada 2018/2019",
+          "eu": "2018/2019 Denboraldia",
+          "gl": "Tempada 2018/2019",
+          "es-419": "Temporada 2018/2019"
+        },
+        "games": 8,
+        "points": {
+          "2": 31,
+          "3": 34
+        },
+        "competition": {
+          "id": 3,
+          "name": "Premier League",
+          "slug": "premier-league"
+        },
+        "player": {
+          "id": 10144,
+          "slug": "christensen"
+        }
+      },
+      {
+        "id": "2018",
+        "name": "2017/2018",
+        "slug": "2017-2018",
+        "names": {
+          "es": "2017/2018",
+          "ca": "2017/2018",
+          "eu": "2017/2018",
+          "gl": "2017/2018",
+          "es-419": "2017/2018"
+        },
+        "games": 6,
+        "points": {
+          "1": 15,
+          "2": 3,
+          "5": null,
+          "3": 15
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5928,
+          "slug": "a-christensen"
+        }
+      },
+      {
+        "id": "2018",
+        "name": "Temporada 2017/2018",
+        "slug": "2017-2018",
+        "names": {
+          "es": "Temporada 2017/2018",
+          "ca": "Temporada 2017/2018",
+          "eu": "2017/2018 Denboraldia",
+          "gl": "Tempada 2017/2018",
+          "es-419": "Temporada 2017/2018"
+        },
+        "games": 27,
+        "points": {
+          "2": 127,
+          "3": 116
+        },
+        "competition": {
+          "id": 3,
+          "name": "Premier League",
+          "slug": "premier-league"
+        },
+        "player": {
+          "id": 10144,
+          "slug": "christensen"
+        }
+      },
+      {
+        "id": "2018",
+        "name": "Rusia 2018",
+        "slug": "russia-2018",
+        "names": {
+          "es": "Rusia 2018",
+          "ca": "Rusia 2018",
+          "eu": "Rusia 2018",
+          "gl": "Rusia 2018",
+          "es-419": "Rusia 2018"
+        },
+        "games": 4,
+        "points": {
+          "1": 12,
+          "2": 16,
+          "5": 16,
+          "3": 21
+        },
+        "competition": {
+          "id": 53,
+          "name": "Mundial",
+          "slug": "world-cup"
+        },
+        "player": {
+          "id": 14182,
+          "slug": "andreas-christensen"
+        }
+      },
+      {
+        "id": "2017",
+        "name": "2016/2017",
+        "slug": "2016-2017",
+        "names": {
+          "es": "2016/2017",
+          "ca": "2016/2017",
+          "eu": "2016/2017",
+          "gl": "2016/2017",
+          "es-419": "2016/2017"
+        },
+        "games": 4,
+        "points": {
+          "1": 8,
+          "2": 257,
+          "5": null,
+          "3": 8
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5928,
+          "slug": "a-christensen"
+        }
+      }
+    ],
+    "canonicalURL": "https://biwenger.as.com/blog/jugadores/christensen/"
+  }
+}

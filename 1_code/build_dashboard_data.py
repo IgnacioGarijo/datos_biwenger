@@ -426,7 +426,7 @@ def main() -> None:
                 "completed_trade_reconstructions": int(len(trades)),
             },
             "limitations": [
-                "Biwenger devolvió 429 durante la descarga de detalles, así que las métricas de goles, tarjetas y puntos por jugador usan la cobertura disponible en player_reports_long.csv.",
+                "Quedan algunos jugadores sin detalle histórico completo porque no aparecen en el catálogo público actual de Biwenger; sus fichas básicas sí se conservan cuando la API autenticada las devuelve.",
                 "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5, roja=5 y segunda amarilla=5.",
                 "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; no distingue perfectamente ventas al mercado si Biwenger no publica el vendedor.",
             ],
