@@ -439,7 +439,8 @@ function renderDiscipline() {
         y: data.discipline.map((row) => row.palos_index),
         marker: { color: data.discipline.map((row) => teamColor(row.user_name)) },
         customdata: data.discipline.map((row) => [row.amarillas, row.rojas, row.segundas_amarillas]),
-        hovertemplate: "%{x}<br>Índice: %{y}<br>Amarillas: %{customdata[0]}<br>Rojas: %{customdata[1]}<extra></extra>",
+        hovertemplate:
+          "%{x}<br>Índice: %{y}<br>Amarillas efectivas: %{customdata[0]}<br>Rojas efectivas: %{customdata[1]}<br>Dobles amarillas: %{customdata[2]}<extra></extra>",
       },
     ],
     {
