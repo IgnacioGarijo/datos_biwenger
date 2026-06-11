@@ -1,0 +1,297 @@
+{
+  "status": 200,
+  "data": {
+    "round": {
+      "id": 4512
+    },
+    "league": {
+      "id": 1131687,
+      "name": "SuperComunio2.0",
+      "competition": "la-liga",
+      "mode": "league",
+      "type": "normal",
+      "marketMode": "normal",
+      "scoreID": 1,
+      "standings": [
+        {
+          "id": 8128710,
+          "name": "Los vengadores",
+          "icon": "icons/11.png",
+          "points": 1424,
+          "teamValue": 138560000,
+          "teamValueInc": -950000,
+          "position": 1,
+          "lineup": {
+            "type": "3-4-3",
+            "points": 40,
+            "position": 6,
+            "date": 1774036144,
+            "players": [
+              38405,
+              2600,
+              28115,
+              31043,
+              19441,
+              34527,
+              39966,
+              31243,
+              37473,
+              19577,
+              26271
+            ],
+            "bonuses": {
+              "bonusPoint": 1220000,
+              "bonusFixed": 500000,
+              "bonusRoundPosition": 1250000
+            },
+            "count": true
+          }
+        },
+        {
+          "id": 10089858,
+          "name": "Karlox F.C.",
+          "icon": "icons/7.png",
+          "points": 1309,
+          "teamValue": 91370000,
+          "teamValueInc": -770000,
+          "position": 2,
+          "lineup": {
+            "type": "3-4-3",
+            "points": 55,
+            "position": 3,
+            "date": 1773903688,
+            "players": [
+              11,
+              38369,
+              33447,
+              35156,
+              38867,
+              35344,
+              8747,
+              34077,
+              2009,
+              15568,
+              38962
+            ],
+            "bonuses": {
+              "bonusPoint": 1060000,
+              "bonusFixed": 500000,
+              "bonusRoundPosition": 500000
+            },
+            "count": true
+          }
+        },
+        {
+          "id": 8127478,
+          "name": "Arregui",
+          "icon": "https://lh3.googleusercontent.com/a/AItbvmlJOQCrYJFKsWPDYSjpqt1A7kAZJUhj-ZkmC-6Q=s300-c",
+          "points": 1258,
+          "teamValue": 102410000,
+          "teamValueInc": -890000,
+          "position": 3,
+          "lineup": {
+            "type": "3-4-3",
+            "points": 61,
+            "position": 2,
+            "date": 1774030051,
+            "players": [
+              18251,
+              2247,
+              32440,
+              19299,
+              30495,
+              163,
+              2597,
+              26048,
+              18397,
+              26930,
+              26071
+            ],
+            "bonuses": {
+              "bonusPoint": 800000,
+              "bonusFixed": 500000,
+              "bonusRoundPosition": 250000
+            },
+            "count": true
+          }
+        },
+        {
+          "id": 6822272,
+          "name": "Ricardo J",
+          "points": 1184,
+          "teamValue": 157450000,
+          "teamValueInc": -1960000,
+          "position": 4,
+          "lineup": {
+            "type": "3-4-3",
+            "points": 62,
+            "position": 1,
+            "date": 1774035669,
+            "players": [
+              14630,
+              39804,
+              1613,
+              38290,
+              9402,
+              30081,
+              31027,
+              10139,
+              1927,
+              1523,
+              34479
+            ],
+            "bonuses": {
+              "bonusPoint": 540000,
+              "bonusFixed": 500000
+            },
+            "count": true
+          }
+        },
+        {
+          "id": 6826480,
+          "name": "Víctor Orta",
+          "icon": "i/u/6826480.png",
+          "points": 1086,
+          "teamValue": 87480000,
+          "teamValueInc": -350000,
+          "position": 5,
+          "lineup": {
+            "type": "4-3-3",
+            "points": 27,
+            "position": 7,
+            "date": 1773996391,
+            "players": [
+              17482,
+              11800,
+              2100,
+              17731,
+              37495,
+              19862,
+              26697,
+              26068,
+              25159,
+              30787,
+              25724
+            ],
+            "bonuses": {
+              "bonusPoint": 1240000,
+              "bonusFixed": 500000,
+              "bonusRoundPosition": 1500000
+            },
+            "count": true
+          }
+        },
+        {
+          "id": 5684093,
+          "name": "CD Cornisa Azul",
+          "icon": "icons/42.png",
+          "points": 1086,
+          "teamValue": 78730000,
+          "teamValueInc": -540000,
+          "position": 6,
+          "lineup": {
+            "type": "4-3-3",
+            "points": 53,
+            "position": 5,
+            "date": 1773610686,
+            "players": [
+              9887,
+              26095,
+              26276,
+              9557,
+              31026,
+              19860,
+              32338,
+              17057,
+              10276,
+              37451,
+              26077
+            ],
+            "bonuses": {
+              "bonusPoint": 1100000,
+              "bonusFixed": 500000,
+              "bonusRoundPosition": 1000000
+            },
+            "count": true
+          }
+        },
+        {
+          "id": 11678835,
+          "name": "Julia",
+          "icon": "https://graph.facebook.com/10218096465979952/picture?height=300&width=300",
+          "points": 1072,
+          "teamValue": 78670000,
+          "teamValueInc": -620000,
+          "position": 7,
+          "lineup": {
+            "type": "4-3-3",
+            "points": 54,
+            "position": 4,
+            "date": 1773700523,
+            "players": [
+              17021,
+              26566,
+              2476,
+              28087,
+              32020,
+              19445,
+              30210,
+              27271,
+              18398,
+              33,
+              17937
+            ],
+            "bonuses": {
+              "bonusPoint": 1080000,
+              "bonusFixed": 500000,
+              "bonusRoundPosition": 750000
+            },
+            "count": true
+          }
+        }
+      ],
+      "settings": {
+        "splitRound": "recalculation",
+        "bonusFixed": 500000,
+        "bonusPoint": 20000,
+        "bonusInverse": true,
+        "bonusIdealLineup": 0,
+        "bonusGameMVP": 0,
+        "bonusRoundPosition": [
+          [
+            2,
+            250000
+          ],
+          [
+            3,
+            500000
+          ],
+          [
+            4,
+            750000
+          ],
+          [
+            5,
+            1000000
+          ],
+          [
+            6,
+            1250000
+          ],
+          [
+            7,
+            1500000
+          ],
+          [
+            8,
+            1750000
+          ]
+        ],
+        "lineupShow": "round",
+        "lineupRoundChanges": 0,
+        "lineupRoundChangesIn": "onlyNoPlayed",
+        "lineupRoundChangeStrategy": true
+      }
+    }
+  }
+}

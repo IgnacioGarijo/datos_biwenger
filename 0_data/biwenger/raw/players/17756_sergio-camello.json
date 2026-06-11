@@ -1,0 +1,4445 @@
+{
+  "status": 200,
+  "data": {
+    "id": 17756,
+    "name": "Camello",
+    "slug": "sergio-camello",
+    "position": 4,
+    "price": 3290000,
+    "fantasyPrice": 8000000,
+    "country": "es",
+    "number": 10,
+    "birthday": 20010210,
+    "status": "ok",
+    "priceIncrement": -90000,
+    "competition": {
+      "id": 1,
+      "name": "Primera División",
+      "slug": "la-liga",
+      "sport": "football",
+      "currency": "€"
+    },
+    "team": {
+      "id": 70,
+      "name": "Rayo Vallecano",
+      "slug": "rayo-vallecano",
+      "nextGames": []
+    },
+    "prices": [
+      [
+        250611,
+        380000
+      ],
+      [
+        250612,
+        370000
+      ],
+      [
+        250613,
+        360000
+      ],
+      [
+        250614,
+        350000
+      ],
+      [
+        250615,
+        340000
+      ],
+      [
+        250616,
+        340000
+      ],
+      [
+        250617,
+        330000
+      ],
+      [
+        250618,
+        330000
+      ],
+      [
+        250619,
+        320000
+      ],
+      [
+        250620,
+        310000
+      ],
+      [
+        250621,
+        310000
+      ],
+      [
+        250622,
+        300000
+      ],
+      [
+        250623,
+        300000
+      ],
+      [
+        250624,
+        290000
+      ],
+      [
+        250625,
+        280000
+      ],
+      [
+        250626,
+        270000
+      ],
+      [
+        250627,
+        270000
+      ],
+      [
+        250628,
+        270000
+      ],
+      [
+        250629,
+        260000
+      ],
+      [
+        250630,
+        260000
+      ],
+      [
+        250701,
+        260000
+      ],
+      [
+        250702,
+        270000
+      ],
+      [
+        250703,
+        280000
+      ],
+      [
+        250704,
+        300000
+      ],
+      [
+        250705,
+        320000
+      ],
+      [
+        250706,
+        330000
+      ],
+      [
+        250707,
+        350000
+      ],
+      [
+        250708,
+        370000
+      ],
+      [
+        250709,
+        390000
+      ],
+      [
+        250710,
+        400000
+      ],
+      [
+        250711,
+        420000
+      ],
+      [
+        250712,
+        450000
+      ],
+      [
+        250713,
+        480000
+      ],
+      [
+        250714,
+        490000
+      ],
+      [
+        250715,
+        510000
+      ],
+      [
+        250716,
+        540000
+      ],
+      [
+        250717,
+        580000
+      ],
+      [
+        250718,
+        610000
+      ],
+      [
+        250719,
+        650000
+      ],
+      [
+        250720,
+        700000
+      ],
+      [
+        250721,
+        750000
+      ],
+      [
+        250722,
+        810000
+      ],
+      [
+        250723,
+        880000
+      ],
+      [
+        250724,
+        950000
+      ],
+      [
+        250725,
+        1020000
+      ],
+      [
+        250726,
+        1090000
+      ],
+      [
+        250727,
+        1130000
+      ],
+      [
+        250728,
+        1170000
+      ],
+      [
+        250729,
+        1190000
+      ],
+      [
+        250730,
+        1210000
+      ],
+      [
+        250731,
+        1230000
+      ],
+      [
+        250801,
+        1240000
+      ],
+      [
+        250802,
+        1250000
+      ],
+      [
+        250803,
+        1260000
+      ],
+      [
+        250804,
+        1270000
+      ],
+      [
+        250805,
+        1280000
+      ],
+      [
+        250806,
+        1290000
+      ],
+      [
+        250807,
+        1300000
+      ],
+      [
+        250808,
+        1310000
+      ],
+      [
+        250809,
+        1320000
+      ],
+      [
+        250810,
+        1330000
+      ],
+      [
+        250811,
+        1340000
+      ],
+      [
+        250812,
+        1350000
+      ],
+      [
+        250813,
+        1360000
+      ],
+      [
+        250814,
+        1370000
+      ],
+      [
+        250815,
+        1370000
+      ],
+      [
+        250816,
+        1330000
+      ],
+      [
+        250817,
+        1250000
+      ],
+      [
+        250818,
+        1160000
+      ],
+      [
+        250819,
+        1110000
+      ],
+      [
+        250820,
+        1070000
+      ],
+      [
+        250821,
+        1040000
+      ],
+      [
+        250822,
+        1020000
+      ],
+      [
+        250823,
+        1000000
+      ],
+      [
+        250824,
+        990000
+      ],
+      [
+        250825,
+        980000
+      ],
+      [
+        250826,
+        960000
+      ],
+      [
+        250827,
+        950000
+      ],
+      [
+        250828,
+        940000
+      ],
+      [
+        250829,
+        940000
+      ],
+      [
+        250830,
+        930000
+      ],
+      [
+        250831,
+        930000
+      ],
+      [
+        250901,
+        920000
+      ],
+      [
+        250902,
+        910000
+      ],
+      [
+        250903,
+        900000
+      ],
+      [
+        250904,
+        890000
+      ],
+      [
+        250905,
+        880000
+      ],
+      [
+        250906,
+        870000
+      ],
+      [
+        250907,
+        860000
+      ],
+      [
+        250908,
+        850000
+      ],
+      [
+        250909,
+        840000
+      ],
+      [
+        250910,
+        830000
+      ],
+      [
+        250911,
+        820000
+      ],
+      [
+        250912,
+        810000
+      ],
+      [
+        250913,
+        800000
+      ],
+      [
+        250914,
+        800000
+      ],
+      [
+        250915,
+        800000
+      ],
+      [
+        250916,
+        800000
+      ],
+      [
+        250917,
+        790000
+      ],
+      [
+        250918,
+        780000
+      ],
+      [
+        250919,
+        770000
+      ],
+      [
+        250920,
+        760000
+      ],
+      [
+        250921,
+        760000
+      ],
+      [
+        250922,
+        760000
+      ],
+      [
+        250923,
+        760000
+      ],
+      [
+        250924,
+        760000
+      ],
+      [
+        250925,
+        760000
+      ],
+      [
+        250926,
+        750000
+      ],
+      [
+        250927,
+        730000
+      ],
+      [
+        250928,
+        720000
+      ],
+      [
+        250929,
+        690000
+      ],
+      [
+        250930,
+        650000
+      ],
+      [
+        251001,
+        620000
+      ],
+      [
+        251002,
+        600000
+      ],
+      [
+        251003,
+        580000
+      ],
+      [
+        251004,
+        560000
+      ],
+      [
+        251005,
+        550000
+      ],
+      [
+        251006,
+        540000
+      ],
+      [
+        251007,
+        530000
+      ],
+      [
+        251008,
+        520000
+      ],
+      [
+        251009,
+        510000
+      ],
+      [
+        251010,
+        500000
+      ],
+      [
+        251011,
+        490000
+      ],
+      [
+        251012,
+        480000
+      ],
+      [
+        251013,
+        480000
+      ],
+      [
+        251014,
+        470000
+      ],
+      [
+        251015,
+        460000
+      ],
+      [
+        251016,
+        450000
+      ],
+      [
+        251017,
+        440000
+      ],
+      [
+        251018,
+        440000
+      ],
+      [
+        251019,
+        440000
+      ],
+      [
+        251020,
+        440000
+      ],
+      [
+        251021,
+        440000
+      ],
+      [
+        251022,
+        440000
+      ],
+      [
+        251023,
+        440000
+      ],
+      [
+        251024,
+        440000
+      ],
+      [
+        251025,
+        430000
+      ],
+      [
+        251026,
+        430000
+      ],
+      [
+        251027,
+        420000
+      ],
+      [
+        251028,
+        410000
+      ],
+      [
+        251029,
+        400000
+      ],
+      [
+        251030,
+        390000
+      ],
+      [
+        251031,
+        380000
+      ],
+      [
+        251101,
+        370000
+      ],
+      [
+        251102,
+        370000
+      ],
+      [
+        251103,
+        370000
+      ],
+      [
+        251104,
+        370000
+      ],
+      [
+        251105,
+        370000
+      ],
+      [
+        251106,
+        370000
+      ],
+      [
+        251107,
+        370000
+      ],
+      [
+        251108,
+        370000
+      ],
+      [
+        251109,
+        370000
+      ],
+      [
+        251110,
+        360000
+      ],
+      [
+        251111,
+        350000
+      ],
+      [
+        251112,
+        340000
+      ],
+      [
+        251113,
+        340000
+      ],
+      [
+        251114,
+        330000
+      ],
+      [
+        251115,
+        330000
+      ],
+      [
+        251116,
+        330000
+      ],
+      [
+        251117,
+        330000
+      ],
+      [
+        251118,
+        330000
+      ],
+      [
+        251119,
+        330000
+      ],
+      [
+        251120,
+        330000
+      ],
+      [
+        251121,
+        320000
+      ],
+      [
+        251122,
+        310000
+      ],
+      [
+        251123,
+        310000
+      ],
+      [
+        251124,
+        300000
+      ],
+      [
+        251125,
+        300000
+      ],
+      [
+        251126,
+        300000
+      ],
+      [
+        251127,
+        300000
+      ],
+      [
+        251128,
+        300000
+      ],
+      [
+        251129,
+        300000
+      ],
+      [
+        251130,
+        300000
+      ],
+      [
+        251201,
+        300000
+      ],
+      [
+        251202,
+        300000
+      ],
+      [
+        251203,
+        290000
+      ],
+      [
+        251204,
+        290000
+      ],
+      [
+        251205,
+        290000
+      ],
+      [
+        251206,
+        280000
+      ],
+      [
+        251207,
+        280000
+      ],
+      [
+        251208,
+        280000
+      ],
+      [
+        251209,
+        280000
+      ],
+      [
+        251210,
+        280000
+      ],
+      [
+        251211,
+        280000
+      ],
+      [
+        251212,
+        280000
+      ],
+      [
+        251213,
+        280000
+      ],
+      [
+        251214,
+        280000
+      ],
+      [
+        251215,
+        280000
+      ],
+      [
+        251216,
+        280000
+      ],
+      [
+        251217,
+        280000
+      ],
+      [
+        251218,
+        280000
+      ],
+      [
+        251219,
+        280000
+      ],
+      [
+        251220,
+        280000
+      ],
+      [
+        251221,
+        280000
+      ],
+      [
+        251222,
+        280000
+      ],
+      [
+        251223,
+        280000
+      ],
+      [
+        251224,
+        280000
+      ],
+      [
+        251225,
+        280000
+      ],
+      [
+        251226,
+        280000
+      ],
+      [
+        251227,
+        280000
+      ],
+      [
+        251228,
+        280000
+      ],
+      [
+        251229,
+        280000
+      ],
+      [
+        251230,
+        280000
+      ],
+      [
+        251231,
+        280000
+      ],
+      [
+        260101,
+        280000
+      ],
+      [
+        260102,
+        290000
+      ],
+      [
+        260103,
+        290000
+      ],
+      [
+        260104,
+        280000
+      ],
+      [
+        260105,
+        270000
+      ],
+      [
+        260106,
+        260000
+      ],
+      [
+        260107,
+        260000
+      ],
+      [
+        260108,
+        260000
+      ],
+      [
+        260109,
+        260000
+      ],
+      [
+        260110,
+        260000
+      ],
+      [
+        260111,
+        260000
+      ],
+      [
+        260112,
+        260000
+      ],
+      [
+        260113,
+        250000
+      ],
+      [
+        260114,
+        240000
+      ],
+      [
+        260115,
+        230000
+      ],
+      [
+        260116,
+        220000
+      ],
+      [
+        260117,
+        210000
+      ],
+      [
+        260118,
+        210000
+      ],
+      [
+        260119,
+        200000
+      ],
+      [
+        260120,
+        200000
+      ],
+      [
+        260121,
+        200000
+      ],
+      [
+        260122,
+        200000
+      ],
+      [
+        260123,
+        200000
+      ],
+      [
+        260124,
+        200000
+      ],
+      [
+        260125,
+        200000
+      ],
+      [
+        260126,
+        200000
+      ],
+      [
+        260127,
+        200000
+      ],
+      [
+        260128,
+        200000
+      ],
+      [
+        260129,
+        200000
+      ],
+      [
+        260130,
+        200000
+      ],
+      [
+        260131,
+        200000
+      ],
+      [
+        260201,
+        200000
+      ],
+      [
+        260202,
+        200000
+      ],
+      [
+        260203,
+        190000
+      ],
+      [
+        260204,
+        190000
+      ],
+      [
+        260205,
+        190000
+      ],
+      [
+        260206,
+        190000
+      ],
+      [
+        260207,
+        190000
+      ],
+      [
+        260208,
+        190000
+      ],
+      [
+        260209,
+        190000
+      ],
+      [
+        260210,
+        190000
+      ],
+      [
+        260211,
+        190000
+      ],
+      [
+        260212,
+        190000
+      ],
+      [
+        260213,
+        190000
+      ],
+      [
+        260214,
+        190000
+      ],
+      [
+        260215,
+        190000
+      ],
+      [
+        260216,
+        190000
+      ],
+      [
+        260217,
+        190000
+      ],
+      [
+        260218,
+        190000
+      ],
+      [
+        260219,
+        190000
+      ],
+      [
+        260220,
+        190000
+      ],
+      [
+        260221,
+        190000
+      ],
+      [
+        260222,
+        190000
+      ],
+      [
+        260223,
+        190000
+      ],
+      [
+        260224,
+        190000
+      ],
+      [
+        260225,
+        190000
+      ],
+      [
+        260226,
+        190000
+      ],
+      [
+        260227,
+        190000
+      ],
+      [
+        260228,
+        190000
+      ],
+      [
+        260301,
+        190000
+      ],
+      [
+        260302,
+        190000
+      ],
+      [
+        260303,
+        190000
+      ],
+      [
+        260304,
+        190000
+      ],
+      [
+        260305,
+        190000
+      ],
+      [
+        260306,
+        180000
+      ],
+      [
+        260307,
+        180000
+      ],
+      [
+        260308,
+        180000
+      ],
+      [
+        260309,
+        180000
+      ],
+      [
+        260310,
+        180000
+      ],
+      [
+        260311,
+        180000
+      ],
+      [
+        260312,
+        180000
+      ],
+      [
+        260313,
+        180000
+      ],
+      [
+        260314,
+        180000
+      ],
+      [
+        260315,
+        180000
+      ],
+      [
+        260316,
+        180000
+      ],
+      [
+        260317,
+        180000
+      ],
+      [
+        260318,
+        180000
+      ],
+      [
+        260319,
+        180000
+      ],
+      [
+        260320,
+        180000
+      ],
+      [
+        260321,
+        180000
+      ],
+      [
+        260322,
+        180000
+      ],
+      [
+        260323,
+        180000
+      ],
+      [
+        260324,
+        180000
+      ],
+      [
+        260325,
+        180000
+      ],
+      [
+        260326,
+        180000
+      ],
+      [
+        260327,
+        180000
+      ],
+      [
+        260328,
+        180000
+      ],
+      [
+        260329,
+        180000
+      ],
+      [
+        260330,
+        180000
+      ],
+      [
+        260331,
+        180000
+      ],
+      [
+        260401,
+        180000
+      ],
+      [
+        260402,
+        180000
+      ],
+      [
+        260403,
+        180000
+      ],
+      [
+        260404,
+        180000
+      ],
+      [
+        260405,
+        180000
+      ],
+      [
+        260406,
+        180000
+      ],
+      [
+        260407,
+        180000
+      ],
+      [
+        260408,
+        180000
+      ],
+      [
+        260409,
+        180000
+      ],
+      [
+        260410,
+        180000
+      ],
+      [
+        260411,
+        180000
+      ],
+      [
+        260412,
+        180000
+      ],
+      [
+        260413,
+        180000
+      ],
+      [
+        260414,
+        180000
+      ],
+      [
+        260415,
+        180000
+      ],
+      [
+        260416,
+        180000
+      ],
+      [
+        260417,
+        180000
+      ],
+      [
+        260418,
+        180000
+      ],
+      [
+        260419,
+        180000
+      ],
+      [
+        260420,
+        180000
+      ],
+      [
+        260421,
+        180000
+      ],
+      [
+        260422,
+        180000
+      ],
+      [
+        260423,
+        180000
+      ],
+      [
+        260424,
+        190000
+      ],
+      [
+        260425,
+        200000
+      ],
+      [
+        260426,
+        210000
+      ],
+      [
+        260427,
+        280000
+      ],
+      [
+        260428,
+        400000
+      ],
+      [
+        260429,
+        550000
+      ],
+      [
+        260430,
+        790000
+      ],
+      [
+        260501,
+        1040000
+      ],
+      [
+        260502,
+        1210000
+      ],
+      [
+        260503,
+        1390000
+      ],
+      [
+        260504,
+        1640000
+      ],
+      [
+        260505,
+        1890000
+      ],
+      [
+        260506,
+        2170000
+      ],
+      [
+        260507,
+        2500000
+      ],
+      [
+        260508,
+        2880000
+      ],
+      [
+        260509,
+        3310000
+      ],
+      [
+        260510,
+        3440000
+      ],
+      [
+        260511,
+        3640000
+      ],
+      [
+        260512,
+        3750000
+      ],
+      [
+        260513,
+        3840000
+      ],
+      [
+        260514,
+        3990000
+      ],
+      [
+        260515,
+        4060000
+      ],
+      [
+        260516,
+        4120000
+      ],
+      [
+        260517,
+        4180000
+      ],
+      [
+        260518,
+        4290000
+      ],
+      [
+        260519,
+        4430000
+      ],
+      [
+        260520,
+        4580000
+      ],
+      [
+        260521,
+        4720000
+      ],
+      [
+        260522,
+        4870000
+      ],
+      [
+        260523,
+        5080000
+      ],
+      [
+        260524,
+        5100000
+      ],
+      [
+        260525,
+        4990000
+      ],
+      [
+        260526,
+        4770000
+      ],
+      [
+        260527,
+        4540000
+      ],
+      [
+        260528,
+        4540000
+      ],
+      [
+        260529,
+        4370000
+      ],
+      [
+        260530,
+        4200000
+      ],
+      [
+        260531,
+        4030000
+      ],
+      [
+        260601,
+        4030000
+      ],
+      [
+        260602,
+        3920000
+      ],
+      [
+        260603,
+        3810000
+      ],
+      [
+        260604,
+        3810000
+      ],
+      [
+        260605,
+        3810000
+      ],
+      [
+        260606,
+        3720000
+      ],
+      [
+        260607,
+        3620000
+      ],
+      [
+        260608,
+        3570000
+      ],
+      [
+        260609,
+        3470000
+      ],
+      [
+        260610,
+        3380000
+      ],
+      [
+        260611,
+        3290000
+      ]
+    ],
+    "news": [
+      {
+        "id": 717403,
+        "source": "blog",
+        "title": "Javi Guerra da motivos al Valencia para soñar con Europa",
+        "url": "https://biwenger.as.com/blog/javi-guerra-da-motivos-al-valencia-para-sonar-con-europa/",
+        "date": 1779101234,
+        "photo": "https://cdn.biwenger.com/wp/2026/05/fo9j3scgg7myj8luwxcxyabq0athiqpkg8yu3oxlghrn1dxcua7hmi93zahlxuao_Apaisada.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 679359,
+        "source": "as",
+        "title": "Isi irrumpe en el día de Isco",
+        "url": "https://as.com/futbol/primera/isi-irrumpe-en-el-dia-de-isco-n/",
+        "date": 1734905227,
+        "photo": "",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 674259,
+        "source": "blog",
+        "title": "Los 5 recomendables de Gurú Biwenger: Jornada 11",
+        "url": "https://biwenger.as.com/blog/los-5-recomendables-de-guru-biwenger-jornada-11/",
+        "date": 1729857662,
+        "photo": "https://cdn.biwenger.com/wp/2023/01/camello.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 657403,
+        "source": "blog",
+        "title": "Recomendaciones para la jornada 30 de LaLiga",
+        "url": "https://biwenger.as.com/blog/recomendaciones-para-la-jornada-30-de-laliga/",
+        "date": 1711722339,
+        "photo": "https://cdn.biwenger.com/wp/2024/03/nastasic.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 656729,
+        "source": "as",
+        "title": "Lejeune y Camello devuelven la tranquilidad al Rayo",
+        "url": "https://as.com/futbol/primera/lejeune-y-camello-devuelven-la-tranquilidad-al-rayo-n/",
+        "date": 1710704360,
+        "photo": "",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 652047,
+        "source": "blog",
+        "title": "Morata también quiere el Pichichi",
+        "url": "https://biwenger.as.com/blog/morata-tambien-quiere-el-pichichi/",
+        "date": 1704466201,
+        "photo": "https://cdn.biwenger.com/wp/2024/01/morata1.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 631709,
+        "source": "blog",
+        "title": "Jugadores a elegir como Ariete: Jornada 20",
+        "url": "https://biwenger.as.com/blog/jugadores-a-elegir-como-ariete-jornada-20-2/",
+        "date": 1675428610,
+        "photo": "https://cdn.biwenger.com/wp/2022/10/sorloth.jpg",
+        "video": "",
+        "comments": 2
+      },
+      {
+        "id": 629818,
+        "source": "blog",
+        "title": "Recomendaciones de jugadores para la jornada 16",
+        "url": "https://biwenger.as.com/blog/recomendaciones-de-jugadores-para-la-jornada-16/",
+        "date": 1673008070,
+        "photo": "https://cdn.biwenger.com/wp/2023/01/camello.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 624368,
+        "source": "blog",
+        "title": "¿Quién será el MVP de la jornada 2?",
+        "url": "https://biwenger.as.com/blog/quien-sera-el-mvp-de-la-jornada-2-4/",
+        "date": 1661522583,
+        "photo": "https://cdn.biwenger.com/wp/2022/08/alvaro-morata-atletico-de-madrid-laliga_i9mk0jlfewy21kqjasiqeb4sk-1.jpg",
+        "video": "",
+        "comments": 0
+      }
+    ],
+    "threads": [
+      {
+        "id": 623754,
+        "source": "forum",
+        "title": "Sergio Camello",
+        "url": "https://foro.biwenger.com/hilos/sergio-camello.166213/",
+        "date": 1779571484,
+        "photo": "",
+        "video": "",
+        "comments": 431
+      }
+    ],
+    "iconHero": "i/p/hero/17756.png",
+    "playedHome": 12,
+    "playedAway": 10,
+    "reports": [
+      {
+        "match": {
+          "id": 46124,
+          "date": 1755277200,
+          "status": "finished",
+          "home": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 3
+          },
+          "round": {
+            "id": 4484,
+            "name": "Jornada 1",
+            "short": "J1"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46131,
+          "date": 1756143000,
+          "status": "finished",
+          "home": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4485,
+            "name": "Jornada 2",
+            "short": "J2"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 696961,
+            "source": "as",
+            "title": "Soy Sancet y he vuelto",
+            "url": "https://as.com/futbol/soy-sancet-y-estoy-de-vuelta-n/",
+            "date": 1756149763,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 1,
+                "name": "Athletic",
+                "slug": "athletic"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 79
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 1,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 980000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 1,
+          "score6": 0,
+          "roundPhase": 2,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 11,
+          "picas": 1,
+          "sofascore": 6.6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46147,
+          "date": 1756668600,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "round": {
+            "id": 4486,
+            "name": "Jornada 3",
+            "short": "J3"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 76
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 1,
+          "6": 1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 930000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 1,
+          "score6": 1,
+          "roundPhase": 3,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 14,
+          "picas": 1,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46159,
+          "date": 1757867400,
+          "status": "finished",
+          "home": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 2
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4487,
+            "name": "Jornada 4",
+            "short": "J4"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 698316,
+            "source": "as",
+            "title": "Osasuna se crece en casa",
+            "url": "https://as.com/futbol/primera/osasuna-se-crece-en-casa-n/",
+            "date": 1757875716,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              },
+              {
+                "id": 93,
+                "name": "Osasuna",
+                "slug": "osasuna"
+              }
+            ],
+            "players": [
+              {
+                "id": 5475,
+                "name": "Alessio Lisci",
+                "slug": "alessio-lisci"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 65
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 0,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 800000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 0,
+          "score6": 0,
+          "roundPhase": 4,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 25,
+          "picas": 1,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46166,
+          "date": 1758456000,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 1
+          },
+          "round": {
+            "id": 4488,
+            "name": "Jornada 5",
+            "short": "J5"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 698916,
+            "source": "as",
+            "title": "El Celta, hechizado por el 1-1",
+            "url": "https://as.com/futbol/primera/el-celta-hechizado-por-el-1-1-n/",
+            "date": 1758463519,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 5,
+                "name": "Celta",
+                "slug": "celta"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 60
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 5,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 760000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 5,
+          "score6": 0,
+          "roundPhase": 5,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 60,
+          "picas": 1,
+          "sofascore": 6.9
+        }
+      },
+      {
+        "match": {
+          "id": 46178,
+          "date": 1758742200,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 3
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 2
+          },
+          "round": {
+            "id": 4710,
+            "name": "Jornada 6 (aplazada)",
+            "short": "J6",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 699155,
+            "source": "as",
+            "title": "El Rayo pica, la Araña mata",
+            "url": "https://as.com/futbol/primera/el-rayo-pica-la-arana-mata-n/",
+            "date": 1758750206,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": [
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              },
+              {
+                "id": 26780,
+                "name": "Íñigo Pérez",
+                "slug": "inigo-perez-2"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46184,
+          "date": 1759060800,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "round": {
+            "id": 4490,
+            "name": "Jornada 7",
+            "short": "J7"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 78
+          },
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 92
+          },
+          {
+            "type": 7,
+            "period": "secondTime",
+            "metadata": 98
+          }
+        ],
+        "points": {
+          "1": -8,
+          "2": -3,
+          "5": -6,
+          "3": -3,
+          "6": -3
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 720000,
+          "score1": -8,
+          "score2": -3,
+          "score5": -6,
+          "score3": -3,
+          "score6": -3,
+          "roundPhase": 7,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "redCard": 1,
+          "yellowCard": 1,
+          "minutesPlayed": 12,
+          "picas": 0,
+          "sofascore": 5.5
+        }
+      },
+      {
+        "match": {
+          "id": 46192,
+          "date": 1759681800,
+          "status": "finished",
+          "home": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 0
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "round": {
+            "id": 4491,
+            "name": "Jornada 8",
+            "short": "J8"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "sanctioned"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46204,
+          "date": 1760891400,
+          "status": "finished",
+          "home": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 0
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 3
+          },
+          "round": {
+            "id": 4492,
+            "name": "Jornada 9",
+            "short": "J9"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 701045,
+            "source": "as",
+            "title": "De Frutos, de exhibición en el Ciutat",
+            "url": "https://as.com/futbol/primera/de-frutos-de-exhibicion-en-el-ciutat-f202510-n/",
+            "date": 1760899205,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 10,
+                "name": "Levante",
+                "slug": "levante"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": [
+              {
+                "id": 18397,
+                "name": "De Frutos",
+                "slug": "jorge-de-frutos",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "sanctioned"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46217,
+          "date": 1761508800,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 0
+          },
+          "round": {
+            "id": 4493,
+            "name": "Jornada 10",
+            "short": "J10"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46221,
+          "date": 1762002000,
+          "status": "finished",
+          "home": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 4
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4494,
+            "name": "Jornada 11",
+            "short": "J11"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 66
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 0,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 370000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 0,
+          "score6": -1,
+          "roundPhase": 11,
+          "away": true,
+          "homeScore": 4,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 24,
+          "picas": 1,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "match": {
+          "id": 46236,
+          "date": 1762701300,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "away": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 0
+          },
+          "round": {
+            "id": 4495,
+            "name": "Jornada 12",
+            "short": "J12"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46245,
+          "date": 1763902800,
+          "status": "finished",
+          "home": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 0
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4496,
+            "name": "Jornada 13",
+            "short": "J13"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 70
+          }
+        ],
+        "points": {
+          "1": -2,
+          "2": 0,
+          "5": -1,
+          "3": 3,
+          "6": -2
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 310000,
+          "score1": -2,
+          "score2": 0,
+          "score5": -1,
+          "score3": 3,
+          "score6": -2,
+          "roundPhase": 13,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 0,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 70,
+          "picas": 0,
+          "sofascore": 6.1
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46254,
+          "date": 1764619200,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 1
+          },
+          "round": {
+            "id": 4497,
+            "name": "Jornada 14",
+            "short": "J14"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 704723,
+            "source": "as",
+            "title": "Mendy estuvo en todos lados",
+            "url": "https://as.com/futbol/mendy-estuvo-en-todos-lados-f202512-n/",
+            "date": 1764627092,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 18,
+                "name": "Valencia",
+                "slug": "valencia"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 92
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 0,
+          "5": 0,
+          "3": 0,
+          "6": -2
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 300000,
+          "score1": 0,
+          "score2": 0,
+          "score5": 0,
+          "score3": 0,
+          "score6": -2,
+          "roundPhase": 14,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 1,
+          "picas": "SC"
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46262,
+          "date": 1765128600,
+          "status": "finished",
+          "home": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4498,
+            "name": "Jornada 15",
+            "short": "J15"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 705090,
+            "source": "as",
+            "title": "La Quinta de Manolo",
+            "url": "https://as.com/futbol/primera/dolan-es-la-chispa-y-roberto-el-fuego-f202512-n/",
+            "date": 1765135745,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 7,
+                "name": "Espanyol",
+                "slug": "espanyol"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 52
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 0,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 280000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 0,
+          "score6": 0,
+          "roundPhase": 15,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 38,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46274,
+          "date": 1765828800,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "away": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 0
+          },
+          "round": {
+            "id": 4499,
+            "name": "Jornada 16",
+            "short": "J16"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 66
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 1,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 280000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 1,
+          "score6": -1,
+          "roundPhase": 16,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 0,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 24,
+          "picas": 1,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46288,
+          "date": 1766338200,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 4
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4500,
+            "name": "Jornada 17",
+            "short": "J17"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 5,
+          "5": 4,
+          "3": 6,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 280000,
+          "score1": 2,
+          "score2": 5,
+          "score5": 4,
+          "score3": 6,
+          "score6": -1,
+          "roundPhase": 17,
+          "away": true,
+          "homeScore": 4,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46297,
+          "date": 1767384000,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "round": {
+            "id": 4501,
+            "name": "Jornada 18",
+            "short": "J18"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 706882,
+            "source": "as",
+            "title": "Rayo y Getafe se hacen rogar hasta el descuento",
+            "url": "https://as.com/futbol/primera/rayo-y-getafe-se-hacen-rogar-hasta-el-descuento-f202601-n/",
+            "date": 1767391276,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": [
+              {
+                "id": 11,
+                "name": "David Soria",
+                "slug": "david-soria"
+              },
+              {
+                "id": 18397,
+                "name": "De Frutos",
+                "slug": "jorge-de-frutos",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 67
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 2,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 290000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 2,
+          "score6": 0,
+          "roundPhase": 18,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 67,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "match": {
+          "id": 46304,
+          "date": 1768136400,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 2
+          },
+          "away": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 1
+          },
+          "round": {
+            "id": 4787,
+            "name": "Jornada 19 (aplazada)",
+            "short": "J19",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46314,
+          "date": 1768757400,
+          "status": "finished",
+          "home": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 3
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4503,
+            "name": "Jornada 20",
+            "short": "J20"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46324,
+          "date": 1769259600,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 3
+          },
+          "round": {
+            "id": 4504,
+            "name": "Jornada 21",
+            "short": "J21"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 72
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 1,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 200000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 1,
+          "score6": 0,
+          "roundPhase": 21,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 3,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 18,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "match": {
+          "id": 46332,
+          "date": 1769950800,
+          "status": "finished",
+          "home": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 2
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "round": {
+            "id": 4505,
+            "name": "Jornada 22",
+            "short": "J22"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 709417,
+            "source": "as",
+            "title": "El Madrid pende de un hilo",
+            "url": "https://as.com/futbol/primera/el-madrid-pende-de-un-hilo-f202602-n/",
+            "date": 1769958550,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 15,
+                "name": "Real Madrid",
+                "slug": "real-madrid"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": [
+              {
+                "id": 15568,
+                "name": "Vinícius Jr",
+                "slug": "vinicius-junior"
+              },
+              {
+                "id": 19577,
+                "name": "Mbappé",
+                "slug": "mbappe"
+              },
+              {
+                "id": 26780,
+                "name": "Íñigo Pérez",
+                "slug": "inigo-perez-2"
+              },
+              {
+                "id": 30477,
+                "name": "Bellingham",
+                "slug": "jude-bellingham"
+              },
+              {
+                "id": 39769,
+                "name": "Álvaro Arbeloa",
+                "slug": "alvaro-arbeloa"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46356,
+          "date": 1771168500,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 3
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 0
+          },
+          "round": {
+            "id": 4507,
+            "name": "Jornada 24",
+            "short": "J24"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 710483,
+            "source": "as",
+            "title": "El Atleti es un chollo en Liga",
+            "url": "https://as.com/futbol/primera/el-atleti-dimite-en-liga-f202602-n/",
+            "date": 1771175419,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": [
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              },
+              {
+                "id": 26780,
+                "name": "Íñigo Pérez",
+                "slug": "inigo-perez-2"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46365,
+          "date": 1771686900,
+          "status": "finished",
+          "home": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "round": {
+            "id": 4508,
+            "name": "Jornada 25",
+            "short": "J25"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46376,
+          "date": 1772283600,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 1
+          },
+          "round": {
+            "id": 4509,
+            "name": "Jornada 26",
+            "short": "J26"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46346,
+          "date": 1772647200,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 3
+          },
+          "away": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 0
+          },
+          "round": {
+            "id": 4832,
+            "name": "Jornada 23 (aplazada)",
+            "short": "J23",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46382,
+          "date": 1772991000,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "round": {
+            "id": 4510,
+            "name": "Jornada 27",
+            "short": "J27"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46396,
+          "date": 1773691200,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 1
+          },
+          "round": {
+            "id": 4511,
+            "name": "Jornada 28",
+            "short": "J28"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46402,
+          "date": 1774184400,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4512,
+            "name": "Jornada 29",
+            "short": "J29"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 82
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 4,
+          "5": 2,
+          "3": 1,
+          "6": -1
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 180000,
+          "score1": 0,
+          "score2": 4,
+          "score5": 2,
+          "score3": 1,
+          "score6": -1,
+          "roundPhase": 29,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 8,
+          "picas": "SC",
+          "sofascore": 6.8
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46419,
+          "date": 1775242800,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 0
+          },
+          "round": {
+            "id": 4513,
+            "name": "Jornada 30",
+            "short": "J30"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 713989,
+            "source": "as",
+            "title": "Nteka le pone la guinda al centenario de Iñigo",
+            "url": "https://as.com/futbol/nteka-le-pone-la-guinda-al-centenario-de-inigo-f202604-n/",
+            "date": 1775249900,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 83
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 1,
+          "5": 1,
+          "3": 0,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 180000,
+          "score1": 0,
+          "score2": 1,
+          "score5": 1,
+          "score3": 0,
+          "score6": 0,
+          "roundPhase": 30,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 7,
+          "picas": "SC",
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46426,
+          "date": 1776003300,
+          "status": "finished",
+          "home": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 3
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4514,
+            "name": "Jornada 31",
+            "short": "J31"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 77
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 3,
+          "5": 2,
+          "3": 1,
+          "6": 0
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 180000,
+          "score1": 0,
+          "score2": 3,
+          "score5": 2,
+          "score3": 1,
+          "score6": 0,
+          "roundPhase": 31,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 13,
+          "picas": "SC",
+          "sofascore": 6.6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46443,
+          "date": 1776967200,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 0
+          },
+          "round": {
+            "id": 4516,
+            "name": "Jornada 33",
+            "short": "J33"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 81
+          },
+          {
+            "type": 1,
+            "period": "secondTime",
+            "metadata": 87
+          }
+        ],
+        "points": {
+          "1": 13,
+          "2": 11,
+          "5": 12,
+          "3": 4,
+          "6": 12
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 180000,
+          "score1": 13,
+          "score2": 11,
+          "score5": 12,
+          "score3": 4,
+          "score6": 12,
+          "roundPhase": 33,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "win": true,
+          "mvp": true,
+          "cleanSheet": true,
+          "goals": 1,
+          "minutesPlayed": 9,
+          "picas": 3,
+          "sofascore": 7.6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46436,
+          "date": 1777204800,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 3
+          },
+          "away": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 3
+          },
+          "round": {
+            "id": 4515,
+            "name": "Jornada 32",
+            "short": "J32"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 715784,
+            "source": "as",
+            "title": "Alemão se rebela contra el VAR",
+            "url": "https://as.com/futbol/primera/alemao-se-rebela-contra-el-var-f202604-n/",
+            "date": 1777213468,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 13,
+                "name": "Real Sociedad",
+                "slug": "real-sociedad"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 1,
+            "period": "firstTime",
+            "metadata": 30
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 64
+          }
+        ],
+        "points": {
+          "1": 13,
+          "2": 12,
+          "5": 13,
+          "3": 7,
+          "6": 9
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 210000,
+          "score1": 13,
+          "score2": 12,
+          "score5": 13,
+          "score3": 7,
+          "score6": 9,
+          "roundPhase": 32,
+          "home": true,
+          "homeScore": 3,
+          "awayScore": 3,
+          "tie": true,
+          "cleanSheet": false,
+          "goals": 1,
+          "minutesPlayed": 64,
+          "picas": 3,
+          "sofascore": 7.8
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46456,
+          "date": 1777817700,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 2
+          },
+          "round": {
+            "id": 4517,
+            "name": "Jornada 34",
+            "short": "J34"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 1,
+            "period": "firstTime",
+            "metadata": 38
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 70
+          }
+        ],
+        "points": {
+          "1": 13,
+          "2": 10,
+          "5": 12,
+          "3": 9,
+          "6": 10
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 1390000,
+          "score1": 13,
+          "score2": 10,
+          "score5": 12,
+          "score3": 9,
+          "score6": 10,
+          "roundPhase": 34,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "win": true,
+          "mvp": true,
+          "cleanSheet": true,
+          "goals": 1,
+          "minutesPlayed": 70,
+          "picas": 3,
+          "sofascore": 7.4
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46462,
+          "date": 1778526000,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 1
+          },
+          "round": {
+            "id": 4518,
+            "name": "Jornada 35",
+            "short": "J35"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 68
+          }
+        ],
+        "points": {
+          "1": 6,
+          "2": 4,
+          "5": 5,
+          "3": 5,
+          "6": 3
+        },
+        "rawStats": {
+          "pos4": true,
+          "price": 3640000,
+          "score1": 6,
+          "score2": 4,
+          "score5": 5,
+          "score3": 5,
+          "score6": 3,
+          "roundPhase": 35,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 68,
+          "picas": 2,
+          "sofascore": 6.8
+        }
+      },
+      {
+        "match": {
+          "id": 46472,
+          "date": 1778778000,
+          "status": "finished",
+          "home": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "round": {
+            "id": 4519,
+            "name": "Jornada 36",
+            "short": "J36"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46484,
+          "date": 1779037200,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 2
+          },
+          "away": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 0
+          },
+          "round": {
+            "id": 4520,
+            "name": "Jornada 37",
+            "short": "J37"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717322,
+            "source": "as",
+            "title": "El Rayo vuela hacia Europa en el adiós de Trejo",
+            "url": "https://as.com/futbol/el-rayo-vuela-hacia-europa-en-el-adios-de-trejo-f202605-n/",
+            "date": 1779045278,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 19,
+                "name": "Villarreal",
+                "slug": "villarreal"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": [
+              {
+                "id": 9462,
+                "name": "Trejo",
+                "slug": "oscar-trejo"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 1,
+            "period": "firstTime",
+            "metadata": 28
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 73
+          }
+        ],
+        "points": {
+          "1": 13,
+          "2": 12,
+          "5": 13,
+          "3": 8,
+          "6": 10
+        },
+        "star": [
+          1,
+          5
+        ],
+        "rawStats": {
+          "pos4": true,
+          "price": 4180000,
+          "score1": 13,
+          "score2": 12,
+          "score5": 13,
+          "score3": 8,
+          "score6": 10,
+          "roundPhase": 37,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "win": true,
+          "mvp": true,
+          "cleanSheet": true,
+          "goals": 1,
+          "minutesPlayed": 73,
+          "picas": 3,
+          "sofascore": 7.9
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46491,
+          "date": 1779562800,
+          "status": "finished",
+          "home": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 1
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 2
+          },
+          "round": {
+            "id": 4521,
+            "name": "Jornada 38",
+            "short": "J38"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717818,
+            "source": "as",
+            "title": "El Rayo remonta pero no llega a Europa",
+            "url": "https://as.com/futbol/el-rayo-remonta-pero-no-llega-a-europa-f202605-n/",
+            "date": 1779571854,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              },
+              {
+                "id": 91,
+                "name": "Alavés",
+                "slug": "alaves"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "firstTime",
+            "metadata": 38
+          },
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 54
+          },
+          {
+            "type": 1,
+            "period": "secondTime",
+            "metadata": 73
+          },
+          {
+            "type": 3,
+            "period": "secondTime",
+            "metadata": 90
+          }
+        ],
+        "points": {
+          "1": 9,
+          "2": 14,
+          "5": 12,
+          "3": 9,
+          "6": 10
+        },
+        "star": [
+          2,
+          5
+        ],
+        "rawStats": {
+          "pos4": true,
+          "price": 5080000,
+          "score1": 9,
+          "score2": 14,
+          "score5": 12,
+          "score3": 9,
+          "score6": 10,
+          "roundPhase": 38,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": true,
+          "goals": 1,
+          "assists": 1,
+          "yellowCard": 1,
+          "minutesPlayed": 52,
+          "picas": 2,
+          "sofascore": 8.1
+        }
+      }
+    ],
+    "seasons": [
+      {
+        "id": "2026",
+        "name": "Temporada 2025/2026",
+        "slug": "2025-2026",
+        "names": {
+          "es": "Temporada 2025/2026",
+          "ca": "Temporada 2025/2026",
+          "eu": "2025/2026 Denboraldia",
+          "gl": "Tempada 2025/2026",
+          "es-419": "Temporada 2025/2026"
+        },
+        "games": 22,
+        "points": {
+          "1": 77,
+          "2": 94,
+          "5": 90,
+          "3": 61,
+          "6": 44
+        },
+        "selected": true
+      },
+      {
+        "id": "2025",
+        "name": "Temporada 2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "Temporada 2024/2025",
+          "ca": "Temporada 2024/2025",
+          "eu": "2024/2025 Denboraldia",
+          "gl": "Tempada 2024/2025",
+          "es-419": "Temporada 2024/2025"
+        },
+        "games": 23,
+        "points": {
+          "1": 71,
+          "2": 104,
+          "5": 93,
+          "3": 61,
+          "6": 57
+        }
+      },
+      {
+        "id": "2024",
+        "name": "Temporada 2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "Temporada 2023/2024",
+          "ca": "Temporada 2023/2024",
+          "eu": "2023/2024 Denboraldia",
+          "gl": "Tempada 2023/2024",
+          "es-419": "Temporada 2023/2024"
+        },
+        "games": 31,
+        "points": {
+          "1": 75,
+          "2": 111,
+          "5": 97,
+          "3": 73,
+          "6": 30
+        }
+      },
+      {
+        "id": "2023",
+        "name": "Temporada 2022/2023",
+        "slug": "2022-2023",
+        "names": {
+          "es": "Temporada 2022/2023",
+          "ca": "Temporada 2022/2023",
+          "eu": "2022/2023 Denboraldia",
+          "gl": "Tempada 2022/2023",
+          "es-419": "Temporada 2022/2023"
+        },
+        "games": 38,
+        "points": {
+          "1": 154,
+          "2": 175,
+          "5": 175,
+          "3": 126,
+          "6": 154
+        }
+      },
+      {
+        "id": "2020",
+        "name": "Temporada 2019/2020",
+        "slug": "2019-2020",
+        "names": {
+          "es": "Temporada 2019/2020",
+          "ca": "Temporada 2019/2020",
+          "eu": "2019/2020 Denboraldia",
+          "gl": "Tempada 2019/2020",
+          "es-419": "Temporada 2019/2020"
+        },
+        "games": 2,
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 0,
+          "6": "-2"
+        }
+      },
+      {
+        "id": "2019",
+        "name": "Temporada 2018/2019",
+        "slug": "2018-2019",
+        "names": {
+          "es": "Temporada 2018/2019",
+          "ca": "Temporada 2018/2019",
+          "eu": "2018/2019 Denboraldia",
+          "gl": "Tempada 2018/2019",
+          "es-419": "Temporada 2018/2019"
+        },
+        "games": 1,
+        "points": {
+          "1": 13,
+          "2": 9,
+          "5": 11,
+          "3": 8,
+          "6": 8
+        }
+      },
+      {
+        "id": "2026",
+        "name": "2026",
+        "slug": "2026",
+        "names": {
+          "es": "2026",
+          "ca": "2026",
+          "eu": "2026",
+          "gl": "2026",
+          "es-419": "2026"
+        },
+        "games": 1,
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 32249,
+          "slug": "sergio-camello"
+        }
+      },
+      {
+        "id": "2026",
+        "name": "2025/2026",
+        "slug": "2025-2026",
+        "names": {
+          "es": "2025/2026",
+          "ca": "2025/2026",
+          "eu": "2025/2026",
+          "gl": "2025/2026",
+          "es-419": "2025/2026"
+        },
+        "games": 0,
+        "points": {
+          "1": null,
+          "2": null,
+          "5": null,
+          "3": null
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 8569,
+          "slug": "sergio-camello"
+        }
+      },
+      {
+        "id": "2025",
+        "name": "2025",
+        "slug": "2025",
+        "names": {
+          "es": "2025",
+          "ca": "2025",
+          "eu": "2025",
+          "gl": "2025",
+          "es-419": "2025"
+        },
+        "games": 1,
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 32249,
+          "slug": "sergio-camello"
+        }
+      },
+      {
+        "id": "2025",
+        "name": "2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "2024/2025",
+          "ca": "2024/2025",
+          "eu": "2024/2025",
+          "gl": "2024/2025",
+          "es-419": "2024/2025"
+        },
+        "games": 0,
+        "points": {
+          "1": null,
+          "2": null,
+          "5": null,
+          "3": null
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 8569,
+          "slug": "sergio-camello"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "2023/2024",
+          "ca": "2023/2024",
+          "eu": "2023/2024",
+          "gl": "2023/2024",
+          "es-419": "2023/2024"
+        },
+        "games": 0,
+        "points": {
+          "1": null,
+          "2": null,
+          "5": null,
+          "3": null
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 8569,
+          "slug": "sergio-camello"
+        }
+      },
+      {
+        "id": "2023",
+        "name": "2022/2023",
+        "slug": "2022-2023",
+        "names": {
+          "es": "2022/2023",
+          "ca": "2022/2023",
+          "eu": "2022/2023",
+          "gl": "2022/2023",
+          "es-419": "2022/2023"
+        },
+        "games": 0,
+        "points": {
+          "1": null,
+          "2": null,
+          "5": null,
+          "3": null
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 8569,
+          "slug": "sergio-camello"
+        }
+      },
+      {
+        "id": "2022",
+        "name": "Temporada 2021/2022",
+        "slug": "2021-2022",
+        "names": {
+          "es": "Temporada 2021/2022",
+          "ca": "Temporada 2021/2022",
+          "eu": "2021/2022 Denboraldia",
+          "gl": "Tempada 2021/2022",
+          "es-419": "Temporada 2021/2022"
+        },
+        "games": 36,
+        "points": {
+          "1": 181,
+          "2": 227,
+          "5": null
+        },
+        "competition": {
+          "id": 2,
+          "name": "Segunda División",
+          "slug": "segunda-division"
+        },
+        "player": {
+          "id": 6260,
+          "slug": "sergio-camello"
+        }
+      },
+      {
+        "id": "2022",
+        "name": "2021/2022",
+        "slug": "2021-2022",
+        "names": {
+          "es": "2021/2022",
+          "ca": "2021/2022",
+          "eu": "2021/2022",
+          "gl": "2021/2022",
+          "es-419": "2021/2022"
+        },
+        "games": 0,
+        "points": {
+          "1": null,
+          "2": null,
+          "5": null,
+          "3": null
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 8569,
+          "slug": "sergio-camello"
+        }
+      }
+    ],
+    "canonicalURL": "https://biwenger.as.com/blog/jugadores/sergio-camello/"
+  }
+}

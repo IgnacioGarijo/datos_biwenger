@@ -1,0 +1,3971 @@
+{
+  "status": 200,
+  "data": {
+    "id": 4703,
+    "name": "Iñaki Peña",
+    "slug": "inaki-pena",
+    "position": 1,
+    "price": 430000,
+    "fantasyPrice": 9000000,
+    "country": "ES",
+    "number": 13,
+    "birthday": 19990302,
+    "status": "ok",
+    "priceIncrement": -10000,
+    "competition": {
+      "id": 1,
+      "name": "Primera División",
+      "slug": "la-liga",
+      "sport": "football",
+      "currency": "€"
+    },
+    "team": {
+      "id": 75,
+      "name": "Elche",
+      "slug": "elche",
+      "nextGames": []
+    },
+    "prices": [
+      [
+        250611,
+        520000
+      ],
+      [
+        250612,
+        510000
+      ],
+      [
+        250613,
+        500000
+      ],
+      [
+        250614,
+        550000
+      ],
+      [
+        250615,
+        540000
+      ],
+      [
+        250616,
+        530000
+      ],
+      [
+        250617,
+        520000
+      ],
+      [
+        250618,
+        510000
+      ],
+      [
+        250619,
+        500000
+      ],
+      [
+        250620,
+        490000
+      ],
+      [
+        250621,
+        480000
+      ],
+      [
+        250622,
+        470000
+      ],
+      [
+        250623,
+        460000
+      ],
+      [
+        250624,
+        450000
+      ],
+      [
+        250625,
+        440000
+      ],
+      [
+        250626,
+        430000
+      ],
+      [
+        250627,
+        420000
+      ],
+      [
+        250628,
+        410000
+      ],
+      [
+        250629,
+        400000
+      ],
+      [
+        250630,
+        390000
+      ],
+      [
+        250701,
+        380000
+      ],
+      [
+        250702,
+        380000
+      ],
+      [
+        250703,
+        370000
+      ],
+      [
+        250704,
+        360000
+      ],
+      [
+        250705,
+        350000
+      ],
+      [
+        250706,
+        340000
+      ],
+      [
+        250707,
+        330000
+      ],
+      [
+        250708,
+        330000
+      ],
+      [
+        250709,
+        330000
+      ],
+      [
+        250710,
+        330000
+      ],
+      [
+        250711,
+        330000
+      ],
+      [
+        250712,
+        320000
+      ],
+      [
+        250713,
+        310000
+      ],
+      [
+        250714,
+        310000
+      ],
+      [
+        250715,
+        310000
+      ],
+      [
+        250716,
+        310000
+      ],
+      [
+        250717,
+        310000
+      ],
+      [
+        250718,
+        310000
+      ],
+      [
+        250719,
+        310000
+      ],
+      [
+        250720,
+        310000
+      ],
+      [
+        250721,
+        310000
+      ],
+      [
+        250722,
+        310000
+      ],
+      [
+        250723,
+        300000
+      ],
+      [
+        250724,
+        300000
+      ],
+      [
+        250725,
+        290000
+      ],
+      [
+        250726,
+        290000
+      ],
+      [
+        250727,
+        290000
+      ],
+      [
+        250728,
+        290000
+      ],
+      [
+        250729,
+        290000
+      ],
+      [
+        250730,
+        290000
+      ],
+      [
+        250731,
+        290000
+      ],
+      [
+        250801,
+        290000
+      ],
+      [
+        250802,
+        290000
+      ],
+      [
+        250803,
+        280000
+      ],
+      [
+        250804,
+        280000
+      ],
+      [
+        250805,
+        280000
+      ],
+      [
+        250806,
+        280000
+      ],
+      [
+        250807,
+        280000
+      ],
+      [
+        250808,
+        280000
+      ],
+      [
+        250809,
+        280000
+      ],
+      [
+        250810,
+        280000
+      ],
+      [
+        250811,
+        280000
+      ],
+      [
+        250812,
+        280000
+      ],
+      [
+        250813,
+        280000
+      ],
+      [
+        250814,
+        280000
+      ],
+      [
+        250815,
+        280000
+      ],
+      [
+        250816,
+        280000
+      ],
+      [
+        250817,
+        280000
+      ],
+      [
+        250818,
+        280000
+      ],
+      [
+        250819,
+        280000
+      ],
+      [
+        250820,
+        280000
+      ],
+      [
+        250821,
+        280000
+      ],
+      [
+        250822,
+        280000
+      ],
+      [
+        250823,
+        290000
+      ],
+      [
+        250824,
+        320000
+      ],
+      [
+        250825,
+        360000
+      ],
+      [
+        250826,
+        460000
+      ],
+      [
+        250827,
+        610000
+      ],
+      [
+        250828,
+        810000
+      ],
+      [
+        250829,
+        1050000
+      ],
+      [
+        250830,
+        1250000
+      ],
+      [
+        250831,
+        1430000
+      ],
+      [
+        250901,
+        1590000
+      ],
+      [
+        250902,
+        1710000
+      ],
+      [
+        250903,
+        1840000
+      ],
+      [
+        250904,
+        1950000
+      ],
+      [
+        250905,
+        2050000
+      ],
+      [
+        250906,
+        2140000
+      ],
+      [
+        250907,
+        2200000
+      ],
+      [
+        250908,
+        2250000
+      ],
+      [
+        250909,
+        2290000
+      ],
+      [
+        250910,
+        2310000
+      ],
+      [
+        250911,
+        2310000
+      ],
+      [
+        250912,
+        2270000
+      ],
+      [
+        250913,
+        2170000
+      ],
+      [
+        250914,
+        2030000
+      ],
+      [
+        250915,
+        1930000
+      ],
+      [
+        250916,
+        1880000
+      ],
+      [
+        250917,
+        1850000
+      ],
+      [
+        250918,
+        1830000
+      ],
+      [
+        250919,
+        1810000
+      ],
+      [
+        250920,
+        1790000
+      ],
+      [
+        250921,
+        1780000
+      ],
+      [
+        250922,
+        1830000
+      ],
+      [
+        250923,
+        1900000
+      ],
+      [
+        250924,
+        2010000
+      ],
+      [
+        250925,
+        2120000
+      ],
+      [
+        250926,
+        2220000
+      ],
+      [
+        250927,
+        2320000
+      ],
+      [
+        250928,
+        2400000
+      ],
+      [
+        250929,
+        2400000
+      ],
+      [
+        250930,
+        2310000
+      ],
+      [
+        251001,
+        2170000
+      ],
+      [
+        251002,
+        2100000
+      ],
+      [
+        251003,
+        2040000
+      ],
+      [
+        251004,
+        1990000
+      ],
+      [
+        251005,
+        1970000
+      ],
+      [
+        251006,
+        1950000
+      ],
+      [
+        251007,
+        1920000
+      ],
+      [
+        251008,
+        1890000
+      ],
+      [
+        251009,
+        1870000
+      ],
+      [
+        251010,
+        1850000
+      ],
+      [
+        251011,
+        1830000
+      ],
+      [
+        251012,
+        1810000
+      ],
+      [
+        251013,
+        1790000
+      ],
+      [
+        251014,
+        1770000
+      ],
+      [
+        251015,
+        1750000
+      ],
+      [
+        251016,
+        1730000
+      ],
+      [
+        251017,
+        1710000
+      ],
+      [
+        251018,
+        1690000
+      ],
+      [
+        251019,
+        1680000
+      ],
+      [
+        251020,
+        1670000
+      ],
+      [
+        251021,
+        1660000
+      ],
+      [
+        251022,
+        1650000
+      ],
+      [
+        251023,
+        1640000
+      ],
+      [
+        251024,
+        1630000
+      ],
+      [
+        251025,
+        1620000
+      ],
+      [
+        251026,
+        1640000
+      ],
+      [
+        251027,
+        1660000
+      ],
+      [
+        251028,
+        1690000
+      ],
+      [
+        251029,
+        1710000
+      ],
+      [
+        251030,
+        1730000
+      ],
+      [
+        251031,
+        1750000
+      ],
+      [
+        251101,
+        1770000
+      ],
+      [
+        251102,
+        1790000
+      ],
+      [
+        251103,
+        1810000
+      ],
+      [
+        251104,
+        1850000
+      ],
+      [
+        251105,
+        1880000
+      ],
+      [
+        251106,
+        1930000
+      ],
+      [
+        251107,
+        1970000
+      ],
+      [
+        251108,
+        1970000
+      ],
+      [
+        251109,
+        1880000
+      ],
+      [
+        251110,
+        1760000
+      ],
+      [
+        251111,
+        1670000
+      ],
+      [
+        251112,
+        1630000
+      ],
+      [
+        251113,
+        1620000
+      ],
+      [
+        251114,
+        1590000
+      ],
+      [
+        251115,
+        1570000
+      ],
+      [
+        251116,
+        1550000
+      ],
+      [
+        251117,
+        1530000
+      ],
+      [
+        251118,
+        1510000
+      ],
+      [
+        251119,
+        1490000
+      ],
+      [
+        251120,
+        1470000
+      ],
+      [
+        251121,
+        1450000
+      ],
+      [
+        251122,
+        1420000
+      ],
+      [
+        251123,
+        1410000
+      ],
+      [
+        251124,
+        1430000
+      ],
+      [
+        251125,
+        1470000
+      ],
+      [
+        251126,
+        1500000
+      ],
+      [
+        251127,
+        1530000
+      ],
+      [
+        251128,
+        1550000
+      ],
+      [
+        251129,
+        1590000
+      ],
+      [
+        251130,
+        1660000
+      ],
+      [
+        251201,
+        1720000
+      ],
+      [
+        251202,
+        1800000
+      ],
+      [
+        251203,
+        1850000
+      ],
+      [
+        251204,
+        1910000
+      ],
+      [
+        251205,
+        1960000
+      ],
+      [
+        251206,
+        2010000
+      ],
+      [
+        251207,
+        2060000
+      ],
+      [
+        251208,
+        2110000
+      ],
+      [
+        251209,
+        2160000
+      ],
+      [
+        251210,
+        2190000
+      ],
+      [
+        251211,
+        2230000
+      ],
+      [
+        251212,
+        2260000
+      ],
+      [
+        251213,
+        2290000
+      ],
+      [
+        251214,
+        2310000
+      ],
+      [
+        251215,
+        2310000
+      ],
+      [
+        251216,
+        2300000
+      ],
+      [
+        251217,
+        2270000
+      ],
+      [
+        251218,
+        2240000
+      ],
+      [
+        251219,
+        2220000
+      ],
+      [
+        251220,
+        2200000
+      ],
+      [
+        251221,
+        2180000
+      ],
+      [
+        251222,
+        2190000
+      ],
+      [
+        251223,
+        2240000
+      ],
+      [
+        251224,
+        2290000
+      ],
+      [
+        251225,
+        2350000
+      ],
+      [
+        251226,
+        2400000
+      ],
+      [
+        251227,
+        2450000
+      ],
+      [
+        251228,
+        2500000
+      ],
+      [
+        251229,
+        2540000
+      ],
+      [
+        251230,
+        2580000
+      ],
+      [
+        251231,
+        2630000
+      ],
+      [
+        260101,
+        2660000
+      ],
+      [
+        260102,
+        2690000
+      ],
+      [
+        260103,
+        2720000
+      ],
+      [
+        260104,
+        2740000
+      ],
+      [
+        260105,
+        2740000
+      ],
+      [
+        260106,
+        2740000
+      ],
+      [
+        260107,
+        2740000
+      ],
+      [
+        260108,
+        2740000
+      ],
+      [
+        260109,
+        2740000
+      ],
+      [
+        260110,
+        2730000
+      ],
+      [
+        260111,
+        2700000
+      ],
+      [
+        260112,
+        2630000
+      ],
+      [
+        260113,
+        2560000
+      ],
+      [
+        260114,
+        2510000
+      ],
+      [
+        260115,
+        2460000
+      ],
+      [
+        260116,
+        2420000
+      ],
+      [
+        260117,
+        2380000
+      ],
+      [
+        260118,
+        2360000
+      ],
+      [
+        260119,
+        2330000
+      ],
+      [
+        260120,
+        2330000
+      ],
+      [
+        260121,
+        2330000
+      ],
+      [
+        260122,
+        2330000
+      ],
+      [
+        260123,
+        2320000
+      ],
+      [
+        260124,
+        2310000
+      ],
+      [
+        260125,
+        2290000
+      ],
+      [
+        260126,
+        2260000
+      ],
+      [
+        260127,
+        2250000
+      ],
+      [
+        260128,
+        2230000
+      ],
+      [
+        260129,
+        2220000
+      ],
+      [
+        260130,
+        2210000
+      ],
+      [
+        260131,
+        2190000
+      ],
+      [
+        260201,
+        2170000
+      ],
+      [
+        260202,
+        2160000
+      ],
+      [
+        260203,
+        2150000
+      ],
+      [
+        260204,
+        2140000
+      ],
+      [
+        260205,
+        2130000
+      ],
+      [
+        260206,
+        2120000
+      ],
+      [
+        260207,
+        2100000
+      ],
+      [
+        260208,
+        2090000
+      ],
+      [
+        260209,
+        2060000
+      ],
+      [
+        260210,
+        2040000
+      ],
+      [
+        260211,
+        2020000
+      ],
+      [
+        260212,
+        2000000
+      ],
+      [
+        260213,
+        1980000
+      ],
+      [
+        260214,
+        1950000
+      ],
+      [
+        260215,
+        1900000
+      ],
+      [
+        260216,
+        1850000
+      ],
+      [
+        260217,
+        1810000
+      ],
+      [
+        260218,
+        1780000
+      ],
+      [
+        260219,
+        1750000
+      ],
+      [
+        260220,
+        1720000
+      ],
+      [
+        260221,
+        1680000
+      ],
+      [
+        260222,
+        1640000
+      ],
+      [
+        260223,
+        1600000
+      ],
+      [
+        260224,
+        1570000
+      ],
+      [
+        260225,
+        1540000
+      ],
+      [
+        260226,
+        1510000
+      ],
+      [
+        260227,
+        1490000
+      ],
+      [
+        260228,
+        1470000
+      ],
+      [
+        260301,
+        1450000
+      ],
+      [
+        260302,
+        1430000
+      ],
+      [
+        260303,
+        1400000
+      ],
+      [
+        260304,
+        1380000
+      ],
+      [
+        260305,
+        1360000
+      ],
+      [
+        260306,
+        1350000
+      ],
+      [
+        260307,
+        1330000
+      ],
+      [
+        260308,
+        1320000
+      ],
+      [
+        260309,
+        1300000
+      ],
+      [
+        260310,
+        1280000
+      ],
+      [
+        260311,
+        1260000
+      ],
+      [
+        260312,
+        1240000
+      ],
+      [
+        260313,
+        1230000
+      ],
+      [
+        260314,
+        1210000
+      ],
+      [
+        260315,
+        1200000
+      ],
+      [
+        260316,
+        1180000
+      ],
+      [
+        260317,
+        1170000
+      ],
+      [
+        260318,
+        1160000
+      ],
+      [
+        260319,
+        1150000
+      ],
+      [
+        260320,
+        1140000
+      ],
+      [
+        260321,
+        1130000
+      ],
+      [
+        260322,
+        1120000
+      ],
+      [
+        260323,
+        1100000
+      ],
+      [
+        260324,
+        1090000
+      ],
+      [
+        260325,
+        1080000
+      ],
+      [
+        260326,
+        1070000
+      ],
+      [
+        260327,
+        1060000
+      ],
+      [
+        260328,
+        1050000
+      ],
+      [
+        260329,
+        1040000
+      ],
+      [
+        260330,
+        1030000
+      ],
+      [
+        260331,
+        1020000
+      ],
+      [
+        260401,
+        1010000
+      ],
+      [
+        260402,
+        1000000
+      ],
+      [
+        260403,
+        990000
+      ],
+      [
+        260404,
+        980000
+      ],
+      [
+        260405,
+        970000
+      ],
+      [
+        260406,
+        960000
+      ],
+      [
+        260407,
+        950000
+      ],
+      [
+        260408,
+        940000
+      ],
+      [
+        260409,
+        930000
+      ],
+      [
+        260410,
+        920000
+      ],
+      [
+        260411,
+        910000
+      ],
+      [
+        260412,
+        900000
+      ],
+      [
+        260413,
+        890000
+      ],
+      [
+        260414,
+        880000
+      ],
+      [
+        260415,
+        870000
+      ],
+      [
+        260416,
+        860000
+      ],
+      [
+        260417,
+        850000
+      ],
+      [
+        260418,
+        840000
+      ],
+      [
+        260419,
+        830000
+      ],
+      [
+        260420,
+        820000
+      ],
+      [
+        260421,
+        810000
+      ],
+      [
+        260422,
+        800000
+      ],
+      [
+        260423,
+        800000
+      ],
+      [
+        260424,
+        790000
+      ],
+      [
+        260425,
+        780000
+      ],
+      [
+        260426,
+        780000
+      ],
+      [
+        260427,
+        770000
+      ],
+      [
+        260428,
+        770000
+      ],
+      [
+        260429,
+        760000
+      ],
+      [
+        260430,
+        760000
+      ],
+      [
+        260501,
+        760000
+      ],
+      [
+        260502,
+        750000
+      ],
+      [
+        260503,
+        750000
+      ],
+      [
+        260504,
+        740000
+      ],
+      [
+        260505,
+        740000
+      ],
+      [
+        260506,
+        730000
+      ],
+      [
+        260507,
+        730000
+      ],
+      [
+        260508,
+        730000
+      ],
+      [
+        260509,
+        720000
+      ],
+      [
+        260510,
+        720000
+      ],
+      [
+        260511,
+        720000
+      ],
+      [
+        260512,
+        710000
+      ],
+      [
+        260513,
+        710000
+      ],
+      [
+        260514,
+        710000
+      ],
+      [
+        260515,
+        700000
+      ],
+      [
+        260516,
+        690000
+      ],
+      [
+        260517,
+        680000
+      ],
+      [
+        260518,
+        670000
+      ],
+      [
+        260519,
+        660000
+      ],
+      [
+        260520,
+        660000
+      ],
+      [
+        260521,
+        660000
+      ],
+      [
+        260522,
+        660000
+      ],
+      [
+        260523,
+        660000
+      ],
+      [
+        260524,
+        640000
+      ],
+      [
+        260525,
+        620000
+      ],
+      [
+        260526,
+        600000
+      ],
+      [
+        260527,
+        580000
+      ],
+      [
+        260528,
+        570000
+      ],
+      [
+        260529,
+        560000
+      ],
+      [
+        260530,
+        550000
+      ],
+      [
+        260531,
+        540000
+      ],
+      [
+        260601,
+        530000
+      ],
+      [
+        260602,
+        520000
+      ],
+      [
+        260603,
+        510000
+      ],
+      [
+        260604,
+        500000
+      ],
+      [
+        260605,
+        490000
+      ],
+      [
+        260606,
+        480000
+      ],
+      [
+        260607,
+        470000
+      ],
+      [
+        260608,
+        460000
+      ],
+      [
+        260609,
+        450000
+      ],
+      [
+        260610,
+        440000
+      ],
+      [
+        260611,
+        430000
+      ]
+    ],
+    "news": [
+      {
+        "id": 682840,
+        "source": "blog",
+        "title": "Los mánager de Biwenger y Pellegrini confían en recuperar al mejor Antony",
+        "url": "https://biwenger.as.com/blog/los-manager-de-biwenger-y-pellegrini-confian-en-recuperar-al-mejor-antony/",
+        "date": 1738835599,
+        "photo": "https://cdn.biwenger.com/wp/2025/02/antony-betis_18bahg7ruv1bt1mgzr291cjd8q.png",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 674780,
+        "source": "blog",
+        "title": "Jugadores para elegir como Capitán: Jornada 12",
+        "url": "https://biwenger.as.com/blog/jugadores-para-elegir-como-capitan-jornada-12-3/",
+        "date": 1730475340,
+        "photo": "https://cdn.biwenger.com/wp/2022/09/carmona3.jpg",
+        "video": "",
+        "comments": 1
+      },
+      {
+        "id": 674152,
+        "source": "blog",
+        "title": "Análisis Fantasy Biwenger: Real Madrid vs FC Barcelona (Clásico – Jornada 11)",
+        "url": "https://biwenger.as.com/blog/analisis-fantasy-biwenger-real-madrid-vs-fc-barcelona-clasico-jornada-11/",
+        "date": 1729764927,
+        "photo": "https://cdn.biwenger.com/wp/2023/10/bellingham.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 650036,
+        "source": "as",
+        "title": "La venganza de João Félix",
+        "url": "https://as.com/futbol/primera/la-venganza-de-joao-felix-n/",
+        "date": 1701642796,
+        "photo": "",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 433986,
+        "source": "blog",
+        "title": "Once Rentable, Intermedio e Ideal: Jornada 3",
+        "url": "https://biwenger.as.com/blog/once-rentable-intermedio-e-ideal-jornada-3/",
+        "date": 1600968109,
+        "photo": "https://cdn.biwenger.com/wp/2020/07/BLOG_Onces-3.jpg",
+        "video": "",
+        "comments": 0
+      }
+    ],
+    "threads": [
+      {
+        "id": 696737,
+        "source": "forum",
+        "title": "Dituro / Iñaki Peña",
+        "url": "https://foro.biwenger.com/hilos/dituro-i%C3%B1aki-pe%C3%B1a.177481/",
+        "date": 1777662043,
+        "photo": "",
+        "video": "",
+        "comments": 466
+      },
+      {
+        "id": 696475,
+        "source": "forum",
+        "title": "Iñaki Peña",
+        "url": "https://foro.biwenger.com/hilos/i%C3%B1aki-pe%C3%B1a.177441/",
+        "date": 1762596566,
+        "photo": "",
+        "video": "",
+        "comments": 80
+      },
+      {
+        "id": 701818,
+        "source": "forum",
+        "title": "Vlachodimos o David Soria (suplente Iñaki Peña)",
+        "url": "https://foro.biwenger.com/hilos/vlachodimos-o-david-soria-suplente-i%C3%B1aki-pe%C3%B1a.177991/",
+        "date": 1761858251,
+        "photo": "",
+        "video": "",
+        "comments": 3
+      },
+      {
+        "id": 697557,
+        "source": "forum",
+        "title": "Escandell / Iñaki Peña",
+        "url": "https://foro.biwenger.com/hilos/escandell-i%C3%B1aki-pe%C3%B1a.177562/",
+        "date": 1758529723,
+        "photo": "",
+        "video": "",
+        "comments": 23
+      },
+      {
+        "id": 697584,
+        "source": "forum",
+        "title": "Iñaki Peña o Leo Román??!!",
+        "url": "https://foro.biwenger.com/hilos/i%C3%B1aki-pe%C3%B1a-o-leo-rom%C3%A1n.177569/",
+        "date": 1758143757,
+        "photo": "",
+        "video": "",
+        "comments": 4
+      },
+      {
+        "id": 649876,
+        "source": "forum",
+        "title": "Iñaki Peña",
+        "url": "https://foro.biwenger.com/hilos/i%C3%B1aki-pe%C3%B1a.173723/",
+        "date": 1754724246,
+        "photo": "",
+        "video": "",
+        "comments": 228
+      }
+    ],
+    "playedHome": 8,
+    "playedAway": 8,
+    "reports": [
+      {
+        "match": {
+          "id": 46126,
+          "date": 1755365400,
+          "status": "finished",
+          "home": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 0
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "round": {
+            "id": 4484,
+            "name": "Jornada 1",
+            "short": "J1"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 696329,
+            "source": "as",
+            "title": "Es mala idea enfadar a Lamine",
+            "url": "https://as.com/futbol/primera/es-mala-idea-enfadar-a-lamine-n/",
+            "date": 1755375149,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 3,
+                "name": "Barcelona",
+                "slug": "barcelona"
+              },
+              {
+                "id": 465,
+                "name": "Mallorca",
+                "slug": "mallorca"
+              }
+            ],
+            "players": [
+              {
+                "id": 15430,
+                "name": "Joan García",
+                "slug": "joan-garcia"
+              },
+              {
+                "id": 19508,
+                "name": "Arrasate",
+                "slug": "arrasate"
+              },
+              {
+                "id": 26271,
+                "name": "Yamal",
+                "slug": "lamine-yamal"
+              },
+              {
+                "id": 26930,
+                "name": "Raphinha",
+                "slug": "raphinha"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46136,
+          "date": 1755977400,
+          "status": "finished",
+          "home": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 2
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "round": {
+            "id": 4485,
+            "name": "Jornada 2",
+            "short": "J2"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46149,
+          "date": 1756488600,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "away": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 0
+          },
+          "round": {
+            "id": 4486,
+            "name": "Jornada 3",
+            "short": "J3"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46151,
+          "date": 1757703600,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "round": {
+            "id": 4487,
+            "name": "Jornada 4",
+            "short": "J4"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46169,
+          "date": 1758472200,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "away": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 0
+          },
+          "round": {
+            "id": 4488,
+            "name": "Jornada 5",
+            "short": "J5"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 8,
+          "5": 5,
+          "3": 7,
+          "6": 5
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 1780000,
+          "score1": 2,
+          "score2": 8,
+          "score5": 5,
+          "score3": 7,
+          "score6": 5,
+          "roundPhase": 5,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46179,
+          "date": 1758821400,
+          "status": "finished",
+          "home": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4710,
+            "name": "Jornada 6 (aplazada)",
+            "short": "J6",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 0,
+          "6": 2
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 2120000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 0,
+          "score6": 2,
+          "roundPhase": 6,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "match": {
+          "id": 46189,
+          "date": 1759068900,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "away": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 1
+          },
+          "round": {
+            "id": 4490,
+            "name": "Jornada 7",
+            "short": "J7"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 699432,
+            "source": "as",
+            "title": "Un Elche de Champions",
+            "url": "https://as.com/futbol/un-elche-de-champions-n/",
+            "date": 1759076590,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 5,
+                "name": "Celta",
+                "slug": "celta"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46198,
+          "date": 1759665600,
+          "status": "finished",
+          "home": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 3
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4491,
+            "name": "Jornada 8",
+            "short": "J8"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 0,
+          "5": 3,
+          "3": -1,
+          "6": 2
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 1970000,
+          "score1": 6,
+          "score2": 0,
+          "score5": 3,
+          "score3": -1,
+          "score6": 2,
+          "roundPhase": 8,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46208,
+          "date": 1760875200,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 0
+          },
+          "away": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 0
+          },
+          "round": {
+            "id": 4492,
+            "name": "Jornada 9",
+            "short": "J9"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 4,
+          "6": 3
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 1680000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 4,
+          "score6": 3,
+          "roundPhase": 9,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 0,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.8
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46214,
+          "date": 1761401700,
+          "status": "finished",
+          "home": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 0
+          },
+          "round": {
+            "id": 4493,
+            "name": "Jornada 10",
+            "short": "J10"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 12,
+          "5": 9,
+          "3": 5,
+          "6": 5
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 1620000,
+          "score1": 6,
+          "score2": 12,
+          "score5": 9,
+          "score3": 5,
+          "score6": 5,
+          "roundPhase": 10,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 8.8
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46228,
+          "date": 1762104600,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4494,
+            "name": "Jornada 11",
+            "short": "J11"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 2,
+          "5": 4,
+          "3": -1,
+          "6": 4
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 1790000,
+          "score1": 6,
+          "score2": 2,
+          "score5": 4,
+          "score3": -1,
+          "score6": 4,
+          "roundPhase": 11,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "match": {
+          "id": 46238,
+          "date": 1762545600,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "away": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 1
+          },
+          "round": {
+            "id": 4495,
+            "name": "Jornada 12",
+            "short": "J12"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46248,
+          "date": 1763928000,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "away": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 2
+          },
+          "round": {
+            "id": 4496,
+            "name": "Jornada 13",
+            "short": "J13"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 10,
+          "2": 12,
+          "5": 11,
+          "3": 3,
+          "6": 8
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 1410000,
+          "score1": 10,
+          "score2": 12,
+          "score5": 11,
+          "score3": 3,
+          "score6": 8,
+          "roundPhase": 13,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 2,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 3,
+          "sofascore": 8.6
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46258,
+          "date": 1764360000,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 0
+          },
+          "round": {
+            "id": 4497,
+            "name": "Jornada 14",
+            "short": "J14"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 12,
+          "5": 7,
+          "3": 3,
+          "6": 5
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 1550000,
+          "score1": 2,
+          "score2": 12,
+          "score5": 7,
+          "score3": 3,
+          "score6": 5,
+          "roundPhase": 14,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 8.9
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46267,
+          "date": 1765112400,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 3
+          },
+          "away": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 0
+          },
+          "round": {
+            "id": 4498,
+            "name": "Jornada 15",
+            "short": "J15"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 8,
+          "5": 5,
+          "3": 7,
+          "6": 5
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 2060000,
+          "score1": 2,
+          "score2": 8,
+          "score5": 5,
+          "score3": 7,
+          "score6": 5,
+          "roundPhase": 15,
+          "home": true,
+          "homeScore": 3,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.6
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46272,
+          "date": 1765638900,
+          "status": "finished",
+          "home": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 3
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4499,
+            "name": "Jornada 16",
+            "short": "J16"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 1,
+          "6": 0
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 2290000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 1,
+          "score6": 0,
+          "roundPhase": 16,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46288,
+          "date": 1766338200,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 4
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 0
+          },
+          "round": {
+            "id": 4500,
+            "name": "Jornada 17",
+            "short": "J17"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 13,
+          "5": 10,
+          "3": 11,
+          "6": 7
+        },
+        "star": [
+          2,
+          3
+        ],
+        "rawStats": {
+          "pos1": true,
+          "price": 2180000,
+          "score1": 6,
+          "score2": 13,
+          "score5": 10,
+          "score3": 11,
+          "score6": 7,
+          "roundPhase": 17,
+          "home": true,
+          "homeScore": 4,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 9.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46298,
+          "date": 1767461400,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "away": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 3
+          },
+          "round": {
+            "id": 4501,
+            "name": "Jornada 18",
+            "short": "J18"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 706955,
+            "source": "as",
+            "title": "El Villarreal revienta el fortín del Martínez Valero",
+            "url": "https://as.com/futbol/el-villarreal-revienta-el-fortin-del-martinez-valero-f202601-n/",
+            "date": 1767468848,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 19,
+                "name": "Villarreal",
+                "slug": "villarreal"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": -2,
+          "6": 2
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 2720000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": -2,
+          "score6": 2,
+          "roundPhase": 18,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 3,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.2
+        }
+      },
+      {
+        "match": {
+          "id": 46303,
+          "date": 1768075200,
+          "status": "finished",
+          "home": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4787,
+            "name": "Jornada 19 (aplazada)",
+            "short": "J19",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46318,
+          "date": 1768852800,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "round": {
+            "id": 4503,
+            "name": "Jornada 20",
+            "short": "J20"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 708248,
+            "source": "as",
+            "title": "Akor Adams llega a tiempo",
+            "url": "https://as.com/futbol/akor-adams-llega-a-tiempo-f202601-n/",
+            "date": 1768860340,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 7,
+          "5": 7,
+          "3": 4,
+          "6": 6
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 2330000,
+          "score1": 6,
+          "score2": 7,
+          "score5": 7,
+          "score3": 4,
+          "score6": 6,
+          "roundPhase": 20,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 2,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.4
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46326,
+          "date": 1769198400,
+          "status": "finished",
+          "home": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 3
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "round": {
+            "id": 4504,
+            "name": "Jornada 21",
+            "short": "J21"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 708648,
+            "source": "as",
+            "title": "Matturro rompe el maleficio del Ciutat",
+            "url": "https://as.com/futbol/primera/matturro-rompe-el-maleficio-del-ciutat-f202601-n/",
+            "date": 1769206602,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 10,
+                "name": "Levante",
+                "slug": "levante"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 0,
+          "5": 1,
+          "3": -1,
+          "6": 0
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 2320000,
+          "score1": 2,
+          "score2": 0,
+          "score5": 1,
+          "score3": -1,
+          "score6": 0,
+          "roundPhase": 21,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.1
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46338,
+          "date": 1769889600,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "round": {
+            "id": 4505,
+            "name": "Jornada 22",
+            "short": "J22"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 2,
+          "5": 4,
+          "3": 1,
+          "6": 2
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 2190000,
+          "score1": 6,
+          "score2": 2,
+          "score5": 4,
+          "score3": 1,
+          "score6": 2,
+          "roundPhase": 22,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 3,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46345,
+          "date": 1770494400,
+          "status": "finished",
+          "home": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 3
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4506,
+            "name": "Jornada 23",
+            "short": "J23"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 0,
+          "5": 1,
+          "3": -3,
+          "6": 1
+        },
+        "rawStats": {
+          "pos1": true,
+          "price": 2100000,
+          "score1": 2,
+          "score2": 0,
+          "score5": 1,
+          "score3": -3,
+          "score6": 1,
+          "roundPhase": 23,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6
+        }
+      },
+      {
+        "match": {
+          "id": 46360,
+          "date": 1771012800,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 0
+          },
+          "away": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 0
+          },
+          "round": {
+            "id": 4507,
+            "name": "Jornada 24",
+            "short": "J24"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46370,
+          "date": 1771617600,
+          "status": "finished",
+          "home": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 2
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4508,
+            "name": "Jornada 25",
+            "short": "J25"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 710903,
+            "source": "as",
+            "title": "El Athletic agarra otra tacada",
+            "url": "https://as.com/futbol/el-athletic-agarra-otra-tacada-f202602-n/",
+            "date": 1771625507,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 1,
+                "name": "Athletic",
+                "slug": "athletic"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46380,
+          "date": 1772370000,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "away": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 2
+          },
+          "round": {
+            "id": 4509,
+            "name": "Jornada 26",
+            "short": "J26"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46381,
+          "date": 1772974800,
+          "status": "finished",
+          "home": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 2
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4510,
+            "name": "Jornada 27",
+            "short": "J27"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46392,
+          "date": 1773518400,
+          "status": "finished",
+          "home": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 4
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4511,
+            "name": "Jornada 28",
+            "short": "J28"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 712585,
+            "source": "as",
+            "title": "Güler hace un gol para la historia en la semana de Valverde",
+            "url": "https://as.com/futbol/primera/en-la-semana-de-valverde-guler-hace-el-gol-del-ano-f202603-n/",
+            "date": 1773525556,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 15,
+                "name": "Real Madrid",
+                "slug": "real-madrid"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": [
+              {
+                "id": 9402,
+                "name": "Valverde",
+                "slug": "fede-valverde",
+                "altPositions": [
+                  2
+                ]
+              },
+              {
+                "id": 15568,
+                "name": "Vinícius Jr",
+                "slug": "vinicius-junior"
+              },
+              {
+                "id": 19297,
+                "name": "Rafa Mir",
+                "slug": "rafa-mir"
+              },
+              {
+                "id": 29908,
+                "name": "Álvaro Rodríguez",
+                "slug": "alvaro-rodriguez"
+              },
+              {
+                "id": 38236,
+                "name": "Eder Sarabia",
+                "slug": "eder-sarabia"
+              },
+              {
+                "id": 39769,
+                "name": "Álvaro Arbeloa",
+                "slug": "alvaro-arbeloa"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46403,
+          "date": 1774098000,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "away": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 1
+          },
+          "round": {
+            "id": 4512,
+            "name": "Jornada 29",
+            "short": "J29"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46419,
+          "date": 1775242800,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 0
+          },
+          "round": {
+            "id": 4513,
+            "name": "Jornada 30",
+            "short": "J30"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 713989,
+            "source": "as",
+            "title": "Nteka le pone la guinda al centenario de Iñigo",
+            "url": "https://as.com/futbol/nteka-le-pone-la-guinda-al-centenario-de-inigo-f202604-n/",
+            "date": 1775249900,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46427,
+          "date": 1775916900,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "away": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 0
+          },
+          "round": {
+            "id": 4514,
+            "name": "Jornada 31",
+            "short": "J31"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46445,
+          "date": 1776877200,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 3
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 2
+          },
+          "round": {
+            "id": 4516,
+            "name": "Jornada 33",
+            "short": "J33"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46433,
+          "date": 1777212900,
+          "status": "finished",
+          "home": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 2
+          },
+          "round": {
+            "id": 4515,
+            "name": "Jornada 32",
+            "short": "J32"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46458,
+          "date": 1777809600,
+          "status": "finished",
+          "home": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 3
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4517,
+            "name": "Jornada 34",
+            "short": "J34"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46465,
+          "date": 1778328000,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "away": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 1
+          },
+          "round": {
+            "id": 4518,
+            "name": "Jornada 35",
+            "short": "J35"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46479,
+          "date": 1778608800,
+          "status": "finished",
+          "home": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 2
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4519,
+            "name": "Jornada 36",
+            "short": "J36"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46487,
+          "date": 1779037200,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4520,
+            "name": "Jornada 37",
+            "short": "J37"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717353,
+            "source": "as",
+            "title": "‘Chustazo’ hacia la salvación",
+            "url": "https://as.com/futbol/chustazo-hacia-la-salvacion-f202605-n/",
+            "date": 1779044968,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46499,
+          "date": 1779562800,
+          "status": "finished",
+          "home": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4521,
+            "name": "Jornada 38",
+            "short": "J38"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717808,
+            "source": "as",
+            "title": "Al Girona le pilla ‘El Toro’ de un Elche de Primera",
+            "url": "https://as.com/futbol/primera/al-girona-le-pilla-el-toro-de-un-elche-de-primera-f202605-n/",
+            "date": 1779570306,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              },
+              {
+                "id": 289,
+                "name": "Girona",
+                "slug": "girona"
+              }
+            ],
+            "players": []
+          }
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      }
+    ],
+    "seasons": [
+      {
+        "id": "2026",
+        "name": "Temporada 2025/2026",
+        "slug": "2025-2026",
+        "names": {
+          "es": "Temporada 2025/2026",
+          "ca": "Temporada 2025/2026",
+          "eu": "2025/2026 Denboraldia",
+          "gl": "Tempada 2025/2026",
+          "es-419": "Temporada 2025/2026"
+        },
+        "games": 16,
+        "points": {
+          "1": 64,
+          "2": 84,
+          "5": 76,
+          "3": 38,
+          "6": 57
+        },
+        "selected": true
+      },
+      {
+        "id": "2025",
+        "name": "Temporada 2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "Temporada 2024/2025",
+          "ca": "Temporada 2024/2025",
+          "eu": "2024/2025 Denboraldia",
+          "gl": "Tempada 2024/2025",
+          "es-419": "Temporada 2024/2025"
+        },
+        "games": 16,
+        "points": {
+          "1": 80,
+          "2": 75,
+          "5": 81,
+          "3": 29,
+          "6": 55
+        }
+      },
+      {
+        "id": "2024",
+        "name": "Temporada 2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "Temporada 2023/2024",
+          "ca": "Temporada 2023/2024",
+          "eu": "2023/2024 Denboraldia",
+          "gl": "Tempada 2023/2024",
+          "es-419": "Temporada 2023/2024"
+        },
+        "games": 10,
+        "points": {
+          "1": 48,
+          "2": 30,
+          "5": 42,
+          "3": 10,
+          "6": 28
+        }
+      },
+      {
+        "id": "2023",
+        "name": "Temporada 2022/2023",
+        "slug": "2022-2023",
+        "names": {
+          "es": "Temporada 2022/2023",
+          "ca": "Temporada 2022/2023",
+          "eu": "2022/2023 Denboraldia",
+          "gl": "Tempada 2022/2023",
+          "es-419": "Temporada 2022/2023"
+        },
+        "games": 2,
+        "points": {
+          "1": 0,
+          "2": 1,
+          "5": 1,
+          "3": 0,
+          "6": "-1"
+        }
+      },
+      {
+        "id": "2025",
+        "name": "2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "2024/2025",
+          "ca": "2024/2025",
+          "eu": "2024/2025",
+          "gl": "2024/2025",
+          "es-419": "2024/2025"
+        },
+        "games": 5,
+        "points": {
+          "1": 30,
+          "2": 13,
+          "5": null,
+          "3": 4
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5197,
+          "slug": "inaki-pena"
+        }
+      },
+      {
+        "id": "2025",
+        "name": "2025",
+        "slug": "2025",
+        "names": {
+          "es": "2025",
+          "ca": "2025",
+          "eu": "2025",
+          "gl": "2025",
+          "es-419": "2025"
+        },
+        "games": 1,
+        "points": {
+          "1": 6,
+          "2": 5,
+          "5": 6
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 20187,
+          "slug": "inaki-pena"
+        }
+      },
+      {
+        "id": "2025",
+        "name": "2025",
+        "slug": "2025",
+        "names": {
+          "es": "2025",
+          "ca": "2025",
+          "eu": "2025",
+          "gl": "2025",
+          "es-419": "2025"
+        },
+        "games": 1,
+        "points": {
+          "1": 6,
+          "2": 4,
+          "5": 5
+        },
+        "competition": {
+          "id": 58,
+          "name": "Supercopa de España",
+          "slug": "supercopa"
+        },
+        "player": {
+          "id": 20800,
+          "slug": "inaki-pena"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "2023/2024",
+          "ca": "2023/2024",
+          "eu": "2023/2024",
+          "gl": "2023/2024",
+          "es-419": "2023/2024"
+        },
+        "games": 2,
+        "points": {
+          "1": null,
+          "2": 9,
+          "5": null,
+          "3": 2
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5197,
+          "slug": "inaki-pena"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2024",
+        "slug": "2024",
+        "names": {
+          "es": "2024",
+          "ca": "2024",
+          "eu": "2024",
+          "gl": "2024",
+          "es-419": "2024"
+        },
+        "games": 2,
+        "points": {
+          "1": 8,
+          "2": 8,
+          "5": 9
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 20187,
+          "slug": "inaki-pena"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2024",
+        "slug": "2024",
+        "names": {
+          "es": "2024",
+          "ca": "2024",
+          "eu": "2024",
+          "gl": "2024",
+          "es-419": "2024"
+        },
+        "games": 2,
+        "points": {
+          "1": 8,
+          "2": 10,
+          "5": 10
+        },
+        "competition": {
+          "id": 58,
+          "name": "Supercopa de España",
+          "slug": "supercopa"
+        },
+        "player": {
+          "id": 20800,
+          "slug": "inaki-pena"
+        }
+      },
+      {
+        "id": "2023",
+        "name": "2022/2023",
+        "slug": "2022-2023",
+        "names": {
+          "es": "2022/2023",
+          "ca": "2022/2023",
+          "eu": "2022/2023",
+          "gl": "2022/2023",
+          "es-419": "2022/2023"
+        },
+        "games": 1,
+        "points": {
+          "1": null,
+          "2": 7,
+          "5": null,
+          "3": 4
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 5197,
+          "slug": "inaki-pena"
+        }
+      },
+      {
+        "id": "2023",
+        "name": "2023",
+        "slug": "2023",
+        "names": {
+          "es": "2023",
+          "ca": "2023",
+          "eu": "2023",
+          "gl": "2023",
+          "es-419": "2023"
+        },
+        "games": 1,
+        "points": {
+          "1": 2,
+          "2": 5,
+          "5": 4
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 20187,
+          "slug": "inaki-pena"
+        }
+      }
+    ],
+    "canonicalURL": "https://biwenger.as.com/blog/jugadores/inaki-pena/"
+  }
+}

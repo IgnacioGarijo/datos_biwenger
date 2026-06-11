@@ -1,0 +1,4683 @@
+{
+  "status": 200,
+  "data": {
+    "id": 15719,
+    "name": "Le Normand",
+    "slug": "le-normand",
+    "position": 2,
+    "price": 1460000,
+    "fantasyPrice": 15000000,
+    "country": "ES",
+    "number": 24,
+    "birthday": 19961111,
+    "status": "ok",
+    "priceIncrement": -40000,
+    "competition": {
+      "id": 1,
+      "name": "Primera División",
+      "slug": "la-liga",
+      "sport": "football",
+      "currency": "€"
+    },
+    "team": {
+      "id": 2,
+      "name": "Atlético",
+      "slug": "atletico",
+      "nextGames": []
+    },
+    "prices": [
+      [
+        250611,
+        2650000
+      ],
+      [
+        250612,
+        2640000
+      ],
+      [
+        250613,
+        2600000
+      ],
+      [
+        250614,
+        2540000
+      ],
+      [
+        250615,
+        2500000
+      ],
+      [
+        250616,
+        2520000
+      ],
+      [
+        250617,
+        2600000
+      ],
+      [
+        250618,
+        2580000
+      ],
+      [
+        250619,
+        2540000
+      ],
+      [
+        250620,
+        2480000
+      ],
+      [
+        250621,
+        2470000
+      ],
+      [
+        250622,
+        2470000
+      ],
+      [
+        250623,
+        2420000
+      ],
+      [
+        250624,
+        2360000
+      ],
+      [
+        250625,
+        2350000
+      ],
+      [
+        250626,
+        2310000
+      ],
+      [
+        250627,
+        2260000
+      ],
+      [
+        250628,
+        2210000
+      ],
+      [
+        250629,
+        2170000
+      ],
+      [
+        250630,
+        2230000
+      ],
+      [
+        250701,
+        2190000
+      ],
+      [
+        250702,
+        2200000
+      ],
+      [
+        250703,
+        2260000
+      ],
+      [
+        250704,
+        2330000
+      ],
+      [
+        250705,
+        2410000
+      ],
+      [
+        250706,
+        2490000
+      ],
+      [
+        250707,
+        2560000
+      ],
+      [
+        250708,
+        2630000
+      ],
+      [
+        250709,
+        2700000
+      ],
+      [
+        250710,
+        2760000
+      ],
+      [
+        250711,
+        2860000
+      ],
+      [
+        250712,
+        3000000
+      ],
+      [
+        250713,
+        3080000
+      ],
+      [
+        250714,
+        3150000
+      ],
+      [
+        250715,
+        3200000
+      ],
+      [
+        250716,
+        3270000
+      ],
+      [
+        250717,
+        3340000
+      ],
+      [
+        250718,
+        3400000
+      ],
+      [
+        250719,
+        3470000
+      ],
+      [
+        250720,
+        3520000
+      ],
+      [
+        250721,
+        3580000
+      ],
+      [
+        250722,
+        3620000
+      ],
+      [
+        250723,
+        3660000
+      ],
+      [
+        250724,
+        3700000
+      ],
+      [
+        250725,
+        3740000
+      ],
+      [
+        250726,
+        3770000
+      ],
+      [
+        250727,
+        3800000
+      ],
+      [
+        250728,
+        3850000
+      ],
+      [
+        250729,
+        3880000
+      ],
+      [
+        250730,
+        3910000
+      ],
+      [
+        250731,
+        3940000
+      ],
+      [
+        250801,
+        3970000
+      ],
+      [
+        250802,
+        4010000
+      ],
+      [
+        250803,
+        4060000
+      ],
+      [
+        250804,
+        4100000
+      ],
+      [
+        250805,
+        4130000
+      ],
+      [
+        250806,
+        4170000
+      ],
+      [
+        250807,
+        4210000
+      ],
+      [
+        250808,
+        4240000
+      ],
+      [
+        250809,
+        4260000
+      ],
+      [
+        250810,
+        4270000
+      ],
+      [
+        250811,
+        4290000
+      ],
+      [
+        250812,
+        4320000
+      ],
+      [
+        250813,
+        4340000
+      ],
+      [
+        250814,
+        4360000
+      ],
+      [
+        250815,
+        4390000
+      ],
+      [
+        250816,
+        4420000
+      ],
+      [
+        250817,
+        4440000
+      ],
+      [
+        250818,
+        4440000
+      ],
+      [
+        250819,
+        4390000
+      ],
+      [
+        250820,
+        4290000
+      ],
+      [
+        250821,
+        4200000
+      ],
+      [
+        250822,
+        4140000
+      ],
+      [
+        250823,
+        4080000
+      ],
+      [
+        250824,
+        4030000
+      ],
+      [
+        250825,
+        3960000
+      ],
+      [
+        250826,
+        3890000
+      ],
+      [
+        250827,
+        3830000
+      ],
+      [
+        250828,
+        3780000
+      ],
+      [
+        250829,
+        3750000
+      ],
+      [
+        250830,
+        3700000
+      ],
+      [
+        250831,
+        3670000
+      ],
+      [
+        250901,
+        3630000
+      ],
+      [
+        250902,
+        3590000
+      ],
+      [
+        250903,
+        3560000
+      ],
+      [
+        250904,
+        3520000
+      ],
+      [
+        250905,
+        3480000
+      ],
+      [
+        250906,
+        3450000
+      ],
+      [
+        250907,
+        3410000
+      ],
+      [
+        250908,
+        3370000
+      ],
+      [
+        250909,
+        3350000
+      ],
+      [
+        250910,
+        3310000
+      ],
+      [
+        250911,
+        3280000
+      ],
+      [
+        250912,
+        3240000
+      ],
+      [
+        250913,
+        3220000
+      ],
+      [
+        250914,
+        3200000
+      ],
+      [
+        250915,
+        3170000
+      ],
+      [
+        250916,
+        3150000
+      ],
+      [
+        250917,
+        3130000
+      ],
+      [
+        250918,
+        3110000
+      ],
+      [
+        250919,
+        3090000
+      ],
+      [
+        250920,
+        3060000
+      ],
+      [
+        250921,
+        3050000
+      ],
+      [
+        250922,
+        3040000
+      ],
+      [
+        250923,
+        3040000
+      ],
+      [
+        250924,
+        3050000
+      ],
+      [
+        250925,
+        3060000
+      ],
+      [
+        250926,
+        3060000
+      ],
+      [
+        250927,
+        3040000
+      ],
+      [
+        250928,
+        3070000
+      ],
+      [
+        250929,
+        3110000
+      ],
+      [
+        250930,
+        3140000
+      ],
+      [
+        251001,
+        3180000
+      ],
+      [
+        251002,
+        3210000
+      ],
+      [
+        251003,
+        3260000
+      ],
+      [
+        251004,
+        3290000
+      ],
+      [
+        251005,
+        3320000
+      ],
+      [
+        251006,
+        3360000
+      ],
+      [
+        251007,
+        3400000
+      ],
+      [
+        251008,
+        3450000
+      ],
+      [
+        251009,
+        3480000
+      ],
+      [
+        251010,
+        3510000
+      ],
+      [
+        251011,
+        3540000
+      ],
+      [
+        251012,
+        3570000
+      ],
+      [
+        251013,
+        3590000
+      ],
+      [
+        251014,
+        3610000
+      ],
+      [
+        251015,
+        3630000
+      ],
+      [
+        251016,
+        3660000
+      ],
+      [
+        251017,
+        3690000
+      ],
+      [
+        251018,
+        3710000
+      ],
+      [
+        251019,
+        3740000
+      ],
+      [
+        251020,
+        3770000
+      ],
+      [
+        251021,
+        3790000
+      ],
+      [
+        251022,
+        3810000
+      ],
+      [
+        251023,
+        3840000
+      ],
+      [
+        251024,
+        3860000
+      ],
+      [
+        251025,
+        3870000
+      ],
+      [
+        251026,
+        3880000
+      ],
+      [
+        251027,
+        3900000
+      ],
+      [
+        251028,
+        3930000
+      ],
+      [
+        251029,
+        3980000
+      ],
+      [
+        251030,
+        4040000
+      ],
+      [
+        251031,
+        4110000
+      ],
+      [
+        251101,
+        4150000
+      ],
+      [
+        251102,
+        4180000
+      ],
+      [
+        251103,
+        4200000
+      ],
+      [
+        251104,
+        4220000
+      ],
+      [
+        251105,
+        4220000
+      ],
+      [
+        251106,
+        3930000
+      ],
+      [
+        251107,
+        3640000
+      ],
+      [
+        251108,
+        3370000
+      ],
+      [
+        251109,
+        3210000
+      ],
+      [
+        251110,
+        3100000
+      ],
+      [
+        251111,
+        2990000
+      ],
+      [
+        251112,
+        2920000
+      ],
+      [
+        251113,
+        2890000
+      ],
+      [
+        251114,
+        2820000
+      ],
+      [
+        251115,
+        2770000
+      ],
+      [
+        251116,
+        2730000
+      ],
+      [
+        251117,
+        2690000
+      ],
+      [
+        251118,
+        2650000
+      ],
+      [
+        251119,
+        2610000
+      ],
+      [
+        251120,
+        2570000
+      ],
+      [
+        251121,
+        2540000
+      ],
+      [
+        251122,
+        2510000
+      ],
+      [
+        251123,
+        2500000
+      ],
+      [
+        251124,
+        2480000
+      ],
+      [
+        251125,
+        2470000
+      ],
+      [
+        251126,
+        2450000
+      ],
+      [
+        251127,
+        2440000
+      ],
+      [
+        251128,
+        2420000
+      ],
+      [
+        251129,
+        2410000
+      ],
+      [
+        251130,
+        2410000
+      ],
+      [
+        251201,
+        2410000
+      ],
+      [
+        251202,
+        2410000
+      ],
+      [
+        251203,
+        2410000
+      ],
+      [
+        251204,
+        2410000
+      ],
+      [
+        251205,
+        2430000
+      ],
+      [
+        251206,
+        2510000
+      ],
+      [
+        251207,
+        2610000
+      ],
+      [
+        251208,
+        2760000
+      ],
+      [
+        251209,
+        2950000
+      ],
+      [
+        251210,
+        3110000
+      ],
+      [
+        251211,
+        3200000
+      ],
+      [
+        251212,
+        3250000
+      ],
+      [
+        251213,
+        3280000
+      ],
+      [
+        251214,
+        3300000
+      ],
+      [
+        251215,
+        3320000
+      ],
+      [
+        251216,
+        3330000
+      ],
+      [
+        251217,
+        3340000
+      ],
+      [
+        251218,
+        3360000
+      ],
+      [
+        251219,
+        3380000
+      ],
+      [
+        251220,
+        3400000
+      ],
+      [
+        251221,
+        3410000
+      ],
+      [
+        251222,
+        3410000
+      ],
+      [
+        251223,
+        3360000
+      ],
+      [
+        251224,
+        3280000
+      ],
+      [
+        251225,
+        3170000
+      ],
+      [
+        251226,
+        3090000
+      ],
+      [
+        251227,
+        3030000
+      ],
+      [
+        251228,
+        2990000
+      ],
+      [
+        251229,
+        2970000
+      ],
+      [
+        251230,
+        2940000
+      ],
+      [
+        251231,
+        2920000
+      ],
+      [
+        260101,
+        2900000
+      ],
+      [
+        260102,
+        2910000
+      ],
+      [
+        260103,
+        2910000
+      ],
+      [
+        260104,
+        2910000
+      ],
+      [
+        260105,
+        2900000
+      ],
+      [
+        260106,
+        2850000
+      ],
+      [
+        260107,
+        2810000
+      ],
+      [
+        260108,
+        2770000
+      ],
+      [
+        260109,
+        2740000
+      ],
+      [
+        260110,
+        2710000
+      ],
+      [
+        260111,
+        2690000
+      ],
+      [
+        260112,
+        2660000
+      ],
+      [
+        260113,
+        2630000
+      ],
+      [
+        260114,
+        2600000
+      ],
+      [
+        260115,
+        2560000
+      ],
+      [
+        260116,
+        2530000
+      ],
+      [
+        260117,
+        2500000
+      ],
+      [
+        260118,
+        2480000
+      ],
+      [
+        260119,
+        2440000
+      ],
+      [
+        260120,
+        2420000
+      ],
+      [
+        260121,
+        2370000
+      ],
+      [
+        260122,
+        2350000
+      ],
+      [
+        260123,
+        2320000
+      ],
+      [
+        260124,
+        2290000
+      ],
+      [
+        260125,
+        2270000
+      ],
+      [
+        260126,
+        2250000
+      ],
+      [
+        260127,
+        2220000
+      ],
+      [
+        260128,
+        2190000
+      ],
+      [
+        260129,
+        2160000
+      ],
+      [
+        260130,
+        2140000
+      ],
+      [
+        260131,
+        2110000
+      ],
+      [
+        260201,
+        2110000
+      ],
+      [
+        260202,
+        2120000
+      ],
+      [
+        260203,
+        2150000
+      ],
+      [
+        260204,
+        2170000
+      ],
+      [
+        260205,
+        2190000
+      ],
+      [
+        260206,
+        2230000
+      ],
+      [
+        260207,
+        2250000
+      ],
+      [
+        260208,
+        2270000
+      ],
+      [
+        260209,
+        2280000
+      ],
+      [
+        260210,
+        2290000
+      ],
+      [
+        260211,
+        2300000
+      ],
+      [
+        260212,
+        2330000
+      ],
+      [
+        260213,
+        2340000
+      ],
+      [
+        260214,
+        2340000
+      ],
+      [
+        260215,
+        2330000
+      ],
+      [
+        260216,
+        2300000
+      ],
+      [
+        260217,
+        2250000
+      ],
+      [
+        260218,
+        2220000
+      ],
+      [
+        260219,
+        2200000
+      ],
+      [
+        260220,
+        2180000
+      ],
+      [
+        260221,
+        2150000
+      ],
+      [
+        260222,
+        2130000
+      ],
+      [
+        260223,
+        2090000
+      ],
+      [
+        260224,
+        2050000
+      ],
+      [
+        260225,
+        2030000
+      ],
+      [
+        260226,
+        2010000
+      ],
+      [
+        260227,
+        2000000
+      ],
+      [
+        260228,
+        1970000
+      ],
+      [
+        260301,
+        1960000
+      ],
+      [
+        260302,
+        1950000
+      ],
+      [
+        260303,
+        1940000
+      ],
+      [
+        260304,
+        1930000
+      ],
+      [
+        260305,
+        1930000
+      ],
+      [
+        260306,
+        1930000
+      ],
+      [
+        260307,
+        1930000
+      ],
+      [
+        260308,
+        1910000
+      ],
+      [
+        260309,
+        1870000
+      ],
+      [
+        260310,
+        1840000
+      ],
+      [
+        260311,
+        1820000
+      ],
+      [
+        260312,
+        1820000
+      ],
+      [
+        260313,
+        1830000
+      ],
+      [
+        260314,
+        1820000
+      ],
+      [
+        260315,
+        1800000
+      ],
+      [
+        260316,
+        1740000
+      ],
+      [
+        260317,
+        1690000
+      ],
+      [
+        260318,
+        1660000
+      ],
+      [
+        260319,
+        1630000
+      ],
+      [
+        260320,
+        1610000
+      ],
+      [
+        260321,
+        1590000
+      ],
+      [
+        260322,
+        1580000
+      ],
+      [
+        260323,
+        1560000
+      ],
+      [
+        260324,
+        1550000
+      ],
+      [
+        260325,
+        1550000
+      ],
+      [
+        260326,
+        1540000
+      ],
+      [
+        260327,
+        1530000
+      ],
+      [
+        260328,
+        1520000
+      ],
+      [
+        260329,
+        1510000
+      ],
+      [
+        260330,
+        1500000
+      ],
+      [
+        260331,
+        1490000
+      ],
+      [
+        260401,
+        1480000
+      ],
+      [
+        260402,
+        1470000
+      ],
+      [
+        260403,
+        1460000
+      ],
+      [
+        260404,
+        1450000
+      ],
+      [
+        260405,
+        1450000
+      ],
+      [
+        260406,
+        1450000
+      ],
+      [
+        260407,
+        1450000
+      ],
+      [
+        260408,
+        1460000
+      ],
+      [
+        260409,
+        1490000
+      ],
+      [
+        260410,
+        1520000
+      ],
+      [
+        260411,
+        1540000
+      ],
+      [
+        260412,
+        1550000
+      ],
+      [
+        260413,
+        1550000
+      ],
+      [
+        260414,
+        1540000
+      ],
+      [
+        260415,
+        1530000
+      ],
+      [
+        260416,
+        1530000
+      ],
+      [
+        260417,
+        1530000
+      ],
+      [
+        260418,
+        1520000
+      ],
+      [
+        260419,
+        1510000
+      ],
+      [
+        260420,
+        1510000
+      ],
+      [
+        260421,
+        1500000
+      ],
+      [
+        260422,
+        1480000
+      ],
+      [
+        260423,
+        1470000
+      ],
+      [
+        260424,
+        1470000
+      ],
+      [
+        260425,
+        1460000
+      ],
+      [
+        260426,
+        1450000
+      ],
+      [
+        260427,
+        1440000
+      ],
+      [
+        260428,
+        1430000
+      ],
+      [
+        260429,
+        1420000
+      ],
+      [
+        260430,
+        1420000
+      ],
+      [
+        260501,
+        1430000
+      ],
+      [
+        260502,
+        1430000
+      ],
+      [
+        260503,
+        1430000
+      ],
+      [
+        260504,
+        1440000
+      ],
+      [
+        260505,
+        1460000
+      ],
+      [
+        260506,
+        1490000
+      ],
+      [
+        260507,
+        1540000
+      ],
+      [
+        260508,
+        1590000
+      ],
+      [
+        260509,
+        1610000
+      ],
+      [
+        260510,
+        1620000
+      ],
+      [
+        260511,
+        1630000
+      ],
+      [
+        260512,
+        1660000
+      ],
+      [
+        260513,
+        1670000
+      ],
+      [
+        260514,
+        1690000
+      ],
+      [
+        260515,
+        1710000
+      ],
+      [
+        260516,
+        1740000
+      ],
+      [
+        260517,
+        1790000
+      ],
+      [
+        260518,
+        1770000
+      ],
+      [
+        260519,
+        1670000
+      ],
+      [
+        260520,
+        1570000
+      ],
+      [
+        260521,
+        1520000
+      ],
+      [
+        260522,
+        1490000
+      ],
+      [
+        260523,
+        1460000
+      ],
+      [
+        260524,
+        1400000
+      ],
+      [
+        260525,
+        1380000
+      ],
+      [
+        260526,
+        1350000
+      ],
+      [
+        260527,
+        1320000
+      ],
+      [
+        260528,
+        1290000
+      ],
+      [
+        260529,
+        1310000
+      ],
+      [
+        260530,
+        1450000
+      ],
+      [
+        260531,
+        1440000
+      ],
+      [
+        260601,
+        1410000
+      ],
+      [
+        260602,
+        1390000
+      ],
+      [
+        260603,
+        1370000
+      ],
+      [
+        260604,
+        1340000
+      ],
+      [
+        260605,
+        1340000
+      ],
+      [
+        260606,
+        1340000
+      ],
+      [
+        260607,
+        1320000
+      ],
+      [
+        260608,
+        1560000
+      ],
+      [
+        260609,
+        1540000
+      ],
+      [
+        260610,
+        1500000
+      ],
+      [
+        260611,
+        1460000
+      ]
+    ],
+    "news": [
+      {
+        "id": 699347,
+        "source": "as",
+        "title": "Baño de gloria del Atlético",
+        "url": "https://as.com/futbol/primera/bano-de-gloria-del-atletico-n/",
+        "date": 1758990026,
+        "photo": "",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 691108,
+        "source": "blog",
+        "title": "Julián Alvarez da una (pen)última alegría a los mánager de Biwenger Fantasy",
+        "url": "https://biwenger.as.com/blog/julian-alvarez-da-una-penultima-alegria-a-los-manager-de-biwenger-fantasy/",
+        "date": 1747659320,
+        "photo": "https://cdn.biwenger.com/wp/2025/05/julian-alvarez-2010443.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 676266,
+        "source": "blog",
+        "title": "Lesionados fantasy que reaparecen en Biwenger tras el parón de selecciones",
+        "url": "https://biwenger.as.com/blog/lesionados-fantasy-que-reaparecen-en-biwenger-tras-el-paron-de-selecciones/",
+        "date": 1731935501,
+        "photo": "https://cdn.biwenger.com/wp/2023/01/gerard_moreno_regreso_lesion_espanyol_villarreal_cf-1-e1667898877242.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 674560,
+        "source": "blog",
+        "title": "La vuelta del patrón: Le Normand",
+        "url": "https://biwenger.as.com/blog/la-vuelta-del-patron-le-normand/",
+        "date": 1730213777,
+        "photo": "https://cdn.biwenger.com/wp/2024/10/photo_2024-10-28_21-18-16.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 670513,
+        "source": "blog",
+        "title": "Once Rentable, Intermedio e Ideal: Jornada 4",
+        "url": "https://biwenger.as.com/blog/once-rentable-intermedio-e-ideal-jornada-4-6/",
+        "date": 1726235052,
+        "photo": "https://cdn.biwenger.com/wp/2021/08/Once.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 669196,
+        "source": "blog",
+        "title": "Once Rentable, Intermedio e Ideal: Jornada 3",
+        "url": "https://biwenger.as.com/blog/once-rentable-intermedio-e-ideal-jornada-3-5/",
+        "date": 1724682323,
+        "photo": "https://cdn.biwenger.com/wp/2020/07/BLOG_Onces-3.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 668927,
+        "source": "blog",
+        "title": "Once Rentable, Intermedio e Ideal: Jornada 2",
+        "url": "https://biwenger.as.com/blog/once-rentable-intermedio-e-ideal-jornada-2-5/",
+        "date": 1724348473,
+        "photo": "https://cdn.biwenger.com/wp/2021/08/Once.jpg",
+        "video": "",
+        "comments": 1
+      },
+      {
+        "id": 668316,
+        "source": "blog",
+        "title": "Once Rentable, Intermedio e Ideal: Jornada 1",
+        "url": "https://biwenger.as.com/blog/once-rentable-intermedio-e-ideal-jornada-1-5/",
+        "date": 1723625118,
+        "photo": "https://cdn.biwenger.com/wp/2021/08/Once.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 658412,
+        "source": "blog",
+        "title": "Once Rentable, Intermedio e Ideal: Jornada 31",
+        "url": "https://biwenger.as.com/blog/once-rentable-intermedio-e-ideal-jornada-31-5/",
+        "date": 1712832207,
+        "photo": "https://cdn.biwenger.com/wp/2021/08/Once.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 656329,
+        "source": "blog",
+        "title": "La salvación es posible con Juanmi",
+        "url": "https://biwenger.as.com/blog/la-salvacion-es-posible-con-juanmi/",
+        "date": 1710251660,
+        "photo": "https://cdn.biwenger.com/wp/2024/03/jugadores-del-cadiz-celebran-un-gol-en-el-cadiz-atletico-de-madrid-de-primera-division-2023-24-efe-roman-rios.jpg",
+        "video": "",
+        "comments": 0
+      }
+    ],
+    "threads": [
+      {
+        "id": 642364,
+        "source": "forum",
+        "title": "Le Normand?",
+        "url": "https://foro.biwenger.com/hilos/le-normand.171533/",
+        "date": 1771764176,
+        "photo": "",
+        "video": "",
+        "comments": 203
+      },
+      {
+        "id": 699827,
+        "source": "forum",
+        "title": "Laporte o Le Normand",
+        "url": "https://foro.biwenger.com/hilos/laporte-o-le-normand.177829/",
+        "date": 1762026845,
+        "photo": "",
+        "video": "",
+        "comments": 15
+      }
+    ],
+    "iconHero": "i/p/hero/15719.png",
+    "playedHome": 14,
+    "playedAway": 14,
+    "reports": [
+      {
+        "home": false,
+        "match": {
+          "id": 46125,
+          "date": 1755459000,
+          "status": "finished",
+          "home": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 2
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4484,
+            "name": "Jornada 1",
+            "short": "J1"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 67
+          }
+        ],
+        "points": {
+          "1": -2,
+          "2": 3,
+          "5": 1,
+          "3": 2,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 4440000,
+          "score1": -2,
+          "score2": 3,
+          "score5": 1,
+          "score3": 2,
+          "score6": 1,
+          "roundPhase": 1,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "yellowCard": 1,
+          "minutesPlayed": 90,
+          "picas": 0,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46132,
+          "date": 1755970200,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "round": {
+            "id": 4485,
+            "name": "Jornada 2",
+            "short": "J2"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 3,
+          "6": 0
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 4080000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 3,
+          "score6": 0,
+          "roundPhase": 2,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46150,
+          "date": 1756566000,
+          "status": "finished",
+          "home": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 1
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4486,
+            "name": "Jornada 3",
+            "short": "J3"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 3,
+          "5": 5,
+          "3": 3,
+          "6": 0
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3700000,
+          "score1": 6,
+          "score2": 3,
+          "score5": 5,
+          "score3": 3,
+          "score6": 0,
+          "roundPhase": 3,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6.6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46158,
+          "date": 1757790000,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 2
+          },
+          "away": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 0
+          },
+          "round": {
+            "id": 4487,
+            "name": "Jornada 4",
+            "short": "J4"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 14,
+            "period": "secondTime",
+            "metadata": 76
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 77
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 5,
+          "5": 4,
+          "3": 6,
+          "6": 0
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3220000,
+          "score1": 2,
+          "score2": 5,
+          "score5": 4,
+          "score3": 6,
+          "score6": 0,
+          "roundPhase": 4,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 77,
+          "picas": 1,
+          "sofascore": 7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46165,
+          "date": 1758464100,
+          "status": "finished",
+          "home": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 1
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4488,
+            "name": "Jornada 5",
+            "short": "J5"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 6,
+          "5": 4,
+          "3": 5,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3050000,
+          "score1": 2,
+          "score2": 6,
+          "score5": 4,
+          "score3": 5,
+          "score6": 2,
+          "roundPhase": 5,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46178,
+          "date": 1758742200,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 3
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 2
+          },
+          "round": {
+            "id": 4710,
+            "name": "Jornada 6 (aplazada)",
+            "short": "J6",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 699155,
+            "source": "as",
+            "title": "El Rayo pica, la Araña mata",
+            "url": "https://as.com/futbol/primera/el-rayo-pica-la-arana-mata-n/",
+            "date": 1758750206,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": [
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              },
+              {
+                "id": 26780,
+                "name": "Íñigo Pérez",
+                "slug": "inigo-perez-2"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 96
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 2,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3050000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 2,
+          "score6": 2,
+          "roundPhase": 6,
+          "home": true,
+          "homeScore": 3,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": false,
+          "yellowCard": 1,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46190,
+          "date": 1758982500,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 5
+          },
+          "away": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 2
+          },
+          "round": {
+            "id": 4490,
+            "name": "Jornada 7",
+            "short": "J7"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 699347,
+            "source": "as",
+            "title": "Baño de gloria del Atlético",
+            "url": "https://as.com/futbol/primera/bano-de-gloria-del-atletico-n/",
+            "date": 1758990026,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 15,
+                "name": "Real Madrid",
+                "slug": "real-madrid"
+              }
+            ],
+            "players": [
+              {
+                "id": 1153,
+                "name": "Griezmann",
+                "slug": "griezmann",
+                "altPositions": [
+                  3
+                ]
+              },
+              {
+                "id": 15568,
+                "name": "Vinícius Jr",
+                "slug": "vinicius-junior"
+              },
+              {
+                "id": 15719,
+                "name": "Le Normand",
+                "slug": "le-normand"
+              },
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              },
+              {
+                "id": 19577,
+                "name": "Mbappé",
+                "slug": "mbappe"
+              },
+              {
+                "id": 24576,
+                "name": "Sørloth",
+                "slug": "a-sorloth"
+              },
+              {
+                "id": 31027,
+                "name": "Arda Güler",
+                "slug": "arda-guler"
+              },
+              {
+                "id": 34557,
+                "name": "Julián Alvarez",
+                "slug": "j-alvarez"
+              },
+              {
+                "id": 37646,
+                "name": "Xabi Alonso",
+                "slug": "xabi-alonso"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 1,
+            "period": "firstTime",
+            "metadata": 14
+          }
+        ],
+        "points": {
+          "1": 7,
+          "2": 8,
+          "5": 8,
+          "3": 4,
+          "6": 11
+        },
+        "star": [
+          6
+        ],
+        "rawStats": {
+          "pos2": true,
+          "price": 3040000,
+          "score1": 7,
+          "score2": 8,
+          "score5": 8,
+          "score3": 4,
+          "score6": 11,
+          "roundPhase": 7,
+          "home": true,
+          "homeScore": 5,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": false,
+          "goals": 1,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.6
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46196,
+          "date": 1759690800,
+          "status": "finished",
+          "home": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 1
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4491,
+            "name": "Jornada 8",
+            "short": "J8"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 700119,
+            "source": "as",
+            "title": "Día de la marmota en Balaídos",
+            "url": "https://as.com/futbol/primera/lenglet-descabalga-al-atleti-n/",
+            "date": 1759698970,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 5,
+                "name": "Celta",
+                "slug": "celta"
+              }
+            ],
+            "players": [
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 5,
+          "5": 6,
+          "3": 5,
+          "6": 5
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3320000,
+          "score1": 6,
+          "score2": 5,
+          "score5": 6,
+          "score3": 5,
+          "score6": 5,
+          "roundPhase": 8,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.1
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46210,
+          "date": 1760814000,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "away": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 0
+          },
+          "round": {
+            "id": 4492,
+            "name": "Jornada 9",
+            "short": "J9"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 6,
+          "5": 4,
+          "3": 8,
+          "6": 3
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3710000,
+          "score1": 2,
+          "score2": 6,
+          "score5": 4,
+          "score3": 8,
+          "score6": 3,
+          "roundPhase": 9,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.2
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46216,
+          "date": 1761595200,
+          "status": "finished",
+          "home": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 0
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 2
+          },
+          "round": {
+            "id": 4493,
+            "name": "Jornada 10",
+            "short": "J10"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 701790,
+            "source": "as",
+            "title": "Simeone pulsa el botón fuera",
+            "url": "https://as.com/futbol/primera/simeone-pulsa-el-boton-fuera-f202510-n/",
+            "date": 1761602761,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 87,
+                "name": "Betis",
+                "slug": "betis"
+              }
+            ],
+            "players": [
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 6,
+          "5": 6,
+          "3": 7,
+          "6": 4
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3900000,
+          "score1": 6,
+          "score2": 6,
+          "score5": 6,
+          "score3": 7,
+          "score6": 4,
+          "roundPhase": 10,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.3
+        }
+      },
+      {
+        "match": {
+          "id": 46230,
+          "date": 1762010100,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 3
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 0
+          },
+          "round": {
+            "id": 4494,
+            "name": "Jornada 11",
+            "short": "J11"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46239,
+          "date": 1762623000,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 3
+          },
+          "away": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 1
+          },
+          "round": {
+            "id": 4495,
+            "name": "Jornada 12",
+            "short": "J12"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46246,
+          "date": 1763919000,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4496,
+            "name": "Jornada 13",
+            "short": "J13"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 703942,
+            "source": "as",
+            "title": "El Atleti raspa oro en Getafe",
+            "url": "https://as.com/futbol/primera/el-atleti-raspa-oro-a-un-duro-getafe-f202511-n/",
+            "date": 1763926798,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              }
+            ],
+            "players": [
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              },
+              {
+                "id": 19506,
+                "name": "Bordalás",
+                "slug": "bordalas"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46260,
+          "date": 1764446400,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 2
+          },
+          "away": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 0
+          },
+          "round": {
+            "id": 4497,
+            "name": "Jornada 14",
+            "short": "J14"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 704538,
+            "source": "as",
+            "title": "Primero Sorloth, después descanso",
+            "url": "https://as.com/futbol/primera/primero-sorloth-despues-siesta-f202511-n/",
+            "date": 1764453339,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 779,
+                "name": "Real Oviedo",
+                "slug": "real-oviedo"
+              }
+            ],
+            "players": [
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46309,
+          "date": 1764705600,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4502,
+            "name": "Jornada 19",
+            "short": "J19"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "injured"
+        },
+        "home": false
+      },
+      {
+        "match": {
+          "id": 46270,
+          "date": 1765051200,
+          "status": "finished",
+          "home": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 1
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 0
+          },
+          "round": {
+            "id": 4498,
+            "name": "Jornada 15",
+            "short": "J15"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46280,
+          "date": 1765630800,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 2
+          },
+          "away": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 1
+          },
+          "round": {
+            "id": 4499,
+            "name": "Jornada 16",
+            "short": "J16"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 1,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3280000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 1,
+          "score6": 2,
+          "roundPhase": 16,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": false,
+          "minutesPlayed": 45,
+          "picas": 1,
+          "sofascore": 6.2
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46287,
+          "date": 1766322000,
+          "status": "finished",
+          "home": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 0
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 3
+          },
+          "round": {
+            "id": 4500,
+            "name": "Jornada 17",
+            "short": "J17"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 77
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 0,
+          "6": 3
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3410000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 0,
+          "score6": 3,
+          "roundPhase": 17,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 3,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 13,
+          "picas": 1,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46292,
+          "date": 1767556800,
+          "status": "finished",
+          "home": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 1
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4501,
+            "name": "Jornada 18",
+            "short": "J18"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": -2,
+          "2": 3,
+          "5": 1,
+          "3": 3,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2910000,
+          "score1": -2,
+          "score2": 3,
+          "score5": 1,
+          "score3": 3,
+          "score6": 2,
+          "roundPhase": 18,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 45,
+          "picas": 0,
+          "sofascore": 6.6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46319,
+          "date": 1768749300,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "away": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 0
+          },
+          "round": {
+            "id": 4503,
+            "name": "Jornada 20",
+            "short": "J20"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 78
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 0,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2480000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 0,
+          "score6": 2,
+          "roundPhase": 20,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 12,
+          "picas": 1,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46330,
+          "date": 1769346000,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 3
+          },
+          "away": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 0
+          },
+          "round": {
+            "id": 4504,
+            "name": "Jornada 21",
+            "short": "J21"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 73
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 0,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2270000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 0,
+          "score6": 1,
+          "roundPhase": 21,
+          "home": true,
+          "homeScore": 3,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 17,
+          "picas": 1,
+          "sofascore": 6.8
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46336,
+          "date": 1769880600,
+          "status": "finished",
+          "home": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 0
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 0
+          },
+          "round": {
+            "id": 4505,
+            "name": "Jornada 22",
+            "short": "J22"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 8,
+          "5": 5,
+          "3": 8,
+          "6": 1
+        },
+        "star": [
+          3
+        ],
+        "rawStats": {
+          "pos2": true,
+          "price": 2110000,
+          "score1": 2,
+          "score2": 8,
+          "score5": 5,
+          "score3": 8,
+          "score6": 1,
+          "roundPhase": 22,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 0,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46349,
+          "date": 1770571800,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 0
+          },
+          "away": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 1
+          },
+          "round": {
+            "id": 4506,
+            "name": "Jornada 23",
+            "short": "J23"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 5,
+          "5": 4,
+          "3": 3,
+          "6": 0
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2270000,
+          "score1": 2,
+          "score2": 5,
+          "score5": 4,
+          "score3": 3,
+          "score6": 0,
+          "roundPhase": 23,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 45,
+          "picas": 1,
+          "sofascore": 7.1
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46356,
+          "date": 1771168500,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 3
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 0
+          },
+          "round": {
+            "id": 4507,
+            "name": "Jornada 24",
+            "short": "J24"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 710483,
+            "source": "as",
+            "title": "El Atleti es un chollo en Liga",
+            "url": "https://as.com/futbol/primera/el-atleti-dimite-en-liga-f202602-n/",
+            "date": 1771175419,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": [
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              },
+              {
+                "id": 26780,
+                "name": "Íñigo Pérez",
+                "slug": "inigo-perez-2"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 56
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 0,
+          "6": -2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2330000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 0,
+          "score6": -2,
+          "roundPhase": 24,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 34,
+          "picas": 1,
+          "sofascore": 6.6
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46368,
+          "date": 1771704000,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 4
+          },
+          "away": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 2
+          },
+          "round": {
+            "id": 4508,
+            "name": "Jornada 25",
+            "short": "J25"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 84
+          }
+        ],
+        "points": {
+          "1": 0,
+          "2": 3,
+          "5": 2,
+          "3": 0,
+          "6": -1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2150000,
+          "score1": 0,
+          "score2": 3,
+          "score5": 2,
+          "score3": 0,
+          "score6": -1,
+          "roundPhase": 25,
+          "home": true,
+          "homeScore": 4,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 6,
+          "picas": "SC",
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46373,
+          "date": 1772308800,
+          "status": "finished",
+          "home": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 0
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4509,
+            "name": "Jornada 26",
+            "short": "J26"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "firstTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 5,
+          "5": 4,
+          "3": 5,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1970000,
+          "score1": 2,
+          "score2": 5,
+          "score5": 4,
+          "score3": 5,
+          "score6": 1,
+          "roundPhase": 26,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": true,
+          "yellowCard": 1,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7
+        }
+      },
+      {
+        "match": {
+          "id": 46388,
+          "date": 1772904600,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 3
+          },
+          "away": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 2
+          },
+          "round": {
+            "id": 4510,
+            "name": "Jornada 27",
+            "short": "J27"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "match": {
+          "id": 46400,
+          "date": 1773501300,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4511,
+            "name": "Jornada 28",
+            "short": "J28"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": true
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46408,
+          "date": 1774209600,
+          "status": "finished",
+          "home": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 3
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 2
+          },
+          "round": {
+            "id": 4512,
+            "name": "Jornada 29",
+            "short": "J29"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 713256,
+            "source": "as",
+            "title": "Vinicius decide que hay Liga",
+            "url": "https://as.com/futbol/primera/vinicius-decide-que-hay-liga-f202603-n/",
+            "date": 1774216619,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 15,
+                "name": "Real Madrid",
+                "slug": "real-madrid"
+              }
+            ],
+            "players": [
+              {
+                "id": 9402,
+                "name": "Valverde",
+                "slug": "fede-valverde",
+                "altPositions": [
+                  2
+                ]
+              },
+              {
+                "id": 15568,
+                "name": "Vinícius Jr",
+                "slug": "vinicius-junior"
+              },
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              },
+              {
+                "id": 19577,
+                "name": "Mbappé",
+                "slug": "mbappe"
+              },
+              {
+                "id": 34557,
+                "name": "Julián Alvarez",
+                "slug": "j-alvarez"
+              },
+              {
+                "id": 39769,
+                "name": "Álvaro Arbeloa",
+                "slug": "alvaro-arbeloa"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 4,
+          "6": -1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1580000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 4,
+          "score6": -1,
+          "roundPhase": 29,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": true,
+          "minutesPlayed": 45,
+          "picas": 1,
+          "sofascore": 6.9
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46412,
+          "date": 1775329200,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "round": {
+            "id": 4513,
+            "name": "Jornada 30",
+            "short": "J30"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 6,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1450000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 6,
+          "score6": 1,
+          "roundPhase": 30,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.8
+        }
+      },
+      {
+        "match": {
+          "id": 46425,
+          "date": 1775934000,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 2
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4514,
+            "name": "Jornada 31",
+            "short": "J31"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46445,
+          "date": 1776877200,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 3
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 2
+          },
+          "round": {
+            "id": 4516,
+            "name": "Jornada 33",
+            "short": "J33"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 3,
+            "period": "firstTime",
+            "metadata": 34
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 2,
+          "6": 3
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1480000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 2,
+          "score6": 3,
+          "roundPhase": 33,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": false,
+          "assists": 1,
+          "minutesPlayed": 45,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46434,
+          "date": 1777143600,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 3
+          },
+          "away": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 2
+          },
+          "round": {
+            "id": 4515,
+            "name": "Jornada 32",
+            "short": "J32"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 72
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 1,
+          "6": 0
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1460000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 1,
+          "score6": 0,
+          "roundPhase": 32,
+          "home": true,
+          "homeScore": 3,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": false,
+          "minutesPlayed": 18,
+          "picas": 1,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46455,
+          "date": 1777731300,
+          "status": "finished",
+          "home": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 0
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 2
+          },
+          "round": {
+            "id": 4517,
+            "name": "Jornada 34",
+            "short": "J34"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 6,
+          "5": 4,
+          "3": 7,
+          "6": 4
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1430000,
+          "score1": 2,
+          "score2": 6,
+          "score5": 4,
+          "score3": 7,
+          "score6": 4,
+          "roundPhase": 34,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46469,
+          "date": 1778344200,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 0
+          },
+          "away": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 1
+          },
+          "round": {
+            "id": 4518,
+            "name": "Jornada 35",
+            "short": "J35"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "firstTime",
+            "metadata": 20
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 69
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 3,
+          "6": -1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1610000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 3,
+          "score6": -1,
+          "roundPhase": 35,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 49,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46475,
+          "date": 1778614200,
+          "status": "finished",
+          "home": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 1
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 2
+          },
+          "round": {
+            "id": 4519,
+            "name": "Jornada 36",
+            "short": "J36"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "firstTime",
+            "metadata": 18
+          },
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 85
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 2,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1660000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 2,
+          "score6": 1,
+          "roundPhase": 36,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": false,
+          "yellowCard": 1,
+          "minutesPlayed": 72,
+          "picas": 1,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46489,
+          "date": 1779037200,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "away": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 0
+          },
+          "round": {
+            "id": 4520,
+            "name": "Jornada 37",
+            "short": "J37"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717321,
+            "source": "as",
+            "title": "El último regalo del Príncipe",
+            "url": "https://as.com/futbol/primera/el-ultimo-regalo-del-principe-f202605-n/",
+            "date": 1779044409,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 289,
+                "name": "Girona",
+                "slug": "girona"
+              }
+            ],
+            "players": [
+              {
+                "id": 1153,
+                "name": "Griezmann",
+                "slug": "griezmann",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "firstTime",
+            "metadata": 23
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 8,
+          "5": 5,
+          "3": 8,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1790000,
+          "score1": 2,
+          "score2": 8,
+          "score5": 5,
+          "score3": 8,
+          "score6": 1,
+          "roundPhase": 37,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "yellowCard": 1,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.7
+        }
+      },
+      {
+        "match": {
+          "id": 46498,
+          "date": 1779649200,
+          "status": "finished",
+          "home": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 5
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4521,
+            "name": "Jornada 38",
+            "short": "J38"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "sanctioned"
+        },
+        "home": false
+      }
+    ],
+    "seasons": [
+      {
+        "id": "2026",
+        "name": "Temporada 2025/2026",
+        "slug": "2025-2026",
+        "names": {
+          "es": "Temporada 2025/2026",
+          "ca": "Temporada 2025/2026",
+          "eu": "2025/2026 Denboraldia",
+          "gl": "Tempada 2025/2026",
+          "es-419": "Temporada 2025/2026"
+        },
+        "games": 28,
+        "points": {
+          "1": 63,
+          "2": 117,
+          "5": 98,
+          "3": 98,
+          "6": 45
+        },
+        "selected": true
+      },
+      {
+        "id": "2025",
+        "name": "Temporada 2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "Temporada 2024/2025",
+          "ca": "Temporada 2024/2025",
+          "eu": "2024/2025 Denboraldia",
+          "gl": "Tempada 2024/2025",
+          "es-419": "Temporada 2024/2025"
+        },
+        "games": 27,
+        "points": {
+          "1": 91,
+          "2": 119,
+          "5": 112,
+          "3": 112,
+          "6": 73
+        }
+      },
+      {
+        "id": "2024",
+        "name": "Temporada 2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "Temporada 2023/2024",
+          "ca": "Temporada 2023/2024",
+          "eu": "2023/2024 Denboraldia",
+          "gl": "Tempada 2023/2024",
+          "es-419": "Temporada 2023/2024"
+        },
+        "games": 29,
+        "points": {
+          "1": 140,
+          "2": 144,
+          "5": 150,
+          "3": 115,
+          "6": 105
+        }
+      },
+      {
+        "id": "2023",
+        "name": "Temporada 2022/2023",
+        "slug": "2022-2023",
+        "names": {
+          "es": "Temporada 2022/2023",
+          "ca": "Temporada 2022/2023",
+          "eu": "2022/2023 Denboraldia",
+          "gl": "Tempada 2022/2023",
+          "es-419": "Temporada 2022/2023"
+        },
+        "games": 33,
+        "points": {
+          "1": 142,
+          "2": 145,
+          "5": 153,
+          "3": 145,
+          "6": 143
+        }
+      },
+      {
+        "id": "2022",
+        "name": "Temporada 2021/2022",
+        "slug": "2021-2022",
+        "names": {
+          "es": "Temporada 2021/2022",
+          "ca": "Temporada 2021/2022",
+          "eu": "2021/2022 Denboraldia",
+          "gl": "Tempada 2021/2022",
+          "es-419": "Temporada 2021/2022"
+        },
+        "games": 37,
+        "points": {
+          "1": 191,
+          "2": 192,
+          "5": 200,
+          "3": 194,
+          "6": 173
+        }
+      },
+      {
+        "id": "2021",
+        "name": "Temporada 2020/2021",
+        "slug": "2020-2021",
+        "names": {
+          "es": "Temporada 2020/2021",
+          "ca": "Temporada 2020/2021",
+          "eu": "2020/2021 Denboraldia",
+          "gl": "Tempada 2020/2021",
+          "es-419": "Temporada 2020/2021"
+        },
+        "games": 33,
+        "points": {
+          "1": 130,
+          "2": 130,
+          "5": 139,
+          "3": 129,
+          "6": 99
+        }
+      },
+      {
+        "id": "2020",
+        "name": "Temporada 2019/2020",
+        "slug": "2019-2020",
+        "names": {
+          "es": "Temporada 2019/2020",
+          "ca": "Temporada 2019/2020",
+          "eu": "2019/2020 Denboraldia",
+          "gl": "Tempada 2019/2020",
+          "es-419": "Temporada 2019/2020"
+        },
+        "games": 31,
+        "points": {
+          "1": 101,
+          "2": 130,
+          "5": 122,
+          "3": 112,
+          "6": 72
+        }
+      },
+      {
+        "id": "2019",
+        "name": "Temporada 2018/2019",
+        "slug": "2018-2019",
+        "names": {
+          "es": "Temporada 2018/2019",
+          "ca": "Temporada 2018/2019",
+          "eu": "2018/2019 Denboraldia",
+          "gl": "Tempada 2018/2019",
+          "es-419": "Temporada 2018/2019"
+        },
+        "games": 4,
+        "points": {
+          "1": 18,
+          "2": 16,
+          "5": 18,
+          "3": 11,
+          "6": 0
+        }
+      },
+      {
+        "id": "2026",
+        "name": "2026",
+        "slug": "2026",
+        "names": {
+          "es": "2026",
+          "ca": "2026",
+          "eu": "2026",
+          "gl": "2026",
+          "es-419": "2026"
+        },
+        "games": 2,
+        "points": {
+          "1": 4,
+          "2": 5,
+          "5": 5
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 20418,
+          "slug": "le-normand"
+        }
+      },
+      {
+        "id": "2026",
+        "name": "2026",
+        "slug": "2026",
+        "names": {
+          "es": "2026",
+          "ca": "2026",
+          "eu": "2026",
+          "gl": "2026",
+          "es-419": "2026"
+        },
+        "games": 1,
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3
+        },
+        "competition": {
+          "id": 58,
+          "name": "Supercopa de España",
+          "slug": "supercopa"
+        },
+        "player": {
+          "id": 23676,
+          "slug": "le-normand"
+        }
+      },
+      {
+        "id": "2026",
+        "name": "2026",
+        "slug": "2026",
+        "names": {
+          "es": "2026",
+          "ca": "2026",
+          "eu": "2026",
+          "gl": "2026",
+          "es-419": "2026"
+        },
+        "games": 0,
+        "points": {
+          "1": null,
+          "2": null,
+          "5": null,
+          "3": null
+        },
+        "competition": {
+          "id": 53,
+          "name": "Mundial",
+          "slug": "world-cup"
+        },
+        "player": {
+          "id": 40339,
+          "slug": "le-normand"
+        }
+      },
+      {
+        "id": "2026",
+        "name": "2025/2026",
+        "slug": "2025-2026",
+        "names": {
+          "es": "2025/2026",
+          "ca": "2025/2026",
+          "eu": "2025/2026",
+          "gl": "2025/2026",
+          "es-419": "2025/2026"
+        },
+        "games": 14,
+        "points": {
+          "1": 48,
+          "2": 51,
+          "5": 52,
+          "3": 42
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 30360,
+          "slug": "r-le-normand"
+        }
+      },
+      {
+        "id": "2025",
+        "name": "2025",
+        "slug": "2025",
+        "names": {
+          "es": "2025",
+          "ca": "2025",
+          "eu": "2025",
+          "gl": "2025",
+          "es-419": "2025"
+        },
+        "games": 3,
+        "points": {
+          "1": 6,
+          "2": 11,
+          "5": 10
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 20418,
+          "slug": "le-normand"
+        }
+      },
+      {
+        "id": "2025",
+        "name": "Mundial de Clubes 2025",
+        "slug": "2025",
+        "names": {
+          "es": "Mundial de Clubes 2025",
+          "ca": "Mundial de Clubes 2025",
+          "eu": "Mundial de Clubes 2025",
+          "gl": "Mundial de Clubes 2025",
+          "es-419": "Mundial de Clubes 2025"
+        },
+        "games": 3,
+        "points": {
+          "1": 2,
+          "2": 9,
+          "5": 6,
+          "3": 12
+        },
+        "competition": {
+          "id": 22,
+          "name": "Mundial de Clubes",
+          "slug": "club-world-cup"
+        },
+        "player": {
+          "id": 36625,
+          "slug": "r-le-normand"
+        }
+      },
+      {
+        "id": "2025",
+        "name": "2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "2024/2025",
+          "ca": "2024/2025",
+          "eu": "2024/2025",
+          "gl": "2024/2025",
+          "es-419": "2024/2025"
+        },
+        "games": 5,
+        "points": {
+          "1": 8,
+          "2": 14,
+          "5": null,
+          "3": 6
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 30360,
+          "slug": "r-le-normand"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2024",
+        "slug": "2024",
+        "names": {
+          "es": "2024",
+          "ca": "2024",
+          "eu": "2024",
+          "gl": "2024",
+          "es-419": "2024"
+        },
+        "games": 4,
+        "points": {
+          "1": 16,
+          "2": 23,
+          "5": 20
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 20418,
+          "slug": "le-normand"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "Eurocopa 2024",
+        "slug": "euro-2024",
+        "names": {
+          "es": "Eurocopa 2024",
+          "ca": "Eurocopa 2024",
+          "eu": "Eurocopa 2024",
+          "gl": "Eurocopa 2024",
+          "es-419": "Eurocopa 2024"
+        },
+        "games": 6,
+        "points": {
+          "1": 24,
+          "2": 24,
+          "5": 25
+        },
+        "competition": {
+          "id": 50,
+          "name": "Eurocopa",
+          "slug": "euro"
+        },
+        "player": {
+          "id": 32738,
+          "slug": "r-le-normand"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "2023/2024",
+          "ca": "2023/2024",
+          "eu": "2023/2024",
+          "gl": "2023/2024",
+          "es-419": "2023/2024"
+        },
+        "games": 7,
+        "points": {
+          "1": null,
+          "2": 27,
+          "5": null,
+          "3": 31
+        },
+        "competition": {
+          "id": 51,
+          "name": "Champions League",
+          "slug": "champions-league"
+        },
+        "player": {
+          "id": 30360,
+          "slug": "r-le-normand"
+        }
+      },
+      {
+        "id": "2023",
+        "name": "2023",
+        "slug": "2023",
+        "names": {
+          "es": "2023",
+          "ca": "2023",
+          "eu": "2023",
+          "gl": "2023",
+          "es-419": "2023"
+        },
+        "games": 2,
+        "points": {
+          "1": 12,
+          "2": 10,
+          "5": 12
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 20418,
+          "slug": "le-normand"
+        }
+      },
+      {
+        "id": "2022",
+        "name": "2022",
+        "slug": "2022",
+        "names": {
+          "es": "2022",
+          "ca": "2022",
+          "eu": "2022",
+          "gl": "2022",
+          "es-419": "2022"
+        },
+        "games": 2,
+        "points": {
+          "1": 4,
+          "2": 6,
+          "5": 6
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 20418,
+          "slug": "le-normand"
+        }
+      },
+      {
+        "id": "2021",
+        "name": "2021",
+        "slug": "2021",
+        "names": {
+          "es": "2021",
+          "ca": "2021",
+          "eu": "2021",
+          "gl": "2021",
+          "es-419": "2021"
+        },
+        "games": 1,
+        "points": {
+          "1": 6,
+          "2": 4,
+          "5": 5
+        },
+        "competition": {
+          "id": 58,
+          "name": "Supercopa de España",
+          "slug": "supercopa"
+        },
+        "player": {
+          "id": 23676,
+          "slug": "le-normand"
+        }
+      }
+    ],
+    "canonicalURL": "https://biwenger.as.com/blog/jugadores/le-normand/"
+  }
+}

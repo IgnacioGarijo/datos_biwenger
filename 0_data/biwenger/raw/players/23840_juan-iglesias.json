@@ -1,0 +1,4574 @@
+{
+  "status": 200,
+  "data": {
+    "id": 23840,
+    "name": "Juan Iglesias",
+    "slug": "juan-iglesias",
+    "position": 2,
+    "price": 3260000,
+    "fantasyPrice": 12000000,
+    "country": "es",
+    "number": 21,
+    "birthday": 19980703,
+    "status": "ok",
+    "priceIncrement": 0,
+    "competition": {
+      "id": 1,
+      "name": "Primera División",
+      "slug": "la-liga",
+      "sport": "football",
+      "currency": "€"
+    },
+    "team": {
+      "id": 8,
+      "name": "Getafe",
+      "slug": "getafe",
+      "nextGames": []
+    },
+    "prices": [
+      [
+        250611,
+        1860000
+      ],
+      [
+        250612,
+        1830000
+      ],
+      [
+        250613,
+        1800000
+      ],
+      [
+        250614,
+        1770000
+      ],
+      [
+        250615,
+        1740000
+      ],
+      [
+        250616,
+        1710000
+      ],
+      [
+        250617,
+        1710000
+      ],
+      [
+        250618,
+        1670000
+      ],
+      [
+        250619,
+        1630000
+      ],
+      [
+        250620,
+        1590000
+      ],
+      [
+        250621,
+        1580000
+      ],
+      [
+        250622,
+        1560000
+      ],
+      [
+        250623,
+        1540000
+      ],
+      [
+        250624,
+        1510000
+      ],
+      [
+        250625,
+        1490000
+      ],
+      [
+        250626,
+        1460000
+      ],
+      [
+        250627,
+        1440000
+      ],
+      [
+        250628,
+        1510000
+      ],
+      [
+        250629,
+        1510000
+      ],
+      [
+        250630,
+        1580000
+      ],
+      [
+        250701,
+        1570000
+      ],
+      [
+        250702,
+        1570000
+      ],
+      [
+        250703,
+        1550000
+      ],
+      [
+        250704,
+        1540000
+      ],
+      [
+        250705,
+        1530000
+      ],
+      [
+        250706,
+        1520000
+      ],
+      [
+        250707,
+        1500000
+      ],
+      [
+        250708,
+        1480000
+      ],
+      [
+        250709,
+        1470000
+      ],
+      [
+        250710,
+        1450000
+      ],
+      [
+        250711,
+        1440000
+      ],
+      [
+        250712,
+        1420000
+      ],
+      [
+        250713,
+        1410000
+      ],
+      [
+        250714,
+        1400000
+      ],
+      [
+        250715,
+        1390000
+      ],
+      [
+        250716,
+        1380000
+      ],
+      [
+        250717,
+        1380000
+      ],
+      [
+        250718,
+        1370000
+      ],
+      [
+        250719,
+        1370000
+      ],
+      [
+        250720,
+        1370000
+      ],
+      [
+        250721,
+        1380000
+      ],
+      [
+        250722,
+        1400000
+      ],
+      [
+        250723,
+        1420000
+      ],
+      [
+        250724,
+        1440000
+      ],
+      [
+        250725,
+        1460000
+      ],
+      [
+        250726,
+        1480000
+      ],
+      [
+        250727,
+        1500000
+      ],
+      [
+        250728,
+        1520000
+      ],
+      [
+        250729,
+        1530000
+      ],
+      [
+        250730,
+        1560000
+      ],
+      [
+        250731,
+        1580000
+      ],
+      [
+        250801,
+        1590000
+      ],
+      [
+        250802,
+        1610000
+      ],
+      [
+        250803,
+        1620000
+      ],
+      [
+        250804,
+        1640000
+      ],
+      [
+        250805,
+        1660000
+      ],
+      [
+        250806,
+        1680000
+      ],
+      [
+        250807,
+        1690000
+      ],
+      [
+        250808,
+        1700000
+      ],
+      [
+        250809,
+        1710000
+      ],
+      [
+        250810,
+        1720000
+      ],
+      [
+        250811,
+        1730000
+      ],
+      [
+        250812,
+        1750000
+      ],
+      [
+        250813,
+        1770000
+      ],
+      [
+        250814,
+        1790000
+      ],
+      [
+        250815,
+        1810000
+      ],
+      [
+        250816,
+        1820000
+      ],
+      [
+        250817,
+        1830000
+      ],
+      [
+        250818,
+        1870000
+      ],
+      [
+        250819,
+        1930000
+      ],
+      [
+        250820,
+        1990000
+      ],
+      [
+        250821,
+        2040000
+      ],
+      [
+        250822,
+        2120000
+      ],
+      [
+        250823,
+        2170000
+      ],
+      [
+        250824,
+        2210000
+      ],
+      [
+        250825,
+        2250000
+      ],
+      [
+        250826,
+        2270000
+      ],
+      [
+        250827,
+        2270000
+      ],
+      [
+        250828,
+        2250000
+      ],
+      [
+        250829,
+        2240000
+      ],
+      [
+        250830,
+        2190000
+      ],
+      [
+        250831,
+        2120000
+      ],
+      [
+        250901,
+        2040000
+      ],
+      [
+        250902,
+        1990000
+      ],
+      [
+        250903,
+        1950000
+      ],
+      [
+        250904,
+        1920000
+      ],
+      [
+        250905,
+        1890000
+      ],
+      [
+        250906,
+        1870000
+      ],
+      [
+        250907,
+        1850000
+      ],
+      [
+        250908,
+        1820000
+      ],
+      [
+        250909,
+        1800000
+      ],
+      [
+        250910,
+        1780000
+      ],
+      [
+        250911,
+        1770000
+      ],
+      [
+        250912,
+        1750000
+      ],
+      [
+        250913,
+        1730000
+      ],
+      [
+        250914,
+        1720000
+      ],
+      [
+        250915,
+        1700000
+      ],
+      [
+        250916,
+        1680000
+      ],
+      [
+        250917,
+        1660000
+      ],
+      [
+        250918,
+        1640000
+      ],
+      [
+        250919,
+        1620000
+      ],
+      [
+        250920,
+        1590000
+      ],
+      [
+        250921,
+        1580000
+      ],
+      [
+        250922,
+        1560000
+      ],
+      [
+        250923,
+        1520000
+      ],
+      [
+        250924,
+        1490000
+      ],
+      [
+        250925,
+        1470000
+      ],
+      [
+        250926,
+        1470000
+      ],
+      [
+        250927,
+        1460000
+      ],
+      [
+        250928,
+        1500000
+      ],
+      [
+        250929,
+        1580000
+      ],
+      [
+        250930,
+        1650000
+      ],
+      [
+        251001,
+        1720000
+      ],
+      [
+        251002,
+        1780000
+      ],
+      [
+        251003,
+        1850000
+      ],
+      [
+        251004,
+        1900000
+      ],
+      [
+        251005,
+        1940000
+      ],
+      [
+        251006,
+        1980000
+      ],
+      [
+        251007,
+        2000000
+      ],
+      [
+        251008,
+        2030000
+      ],
+      [
+        251009,
+        2050000
+      ],
+      [
+        251010,
+        2070000
+      ],
+      [
+        251011,
+        2080000
+      ],
+      [
+        251012,
+        2080000
+      ],
+      [
+        251013,
+        2060000
+      ],
+      [
+        251014,
+        2020000
+      ],
+      [
+        251015,
+        1980000
+      ],
+      [
+        251016,
+        1960000
+      ],
+      [
+        251017,
+        1940000
+      ],
+      [
+        251018,
+        1920000
+      ],
+      [
+        251019,
+        1910000
+      ],
+      [
+        251020,
+        1910000
+      ],
+      [
+        251021,
+        1920000
+      ],
+      [
+        251022,
+        1940000
+      ],
+      [
+        251023,
+        1960000
+      ],
+      [
+        251024,
+        1980000
+      ],
+      [
+        251025,
+        1990000
+      ],
+      [
+        251026,
+        2020000
+      ],
+      [
+        251027,
+        2070000
+      ],
+      [
+        251028,
+        2130000
+      ],
+      [
+        251029,
+        2190000
+      ],
+      [
+        251030,
+        2250000
+      ],
+      [
+        251031,
+        2330000
+      ],
+      [
+        251101,
+        2390000
+      ],
+      [
+        251102,
+        2460000
+      ],
+      [
+        251103,
+        2540000
+      ],
+      [
+        251104,
+        2620000
+      ],
+      [
+        251105,
+        2670000
+      ],
+      [
+        251106,
+        2750000
+      ],
+      [
+        251107,
+        2840000
+      ],
+      [
+        251108,
+        2900000
+      ],
+      [
+        251109,
+        2950000
+      ],
+      [
+        251110,
+        2990000
+      ],
+      [
+        251111,
+        3020000
+      ],
+      [
+        251112,
+        3040000
+      ],
+      [
+        251113,
+        3050000
+      ],
+      [
+        251114,
+        3050000
+      ],
+      [
+        251115,
+        3030000
+      ],
+      [
+        251116,
+        2980000
+      ],
+      [
+        251117,
+        2930000
+      ],
+      [
+        251118,
+        2900000
+      ],
+      [
+        251119,
+        2870000
+      ],
+      [
+        251120,
+        2850000
+      ],
+      [
+        251121,
+        2840000
+      ],
+      [
+        251122,
+        2820000
+      ],
+      [
+        251123,
+        2800000
+      ],
+      [
+        251124,
+        2780000
+      ],
+      [
+        251125,
+        2770000
+      ],
+      [
+        251126,
+        2750000
+      ],
+      [
+        251127,
+        2740000
+      ],
+      [
+        251128,
+        2740000
+      ],
+      [
+        251129,
+        2730000
+      ],
+      [
+        251130,
+        2720000
+      ],
+      [
+        251201,
+        2710000
+      ],
+      [
+        251202,
+        2710000
+      ],
+      [
+        251203,
+        2710000
+      ],
+      [
+        251204,
+        2710000
+      ],
+      [
+        251205,
+        2710000
+      ],
+      [
+        251206,
+        2700000
+      ],
+      [
+        251207,
+        2700000
+      ],
+      [
+        251208,
+        2700000
+      ],
+      [
+        251209,
+        2700000
+      ],
+      [
+        251210,
+        2690000
+      ],
+      [
+        251211,
+        2680000
+      ],
+      [
+        251212,
+        2670000
+      ],
+      [
+        251213,
+        2650000
+      ],
+      [
+        251214,
+        2630000
+      ],
+      [
+        251215,
+        2610000
+      ],
+      [
+        251216,
+        2590000
+      ],
+      [
+        251217,
+        2570000
+      ],
+      [
+        251218,
+        2550000
+      ],
+      [
+        251219,
+        2530000
+      ],
+      [
+        251220,
+        2500000
+      ],
+      [
+        251221,
+        2480000
+      ],
+      [
+        251222,
+        2460000
+      ],
+      [
+        251223,
+        2410000
+      ],
+      [
+        251224,
+        2380000
+      ],
+      [
+        251225,
+        2340000
+      ],
+      [
+        251226,
+        2310000
+      ],
+      [
+        251227,
+        2280000
+      ],
+      [
+        251228,
+        2260000
+      ],
+      [
+        251229,
+        2240000
+      ],
+      [
+        251230,
+        2220000
+      ],
+      [
+        251231,
+        2200000
+      ],
+      [
+        260101,
+        2180000
+      ],
+      [
+        260102,
+        2160000
+      ],
+      [
+        260103,
+        2130000
+      ],
+      [
+        260104,
+        2110000
+      ],
+      [
+        260105,
+        2090000
+      ],
+      [
+        260106,
+        2070000
+      ],
+      [
+        260107,
+        2070000
+      ],
+      [
+        260108,
+        2060000
+      ],
+      [
+        260109,
+        2060000
+      ],
+      [
+        260110,
+        2040000
+      ],
+      [
+        260111,
+        2010000
+      ],
+      [
+        260112,
+        1990000
+      ],
+      [
+        260113,
+        1970000
+      ],
+      [
+        260114,
+        1960000
+      ],
+      [
+        260115,
+        1950000
+      ],
+      [
+        260116,
+        1940000
+      ],
+      [
+        260117,
+        1910000
+      ],
+      [
+        260118,
+        1890000
+      ],
+      [
+        260119,
+        1870000
+      ],
+      [
+        260120,
+        1870000
+      ],
+      [
+        260121,
+        1850000
+      ],
+      [
+        260122,
+        1850000
+      ],
+      [
+        260123,
+        1850000
+      ],
+      [
+        260124,
+        1840000
+      ],
+      [
+        260125,
+        1820000
+      ],
+      [
+        260126,
+        1810000
+      ],
+      [
+        260127,
+        1810000
+      ],
+      [
+        260128,
+        1820000
+      ],
+      [
+        260129,
+        1840000
+      ],
+      [
+        260130,
+        1850000
+      ],
+      [
+        260131,
+        1860000
+      ],
+      [
+        260201,
+        1870000
+      ],
+      [
+        260202,
+        1880000
+      ],
+      [
+        260203,
+        1890000
+      ],
+      [
+        260204,
+        1900000
+      ],
+      [
+        260205,
+        1920000
+      ],
+      [
+        260206,
+        1940000
+      ],
+      [
+        260207,
+        1940000
+      ],
+      [
+        260208,
+        1940000
+      ],
+      [
+        260209,
+        1940000
+      ],
+      [
+        260210,
+        1940000
+      ],
+      [
+        260211,
+        1950000
+      ],
+      [
+        260212,
+        1970000
+      ],
+      [
+        260213,
+        1990000
+      ],
+      [
+        260214,
+        1990000
+      ],
+      [
+        260215,
+        2000000
+      ],
+      [
+        260216,
+        2050000
+      ],
+      [
+        260217,
+        2120000
+      ],
+      [
+        260218,
+        2190000
+      ],
+      [
+        260219,
+        2260000
+      ],
+      [
+        260220,
+        2310000
+      ],
+      [
+        260221,
+        2340000
+      ],
+      [
+        260222,
+        2380000
+      ],
+      [
+        260223,
+        2400000
+      ],
+      [
+        260224,
+        2410000
+      ],
+      [
+        260225,
+        2420000
+      ],
+      [
+        260226,
+        2440000
+      ],
+      [
+        260227,
+        2450000
+      ],
+      [
+        260228,
+        2450000
+      ],
+      [
+        260301,
+        2450000
+      ],
+      [
+        260302,
+        2440000
+      ],
+      [
+        260303,
+        2440000
+      ],
+      [
+        260304,
+        2460000
+      ],
+      [
+        260305,
+        2510000
+      ],
+      [
+        260306,
+        2570000
+      ],
+      [
+        260307,
+        2630000
+      ],
+      [
+        260308,
+        2680000
+      ],
+      [
+        260309,
+        2780000
+      ],
+      [
+        260310,
+        2910000
+      ],
+      [
+        260311,
+        3090000
+      ],
+      [
+        260312,
+        3140000
+      ],
+      [
+        260313,
+        3210000
+      ],
+      [
+        260314,
+        3250000
+      ],
+      [
+        260315,
+        3320000
+      ],
+      [
+        260316,
+        3380000
+      ],
+      [
+        260317,
+        3420000
+      ],
+      [
+        260318,
+        3470000
+      ],
+      [
+        260319,
+        3500000
+      ],
+      [
+        260320,
+        3530000
+      ],
+      [
+        260321,
+        3560000
+      ],
+      [
+        260322,
+        3610000
+      ],
+      [
+        260323,
+        3640000
+      ],
+      [
+        260324,
+        3690000
+      ],
+      [
+        260325,
+        3720000
+      ],
+      [
+        260326,
+        3780000
+      ],
+      [
+        260327,
+        3820000
+      ],
+      [
+        260328,
+        3870000
+      ],
+      [
+        260329,
+        3920000
+      ],
+      [
+        260330,
+        3950000
+      ],
+      [
+        260331,
+        3990000
+      ],
+      [
+        260401,
+        4050000
+      ],
+      [
+        260402,
+        4110000
+      ],
+      [
+        260403,
+        4170000
+      ],
+      [
+        260404,
+        4210000
+      ],
+      [
+        260405,
+        4260000
+      ],
+      [
+        260406,
+        4300000
+      ],
+      [
+        260407,
+        4350000
+      ],
+      [
+        260408,
+        4390000
+      ],
+      [
+        260409,
+        4430000
+      ],
+      [
+        260410,
+        4470000
+      ],
+      [
+        260411,
+        4490000
+      ],
+      [
+        260412,
+        4530000
+      ],
+      [
+        260413,
+        4570000
+      ],
+      [
+        260414,
+        4600000
+      ],
+      [
+        260415,
+        4610000
+      ],
+      [
+        260416,
+        4620000
+      ],
+      [
+        260417,
+        4610000
+      ],
+      [
+        260418,
+        4600000
+      ],
+      [
+        260419,
+        4550000
+      ],
+      [
+        260420,
+        4530000
+      ],
+      [
+        260421,
+        4520000
+      ],
+      [
+        260422,
+        4520000
+      ],
+      [
+        260423,
+        4540000
+      ],
+      [
+        260424,
+        4580000
+      ],
+      [
+        260425,
+        4590000
+      ],
+      [
+        260426,
+        4600000
+      ],
+      [
+        260427,
+        4600000
+      ],
+      [
+        260428,
+        4600000
+      ],
+      [
+        260429,
+        4600000
+      ],
+      [
+        260430,
+        4600000
+      ],
+      [
+        260501,
+        4600000
+      ],
+      [
+        260502,
+        4580000
+      ],
+      [
+        260503,
+        4560000
+      ],
+      [
+        260504,
+        4550000
+      ],
+      [
+        260505,
+        4500000
+      ],
+      [
+        260506,
+        4460000
+      ],
+      [
+        260507,
+        4450000
+      ],
+      [
+        260508,
+        4420000
+      ],
+      [
+        260509,
+        4380000
+      ],
+      [
+        260510,
+        4360000
+      ],
+      [
+        260511,
+        4350000
+      ],
+      [
+        260512,
+        4360000
+      ],
+      [
+        260513,
+        4360000
+      ],
+      [
+        260514,
+        4360000
+      ],
+      [
+        260515,
+        4360000
+      ],
+      [
+        260516,
+        4360000
+      ],
+      [
+        260517,
+        4360000
+      ],
+      [
+        260518,
+        4350000
+      ],
+      [
+        260519,
+        4360000
+      ],
+      [
+        260520,
+        4380000
+      ],
+      [
+        260521,
+        4410000
+      ],
+      [
+        260522,
+        4440000
+      ],
+      [
+        260523,
+        4490000
+      ],
+      [
+        260524,
+        4390000
+      ],
+      [
+        260525,
+        4240000
+      ],
+      [
+        260526,
+        4070000
+      ],
+      [
+        260527,
+        3860000
+      ],
+      [
+        260528,
+        3760000
+      ],
+      [
+        260529,
+        3650000
+      ],
+      [
+        260530,
+        3530000
+      ],
+      [
+        260531,
+        3450000
+      ],
+      [
+        260601,
+        3450000
+      ],
+      [
+        260602,
+        3450000
+      ],
+      [
+        260603,
+        3370000
+      ],
+      [
+        260604,
+        3370000
+      ],
+      [
+        260605,
+        3310000
+      ],
+      [
+        260606,
+        3310000
+      ],
+      [
+        260607,
+        3310000
+      ],
+      [
+        260608,
+        3260000
+      ],
+      [
+        260609,
+        3260000
+      ],
+      [
+        260610,
+        3260000
+      ],
+      [
+        260611,
+        3260000
+      ]
+    ],
+    "news": [
+      {
+        "id": 713970,
+        "source": "blog",
+        "title": "Jugadores a elegir como Ariete: Jornada 30",
+        "url": "https://biwenger.as.com/blog/jugadores-a-elegir-como-ariete-jornada-30-4/",
+        "date": 1775239537,
+        "photo": "https://cdn.biwenger.com/wp/2024/01/de-frutos.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 712412,
+        "source": "blog",
+        "title": "Jugadores económicos recomendables en Biwenger Fantasy: Jornada 28",
+        "url": "https://biwenger.as.com/blog/jugadores-economicos-recomendables-en-biwenger-fantasy-jornada-28/",
+        "date": 1773318283,
+        "photo": "https://cdn.biwenger.com/wp/2025/04/8c1ea700-311b-451a-9c7b-caaf179953d8_16-9-discover-aspect-ratio_default_0.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 711850,
+        "source": "blog",
+        "title": "Jugadores económicos recomendables en Biwenger Fantasy: Jornada 27",
+        "url": "https://biwenger.as.com/blog/jugadores-economicos-recomendables-en-biwenger-fantasy-jornada-27/",
+        "date": 1772709745,
+        "photo": "https://cdn.biwenger.com/wp/2026/01/rob.jpg.jpeg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 699751,
+        "source": "blog",
+        "title": "Julián Alvarez reina en el derbi",
+        "url": "https://biwenger.as.com/blog/julian-alvarez-reina-en-el-derbi/",
+        "date": 1759330949,
+        "photo": "https://cdn.biwenger.com/wp/2025/05/julian-alvarez-2010443.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 624875,
+        "source": "blog",
+        "title": "El ranking de Biwenger: Jornada 6",
+        "url": "https://biwenger.as.com/blog/el-ranking-de-biwenger-jornada-6-2/",
+        "date": 1663753107,
+        "photo": "https://cdn.biwenger.com/wp/2020/06/el-centrocampista-uruguayo-del-real-madrid-federico-valverde-durante-el-partido-ante-el-galatasaray-correspondiente-a-la-cuarta-jornada-del-grupo-a-de-la-liga-de-campeones-ampliada-efe-rodrigo-jimenez.jpg",
+        "video": "",
+        "comments": 0
+      },
+      {
+        "id": 624837,
+        "source": "blog",
+        "title": "Lewandowski es inevitable",
+        "url": "https://biwenger.as.com/blog/lewandowski-es-inevitable/",
+        "date": 1663619054,
+        "photo": "https://cdn.biwenger.com/wp/2022/08/Lewandowski-Barcelona-Liga.jpg",
+        "video": "",
+        "comments": 0
+      }
+    ],
+    "threads": [
+      {
+        "id": 650489,
+        "source": "forum",
+        "title": "Juan Iglesias Getafe : ¿posible chollo?",
+        "url": "https://foro.biwenger.com/hilos/juan-iglesias-getafe-%C2%BFposible-chollo.173894/",
+        "date": 1774121696,
+        "photo": "",
+        "video": "",
+        "comments": 77
+      }
+    ],
+    "playedHome": 19,
+    "playedAway": 18,
+    "reports": [
+      {
+        "home": false,
+        "match": {
+          "id": 46123,
+          "date": 1755442800,
+          "status": "finished",
+          "home": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 0
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "round": {
+            "id": 4484,
+            "name": "Jornada 1",
+            "short": "J1"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 8,
+          "5": 5,
+          "3": 8,
+          "6": 4
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1830000,
+          "score1": 2,
+          "score2": 8,
+          "score5": 5,
+          "score3": 8,
+          "score6": 4,
+          "roundPhase": 1,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.6
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46139,
+          "date": 1756150200,
+          "status": "finished",
+          "home": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "round": {
+            "id": 4485,
+            "name": "Jornada 2",
+            "short": "J2"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 696971,
+            "source": "as",
+            "title": "Un milagro llamado Liso",
+            "url": "https://as.com/futbol/primera/un-milagro-llamado-liso-n/",
+            "date": 1756157758,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 17,
+                "name": "Sevilla",
+                "slug": "sevilla"
+              }
+            ],
+            "players": [
+              {
+                "id": 19506,
+                "name": "Bordalás",
+                "slug": "bordalas"
+              },
+              {
+                "id": 25396,
+                "name": "Juanlu",
+                "slug": "juanlu-sanchez",
+                "altPositions": [
+                  2
+                ]
+              },
+              {
+                "id": 38071,
+                "name": "Adrián Liso",
+                "slug": "adrian-liso",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 9,
+            "period": "firstTime",
+            "metadata": 45
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 0,
+          "5": 1,
+          "3": 2,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2250000,
+          "score1": 2,
+          "score2": 0,
+          "score5": 1,
+          "score3": 2,
+          "score6": 1,
+          "roundPhase": 2,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": false,
+          "ownGoals": 1,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46141,
+          "date": 1756495800,
+          "status": "finished",
+          "home": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 3
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4486,
+            "name": "Jornada 3",
+            "short": "J3"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 697233,
+            "source": "as",
+            "title": "Tres picotazos tumban al Getafe",
+            "url": "https://as.com/futbol/primera/tres-picotazos-tumban-al-getafe-n/",
+            "date": 1756503150,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 18,
+                "name": "Valencia",
+                "slug": "valencia"
+              }
+            ],
+            "players": [
+              {
+                "id": 19506,
+                "name": "Bordalás",
+                "slug": "bordalas"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": -1,
+          "5": 1,
+          "3": 3,
+          "6": 0
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2240000,
+          "score1": 2,
+          "score2": -1,
+          "score5": 1,
+          "score3": 3,
+          "score6": 0,
+          "roundPhase": 3,
+          "away": true,
+          "homeScore": 3,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 5.9
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46156,
+          "date": 1757764800,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "away": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 0
+          },
+          "round": {
+            "id": 4487,
+            "name": "Jornada 4",
+            "short": "J4"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 698201,
+            "source": "as",
+            "title": "Milla reparte goles, gozo y felicidad",
+            "url": "https://as.com/futbol/primera/milla-reparte-goles-gozo-y-felicidad-n/",
+            "date": 1757772734,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              }
+            ],
+            "players": [
+              {
+                "id": 38116,
+                "name": "Alberto Reina",
+                "slug": "alberto-reina",
+                "altPositions": [
+                  4
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 5,
+            "period": "secondTime",
+            "metadata": 67
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 0,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1730000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 0,
+          "score6": 2,
+          "roundPhase": 4,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 23,
+          "picas": 1,
+          "sofascore": 6.9
+        }
+      },
+      {
+        "match": {
+          "id": 46168,
+          "date": 1758481200,
+          "status": "finished",
+          "home": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 3
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4488,
+            "name": "Jornada 5",
+            "short": "J5"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "status": {
+          "status": "ok"
+        },
+        "home": false
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46177,
+          "date": 1758733200,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "away": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 1
+          },
+          "round": {
+            "id": 4710,
+            "name": "Jornada 6 (aplazada)",
+            "short": "J6",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 699154,
+            "source": "as",
+            "title": "Getafe y Alavés empatan en un campo de minas: 34 faltas",
+            "url": "https://as.com/futbol/primera/getafe-y-alaves-empatan-en-un-campo-de-minas-n/",
+            "date": 1758740910,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 91,
+                "name": "Alavés",
+                "slug": "alaves"
+              }
+            ],
+            "players": [
+              {
+                "id": 10139,
+                "name": "Arambarri",
+                "slug": "mauro-arambarri"
+              },
+              {
+                "id": 17369,
+                "name": "Guevara",
+                "slug": "ander-guevara"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 6,
+          "5": 6,
+          "3": 6,
+          "6": 3
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1490000,
+          "score1": 6,
+          "score2": 6,
+          "score5": 6,
+          "score3": 6,
+          "score6": 3,
+          "roundPhase": 6,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.2
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46187,
+          "date": 1758974400,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "away": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 1
+          },
+          "round": {
+            "id": 4490,
+            "name": "Jornada 7",
+            "short": "J7"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 699342,
+            "source": "as",
+            "title": "El Getafe primero recibe un baño y luego reduce el daño",
+            "url": "https://as.com/futbol/primera/sorpresas-y-disparates-en-el-coliseum-n/",
+            "date": 1758982007,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 10,
+                "name": "Levante",
+                "slug": "levante"
+              }
+            ],
+            "players": [
+              {
+                "id": 19506,
+                "name": "Bordalás",
+                "slug": "bordalas"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 1,
+            "period": "secondTime",
+            "metadata": 57
+          }
+        ],
+        "points": {
+          "1": 11,
+          "2": 13,
+          "5": 12,
+          "3": 7,
+          "6": 12
+        },
+        "star": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "rawStats": {
+          "pos2": true,
+          "price": 1460000,
+          "score1": 11,
+          "score2": 13,
+          "score5": 12,
+          "score3": 7,
+          "score6": 12,
+          "roundPhase": 7,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "mvp": true,
+          "cleanSheet": false,
+          "goals": 1,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.6
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46199,
+          "date": 1759518000,
+          "status": "finished",
+          "home": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 2
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "round": {
+            "id": 4491,
+            "name": "Jornada 8",
+            "short": "J8"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 699972,
+            "source": "as",
+            "title": "Remontada para creer",
+            "url": "https://as.com/futbol/remontada-para-creer-n/",
+            "date": 1759526002,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 93,
+                "name": "Osasuna",
+                "slug": "osasuna"
+              }
+            ],
+            "players": [
+              {
+                "id": 17731,
+                "name": "Catena",
+                "slug": "a-catena"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 4,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1850000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 4,
+          "score6": 1,
+          "roundPhase": 8,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46206,
+          "date": 1760900400,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 1
+          },
+          "round": {
+            "id": 4492,
+            "name": "Jornada 9",
+            "short": "J9"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 2,
+          "5": 4,
+          "3": 1,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1910000,
+          "score1": 6,
+          "score2": 2,
+          "score5": 4,
+          "score3": 1,
+          "score6": 2,
+          "roundPhase": 9,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46220,
+          "date": 1761409800,
+          "status": "finished",
+          "home": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 0
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "round": {
+            "id": 4493,
+            "name": "Jornada 10",
+            "short": "J10"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 701631,
+            "source": "as",
+            "title": "Bordalás que estás en los cielos",
+            "url": "https://as.com/futbol/bordalas-que-estas-en-los-cielos-f202510-n/",
+            "date": 1761417341,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 1,
+                "name": "Athletic",
+                "slug": "athletic"
+              },
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 4,
+          "5": 5,
+          "3": 6,
+          "6": 3
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1990000,
+          "score1": 6,
+          "score2": 4,
+          "score5": 5,
+          "score3": 6,
+          "score6": 3,
+          "roundPhase": 10,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6.8
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46227,
+          "date": 1761940800,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "away": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 1
+          },
+          "round": {
+            "id": 4494,
+            "name": "Jornada 11",
+            "short": "J11"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 702054,
+            "source": "as",
+            "title": "El Girona se queda sin caramelos en Getafe",
+            "url": "https://as.com/futbol/primera/el-girona-se-queda-sin-caramelos-en-getafe-f202510-n/",
+            "date": 1761948214,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 289,
+                "name": "Girona",
+                "slug": "girona"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 83
+          }
+        ],
+        "points": {
+          "1": 6,
+          "2": 6,
+          "5": 6,
+          "3": 3,
+          "6": 4
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2330000,
+          "score1": 6,
+          "score2": 6,
+          "score5": 6,
+          "score3": 3,
+          "score6": 4,
+          "roundPhase": 11,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": false,
+          "yellowCard": 1,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.3
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46235,
+          "date": 1762709400,
+          "status": "finished",
+          "home": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4495,
+            "name": "Jornada 12",
+            "short": "J12"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 702928,
+            "source": "as",
+            "title": "Muriqi marca, Arrasate respira",
+            "url": "https://as.com/futbol/muriqi-marca-arrasate-respira-f202511-n/",
+            "date": 1762716689,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 465,
+                "name": "Mallorca",
+                "slug": "mallorca"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 5,
+          "5": 4,
+          "3": 4,
+          "6": 3
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2950000,
+          "score1": 2,
+          "score2": 5,
+          "score5": 4,
+          "score3": 4,
+          "score6": 3,
+          "roundPhase": 12,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46246,
+          "date": 1763919000,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "round": {
+            "id": 4496,
+            "name": "Jornada 13",
+            "short": "J13"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 703942,
+            "source": "as",
+            "title": "El Atleti raspa oro en Getafe",
+            "url": "https://as.com/futbol/primera/el-atleti-raspa-oro-a-un-duro-getafe-f202511-n/",
+            "date": 1763926798,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 2,
+                "name": "Atlético",
+                "slug": "atletico"
+              },
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              }
+            ],
+            "players": [
+              {
+                "id": 19501,
+                "name": "Simeone",
+                "slug": "simeone"
+              },
+              {
+                "id": 19506,
+                "name": "Bordalás",
+                "slug": "bordalas"
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 87
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 3,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2800000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 3,
+          "score6": 2,
+          "roundPhase": 13,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 87,
+          "picas": 1,
+          "sofascore": 6.5
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46258,
+          "date": 1764360000,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "away": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 0
+          },
+          "round": {
+            "id": 4497,
+            "name": "Jornada 14",
+            "short": "J14"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 3,
+          "5": 5,
+          "3": 7,
+          "6": 3
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2740000,
+          "score1": 6,
+          "score2": 3,
+          "score5": 5,
+          "score3": 7,
+          "score6": 3,
+          "roundPhase": 14,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46261,
+          "date": 1765026000,
+          "status": "finished",
+          "home": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 2
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4498,
+            "name": "Jornada 15",
+            "short": "J15"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 2,
+          "5": 2,
+          "3": 4,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2700000,
+          "score1": 2,
+          "score2": 2,
+          "score5": 2,
+          "score3": 4,
+          "score6": 2,
+          "roundPhase": 15,
+          "away": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.4
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46277,
+          "date": 1765656000,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 1
+          },
+          "round": {
+            "id": 4499,
+            "name": "Jornada 16",
+            "short": "J16"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 3,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2650000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 3,
+          "score6": 2,
+          "roundPhase": 16,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.6
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46284,
+          "date": 1766347200,
+          "status": "finished",
+          "home": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 4
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4500,
+            "name": "Jornada 17",
+            "short": "J17"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": -1,
+          "5": 1,
+          "3": 2,
+          "6": -1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2480000,
+          "score1": 2,
+          "score2": -1,
+          "score5": 1,
+          "score3": 2,
+          "score6": -1,
+          "roundPhase": 17,
+          "away": true,
+          "homeScore": 4,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 5.9
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46297,
+          "date": 1767384000,
+          "status": "finished",
+          "home": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "round": {
+            "id": 4501,
+            "name": "Jornada 18",
+            "short": "J18"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 706882,
+            "source": "as",
+            "title": "Rayo y Getafe se hacen rogar hasta el descuento",
+            "url": "https://as.com/futbol/primera/rayo-y-getafe-se-hacen-rogar-hasta-el-descuento-f202601-n/",
+            "date": 1767391276,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 70,
+                "name": "Rayo Vallecano",
+                "slug": "rayo-vallecano"
+              }
+            ],
+            "players": [
+              {
+                "id": 11,
+                "name": "David Soria",
+                "slug": "david-soria"
+              },
+              {
+                "id": 18397,
+                "name": "De Frutos",
+                "slug": "jorge-de-frutos",
+                "altPositions": [
+                  3
+                ]
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "secondTime",
+            "metadata": 53
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 58
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 2,
+          "6": 0
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2160000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 2,
+          "score6": 0,
+          "roundPhase": 18,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "yellowCard": 1,
+          "minutesPlayed": 58,
+          "picas": 1,
+          "sofascore": 6.9
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46308,
+          "date": 1767988800,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "away": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 2
+          },
+          "round": {
+            "id": 4787,
+            "name": "Jornada 19 (aplazada)",
+            "short": "J19",
+            "part": 2
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 14,
+            "period": "secondTime",
+            "metadata": 77
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 78
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 4,
+          "6": 0
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2060000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 4,
+          "score6": 0,
+          "roundPhase": 19,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 78,
+          "picas": 1,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46317,
+          "date": 1768741200,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 18,
+            "name": "Valencia",
+            "slug": "valencia",
+            "score": 1
+          },
+          "round": {
+            "id": 4503,
+            "name": "Jornada 20",
+            "short": "J20"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 3,
+          "5": 3,
+          "3": 4,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1890000,
+          "score1": 2,
+          "score2": 3,
+          "score5": 3,
+          "score3": 4,
+          "score6": 1,
+          "roundPhase": 20,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.7
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46327,
+          "date": 1769457600,
+          "status": "finished",
+          "home": {
+            "id": 289,
+            "name": "Girona",
+            "slug": "girona",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "round": {
+            "id": 4504,
+            "name": "Jornada 21",
+            "short": "J21"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 708847,
+            "source": "as",
+            "title": "Vítor Reis amarga el debut de Luis Vazquez",
+            "url": "https://as.com/futbol/primera/vitor-reis-amarga-el-debut-de-luis-vazquez-f202601-n/",
+            "date": 1769465000,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 289,
+                "name": "Girona",
+                "slug": "girona"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [
+          {
+            "type": 3,
+            "period": "secondTime",
+            "metadata": 59
+          }
+        ],
+        "points": {
+          "1": 6,
+          "2": 6,
+          "5": 6,
+          "3": 5,
+          "6": 6
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1810000,
+          "score1": 6,
+          "score2": 6,
+          "score5": 6,
+          "score3": 5,
+          "score6": 6,
+          "roundPhase": 21,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 1,
+          "tie": true,
+          "cleanSheet": false,
+          "assists": 1,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46337,
+          "date": 1769967000,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 5,
+            "name": "Celta",
+            "slug": "celta",
+            "score": 0
+          },
+          "round": {
+            "id": 4505,
+            "name": "Jornada 22",
+            "short": "J22"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 5,
+          "5": 4,
+          "3": 6,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1870000,
+          "score1": 2,
+          "score2": 5,
+          "score5": 4,
+          "score3": 6,
+          "score6": 2,
+          "roundPhase": 22,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 0,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.1
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46348,
+          "date": 1770555600,
+          "status": "finished",
+          "home": {
+            "id": 91,
+            "name": "Alavés",
+            "slug": "alaves",
+            "score": 0
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "round": {
+            "id": 4506,
+            "name": "Jornada 23",
+            "short": "J23"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 6,
+          "6": 3
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1940000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 6,
+          "score6": 3,
+          "roundPhase": 23,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.8
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46359,
+          "date": 1771082100,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "away": {
+            "id": 19,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "score": 1
+          },
+          "round": {
+            "id": 4507,
+            "name": "Jornada 24",
+            "short": "J24"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 3,
+            "period": "secondTime",
+            "metadata": 53
+          }
+        ],
+        "points": {
+          "1": 6,
+          "2": 7,
+          "5": 7,
+          "3": 5,
+          "6": 5
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 1990000,
+          "score1": 6,
+          "score2": 7,
+          "score5": 7,
+          "score3": 5,
+          "score6": 5,
+          "roundPhase": 24,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": false,
+          "assists": 1,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46364,
+          "date": 1771765200,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 17,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "score": 1
+          },
+          "round": {
+            "id": 4508,
+            "name": "Jornada 25",
+            "short": "J25"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "firstTime",
+            "metadata": 26
+          },
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 67
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 2,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2380000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 2,
+          "score6": 1,
+          "roundPhase": 25,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "lost": true,
+          "cleanSheet": false,
+          "yellowCard": 1,
+          "minutesPlayed": 67,
+          "picas": 1,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46372,
+          "date": 1772481600,
+          "status": "finished",
+          "home": {
+            "id": 15,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "score": 0
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "round": {
+            "id": 4509,
+            "name": "Jornada 26",
+            "short": "J26"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 711685,
+            "source": "as",
+            "title": "El Madrid se baja de la Liga",
+            "url": "https://as.com/futbol/primera/el-madrid-se-baja-de-la-liga-f202603-n/",
+            "date": 1772489022,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 15,
+                "name": "Real Madrid",
+                "slug": "real-madrid"
+              }
+            ],
+            "players": [
+              {
+                "id": 9402,
+                "name": "Valverde",
+                "slug": "fede-valverde",
+                "altPositions": [
+                  2
+                ]
+              },
+              {
+                "id": 15568,
+                "name": "Vinícius Jr",
+                "slug": "vinicius-junior"
+              },
+              {
+                "id": 39769,
+                "name": "Álvaro Arbeloa",
+                "slug": "alvaro-arbeloa"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 6,
+          "5": 6,
+          "3": 8,
+          "6": 6
+        },
+        "star": [
+          3
+        ],
+        "rawStats": {
+          "pos2": true,
+          "price": 2440000,
+          "score1": 6,
+          "score2": 6,
+          "score5": 6,
+          "score3": 8,
+          "score6": 6,
+          "roundPhase": 26,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.3
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46387,
+          "date": 1772982900,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "away": {
+            "id": 87,
+            "name": "Betis",
+            "slug": "betis",
+            "score": 0
+          },
+          "round": {
+            "id": 4510,
+            "name": "Jornada 27",
+            "short": "J27"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 9,
+          "5": 8,
+          "3": 8,
+          "6": 5
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 2680000,
+          "score1": 6,
+          "score2": 9,
+          "score5": 8,
+          "score3": 8,
+          "score6": 5,
+          "roundPhase": 27,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.8
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46400,
+          "date": 1773501300,
+          "status": "finished",
+          "home": {
+            "id": 2,
+            "name": "Atlético",
+            "slug": "atletico",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4511,
+            "name": "Jornada 28",
+            "short": "J28"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 6,
+          "5": 4,
+          "3": 6,
+          "6": 3
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3250000,
+          "score1": 2,
+          "score2": 6,
+          "score5": 4,
+          "score3": 6,
+          "score6": 3,
+          "roundPhase": 28,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 7.3
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46404,
+          "date": 1774106100,
+          "status": "finished",
+          "home": {
+            "id": 7,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "round": {
+            "id": 4512,
+            "name": "Jornada 29",
+            "short": "J29"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 7,
+          "5": 7,
+          "3": 7,
+          "6": 4
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 3560000,
+          "score1": 6,
+          "score2": 7,
+          "score5": 7,
+          "score3": 7,
+          "score6": 4,
+          "roundPhase": 29,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 2,
+          "win": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.5
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46417,
+          "date": 1775390400,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 2
+          },
+          "away": {
+            "id": 1,
+            "name": "Athletic",
+            "slug": "athletic",
+            "score": 0
+          },
+          "round": {
+            "id": 4513,
+            "name": "Jornada 30",
+            "short": "J30"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 3,
+          "6": 6
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 4260000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 3,
+          "score6": 6,
+          "roundPhase": 30,
+          "home": true,
+          "homeScore": 2,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.8
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46423,
+          "date": 1776106800,
+          "status": "finished",
+          "home": {
+            "id": 10,
+            "name": "Levante",
+            "slug": "levante",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4514,
+            "name": "Jornada 31",
+            "short": "J31"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 1,
+          "5": 2,
+          "3": 0,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 4570000,
+          "score1": 2,
+          "score2": 1,
+          "score5": 2,
+          "score3": 0,
+          "score6": 2,
+          "roundPhase": 31,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.3
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46441,
+          "date": 1776880800,
+          "status": "finished",
+          "home": {
+            "id": 13,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "score": 0
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "round": {
+            "id": 4516,
+            "name": "Jornada 33",
+            "short": "J33"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 6,
+            "period": "firstTime",
+            "metadata": 37
+          }
+        ],
+        "points": {
+          "1": 6,
+          "2": 10,
+          "5": 8,
+          "3": 6,
+          "6": 6
+        },
+        "star": [
+          2,
+          5
+        ],
+        "rawStats": {
+          "pos2": true,
+          "price": 4520000,
+          "score1": 6,
+          "score2": 10,
+          "score5": 8,
+          "score3": 6,
+          "score6": 6,
+          "roundPhase": 33,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 1,
+          "win": true,
+          "mvp": true,
+          "cleanSheet": true,
+          "yellowCard": 1,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 8
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46435,
+          "date": 1777126500,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 3,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "score": 2
+          },
+          "round": {
+            "id": 4515,
+            "name": "Jornada 32",
+            "short": "J32"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 0,
+          "5": 1,
+          "3": 1,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 4590000,
+          "score1": 2,
+          "score2": 0,
+          "score5": 1,
+          "score3": 1,
+          "score6": 1,
+          "roundPhase": 32,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.1
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46456,
+          "date": 1777817700,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "away": {
+            "id": 70,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "score": 2
+          },
+          "round": {
+            "id": 4517,
+            "name": "Jornada 34",
+            "short": "J34"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 4,
+          "6": 1
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 4560000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 4,
+          "score6": 1,
+          "roundPhase": 34,
+          "home": true,
+          "homeScore": 0,
+          "awayScore": 2,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.9
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46464,
+          "date": 1778430600,
+          "status": "finished",
+          "home": {
+            "id": 779,
+            "name": "Real Oviedo",
+            "slug": "real-oviedo",
+            "score": 0
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4518,
+            "name": "Jornada 35",
+            "short": "J35"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": null
+        },
+        "events": [
+          {
+            "type": 4,
+            "period": "secondTime",
+            "metadata": 86
+          }
+        ],
+        "points": {
+          "1": 2,
+          "2": 7,
+          "5": 5,
+          "3": 9,
+          "6": 4
+        },
+        "star": [
+          3
+        ],
+        "rawStats": {
+          "pos2": true,
+          "price": 4360000,
+          "score1": 2,
+          "score2": 7,
+          "score5": 5,
+          "score3": 9,
+          "score6": 4,
+          "roundPhase": 35,
+          "away": true,
+          "homeScore": 0,
+          "awayScore": 0,
+          "tie": true,
+          "cleanSheet": true,
+          "minutesPlayed": 86,
+          "picas": 1,
+          "sofascore": 7.4
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46477,
+          "date": 1778700600,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 3
+          },
+          "away": {
+            "id": 465,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "score": 1
+          },
+          "round": {
+            "id": 4519,
+            "name": "Jornada 36",
+            "short": "J36"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717062,
+            "source": "as",
+            "title": "Europa está a dos pasos de Getafe",
+            "url": "https://as.com/futbol/primera/europa-esta-a-dos-pasos-de-getafe-f202605-n/",
+            "date": 1778707847,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 465,
+                "name": "Mallorca",
+                "slug": "mallorca"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 2,
+          "2": 4,
+          "5": 3,
+          "3": 4,
+          "6": 4
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 4360000,
+          "score1": 2,
+          "score2": 4,
+          "score5": 3,
+          "score3": 4,
+          "score6": 4,
+          "roundPhase": 36,
+          "home": true,
+          "homeScore": 3,
+          "awayScore": 1,
+          "win": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 1,
+          "sofascore": 6.8
+        }
+      },
+      {
+        "home": false,
+        "match": {
+          "id": 46487,
+          "date": 1779037200,
+          "status": "finished",
+          "home": {
+            "id": 75,
+            "name": "Elche",
+            "slug": "elche",
+            "score": 1
+          },
+          "away": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 0
+          },
+          "round": {
+            "id": 4520,
+            "name": "Jornada 37",
+            "short": "J37"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717353,
+            "source": "as",
+            "title": "‘Chustazo’ hacia la salvación",
+            "url": "https://as.com/futbol/chustazo-hacia-la-salvacion-f202605-n/",
+            "date": 1779044968,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 75,
+                "name": "Elche",
+                "slug": "elche"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 4,
+          "5": 5,
+          "3": 4,
+          "6": 2
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 4360000,
+          "score1": 6,
+          "score2": 4,
+          "score5": 5,
+          "score3": 4,
+          "score6": 2,
+          "roundPhase": 37,
+          "away": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "lost": true,
+          "cleanSheet": false,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 6.8
+        }
+      },
+      {
+        "home": true,
+        "match": {
+          "id": 46495,
+          "date": 1779562800,
+          "status": "finished",
+          "home": {
+            "id": 8,
+            "name": "Getafe",
+            "slug": "getafe",
+            "score": 1
+          },
+          "away": {
+            "id": 93,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "score": 0
+          },
+          "round": {
+            "id": 4521,
+            "name": "Jornada 38",
+            "short": "J38"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Primera División",
+            "slug": "la-liga",
+            "sport": "football",
+            "currency": "€"
+          },
+          "preview": null,
+          "summary": {
+            "id": 717810,
+            "source": "as",
+            "title": "Fiesta para Getafe y Osasuna",
+            "url": "https://as.com/futbol/primera/fiesta-para-getafe-y-osasuna-f202605-n/",
+            "date": 1779570467,
+            "photo": "",
+            "video": "",
+            "comments": 0,
+            "teams": [
+              {
+                "id": 8,
+                "name": "Getafe",
+                "slug": "getafe"
+              },
+              {
+                "id": 93,
+                "name": "Osasuna",
+                "slug": "osasuna"
+              }
+            ],
+            "players": []
+          }
+        },
+        "events": [],
+        "points": {
+          "1": 6,
+          "2": 6,
+          "5": 6,
+          "3": 3,
+          "6": 4
+        },
+        "rawStats": {
+          "pos2": true,
+          "price": 4490000,
+          "score1": 6,
+          "score2": 6,
+          "score5": 6,
+          "score3": 3,
+          "score6": 4,
+          "roundPhase": 38,
+          "home": true,
+          "homeScore": 1,
+          "awayScore": 0,
+          "win": true,
+          "cleanSheet": true,
+          "minutesPlayed": 90,
+          "picas": 2,
+          "sofascore": 7.2
+        }
+      }
+    ],
+    "seasons": [
+      {
+        "id": "2026",
+        "name": "Temporada 2025/2026",
+        "slug": "2025-2026",
+        "names": {
+          "es": "Temporada 2025/2026",
+          "ca": "Temporada 2025/2026",
+          "eu": "2025/2026 Denboraldia",
+          "gl": "Tempada 2025/2026",
+          "es-419": "Temporada 2025/2026"
+        },
+        "games": 37,
+        "points": {
+          "1": 135,
+          "2": 158,
+          "5": 154,
+          "3": 160,
+          "6": 109
+        },
+        "selected": true
+      },
+      {
+        "id": "2025",
+        "name": "Temporada 2024/2025",
+        "slug": "2024-2025",
+        "names": {
+          "es": "Temporada 2024/2025",
+          "ca": "Temporada 2024/2025",
+          "eu": "2024/2025 Denboraldia",
+          "gl": "Tempada 2024/2025",
+          "es-419": "Temporada 2024/2025"
+        },
+        "games": 37,
+        "points": {
+          "1": 134,
+          "2": 151,
+          "5": 151,
+          "3": 110,
+          "6": 69
+        }
+      },
+      {
+        "id": "2024",
+        "name": "Temporada 2023/2024",
+        "slug": "2023-2024",
+        "names": {
+          "es": "Temporada 2023/2024",
+          "ca": "Temporada 2023/2024",
+          "eu": "2023/2024 Denboraldia",
+          "gl": "Tempada 2023/2024",
+          "es-419": "Temporada 2023/2024"
+        },
+        "games": 24,
+        "points": {
+          "1": 62,
+          "2": 93,
+          "5": 83,
+          "3": 74,
+          "6": 20
+        }
+      },
+      {
+        "id": "2023",
+        "name": "Temporada 2022/2023",
+        "slug": "2022-2023",
+        "names": {
+          "es": "Temporada 2022/2023",
+          "ca": "Temporada 2022/2023",
+          "eu": "2022/2023 Denboraldia",
+          "gl": "Tempada 2022/2023",
+          "es-419": "Temporada 2022/2023"
+        },
+        "games": 32,
+        "points": {
+          "1": 93,
+          "2": 115,
+          "5": 111,
+          "3": 82,
+          "6": 49
+        }
+      },
+      {
+        "id": "2022",
+        "name": "Temporada 2021/2022",
+        "slug": "2021-2022",
+        "names": {
+          "es": "Temporada 2021/2022",
+          "ca": "Temporada 2021/2022",
+          "eu": "2021/2022 Denboraldia",
+          "gl": "Tempada 2021/2022",
+          "es-419": "Temporada 2021/2022"
+        },
+        "games": 20,
+        "points": {
+          "1": 36,
+          "2": 54,
+          "5": 48,
+          "3": 20,
+          "6": 5
+        }
+      },
+      {
+        "id": "2021",
+        "name": "Temporada 2020/2021",
+        "slug": "2020-2021",
+        "names": {
+          "es": "Temporada 2020/2021",
+          "ca": "Temporada 2020/2021",
+          "eu": "2020/2021 Denboraldia",
+          "gl": "Tempada 2020/2021",
+          "es-419": "Temporada 2020/2021"
+        },
+        "games": 10,
+        "points": {
+          "1": 26,
+          "2": 43,
+          "5": 37,
+          "3": 28,
+          "6": 20
+        }
+      },
+      {
+        "id": "2025",
+        "name": "2025",
+        "slug": "2025",
+        "names": {
+          "es": "2025",
+          "ca": "2025",
+          "eu": "2025",
+          "gl": "2025",
+          "es-419": "2025"
+        },
+        "games": 2,
+        "points": {
+          "1": 8,
+          "2": 13,
+          "5": 11
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 32239,
+          "slug": "juan-iglesias"
+        }
+      },
+      {
+        "id": "2024",
+        "name": "2024",
+        "slug": "2024",
+        "names": {
+          "es": "2024",
+          "ca": "2024",
+          "eu": "2024",
+          "gl": "2024",
+          "es-419": "2024"
+        },
+        "games": 1,
+        "points": {
+          "1": 2,
+          "2": 5,
+          "5": 4
+        },
+        "competition": {
+          "id": 59,
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey"
+        },
+        "player": {
+          "id": 32239,
+          "slug": "juan-iglesias"
+        }
+      }
+    ],
+    "canonicalURL": "https://biwenger.as.com/blog/jugadores/juan-iglesias/"
+  }
+}
