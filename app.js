@@ -476,6 +476,68 @@ function renderMarket() {
     xTitle: "Puntos en primera jornada tras fichar",
     format: (value) => fmt.format(value),
   });
+
+  renderTradingActivityChart();
+}
+
+function renderTradingActivityChart() {
+  const rows = byValue(data.trade_summary, "operaciones_cerradas", true);
+  const maxOps = Math.max(...rows.map((row) => row.operaciones_cerradas || 0), 1);
+  const maxDays = Math.max(...rows.map((row) => row.dias_medio || 0), 1);
+  Plotly.newPlot(
+    "tradingActivityChart",
+    [
+      {
+        type: "bar",
+        name: "Compraventas cerradas",
+        x: rows.map((row) => row.user_name),
+        y: rows.map((row) => row.operaciones_cerradas),
+        marker: { color: rows.map((row) => teamColor(row.user_name)) },
+        customdata: rows.map((row) => [row.dias_medio, row.beneficio_bruto, row.rentabilidad]),
+        hovertemplate:
+          "%{x}<br>Operaciones cerradas: %{y}<br>Días medios: %{customdata[0]:.1f}<br>Beneficio: %{customdata[1]:,.0f} €<br>ROI: %{customdata[2]:.1%}<extra></extra>",
+      },
+      {
+        type: "scatter",
+        mode: "lines+markers",
+        name: "Días medios",
+        x: rows.map((row) => row.user_name),
+        y: rows.map((row) => row.dias_medio),
+        yaxis: "y2",
+        line: { color: "#e29578", width: 3, shape: "spline" },
+        marker: { color: "#e29578", size: 9 },
+        hovertemplate: "%{x}<br>Días medios entre compra y venta: %{y:.1f}<extra></extra>",
+      },
+    ],
+    {
+      ...baseLayout,
+      height: 380,
+      images: verticalTopImages(
+        rows.map((row) => ({ ...row, chart_top: row.operaciones_cerradas || 0 })),
+        "user_name",
+        "chart_top",
+        maxOps,
+      ),
+      margin: { l: 56, r: 64, t: 20, b: 88 },
+      xaxis: { ...baseLayout.xaxis, tickangle: -28 },
+      yaxis: {
+        ...baseLayout.yaxis,
+        title: "Compraventas cerradas",
+        range: [-maxOps * 0.22, maxOps * 1.18],
+      },
+      yaxis2: {
+        title: "Días medios",
+        overlaying: "y",
+        side: "right",
+        fixedrange: true,
+        range: [0, maxDays * 1.22],
+        showgrid: false,
+        zeroline: false,
+      },
+      legend: { orientation: "h", y: 1.12 },
+    },
+    config,
+  );
 }
 
 function renderManagement() {
