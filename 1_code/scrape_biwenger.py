@@ -361,6 +361,7 @@ def flatten_bonus(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def fetch_player_details(
     player_ids: set[int],
     catalog_by_id: dict[int, dict[str, Any]],
+    basic_by_id: dict[int, dict[str, Any]],
     out: Path,
     score_id: int,
     refresh: bool,
@@ -370,21 +371,26 @@ def fetch_player_details(
     report_rows: list[dict[str, Any]] = []
     price_rows: list[dict[str, Any]] = []
     headers = {"User-Agent": "Mozilla/5.0", "Accept": "application/json, text/plain, */*"}
+    network_blocked = False
     for player_id in sorted(player_ids):
-        slug = (catalog_by_id.get(player_id) or {}).get("slug")
+        slug = (catalog_by_id.get(player_id) or {}).get("slug") or (basic_by_id.get(player_id) or {}).get("slug")
         if not slug:
             continue
         params = urllib.parse.urlencode({"fields": PLAYER_FIELDS, "score": score_id, "lang": "es"}, safe="*,()")
         url = f"https://cf.biwenger.com/api/v2/players/la-liga/{slug}?{params}"
+        cache_path = out / "raw" / "players" / f"{player_id}_{slug}.json"
+        if network_blocked and not cache_path.exists():
+            continue
         try:
-            data = cached_json(out / "raw" / "players" / f"{player_id}_{slug}.json", url, headers, refresh, delay)
+            data = cached_json(cache_path, url, headers, refresh, delay)
         except RuntimeError as exc:
             if "HTTP 429" in str(exc):
                 print(
                     "AVISO: Biwenger ha devuelto 429 Too Many Requests. "
-                    "Paro la descarga de detalles; relanza el script mas tarde y reutilizara la cache."
+                    "Paro nuevas descargas de detalles; seguire cargando la cache disponible."
                 )
-                break
+                network_blocked = True
+                continue
             print(f"AVISO: no se pudo descargar jugador {player_id} ({slug}): {exc}")
             continue
         player = data.get("data") or {}
@@ -444,6 +450,22 @@ def fetch_player_details(
                     }
                 )
     return details, report_rows, price_rows
+
+
+def load_basic_player_cache(out: Path) -> dict[int, dict[str, Any]]:
+    basics: dict[int, dict[str, Any]] = {}
+    basic_dir = out / "raw" / "players_basic"
+    if not basic_dir.exists():
+        return basics
+    for path in basic_dir.glob("*.json"):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            player = data.get("data") or {}
+            if player:
+                basics[int(path.stem)] = player
+        except (ValueError, OSError):
+            continue
+    return basics
 
 
 def fetch_basic_player_details(
@@ -664,8 +686,17 @@ def main() -> None:
     player_ids = set(catalog_by_id) if args.players == "all" else set(lineup_player_ids)
     player_ids.update(int(row["player_id"]) for row in movements if row.get("player_id") not in ("", None))
     player_ids.update(int(row["player_id"]) for row in market_rows if row.get("player_id") not in ("", None))
-    details, reports, prices = fetch_player_details(player_ids, catalog_by_id, out, args.score, args.refresh, args.delay)
-    basic_details = fetch_basic_player_details(player_ids, catalog_by_id, details, config, out, args.refresh)
+    cached_basic_details = load_basic_player_cache(out)
+    details, reports, prices = fetch_player_details(
+        player_ids,
+        catalog_by_id,
+        cached_basic_details,
+        out,
+        args.score,
+        args.refresh,
+        args.delay,
+    )
+    basic_details = cached_basic_details | fetch_basic_player_details(player_ids, catalog_by_id, details, config, out, args.refresh)
     pending_details = pending_player_detail_rows(player_ids, catalog_by_id, details, basic_details)
     lineups_enriched = enrich_lineups(lineups, catalog_by_id, details, basic_details, reports, args.score)
     ownership_periods = build_ownership_periods(movements, catalog_by_id)
