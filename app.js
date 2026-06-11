@@ -1,6 +1,17 @@
 const data = window.BIWENGER_DASHBOARD_DATA;
 
-const palette = ["#00d1b2", "#ff4d6d", "#4d96ff", "#ffd166", "#06d6a0", "#8338ec", "#ff9f1c"];
+const palette = ["#006d77", "#6d597a", "#b56576", "#2a9d8f", "#457b9d", "#b56576", "#e9c46a"];
+const teamColors = new Map(
+  [
+    ["Arregui", "#006d77"],
+    ["CD Cornisa Azul", "#6d597a"],
+    ["Julia", "#b56576"],
+    ["Karlox F.C.", "#2a9d8f"],
+    ["Los vengadores", "#457b9d"],
+    ["Ricardo J", "#e29578"],
+    ["V\u00edctor Orta", "#e9c46a"],
+  ].map(([name, color]) => [teamKey(name), color]),
+);
 const teamImages = new Map(
   [
     ["Los vengadores", "0_data/img/vengadores.png"],
@@ -41,6 +52,8 @@ function byValue(rows, key, desc = true) {
 }
 
 function teamColor(name) {
+  const fixed = teamColors.get(teamKey(name));
+  if (fixed) return fixed;
   const idx = data.teams.findIndex((team) => team.user_name === name);
   return palette[(idx < 0 ? 0 : idx) % palette.length];
 }
@@ -335,14 +348,14 @@ function renderWinsLosses() {
         name: "Ganadas",
         x: rows.map((row) => row.user_name),
         y: rows.map((row) => row.jornadas_ganadas),
-        marker: { color: "#13a85b" },
+        marker: { color: "#2a9d8f" },
       },
       {
         type: "bar",
         name: "Perdidas",
         x: rows.map((row) => row.user_name),
         y: rows.map((row) => row.jornadas_perdidas),
-        marker: { color: "#ff6b4a" },
+        marker: { color: "#e29578" },
       },
     ],
     {
