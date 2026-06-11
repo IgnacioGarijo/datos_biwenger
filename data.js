@@ -25,7 +25,7 @@ window.BIWENGER_DASHBOARD_DATA = {
     "limitations": [
       "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
       "Quedan algunos jugadores sin detalle histórico completo porque no aparecen en el catálogo público actual de Biwenger; sus fichas básicas sí se conservan cuando la API autenticada las devuelve.",
-      "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5, roja=5 y segunda amarilla=5.",
+      "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5 y roja=5. Las dobles amarillas cuentan como roja, no como amarilla adicional.",
       "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; no distingue perfectamente ventas al mercado si Biwenger no publica el vendedor."
     ]
   },
@@ -7716,7 +7716,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "CD Cornisa Azul",
       "palos_index": 177.5,
       "amarillas": 63.0,
-      "rojas": 2.0,
+      "rojas": 4.0,
       "segundas_amarillas": 2.0
     },
     {
@@ -7732,7 +7732,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Ricardo J",
       "palos_index": 157.5,
       "amarillas": 49.0,
-      "rojas": 5.0,
+      "rojas": 7.0,
       "segundas_amarillas": 2.0
     },
     {
@@ -7756,7 +7756,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Julia",
       "palos_index": 140.0,
       "amarillas": 48.0,
-      "rojas": 3.0,
+      "rojas": 4.0,
       "segundas_amarillas": 1.0
     },
     {
@@ -7764,7 +7764,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "user_name": "Los vengadores",
       "palos_index": 102.5,
       "amarillas": 39.0,
-      "rojas": 0.0,
+      "rojas": 1.0,
       "segundas_amarillas": 1.0
     }
   ],

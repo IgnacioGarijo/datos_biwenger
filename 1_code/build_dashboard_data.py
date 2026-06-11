@@ -222,13 +222,15 @@ def main() -> None:
 
     discipline = (
         lineups.assign(
-            palos_index=lambda d: d["yellowCard"] * 2.5 + d["redCard"] * 5 + d["secondYellowCard"] * 5
+            effective_yellow_cards=lambda d: (d["yellowCard"] - d["secondYellowCard"]).clip(lower=0),
+            effective_red_cards=lambda d: d["redCard"] + d["secondYellowCard"],
+            palos_index=lambda d: d["effective_yellow_cards"] * 2.5 + d["effective_red_cards"] * 5,
         )
         .groupby(["user_id", "user_name"], as_index=False)
         .agg(
             palos_index=("palos_index", "sum"),
-            amarillas=("yellowCard", "sum"),
-            rojas=("redCard", "sum"),
+            amarillas=("effective_yellow_cards", "sum"),
+            rojas=("effective_red_cards", "sum"),
             segundas_amarillas=("secondYellowCard", "sum"),
         )
         .sort_values("palos_index", ascending=False)
@@ -456,7 +458,7 @@ def main() -> None:
             "limitations": [
                 "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
                 "Quedan algunos jugadores sin detalle histórico completo porque no aparecen en el catálogo público actual de Biwenger; sus fichas básicas sí se conservan cuando la API autenticada las devuelve.",
-                "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5, roja=5 y segunda amarilla=5.",
+                "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5 y roja=5. Las dobles amarillas cuentan como roja, no como amarilla adicional.",
                 "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; no distingue perfectamente ventas al mercado si Biwenger no publica el vendedor.",
             ],
         },
