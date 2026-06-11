@@ -1,13 +1,13 @@
 const data = window.BIWENGER_DASHBOARD_DATA;
 
-const palette = ["#007f79", "#d95f43", "#2d6cdf", "#d6a013", "#248f5a", "#7a4cc2", "#17202a"];
+const palette = ["#00a6a6", "#ff6b4a", "#5b6cff", "#f2b705", "#13a85b", "#9b5de5", "#15212f"];
 const teamImages = new Map(
   [
     ["Los vengadores", "0_data/img/vengadores.png"],
     ["Karlox F.C.", "0_data/img/karlox.png"],
     ["Arregui", "0_data/img/arregui.png"],
     ["Ricardo J", "0_data/img/ricardo.svg"],
-    ["Víctor Orta", "0_data/img/ignacio.webp"],
+    ["V\u00edctor Orta", "0_data/img/ignacio.webp"],
     ["CD Cornisa Azul", "0_data/img/alfonso.avif"],
     ["Julia", "0_data/img/julia.jpg"],
   ].map(([name, path]) => [teamKey(name), path]),
@@ -17,15 +17,19 @@ const baseLayout = {
   margin: { l: 64, r: 24, t: 24, b: 68 },
   paper_bgcolor: "rgba(0,0,0,0)",
   plot_bgcolor: "rgba(0,0,0,0)",
-  font: { family: "Inter, system-ui, sans-serif", color: "#17202a" },
-  hoverlabel: { bgcolor: "#17202a", font: { color: "white" } },
-  xaxis: { gridcolor: "#ece7dc", zerolinecolor: "#ded9ce" },
-  yaxis: { gridcolor: "#ece7dc", zerolinecolor: "#ded9ce" },
+  font: { family: "Inter, system-ui, sans-serif", color: "#15212f" },
+  hoverlabel: { bgcolor: "#15212f", font: { color: "white" } },
+  dragmode: false,
+  xaxis: { fixedrange: true, gridcolor: "#dfe7ee", zerolinecolor: "#cfd9e3" },
+  yaxis: { fixedrange: true, gridcolor: "#dfe7ee", zerolinecolor: "#cfd9e3" },
 };
 
 const config = {
   responsive: true,
   displayModeBar: false,
+  scrollZoom: false,
+  doubleClick: false,
+  showTips: false,
 };
 
 const fmt = new Intl.NumberFormat("es-ES");
@@ -175,7 +179,7 @@ function renderPositions() {
       xanchor: "right",
       yanchor: "bottom",
       showarrow: false,
-      font: { size: 18, color: "#17202a" },
+      font: { size: 18, color: "#15212f" },
     };
   }
 
@@ -237,13 +241,14 @@ function renderPositions() {
       images: imageLayer(rounds[0]),
       bargap: 0.25,
       yaxis: {
+        ...baseLayout.yaxis,
         title: "",
         range: [0.35, data.teams.length + 0.8],
         showticklabels: false,
         showgrid: false,
         zeroline: false,
       },
-      xaxis: { title: "Puntos totales", range: [0, maxPoints * 1.18], gridcolor: "#ece7dc", zeroline: false },
+      xaxis: { ...baseLayout.xaxis, title: "Puntos totales", range: [0, maxPoints * 1.18], zeroline: false },
       showlegend: false,
       updatemenus: [
         {
@@ -308,14 +313,14 @@ function renderWinsLosses() {
         name: "Ganadas",
         x: rows.map((row) => row.user_name),
         y: rows.map((row) => row.jornadas_ganadas),
-        marker: { color: "#248f5a" },
+        marker: { color: "#13a85b" },
       },
       {
         type: "bar",
         name: "Perdidas",
         x: rows.map((row) => row.user_name),
         y: rows.map((row) => row.jornadas_perdidas),
-        marker: { color: "#d95f43" },
+        marker: { color: "#ff6b4a" },
       },
     ],
     {
@@ -323,8 +328,8 @@ function renderWinsLosses() {
       barmode: "group",
       height: 380,
       images: verticalTopImages(topRows, "user_name", "chart_top", maxRoundCount),
-      yaxis: { title: "Jornadas", range: [0, maxRoundCount * 1.25] },
-      xaxis: { tickangle: -28 },
+      yaxis: { ...baseLayout.yaxis, title: "Jornadas", range: [0, maxRoundCount * 1.25] },
+      xaxis: { ...baseLayout.xaxis, tickangle: -28 },
       legend: { orientation: "h" },
     },
     config,
@@ -356,8 +361,8 @@ function renderGoalCharts() {
       ...baseLayout,
       height: 380,
       margin: { l: 132, r: 24, t: 18, b: 44 },
-      xaxis: { tickformat: ".0%", title: "Peso del máximo goleador" },
-      yaxis: { autorange: "reversed" },
+      xaxis: { ...baseLayout.xaxis, tickformat: ".0%", title: "Peso del máximo goleador" },
+      yaxis: { ...baseLayout.yaxis, autorange: "reversed" },
     },
     config,
   );
@@ -381,8 +386,8 @@ function renderGoalCharts() {
       ...baseLayout,
       height: 380,
       margin: { l: 132, r: 24, t: 18, b: 44 },
-      xaxis: { tickformat: ".0%", title: "Peso del jugador más decisivo" },
-      yaxis: { autorange: "reversed" },
+      xaxis: { ...baseLayout.xaxis, tickformat: ".0%", title: "Peso del jugador más decisivo" },
+      yaxis: { ...baseLayout.yaxis, autorange: "reversed" },
     },
     config,
   );
@@ -406,8 +411,8 @@ function renderDiscipline() {
       ...baseLayout,
       height: 380,
       images: verticalTopImages(data.discipline, "user_name", "palos_index", maxPalos),
-      xaxis: { tickangle: -28 },
-      yaxis: { title: "Índice parcial", range: [0, maxPalos * 1.25] },
+      xaxis: { ...baseLayout.xaxis, tickangle: -28 },
+      yaxis: { ...baseLayout.yaxis, title: "Índice parcial", range: [0, maxPalos * 1.25] },
     },
     config,
   );
