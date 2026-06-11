@@ -1,6 +1,6 @@
 const data = window.BIWENGER_DASHBOARD_DATA;
 
-const palette = ["#00a6a6", "#ff6b4a", "#5b6cff", "#f2b705", "#13a85b", "#9b5de5", "#15212f"];
+const palette = ["#00d1b2", "#ff4d6d", "#4d96ff", "#ffd166", "#06d6a0", "#8338ec", "#ff9f1c"];
 const teamImages = new Map(
   [
     ["Los vengadores", "0_data/img/vengadores.png"],
@@ -74,13 +74,14 @@ function imageForChart(name, x, y, options = {}) {
   };
 }
 
-function horizontalTipImages(rows, xKey, yKey, maxValue) {
-  const imageWidth = maxValue <= 1 ? maxValue * 0.08 : Math.max(maxValue * 0.055, 0.35);
+function horizontalAxisImages(rows, yKey, maxValue, imageX) {
+  const imageWidth = maxValue <= 1 ? maxValue * 0.07 : Math.max(maxValue * 0.06, 0.35);
   return rows
     .map((row) =>
-      imageForChart(row.user_name || row[yKey], row[xKey] + maxValue * 0.035, row[yKey], {
+      imageForChart(row.user_name || row[yKey], imageX, row[yKey], {
         sizex: imageWidth,
         sizey: 0.72,
+        xanchor: "center",
       }),
     )
     .filter(Boolean);
@@ -89,7 +90,7 @@ function horizontalTipImages(rows, xKey, yKey, maxValue) {
 function verticalTopImages(rows, xKey, yKey, maxValue) {
   return rows
     .map((row) =>
-      imageForChart(row.user_name || row[xKey], row[xKey], row[yKey] + maxValue * 0.08, {
+      imageForChart(row.user_name || row[xKey], row[xKey], -maxValue * 0.08, {
         sizex: 0.52,
         sizey: Math.max(maxValue * 0.12, 1),
       }),
@@ -119,6 +120,8 @@ function makeBar(id, rows, xKey, yKey, options = {}) {
   const sorted = options.ascending ? byValue(rows, xKey, false) : byValue(rows, xKey, true);
   const maxValue = Math.max(...sorted.map((row) => Math.abs(row[xKey] || 0)), 1);
   const minValue = Math.min(...sorted.map((row) => row[xKey] || 0), 0);
+  const imageX = minValue < 0 ? minValue - maxValue * 0.08 : -maxValue * 0.07;
+  const leftRange = minValue < 0 ? minValue - maxValue * 0.18 : -maxValue * 0.16;
   Plotly.newPlot(
     id,
     [
@@ -136,12 +139,12 @@ function makeBar(id, rows, xKey, yKey, options = {}) {
     {
       ...baseLayout,
       height: options.height || 380,
-      margin: { l: 132, r: 24, t: 18, b: 44 },
-      images: options.logos === false ? [] : horizontalTipImages(sorted, xKey, yKey, maxValue),
+      margin: { l: 164, r: 24, t: 18, b: 44 },
+      images: options.logos === false ? [] : horizontalAxisImages(sorted, yKey, maxValue, imageX),
       xaxis: {
         ...baseLayout.xaxis,
         title: options.xTitle || "",
-        range: options.xRange || [minValue < 0 ? minValue * 1.15 : 0, maxValue * 1.18],
+        range: options.xRange || [leftRange, maxValue * 1.18],
       },
       yaxis: { ...baseLayout.yaxis, autorange: "reversed" },
     },
@@ -190,7 +193,7 @@ function renderPositions() {
         source: teamImage(row.user_name),
         xref: "x",
         yref: "y",
-        x: row.total_points_after_round + maxPoints * 0.045,
+        x: -maxPoints * 0.085,
         y: index + 1,
         sizex: iconSizeX,
         sizey: 0.62,
@@ -200,6 +203,20 @@ function renderPositions() {
         layer: "above",
       }))
       .filter((image) => image.source);
+  }
+
+  function teamAxisAnnotations(round) {
+    return rowsForRound(round).map((row, index) => ({
+      text: `<b>${row.user_name}</b>`,
+      x: -maxPoints * 0.05,
+      y: index + 1,
+      xref: "x",
+      yref: "y",
+      xanchor: "left",
+      yanchor: "middle",
+      showarrow: false,
+      font: { size: 13, color: "#15212f" },
+    }));
   }
 
   function traceForTeam(team, round) {
@@ -225,7 +242,7 @@ function renderPositions() {
     name: String(round),
     data: teams.map((team) => traceForTeam(team, round)),
     layout: {
-      annotations: [titleAnnotation(round)],
+      annotations: [titleAnnotation(round), ...teamAxisAnnotations(round)],
       images: imageLayer(round),
     },
   }));
@@ -236,8 +253,8 @@ function renderPositions() {
     {
       ...baseLayout,
       height: 620,
-      margin: { l: 18, r: 150, t: 94, b: 78 },
-      annotations: [titleAnnotation(rounds[0])],
+      margin: { l: 118, r: 150, t: 94, b: 78 },
+      annotations: [titleAnnotation(rounds[0]), ...teamAxisAnnotations(rounds[0])],
       images: imageLayer(rounds[0]),
       bargap: 0.25,
       yaxis: {
@@ -248,7 +265,12 @@ function renderPositions() {
         showgrid: false,
         zeroline: false,
       },
-      xaxis: { ...baseLayout.xaxis, title: "Puntos totales", range: [0, maxPoints * 1.18], zeroline: false },
+      xaxis: {
+        ...baseLayout.xaxis,
+        title: "Puntos totales",
+        range: [-maxPoints * 0.18, maxPoints * 1.15],
+        zeroline: false,
+      },
       showlegend: false,
       updatemenus: [
         {
@@ -328,7 +350,7 @@ function renderWinsLosses() {
       barmode: "group",
       height: 380,
       images: verticalTopImages(topRows, "user_name", "chart_top", maxRoundCount),
-      yaxis: { ...baseLayout.yaxis, title: "Jornadas", range: [0, maxRoundCount * 1.25] },
+      yaxis: { ...baseLayout.yaxis, title: "Jornadas", range: [-maxRoundCount * 0.2, maxRoundCount * 1.16] },
       xaxis: { ...baseLayout.xaxis, tickangle: -28 },
       legend: { orientation: "h" },
     },
@@ -412,7 +434,7 @@ function renderDiscipline() {
       height: 380,
       images: verticalTopImages(data.discipline, "user_name", "palos_index", maxPalos),
       xaxis: { ...baseLayout.xaxis, tickangle: -28 },
-      yaxis: { ...baseLayout.yaxis, title: "Índice parcial", range: [0, maxPalos * 1.25] },
+      yaxis: { ...baseLayout.yaxis, title: "Índice parcial", range: [-maxPalos * 0.2, maxPalos * 1.16] },
     },
     config,
   );
