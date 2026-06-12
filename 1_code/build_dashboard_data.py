@@ -358,6 +358,14 @@ def main() -> None:
             .agg(compras_visibles=("player_id", "count"), inversion_visible=("amount", "sum"))
             .rename(columns={"to_user_id": "user_id", "to_user_name": "user_name"})
         )
+        explicit_sales_events = movements[
+            movements["player_id"].notna() & movements["from_user_id"].notna() & movements["amount"].notna()
+        ].copy()
+        explicit_sales = (
+            explicit_sales_events.groupby(["from_user_id", "from_user_name"], as_index=False)
+            .agg(ventas_publicadas=("player_id", "count"), importe_ventas_publicadas=("amount", "sum"))
+            .rename(columns={"from_user_id": "user_id", "from_user_name": "user_name"})
+        )
         inferred_sales_rows = []
         for _, group in trade_events.groupby("player_id"):
             group = group.sort_values(["date", "content_index"]).reset_index(drop=True)
@@ -366,11 +374,19 @@ def main() -> None:
                 next_owner = group.iloc[idx + 1]
                 if owner["to_user_id"] == next_owner["to_user_id"]:
                     continue
+                published_sale = explicit_sales_events[
+                    (explicit_sales_events["player_id"] == owner["player_id"])
+                    & (explicit_sales_events["from_user_id"] == owner["to_user_id"])
+                    & (explicit_sales_events["date"] >= owner["date"])
+                    & (explicit_sales_events["date"] <= next_owner["date"])
+                ]
+                if len(published_sale):
+                    continue
                 inferred_sales_rows.append(
                     {
                         "user_id": owner["to_user_id"],
                         "user_name": owner["to_user_name"],
-                        "ventas_inferidas": 1,
+                        "ventas_inferidas_sin_publicacion": 1,
                         "importe_ventas_inferidas": next_owner["amount"],
                     }
                 )
@@ -379,22 +395,37 @@ def main() -> None:
             inferred_sales = inferred_sales.groupby(["user_id", "user_name"], as_index=False).sum(numeric_only=True)
         else:
             inferred_sales = pd.DataFrame(
-                columns=["user_id", "user_name", "ventas_inferidas", "importe_ventas_inferidas"]
+                columns=["user_id", "user_name", "ventas_inferidas_sin_publicacion", "importe_ventas_inferidas"]
             )
         market_activity = (
             market_activity.merge(purchases, on=["user_id", "user_name"], how="left")
+            .merge(explicit_sales, on=["user_id", "user_name"], how="left")
             .merge(inferred_sales, on=["user_id", "user_name"], how="left")
         )
     else:
         market_activity = market_activity.assign(
             compras_visibles=0,
             inversion_visible=0,
-            ventas_inferidas=0,
+            ventas_publicadas=0,
+            importe_ventas_publicadas=0,
+            ventas_inferidas_sin_publicacion=0,
             importe_ventas_inferidas=0,
         )
-    for col in ["compras_visibles", "ventas_inferidas", "inversion_visible", "importe_ventas_inferidas"]:
+    for col in [
+        "compras_visibles",
+        "ventas_publicadas",
+        "ventas_inferidas_sin_publicacion",
+        "inversion_visible",
+        "importe_ventas_publicadas",
+        "importe_ventas_inferidas",
+    ]:
         market_activity[col] = market_activity[col].fillna(0)
-    market_activity["movimientos_visibles"] = market_activity["compras_visibles"] + market_activity["ventas_inferidas"]
+    market_activity["ventas_totales_estimadas"] = (
+        market_activity["ventas_publicadas"] + market_activity["ventas_inferidas_sin_publicacion"]
+    )
+    market_activity["movimientos_visibles"] = (
+        market_activity["compras_visibles"] + market_activity["ventas_totales_estimadas"]
+    )
     market_activity = market_activity.round(2).sort_values("movimientos_visibles", ascending=False)
 
     acquisitions = movements[
@@ -592,7 +623,7 @@ def main() -> None:
         "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
         "El detalle histórico de los jugadores que aparecen en alineaciones queda completo en esta extracción.",
         "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5 y roja=5. Las dobles amarillas cuentan como roja, no como amarilla adicional.",
-        "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; el volumen de mercado añade compras visibles y ventas inferidas, pero Biwenger puede contar ventas privadas o al mercado que no publica con vendedor explícito.",
+        "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; el volumen de mercado cuenta compras visibles, ventas publicadas por Biwenger y ventas inferidas solo cuando falta una publicación explícita.",
     ]
 
     payload = "window.BIWENGER_DASHBOARD_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"

@@ -27,7 +27,7 @@ window.BIWENGER_DASHBOARD_DATA = {
       "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
       "El detalle histórico de los jugadores que aparecen en alineaciones queda completo en esta extracción.",
       "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5 y roja=5. Las dobles amarillas cuentan como roja, no como amarilla adicional.",
-      "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; el volumen de mercado añade compras visibles y ventas inferidas, pero Biwenger puede contar ventas privadas o al mercado que no publica con vendedor explícito."
+      "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; el volumen de mercado cuenta compras visibles, ventas publicadas por Biwenger y ventas inferidas solo cuando falta una publicación explícita."
     ]
   },
   "teams": [
@@ -7843,67 +7843,88 @@ window.BIWENGER_DASHBOARD_DATA = {
   ],
   "market_activity_summary": [
     {
-      "user_id": 8128710,
-      "user_name": "Los vengadores",
-      "compras_visibles": 138,
-      "inversion_visible": 503878420,
-      "ventas_inferidas": 56,
-      "importe_ventas_inferidas": 231570194,
-      "movimientos_visibles": 194
-    },
-    {
       "user_id": 6822272,
       "user_name": "Ricardo J",
       "compras_visibles": 143,
       "inversion_visible": 651047245,
-      "ventas_inferidas": 46,
-      "importe_ventas_inferidas": 281851942,
-      "movimientos_visibles": 189
+      "ventas_publicadas": 132,
+      "importe_ventas_publicadas": 576236800,
+      "ventas_inferidas_sin_publicacion": 0,
+      "importe_ventas_inferidas": 0,
+      "ventas_totales_estimadas": 132,
+      "movimientos_visibles": 275
+    },
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "compras_visibles": 138,
+      "inversion_visible": 503878420,
+      "ventas_publicadas": 128,
+      "importe_ventas_publicadas": 429516800,
+      "ventas_inferidas_sin_publicacion": 0,
+      "importe_ventas_inferidas": 0,
+      "ventas_totales_estimadas": 128,
+      "movimientos_visibles": 266
     },
     {
       "user_id": 6826480,
       "user_name": "Víctor Orta",
       "compras_visibles": 75,
       "inversion_visible": 252282004,
-      "ventas_inferidas": 13,
-      "importe_ventas_inferidas": 39228120,
-      "movimientos_visibles": 88
+      "ventas_publicadas": 70,
+      "importe_ventas_publicadas": 170964400,
+      "ventas_inferidas_sin_publicacion": 0,
+      "importe_ventas_inferidas": 0,
+      "ventas_totales_estimadas": 70,
+      "movimientos_visibles": 145
     },
     {
       "user_id": 8127478,
       "user_name": "Arregui",
       "compras_visibles": 69,
       "inversion_visible": 272231020,
-      "ventas_inferidas": 18,
-      "importe_ventas_inferidas": 56843009,
-      "movimientos_visibles": 87
+      "ventas_publicadas": 65,
+      "importe_ventas_publicadas": 194570700,
+      "ventas_inferidas_sin_publicacion": 0,
+      "importe_ventas_inferidas": 0,
+      "ventas_totales_estimadas": 65,
+      "movimientos_visibles": 134
     },
     {
       "user_id": 11678835,
       "user_name": "Julia",
       "compras_visibles": 60,
       "inversion_visible": 189262000,
-      "ventas_inferidas": 15,
-      "importe_ventas_inferidas": 45914769,
-      "movimientos_visibles": 75
-    },
-    {
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
-      "compras_visibles": 46,
-      "inversion_visible": 226867799,
-      "ventas_inferidas": 13,
-      "importe_ventas_inferidas": 70527000,
-      "movimientos_visibles": 59
+      "ventas_publicadas": 56,
+      "importe_ventas_publicadas": 114795300,
+      "ventas_inferidas_sin_publicacion": 0,
+      "importe_ventas_inferidas": 0,
+      "ventas_totales_estimadas": 56,
+      "movimientos_visibles": 116
     },
     {
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
       "compras_visibles": 51,
       "inversion_visible": 207069400,
-      "ventas_inferidas": 8,
-      "importe_ventas_inferidas": 33718000,
-      "movimientos_visibles": 59
+      "ventas_publicadas": 43,
+      "importe_ventas_publicadas": 108729400,
+      "ventas_inferidas_sin_publicacion": 0,
+      "importe_ventas_inferidas": 0,
+      "ventas_totales_estimadas": 43,
+      "movimientos_visibles": 94
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "compras_visibles": 46,
+      "inversion_visible": 226867799,
+      "ventas_publicadas": 44,
+      "importe_ventas_publicadas": 114567800,
+      "ventas_inferidas_sin_publicacion": 0,
+      "importe_ventas_inferidas": 0,
+      "ventas_totales_estimadas": 44,
+      "movimientos_visibles": 90
     }
   ],
   "completed_trades": [

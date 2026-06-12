@@ -632,11 +632,13 @@ function renderMarketVolumeChart() {
       },
       {
         type: "bar",
-        name: "Ventas inferidas",
+        name: "Ventas estimadas",
         x: rows.map((row) => row.user_name),
-        y: rows.map((row) => row.ventas_inferidas),
+        y: rows.map((row) => row.ventas_totales_estimadas),
         marker: { color: "#e9c46a" },
-        hovertemplate: "%{x}<br>Ventas inferidas: %{y}<extra></extra>",
+        customdata: rows.map((row) => [row.ventas_publicadas || 0, row.ventas_inferidas_sin_publicacion || 0]),
+        hovertemplate:
+          "%{x}<br>Ventas estimadas: %{y}<br>Publicadas: %{customdata[0]}<br>Inferidas sin publicación: %{customdata[1]}<extra></extra>",
       },
     ],
     {
