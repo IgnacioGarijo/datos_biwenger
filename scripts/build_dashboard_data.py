@@ -11,9 +11,8 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "0_data" / "biwenger"
-DOCS = ROOT / "docs"
-WEB_DIRS = [ROOT, DOCS]
+DATA = ROOT / "data" / "biwenger"
+WEB_DIRS = [ROOT]
 ARREGUI_USER_ID = 8127478
 ARREGUI_MANUAL_POINTS = 56
 ARREGUI_MANUAL_POINTS_ROUND_NAME = "Jornada 15"

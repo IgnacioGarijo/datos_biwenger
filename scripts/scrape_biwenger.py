@@ -2,8 +2,8 @@
 """
 Scraper amplio para una liga de Biwenger.
 
-Genera CSV normalizados en 0_data/biwenger y guarda respuestas JSON crudas en
-0_data/biwenger/raw para poder re-procesar sin volver a pedirlo todo.
+Genera CSV normalizados en data/biwenger y guarda respuestas JSON crudas en
+data/biwenger/raw para poder re-procesar sin volver a pedirlo todo.
 """
 
 from __future__ import annotations
@@ -24,7 +24,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "0_data" / "biwenger"
+DEFAULT_OUT = ROOT / "data" / "biwenger"
 PUBLIC_COMPETITION_URL = (
     "https://cf.biwenger.com/api/v2/competitions/la-liga/data"
     "?lang=es&score={score}&callback=jsonp_1465365482"
@@ -60,24 +60,31 @@ COMMON_RAW_STATS = [
 ]
 
 
-def read_main_config() -> dict[str, str]:
-    text = (ROOT / "1_code" / "main.R").read_text(encoding="utf-8")
-    config = {}
-    patterns = {
-        "token": r'token\s*<-\s*"([^"]+)"',
-        "league": r'x_league\s*<-\s*"([^"]+)"',
-        "user": r'x_user\s*<-\s*"([^"]+)"',
+def load_dotenv(path: Path = ROOT / ".env") -> None:
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+def read_config() -> dict[str, str]:
+    load_dotenv()
+    config = {
+        "token": os.getenv("BIWENGER_TOKEN", ""),
+        "league": os.getenv("BIWENGER_LEAGUE_ID", os.getenv("BIWENGER_LEAGUE", "")),
+        "user": os.getenv("BIWENGER_USER_ID", os.getenv("BIWENGER_USER", "")),
     }
-    for key, pattern in patterns.items():
-        match = re.search(pattern, text)
-        if match:
-            config[key] = match.group(1)
-    config["token"] = os.getenv("BIWENGER_TOKEN", config.get("token", ""))
-    config["league"] = os.getenv("BIWENGER_LEAGUE", config.get("league", ""))
-    config["user"] = os.getenv("BIWENGER_USER", config.get("user", ""))
     missing = [key for key in ("token", "league", "user") if not config.get(key)]
     if missing:
-        raise RuntimeError(f"Faltan credenciales/configuracion: {', '.join(missing)}")
+        raise RuntimeError(
+            "Faltan credenciales/configuración: "
+            + ", ".join(missing)
+            + ". Crea un .env a partir de .env.example."
+        )
     return config
 
 
@@ -660,7 +667,7 @@ def main() -> None:
     parser.add_argument("--delay", type=float, default=0.25, help="Pausa entre peticiones de jugador.")
     args = parser.parse_args()
 
-    config = read_main_config()
+    config = read_config()
     out = args.out
     out.mkdir(parents=True, exist_ok=True)
 

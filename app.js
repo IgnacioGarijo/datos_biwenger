@@ -14,13 +14,13 @@ const teamColors = new Map(
 );
 const teamImages = new Map(
   [
-    ["Los vengadores", "0_data/img/vengadores.png"],
-    ["Karlox F.C.", "0_data/img/karlox.png"],
-    ["Arregui", "0_data/img/arregui.png"],
-    ["Ricardo J", "0_data/img/ricardo.svg"],
-    ["V\u00edctor Orta", "0_data/img/ignacio.webp"],
-    ["CD Cornisa Azul", "0_data/img/alfonso.avif"],
-    ["Julia", "0_data/img/julia.jpg"],
+    ["Los vengadores", "assets/team-icons/vengadores.png"],
+    ["Karlox F.C.", "assets/team-icons/karlox.png"],
+    ["Arregui", "assets/team-icons/arregui.png"],
+    ["Ricardo J", "assets/team-icons/ricardo.svg"],
+    ["V\u00edctor Orta", "assets/team-icons/ignacio.webp"],
+    ["CD Cornisa Azul", "assets/team-icons/alfonso.avif"],
+    ["Julia", "assets/team-icons/julia.jpg"],
   ].map(([name, path]) => [teamKey(name), path]),
 );
 const positionColors = new Map([
