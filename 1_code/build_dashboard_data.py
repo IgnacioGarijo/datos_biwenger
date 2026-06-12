@@ -281,22 +281,40 @@ def main() -> None:
         .sort_values("palos_index", ascending=False)
     )
 
-    # Compra/venta: se reconstruye como secuencia de compradores por jugador.
+    # Compra/venta: se reconstruye priorizando ventas publicadas al mercado.
     completed_trades = []
     trade_events = movements[
         movements["player_id"].notna() & movements["to_user_id"].notna() & movements["amount"].notna()
     ].sort_values(["player_id", "date", "content_index"])
+    sale_events = movements[
+        movements["player_id"].notna() & movements["from_user_id"].notna() & movements["amount"].notna()
+    ].sort_values(["player_id", "date", "content_index"])
     for player_id, group in trade_events.groupby("player_id"):
         group = group.sort_values(["date", "content_index"]).reset_index(drop=True)
-        for idx in range(len(group) - 1):
+        player_sales = sale_events[sale_events["player_id"] == player_id].copy()
+        used_sales = set()
+        for idx in range(len(group)):
             buy = group.iloc[idx]
-            sell = group.iloc[idx + 1]
-            if buy["to_user_id"] == sell["to_user_id"]:
-                continue
             buy_amount = float(buy["amount"])
-            sell_amount = float(sell["amount"])
             if buy_amount <= 0:
                 continue
+            next_buy_date = group.iloc[idx + 1]["date"] if idx < len(group) - 1 else np.inf
+            published_sales = player_sales[
+                (player_sales["from_user_id"] == buy["to_user_id"])
+                & (player_sales["date"] >= buy["date"])
+                & (player_sales["date"] <= next_buy_date)
+                & (~player_sales.index.isin(used_sales))
+            ].sort_values(["date", "content_index"])
+            source = "venta_publicada"
+            if len(published_sales):
+                sell = published_sales.iloc[0]
+                used_sales.add(sell.name)
+            elif idx < len(group) - 1 and buy["to_user_id"] != group.iloc[idx + 1]["to_user_id"]:
+                sell = group.iloc[idx + 1]
+                source = "siguiente_compra_visible"
+            else:
+                continue
+            sell_amount = float(sell["amount"])
             completed_trades.append(
                 {
                     "user_id": buy["to_user_id"],
@@ -312,6 +330,7 @@ def main() -> None:
                     "profit": sell_amount - buy_amount,
                     "roi": (sell_amount - buy_amount) / buy_amount,
                     "holding_days": (sell["date"] - buy["date"]) / 86400 if pd.notna(sell["date"]) else np.nan,
+                    "trade_source": source,
                 }
             )
     trades = pd.DataFrame(completed_trades)
@@ -623,7 +642,7 @@ def main() -> None:
         "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
         "El detalle histórico de los jugadores que aparecen en alineaciones queda completo en esta extracción.",
         "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5 y roja=5. Las dobles amarillas cuentan como roja, no como amarilla adicional.",
-        "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; el volumen de mercado cuenta compras visibles, ventas publicadas por Biwenger y ventas inferidas solo cuando falta una publicación explícita.",
+        "Beneficio de compra/venta empareja cada compra visible con la primera venta posterior publicada por Biwenger para ese jugador y equipo; si falta esa venta, usa como respaldo la siguiente compra visible del mismo jugador.",
     ]
 
     payload = "window.BIWENGER_DASHBOARD_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
