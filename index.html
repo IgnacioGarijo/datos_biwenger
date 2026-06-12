@@ -18,6 +18,7 @@
         <button class="tab" data-tab="jugadores">Jugadores</button>
         <button class="tab" data-tab="mercado">Mercado</button>
         <button class="tab" data-tab="plantilla">Plantilla</button>
+        <button class="tab" data-tab="equipo">Equipo</button>
         <button class="tab" data-tab="notas">Notas</button>
       </nav>
     </header>
@@ -50,9 +51,9 @@
         <div class="section-head">
           <div>
             <p class="eyebrow">Producción</p>
-            <h2>Goles, dependencia y palos</h2>
+            <h2>Goles, dependencia, palos y posiciones</h2>
           </div>
-          <p>Estas métricas usan los detalles de jugador disponibles antes del límite 429 de Biwenger.</p>
+          <p>Las métricas de jugador usan el detalle histórico descargado para los futbolistas que han aparecido en alineaciones.</p>
         </div>
         <div class="grid two">
           <article class="chart-card">
@@ -71,6 +72,14 @@
             <h3>Índice de palos</h3>
             <div class="chart" id="disciplineChart"></div>
           </article>
+          <article class="chart-card">
+            <h3>Puntos por posición</h3>
+            <div class="chart" id="positionPointsChart"></div>
+          </article>
+          <article class="chart-card">
+            <h3>Dependencia por posición</h3>
+            <div class="chart" id="positionDependenceChart"></div>
+          </article>
         </div>
       </section>
 
@@ -80,7 +89,7 @@
             <p class="eyebrow">Mercado</p>
             <h2>Compra, venta y fichajes</h2>
           </div>
-          <p>El beneficio de trading se reconstruye con movimientos sucesivos del tablón.</p>
+          <p>El beneficio de trading se reconstruye con movimientos sucesivos del tablón; el volumen cuenta compras visibles y ventas inferidas.</p>
         </div>
         <div class="grid two">
           <article class="chart-card">
@@ -102,6 +111,10 @@
           <article class="chart-card">
             <h3>Actividad de trading</h3>
             <div class="chart" id="tradingActivityChart"></div>
+          </article>
+          <article class="chart-card">
+            <h3>Volumen de mercado</h3>
+            <div class="chart" id="marketVolumeChart"></div>
           </article>
         </div>
         <article class="wide-table">
@@ -142,6 +155,35 @@
             <h3>Top fichajes por puntos</h3>
             <div class="table-wrap small">
               <table id="signingsTable"></table>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="equipo">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Ficha de equipo</p>
+            <h2>Resumen, galardones y jugadores clave</h2>
+          </div>
+          <label class="select-label">
+            Equipo
+            <select id="teamSelect"></select>
+          </label>
+        </div>
+        <div class="team-profile">
+          <article class="profile-hero" id="teamProfileHero"></article>
+          <div class="profile-stats" id="teamProfileStats"></div>
+        </div>
+        <div class="grid two">
+          <article class="chart-card">
+            <h3>Galardones</h3>
+            <div class="awards-list" id="teamAwards"></div>
+          </article>
+          <article class="chart-card">
+            <h3>Mejores jugadores por posición</h3>
+            <div class="table-wrap small">
+              <table id="teamBestPlayersTable"></table>
             </div>
           </article>
         </div>

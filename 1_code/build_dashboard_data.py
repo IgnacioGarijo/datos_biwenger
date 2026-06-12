@@ -17,6 +17,13 @@ WEB_DIRS = [ROOT, DOCS]
 ARREGUI_USER_ID = 8127478
 ARREGUI_MANUAL_POINTS = 56
 ARREGUI_MANUAL_POINTS_ROUND_NAME = "Jornada 15"
+POSITION_NAMES = {
+    1: "Portería",
+    2: "Defensa",
+    3: "Centro del campo",
+    4: "Delantera",
+    5: "Entrenador",
+}
 
 
 def clean_number(series: pd.Series) -> pd.Series:
@@ -109,7 +116,7 @@ def main() -> None:
         if col in standings:
             standings[col] = clean_number(standings[col])
 
-    for col in ["date", "amount", "player_id", "to_user_id"]:
+    for col in ["date", "amount", "player_id", "to_user_id", "from_user_id"]:
         if col in movements:
             movements[col] = clean_number(movements[col])
 
@@ -220,6 +227,44 @@ def main() -> None:
     point_dependence = point_dependence.sort_values("share", ascending=False)
     point_dependence = point_dependence.groupby("user_id", as_index=False).head(1)
 
+    position_points = available_points.copy()
+    position_points["position_id"] = clean_number(position_points["player_position"]).astype("Int64")
+    position_points["position_name"] = position_points["position_id"].map(POSITION_NAMES).fillna("Sin posición")
+    position_summary = (
+        position_points.groupby(["user_id", "user_name", "position_id", "position_name"], as_index=False)
+        .agg(
+            position_points=("player_points", "sum"),
+            position_goals=("goals", "sum"),
+            position_assists=("assists", "sum"),
+            players_used=("player_id", "nunique"),
+            aligned_rounds=("round_id", "nunique"),
+        )
+        .merge(team_points[["user_id", "total_player_points"]], on="user_id", how="left")
+    )
+    position_summary["point_share"] = np.where(
+        position_summary["total_player_points"] > 0,
+        position_summary["position_points"] / position_summary["total_player_points"],
+        np.nan,
+    )
+    position_summary = position_summary.round(4).sort_values(["position_id", "position_points"], ascending=[True, False])
+
+    position_best_players = (
+        position_points.groupby(
+            ["user_id", "user_name", "position_id", "position_name", "player_id", "player_name"],
+            as_index=False,
+        )
+        .agg(
+            player_points=("player_points", "sum"),
+            goals=("goals", "sum"),
+            assists=("assists", "sum"),
+            rounds=("round_id", "nunique"),
+        )
+        .sort_values(["user_id", "position_id", "player_points"], ascending=[True, True, False])
+        .groupby(["user_id", "position_id"], as_index=False)
+        .head(1)
+        .round(2)
+    )
+
     discipline = (
         lineups.assign(
             effective_yellow_cards=lambda d: (d["yellowCard"] - d["secondYellowCard"]).clip(lower=0),
@@ -305,6 +350,52 @@ def main() -> None:
                 "dias_medio",
             ]
         )
+
+    market_activity = standings[["user_id", "user_name"]].drop_duplicates()
+    if len(trade_events):
+        purchases = (
+            trade_events.groupby(["to_user_id", "to_user_name"], as_index=False)
+            .agg(compras_visibles=("player_id", "count"), inversion_visible=("amount", "sum"))
+            .rename(columns={"to_user_id": "user_id", "to_user_name": "user_name"})
+        )
+        inferred_sales_rows = []
+        for _, group in trade_events.groupby("player_id"):
+            group = group.sort_values(["date", "content_index"]).reset_index(drop=True)
+            for idx in range(len(group) - 1):
+                owner = group.iloc[idx]
+                next_owner = group.iloc[idx + 1]
+                if owner["to_user_id"] == next_owner["to_user_id"]:
+                    continue
+                inferred_sales_rows.append(
+                    {
+                        "user_id": owner["to_user_id"],
+                        "user_name": owner["to_user_name"],
+                        "ventas_inferidas": 1,
+                        "importe_ventas_inferidas": next_owner["amount"],
+                    }
+                )
+        inferred_sales = pd.DataFrame(inferred_sales_rows)
+        if len(inferred_sales):
+            inferred_sales = inferred_sales.groupby(["user_id", "user_name"], as_index=False).sum(numeric_only=True)
+        else:
+            inferred_sales = pd.DataFrame(
+                columns=["user_id", "user_name", "ventas_inferidas", "importe_ventas_inferidas"]
+            )
+        market_activity = (
+            market_activity.merge(purchases, on=["user_id", "user_name"], how="left")
+            .merge(inferred_sales, on=["user_id", "user_name"], how="left")
+        )
+    else:
+        market_activity = market_activity.assign(
+            compras_visibles=0,
+            inversion_visible=0,
+            ventas_inferidas=0,
+            importe_ventas_inferidas=0,
+        )
+    for col in ["compras_visibles", "ventas_inferidas", "inversion_visible", "importe_ventas_inferidas"]:
+        market_activity[col] = market_activity[col].fillna(0)
+    market_activity["movimientos_visibles"] = market_activity["compras_visibles"] + market_activity["ventas_inferidas"]
+    market_activity = market_activity.round(2).sort_values("movimientos_visibles", ascending=False)
 
     acquisitions = movements[
         movements["player_id"].notna() & movements["to_user_id"].notna() & movements["amount"].notna()
@@ -454,6 +545,7 @@ def main() -> None:
                 "lineup_rows_with_player_points": int(lineups["player_round_points_selected"].notna().sum()),
                 "lineup_rows_with_goals": int(lineups["goals"].notna().sum()),
                 "completed_trade_reconstructions": int(len(trades)),
+                "visible_market_purchases": int(trade_events["to_user_id"].notna().sum()) if len(trade_events) else 0,
             },
             "limitations": [
                 "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
@@ -483,9 +575,12 @@ def main() -> None:
         "point_dependence": records(point_dependence),
         "discipline": records(discipline),
         "trade_summary": records(trade_summary),
+        "market_activity_summary": records(market_activity),
         "completed_trades": records(trades.sort_values("profit", ascending=False).head(30)) if len(trades) else [],
         "signing_points": records(signing_points),
         "first_round_signing_points": records(first_round_signing_points),
+        "position_summary": records(position_summary),
+        "position_best_players": records(position_best_players),
         "loyalty": records(loyalty_summary),
         "concentration": records(concentration),
         "volatility": records(volatility),
@@ -493,6 +588,12 @@ def main() -> None:
         "top_signings": records(fichajes.sort_values("points_after_signing", ascending=False).head(25)) if len(fichajes) else [],
         "top_first_round_signings": records(first_fichajes.sort_values("first_round_points", ascending=False).head(25)) if len(first_fichajes) else [],
     }
+    data["meta"]["limitations"] = [
+        "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
+        "El detalle histórico de los jugadores que aparecen en alineaciones queda completo en esta extracción.",
+        "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5 y roja=5. Las dobles amarillas cuentan como roja, no como amarilla adicional.",
+        "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; el volumen de mercado añade compras visibles y ventas inferidas, pero Biwenger puede contar ventas privadas o al mercado que no publica con vendedor explícito.",
+    ]
 
     payload = "window.BIWENGER_DASHBOARD_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
     for web_dir in WEB_DIRS:

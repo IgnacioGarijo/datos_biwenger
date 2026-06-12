@@ -1,32 +1,33 @@
 window.BIWENGER_DASHBOARD_DATA = {
   "meta": {
-    "created_at": "2026-06-11T15:46:05.914803+00:00",
+    "created_at": "2026-06-12T07:17:55.569982+00:00",
     "score_id": 1,
     "players_mode": "lineups",
     "users": 7,
     "rounds": 42,
     "standings_rows": 294,
     "lineup_rows": 3231,
-    "players_with_details": 376,
-    "players_pending_details": 39,
+    "players_with_details": 415,
+    "players_pending_details": 0,
     "players_pending_details_with_public_slug": 0,
-    "player_reports": 13580,
-    "price_points": 127109,
+    "player_reports": 14608,
+    "price_points": 136370,
     "market_movements": 1115,
     "ownership_periods_from_movements": 582,
     "round_finished_bonus_rows": 294,
     "generated_for": "GitHub Pages",
     "coverage": {
       "lineup_rows": 3231,
-      "lineup_rows_with_player_points": 2539,
+      "lineup_rows_with_player_points": 2630,
       "lineup_rows_with_goals": 3231,
-      "completed_trade_reconstructions": 169
+      "completed_trade_reconstructions": 169,
+      "visible_market_purchases": 582
     },
     "limitations": [
       "A Arregui se le corrigen 56 puntos manuales de la Jornada 15 en los acumulados previos a esa jornada para que la carrera de puntos no arranque inflada.",
-      "Quedan algunos jugadores sin detalle histórico completo porque no aparecen en el catálogo público actual de Biwenger; sus fichas básicas sí se conservan cuando la API autenticada las devuelve.",
+      "El detalle histórico de los jugadores que aparecen en alineaciones queda completo en esta extracción.",
       "No aparece una estadística de faltas cometidas en rawStats; el índice de palos es parcial y suma amarilla=2.5 y roja=5. Las dobles amarillas cuentan como roja, no como amarilla adicional.",
-      "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; no distingue perfectamente ventas al mercado si Biwenger no publica el vendedor."
+      "Beneficio de compra/venta se infiere por la siguiente compra visible del mismo jugador en el tablón; el volumen de mercado añade compras visibles y ventas inferidas, pero Biwenger puede contar ventas privadas o al mercado que no publica con vendedor explícito."
     ]
   },
   "teams": [
@@ -7546,20 +7547,20 @@ window.BIWENGER_DASHBOARD_DATA = {
     {
       "user_id": 8128710,
       "user_name": "Los vengadores",
-      "goles": 54.0,
-      "asistencias": 42.0
+      "goles": 55.0,
+      "asistencias": 43.0
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "goles": 44.0,
+      "asistencias": 20.0
     },
     {
       "user_id": 6826480,
       "user_name": "Víctor Orta",
       "goles": 41.0,
       "asistencias": 22.0
-    },
-    {
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
-      "goles": 41.0,
-      "asistencias": 19.0
     },
     {
       "user_id": 6822272,
@@ -7570,14 +7571,14 @@ window.BIWENGER_DASHBOARD_DATA = {
     {
       "user_id": 11678835,
       "user_name": "Julia",
-      "goles": 31.0,
-      "asistencias": 21.0
+      "goles": 32.0,
+      "asistencias": 22.0
     },
     {
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "goles": 26.0,
-      "asistencias": 31.0
+      "goles": 31.0,
+      "asistencias": 32.0
     }
   ],
   "goal_dependence": [
@@ -7596,8 +7597,8 @@ window.BIWENGER_DASHBOARD_DATA = {
       "player_id": 18398,
       "player_name": "Budimir",
       "player_goals": 8.0,
-      "goles": 31.0,
-      "share": 0.25806451612903225
+      "goles": 32.0,
+      "share": 0.25
     },
     {
       "user_id": 8128710,
@@ -7605,17 +7606,8 @@ window.BIWENGER_DASHBOARD_DATA = {
       "player_id": 19577,
       "player_name": "Mbappé",
       "player_goals": 13.0,
-      "goles": 54.0,
-      "share": 0.24074074074074073
-    },
-    {
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
-      "player_id": 10276,
-      "player_name": "Cucho",
-      "player_goals": 6.0,
-      "goles": 26.0,
-      "share": 0.23076923076923078
+      "goles": 55.0,
+      "share": 0.23636363636363636
     },
     {
       "user_id": 10089858,
@@ -7623,8 +7615,17 @@ window.BIWENGER_DASHBOARD_DATA = {
       "player_id": 2009,
       "player_name": "Borja Iglesias",
       "player_goals": 9.0,
-      "goles": 41.0,
-      "share": 0.21951219512195122
+      "goles": 44.0,
+      "share": 0.20454545454545456
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "player_id": 10276,
+      "player_name": "Cucho",
+      "player_goals": 6.0,
+      "goles": 31.0,
+      "share": 0.1935483870967742
     },
     {
       "user_id": 8127478,
@@ -7652,8 +7653,8 @@ window.BIWENGER_DASHBOARD_DATA = {
       "player_id": 26566,
       "player_name": "Carlos Romero",
       "player_points": 185.0,
-      "total_player_points": 1425.0,
-      "share": 0.12982456140350876
+      "total_player_points": 1485.0,
+      "share": 0.12457912457912458
     },
     {
       "user_id": 6826480,
@@ -7661,17 +7662,8 @@ window.BIWENGER_DASHBOARD_DATA = {
       "player_id": 25724,
       "player_name": "Muriqi",
       "player_points": 184.0,
-      "total_player_points": 1517.0,
-      "share": 0.12129202373104812
-    },
-    {
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
-      "player_id": 11,
-      "player_name": "David Soria",
-      "player_points": 180.0,
-      "total_player_points": 1512.0,
-      "share": 0.11904761904761904
+      "total_player_points": 1523.0,
+      "share": 0.12081418253447143
     },
     {
       "user_id": 8128710,
@@ -7679,8 +7671,17 @@ window.BIWENGER_DASHBOARD_DATA = {
       "player_id": 26271,
       "player_name": "Yamal",
       "player_points": 196.0,
-      "total_player_points": 1774.0,
-      "share": 0.1104847801578354
+      "total_player_points": 1811.0,
+      "share": 0.10822749861954721
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "player_id": 11,
+      "player_name": "David Soria",
+      "player_points": 180.0,
+      "total_player_points": 1710.0,
+      "share": 0.10526315789473684
     },
     {
       "user_id": 6822272,
@@ -7688,8 +7689,8 @@ window.BIWENGER_DASHBOARD_DATA = {
       "player_id": 15430,
       "player_name": "Joan García",
       "player_points": 164.0,
-      "total_player_points": 1622.0,
-      "share": 0.10110974106041924
+      "total_player_points": 1632.0,
+      "share": 0.10049019607843138
     },
     {
       "user_id": 8127478,
@@ -7697,8 +7698,8 @@ window.BIWENGER_DASHBOARD_DATA = {
       "player_id": 2597,
       "player_name": "Fornals",
       "player_points": 162.0,
-      "total_player_points": 1687.0,
-      "share": 0.09602845287492591
+      "total_player_points": 1692.0,
+      "share": 0.09574468085106383
     },
     {
       "user_id": 5684093,
@@ -7706,18 +7707,34 @@ window.BIWENGER_DASHBOARD_DATA = {
       "player_id": 26276,
       "player_name": "Ratiu",
       "player_points": 126.0,
-      "total_player_points": 1415.0,
-      "share": 0.08904593639575972
+      "total_player_points": 1503.0,
+      "share": 0.08383233532934131
     }
   ],
   "discipline": [
     {
       "user_id": 5684093,
       "user_name": "CD Cornisa Azul",
-      "palos_index": 177.5,
-      "amarillas": 63.0,
+      "palos_index": 185.0,
+      "amarillas": 66.0,
       "rojas": 4.0,
       "segundas_amarillas": 2.0
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "palos_index": 180.0,
+      "amarillas": 68.0,
+      "rojas": 2.0,
+      "segundas_amarillas": 0.0
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "palos_index": 170.0,
+      "amarillas": 62.0,
+      "rojas": 3.0,
+      "segundas_amarillas": 1.0
     },
     {
       "user_id": 6826480,
@@ -7730,26 +7747,10 @@ window.BIWENGER_DASHBOARD_DATA = {
     {
       "user_id": 6822272,
       "user_name": "Ricardo J",
-      "palos_index": 157.5,
-      "amarillas": 49.0,
+      "palos_index": 160.0,
+      "amarillas": 50.0,
       "rojas": 7.0,
       "segundas_amarillas": 2.0
-    },
-    {
-      "user_id": 8127478,
-      "user_name": "Arregui",
-      "palos_index": 155.0,
-      "amarillas": 60.0,
-      "rojas": 1.0,
-      "segundas_amarillas": 0.0
-    },
-    {
-      "user_id": 10089858,
-      "user_name": "Karlox F.C.",
-      "palos_index": 152.5,
-      "amarillas": 57.0,
-      "rojas": 2.0,
-      "segundas_amarillas": 0.0
     },
     {
       "user_id": 11678835,
@@ -7762,8 +7763,8 @@ window.BIWENGER_DASHBOARD_DATA = {
     {
       "user_id": 8128710,
       "user_name": "Los vengadores",
-      "palos_index": 102.5,
-      "amarillas": 39.0,
+      "palos_index": 105.0,
+      "amarillas": 40.0,
       "rojas": 1.0,
       "segundas_amarillas": 1.0
     }
@@ -7838,6 +7839,71 @@ window.BIWENGER_DASHBOARD_DATA = {
       "venta_total": 45914769.0,
       "rentabilidad": -0.1378,
       "dias_medio": 98.22
+    }
+  ],
+  "market_activity_summary": [
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "compras_visibles": 138,
+      "inversion_visible": 503878420,
+      "ventas_inferidas": 56,
+      "importe_ventas_inferidas": 231570194,
+      "movimientos_visibles": 194
+    },
+    {
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "compras_visibles": 143,
+      "inversion_visible": 651047245,
+      "ventas_inferidas": 46,
+      "importe_ventas_inferidas": 281851942,
+      "movimientos_visibles": 189
+    },
+    {
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "compras_visibles": 75,
+      "inversion_visible": 252282004,
+      "ventas_inferidas": 13,
+      "importe_ventas_inferidas": 39228120,
+      "movimientos_visibles": 88
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "compras_visibles": 69,
+      "inversion_visible": 272231020,
+      "ventas_inferidas": 18,
+      "importe_ventas_inferidas": 56843009,
+      "movimientos_visibles": 87
+    },
+    {
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "compras_visibles": 60,
+      "inversion_visible": 189262000,
+      "ventas_inferidas": 15,
+      "importe_ventas_inferidas": 45914769,
+      "movimientos_visibles": 75
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "compras_visibles": 46,
+      "inversion_visible": 226867799,
+      "ventas_inferidas": 13,
+      "importe_ventas_inferidas": 70527000,
+      "movimientos_visibles": 59
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "compras_visibles": 51,
+      "inversion_visible": 207069400,
+      "ventas_inferidas": 8,
+      "importe_ventas_inferidas": 33718000,
+      "movimientos_visibles": 59
     }
   ],
   "completed_trades": [
@@ -8326,95 +8392,799 @@ window.BIWENGER_DASHBOARD_DATA = {
     {
       "user_id": 6822272.0,
       "user_name": "Ricardo J",
-      "puntos_por_fichajes": 2147.0,
-      "fichajes_con_puntos": 106,
-      "rondas_fichajes": 473
+      "puntos_por_fichajes": 2157.0,
+      "fichajes_con_puntos": 108,
+      "rondas_fichajes": 476
     },
     {
       "user_id": 8128710.0,
       "user_name": "Los vengadores",
-      "puntos_por_fichajes": 2024.0,
-      "fichajes_con_puntos": 85,
-      "rondas_fichajes": 432
+      "puntos_por_fichajes": 2055.0,
+      "fichajes_con_puntos": 89,
+      "rondas_fichajes": 440
     },
     {
       "user_id": 8127478.0,
       "user_name": "Arregui",
-      "puntos_por_fichajes": 1544.0,
-      "fichajes_con_puntos": 53,
-      "rondas_fichajes": 341
-    },
-    {
-      "user_id": 11678835.0,
-      "user_name": "Julia",
-      "puntos_por_fichajes": 1391.0,
-      "fichajes_con_puntos": 41,
-      "rondas_fichajes": 325
-    },
-    {
-      "user_id": 6826480.0,
-      "user_name": "Víctor Orta",
-      "puntos_por_fichajes": 1346.0,
-      "fichajes_con_puntos": 62,
-      "rondas_fichajes": 335
+      "puntos_por_fichajes": 1549.0,
+      "fichajes_con_puntos": 57,
+      "rondas_fichajes": 350
     },
     {
       "user_id": 10089858.0,
       "user_name": "Karlox F.C.",
-      "puntos_por_fichajes": 1259.0,
-      "fichajes_con_puntos": 35,
-      "rondas_fichajes": 290
+      "puntos_por_fichajes": 1457.0,
+      "fichajes_con_puntos": 38,
+      "rondas_fichajes": 329
+    },
+    {
+      "user_id": 11678835.0,
+      "user_name": "Julia",
+      "puntos_por_fichajes": 1431.0,
+      "fichajes_con_puntos": 43,
+      "rondas_fichajes": 336
+    },
+    {
+      "user_id": 6826480.0,
+      "user_name": "Víctor Orta",
+      "puntos_por_fichajes": 1352.0,
+      "fichajes_con_puntos": 63,
+      "rondas_fichajes": 336
     },
     {
       "user_id": 5684093.0,
       "user_name": "CD Cornisa Azul",
-      "puntos_por_fichajes": 1209.0,
-      "fichajes_con_puntos": 39,
-      "rondas_fichajes": 313
+      "puntos_por_fichajes": 1295.0,
+      "fichajes_con_puntos": 41,
+      "rondas_fichajes": 325
     }
   ],
   "first_round_signing_points": [
     {
-      "user_id": 6822272.0,
-      "user_name": "Ricardo J",
-      "puntos_primera_jornada_fichaje": 367.0,
-      "fichajes_puntuando_primera_jornada": 106
-    },
-    {
       "user_id": 8128710.0,
       "user_name": "Los vengadores",
-      "puntos_primera_jornada_fichaje": 367.0,
-      "fichajes_puntuando_primera_jornada": 85
+      "puntos_primera_jornada_fichaje": 390.0,
+      "fichajes_puntuando_primera_jornada": 89
+    },
+    {
+      "user_id": 6822272.0,
+      "user_name": "Ricardo J",
+      "puntos_primera_jornada_fichaje": 375.0,
+      "fichajes_puntuando_primera_jornada": 108
     },
     {
       "user_id": 8127478.0,
       "user_name": "Arregui",
-      "puntos_primera_jornada_fichaje": 227.0,
-      "fichajes_puntuando_primera_jornada": 53
+      "puntos_primera_jornada_fichaje": 236.0,
+      "fichajes_puntuando_primera_jornada": 57
     },
     {
       "user_id": 6826480.0,
       "user_name": "Víctor Orta",
-      "puntos_primera_jornada_fichaje": 200.0,
-      "fichajes_puntuando_primera_jornada": 62
+      "puntos_primera_jornada_fichaje": 206.0,
+      "fichajes_puntuando_primera_jornada": 63
     },
     {
       "user_id": 10089858.0,
       "user_name": "Karlox F.C.",
-      "puntos_primera_jornada_fichaje": 159.0,
-      "fichajes_puntuando_primera_jornada": 35
+      "puntos_primera_jornada_fichaje": 165.0,
+      "fichajes_puntuando_primera_jornada": 38
     },
     {
       "user_id": 11678835.0,
       "user_name": "Julia",
-      "puntos_primera_jornada_fichaje": 146.0,
-      "fichajes_puntuando_primera_jornada": 41
+      "puntos_primera_jornada_fichaje": 162.0,
+      "fichajes_puntuando_primera_jornada": 43
     },
     {
       "user_id": 5684093.0,
       "user_name": "CD Cornisa Azul",
-      "puntos_primera_jornada_fichaje": 117.0,
-      "fichajes_puntuando_primera_jornada": 39
+      "puntos_primera_jornada_fichaje": 125.0,
+      "fichajes_puntuando_primera_jornada": 41
+    }
+  ],
+  "position_summary": [
+    {
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "position_id": 1,
+      "position_name": "Portería",
+      "position_points": 200.0,
+      "position_goals": 0.0,
+      "position_assists": 0.0,
+      "players_used": 8,
+      "aligned_rounds": 32,
+      "total_player_points": 1632.0,
+      "point_share": 0.1225
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "position_id": 1,
+      "position_name": "Portería",
+      "position_points": 180.0,
+      "position_goals": 0.0,
+      "position_assists": 0.0,
+      "players_used": 1,
+      "aligned_rounds": 38,
+      "total_player_points": 1710.0,
+      "point_share": 0.1053
+    },
+    {
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "position_id": 1,
+      "position_name": "Portería",
+      "position_points": 166.0,
+      "position_goals": 0.0,
+      "position_assists": 0.0,
+      "players_used": 3,
+      "aligned_rounds": 37,
+      "total_player_points": 1523.0,
+      "point_share": 0.109
+    },
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "position_id": 1,
+      "position_name": "Portería",
+      "position_points": 146.0,
+      "position_goals": 0.0,
+      "position_assists": 0.0,
+      "players_used": 5,
+      "aligned_rounds": 33,
+      "total_player_points": 1811.0,
+      "point_share": 0.0806
+    },
+    {
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "position_id": 1,
+      "position_name": "Portería",
+      "position_points": 142.0,
+      "position_goals": 0.0,
+      "position_assists": 0.0,
+      "players_used": 1,
+      "aligned_rounds": 37,
+      "total_player_points": 1485.0,
+      "point_share": 0.0956
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "position_id": 1,
+      "position_name": "Portería",
+      "position_points": 138.0,
+      "position_goals": 0.0,
+      "position_assists": 0.0,
+      "players_used": 4,
+      "aligned_rounds": 31,
+      "total_player_points": 1503.0,
+      "point_share": 0.0918
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "position_id": 1,
+      "position_name": "Portería",
+      "position_points": 122.0,
+      "position_goals": 0.0,
+      "position_assists": 0.0,
+      "players_used": 3,
+      "aligned_rounds": 32,
+      "total_player_points": 1692.0,
+      "point_share": 0.0721
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "position_points": 474.0,
+      "position_goals": 4.0,
+      "position_assists": 3.0,
+      "players_used": 16,
+      "aligned_rounds": 41,
+      "total_player_points": 1710.0,
+      "point_share": 0.2772
+    },
+    {
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "position_points": 473.0,
+      "position_goals": 7.0,
+      "position_assists": 3.0,
+      "players_used": 18,
+      "aligned_rounds": 39,
+      "total_player_points": 1485.0,
+      "point_share": 0.3185
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "position_points": 462.0,
+      "position_goals": 2.0,
+      "position_assists": 11.0,
+      "players_used": 11,
+      "aligned_rounds": 40,
+      "total_player_points": 1503.0,
+      "point_share": 0.3074
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "position_points": 446.0,
+      "position_goals": 7.0,
+      "position_assists": 9.0,
+      "players_used": 23,
+      "aligned_rounds": 39,
+      "total_player_points": 1692.0,
+      "point_share": 0.2636
+    },
+    {
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "position_points": 437.0,
+      "position_goals": 3.0,
+      "position_assists": 5.0,
+      "players_used": 23,
+      "aligned_rounds": 40,
+      "total_player_points": 1523.0,
+      "point_share": 0.2869
+    },
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "position_points": 402.0,
+      "position_goals": 4.0,
+      "position_assists": 3.0,
+      "players_used": 27,
+      "aligned_rounds": 38,
+      "total_player_points": 1811.0,
+      "point_share": 0.222
+    },
+    {
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "position_points": 367.0,
+      "position_goals": 4.0,
+      "position_assists": 3.0,
+      "players_used": 34,
+      "aligned_rounds": 39,
+      "total_player_points": 1632.0,
+      "point_share": 0.2249
+    },
+    {
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "position_points": 688.0,
+      "position_goals": 16.0,
+      "position_assists": 17.0,
+      "players_used": 29,
+      "aligned_rounds": 40,
+      "total_player_points": 1632.0,
+      "point_share": 0.4216
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "position_points": 668.0,
+      "position_goals": 23.0,
+      "position_assists": 13.0,
+      "players_used": 18,
+      "aligned_rounds": 41,
+      "total_player_points": 1692.0,
+      "point_share": 0.3948
+    },
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "position_points": 617.0,
+      "position_goals": 9.0,
+      "position_assists": 22.0,
+      "players_used": 33,
+      "aligned_rounds": 41,
+      "total_player_points": 1811.0,
+      "point_share": 0.3407
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "position_points": 583.0,
+      "position_goals": 10.0,
+      "position_assists": 8.0,
+      "players_used": 18,
+      "aligned_rounds": 39,
+      "total_player_points": 1710.0,
+      "point_share": 0.3409
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "position_points": 503.0,
+      "position_goals": 8.0,
+      "position_assists": 12.0,
+      "players_used": 16,
+      "aligned_rounds": 39,
+      "total_player_points": 1503.0,
+      "point_share": 0.3347
+    },
+    {
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "position_points": 449.0,
+      "position_goals": 8.0,
+      "position_assists": 10.0,
+      "players_used": 15,
+      "aligned_rounds": 40,
+      "total_player_points": 1485.0,
+      "point_share": 0.3024
+    },
+    {
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "position_points": 432.0,
+      "position_goals": 8.0,
+      "position_assists": 10.0,
+      "players_used": 21,
+      "aligned_rounds": 39,
+      "total_player_points": 1523.0,
+      "point_share": 0.2837
+    },
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "position_points": 646.0,
+      "position_goals": 42.0,
+      "position_assists": 18.0,
+      "players_used": 16,
+      "aligned_rounds": 39,
+      "total_player_points": 1811.0,
+      "point_share": 0.3567
+    },
+    {
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "position_points": 488.0,
+      "position_goals": 30.0,
+      "position_assists": 7.0,
+      "players_used": 15,
+      "aligned_rounds": 38,
+      "total_player_points": 1523.0,
+      "point_share": 0.3204
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "position_points": 473.0,
+      "position_goals": 30.0,
+      "position_assists": 9.0,
+      "players_used": 10,
+      "aligned_rounds": 39,
+      "total_player_points": 1710.0,
+      "point_share": 0.2766
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "position_points": 456.0,
+      "position_goals": 27.0,
+      "position_assists": 5.0,
+      "players_used": 13,
+      "aligned_rounds": 38,
+      "total_player_points": 1692.0,
+      "point_share": 0.2695
+    },
+    {
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "position_points": 421.0,
+      "position_goals": 17.0,
+      "position_assists": 9.0,
+      "players_used": 14,
+      "aligned_rounds": 37,
+      "total_player_points": 1485.0,
+      "point_share": 0.2835
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "position_points": 400.0,
+      "position_goals": 21.0,
+      "position_assists": 9.0,
+      "players_used": 19,
+      "aligned_rounds": 38,
+      "total_player_points": 1503.0,
+      "point_share": 0.2661
+    },
+    {
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "position_points": 377.0,
+      "position_goals": 17.0,
+      "position_assists": 11.0,
+      "players_used": 21,
+      "aligned_rounds": 39,
+      "total_player_points": 1632.0,
+      "point_share": 0.231
+    }
+  ],
+  "position_best_players": [
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "position_id": 1,
+      "position_name": "Portería",
+      "player_id": 9887,
+      "player_name": "Sivera",
+      "player_points": 106.0,
+      "goals": 0.0,
+      "assists": 0.0,
+      "rounds": 21
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "player_id": 26276,
+      "player_name": "Ratiu",
+      "player_points": 126.0,
+      "goals": 0.0,
+      "assists": 3.0,
+      "rounds": 25
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "player_id": 30477,
+      "player_name": "Bellingham",
+      "player_points": 96.0,
+      "goals": 5.0,
+      "assists": 3.0,
+      "rounds": 19
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "player_id": 10276,
+      "player_name": "Cucho",
+      "player_points": 119.0,
+      "goals": 6.0,
+      "assists": 2.0,
+      "rounds": 23
+    },
+    {
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "position_id": 1,
+      "position_name": "Portería",
+      "player_id": 15430,
+      "player_name": "Joan García",
+      "player_points": 164.0,
+      "goals": 0.0,
+      "assists": 0.0,
+      "rounds": 22
+    },
+    {
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "player_id": 1613,
+      "player_name": "Laporte",
+      "player_points": 50.0,
+      "goals": 0.0,
+      "assists": 0.0,
+      "rounds": 11
+    },
+    {
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "player_id": 9402,
+      "player_name": "Valverde",
+      "player_points": 84.0,
+      "goals": 5.0,
+      "assists": 2.0,
+      "rounds": 15
+    },
+    {
+      "user_id": 6822272,
+      "user_name": "Ricardo J",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "player_id": 34479,
+      "player_name": "Pépé",
+      "player_points": 110.0,
+      "goals": 5.0,
+      "assists": 4.0,
+      "rounds": 16
+    },
+    {
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "position_id": 1,
+      "position_name": "Portería",
+      "player_id": 9090,
+      "player_name": "Dmitrovic",
+      "player_points": 150.0,
+      "goals": 0.0,
+      "assists": 0.0,
+      "rounds": 31
+    },
+    {
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "player_id": 11800,
+      "player_name": "Cabrera",
+      "player_points": 116.0,
+      "goals": 2.0,
+      "assists": 0.0,
+      "rounds": 25
+    },
+    {
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "player_id": 26068,
+      "player_name": "Samú Costa",
+      "player_points": 90.0,
+      "goals": 4.0,
+      "assists": 1.0,
+      "rounds": 15
+    },
+    {
+      "user_id": 6826480,
+      "user_name": "Víctor Orta",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "player_id": 25724,
+      "player_name": "Muriqi",
+      "player_points": 184.0,
+      "goals": 14.0,
+      "assists": 1.0,
+      "rounds": 27
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "position_id": 1,
+      "position_name": "Portería",
+      "player_id": 38405,
+      "player_name": "Odysseas",
+      "player_points": 48.0,
+      "goals": 0.0,
+      "assists": 0.0,
+      "rounds": 8
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "player_id": 32440,
+      "player_name": "Cubarsí",
+      "player_points": 81.0,
+      "goals": 1.0,
+      "assists": 0.0,
+      "rounds": 12
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "player_id": 2597,
+      "player_name": "Fornals",
+      "player_points": 162.0,
+      "goals": 7.0,
+      "assists": 4.0,
+      "rounds": 29
+    },
+    {
+      "user_id": 8127478,
+      "user_name": "Arregui",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "player_id": 26930,
+      "player_name": "Raphinha",
+      "player_points": 139.0,
+      "goals": 8.0,
+      "assists": 3.0,
+      "rounds": 19
+    },
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "position_id": 1,
+      "position_name": "Portería",
+      "player_id": 257,
+      "player_name": "Escandell",
+      "player_points": 94.0,
+      "goals": 0.0,
+      "assists": 0.0,
+      "rounds": 17
+    },
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "player_id": 31043,
+      "player_name": "Blind",
+      "player_points": 68.0,
+      "goals": 0.0,
+      "assists": 0.0,
+      "rounds": 14
+    },
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "player_id": 31243,
+      "player_name": "Fermín",
+      "player_points": 174.0,
+      "goals": 4.0,
+      "assists": 9.0,
+      "rounds": 27
+    },
+    {
+      "user_id": 8128710,
+      "user_name": "Los vengadores",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "player_id": 26271,
+      "player_name": "Yamal",
+      "player_points": 196.0,
+      "goals": 12.0,
+      "assists": 9.0,
+      "rounds": 25
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "position_id": 1,
+      "position_name": "Portería",
+      "player_id": 11,
+      "player_name": "David Soria",
+      "player_points": 180.0,
+      "goals": 0.0,
+      "assists": 0.0,
+      "rounds": 38
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "player_id": 20,
+      "player_name": "Eric García",
+      "player_points": 138.0,
+      "goals": 0.0,
+      "assists": 1.0,
+      "rounds": 21
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "player_id": 38867,
+      "player_name": "Ounahi",
+      "player_points": 115.0,
+      "goals": 2.0,
+      "assists": 1.0,
+      "rounds": 20
+    },
+    {
+      "user_id": 10089858,
+      "user_name": "Karlox F.C.",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "player_id": 2009,
+      "player_name": "Borja Iglesias",
+      "player_points": 179.0,
+      "goals": 9.0,
+      "assists": 2.0,
+      "rounds": 34
+    },
+    {
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "position_id": 1,
+      "position_name": "Portería",
+      "player_id": 17021,
+      "player_name": "Unai Simón",
+      "player_points": 142.0,
+      "goals": 0.0,
+      "assists": 0.0,
+      "rounds": 37
+    },
+    {
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "position_id": 2,
+      "position_name": "Defensa",
+      "player_id": 26566,
+      "player_name": "Carlos Romero",
+      "player_points": 185.0,
+      "goals": 5.0,
+      "assists": 2.0,
+      "rounds": 30
+    },
+    {
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "position_id": 3,
+      "position_name": "Centro del campo",
+      "player_id": 19445,
+      "player_name": "Luis Milla",
+      "player_points": 164.0,
+      "goals": 1.0,
+      "assists": 6.0,
+      "rounds": 31
+    },
+    {
+      "user_id": 11678835,
+      "user_name": "Julia",
+      "position_id": 4,
+      "position_name": "Delantera",
+      "player_id": 18398,
+      "player_name": "Budimir",
+      "player_points": 119.0,
+      "goals": 8.0,
+      "assists": 0.0,
+      "rounds": 19
     }
   ],
   "loyalty": [
@@ -8472,51 +9242,51 @@ window.BIWENGER_DASHBOARD_DATA = {
     {
       "user_id": 11678835,
       "user_name": "Julia",
-      "concentracion_hhi": 0.0658,
-      "puntos_cubiertos": 1425.0,
-      "jugadores_con_puntos": 45.0
+      "concentracion_hhi": 0.0614,
+      "puntos_cubiertos": 1485.0,
+      "jugadores_con_puntos": 48.0
     },
     {
       "user_id": 10089858,
       "user_name": "Karlox F.C.",
-      "concentracion_hhi": 0.0604,
-      "puntos_cubiertos": 1512.0,
-      "jugadores_con_puntos": 42.0
-    },
-    {
-      "user_id": 5684093,
-      "user_name": "CD Cornisa Azul",
-      "concentracion_hhi": 0.05,
-      "puntos_cubiertos": 1415.0,
-      "jugadores_con_puntos": 47.0
+      "concentracion_hhi": 0.0533,
+      "puntos_cubiertos": 1710.0,
+      "jugadores_con_puntos": 45.0
     },
     {
       "user_id": 6826480,
       "user_name": "Víctor Orta",
-      "concentracion_hhi": 0.0495,
-      "puntos_cubiertos": 1517.0,
-      "jugadores_con_puntos": 61.0
+      "concentracion_hhi": 0.0491,
+      "puntos_cubiertos": 1523.0,
+      "jugadores_con_puntos": 62.0
+    },
+    {
+      "user_id": 5684093,
+      "user_name": "CD Cornisa Azul",
+      "concentracion_hhi": 0.0475,
+      "puntos_cubiertos": 1503.0,
+      "jugadores_con_puntos": 50.0
     },
     {
       "user_id": 8128710,
       "user_name": "Los vengadores",
-      "concentracion_hhi": 0.0485,
-      "puntos_cubiertos": 1774.0,
-      "jugadores_con_puntos": 76.0
+      "concentracion_hhi": 0.0467,
+      "puntos_cubiertos": 1811.0,
+      "jugadores_con_puntos": 81.0
     },
     {
       "user_id": 8127478,
       "user_name": "Arregui",
-      "concentracion_hhi": 0.0401,
-      "puntos_cubiertos": 1687.0,
-      "jugadores_con_puntos": 53.0
+      "concentracion_hhi": 0.0395,
+      "puntos_cubiertos": 1692.0,
+      "jugadores_con_puntos": 57.0
     },
     {
       "user_id": 6822272,
       "user_name": "Ricardo J",
-      "concentracion_hhi": 0.0375,
-      "puntos_cubiertos": 1622.0,
-      "jugadores_con_puntos": 90.0
+      "concentracion_hhi": 0.0371,
+      "puntos_cubiertos": 1632.0,
+      "jugadores_con_puntos": 92.0
     }
   ],
   "volatility": [
@@ -8766,17 +9536,6 @@ window.BIWENGER_DASHBOARD_DATA = {
       "rounds_after_signing": 25
     },
     {
-      "user_id": 5684093.0,
-      "user_name": "CD Cornisa Azul",
-      "player_id": 10276,
-      "player_name": "Cucho",
-      "acquired_date": 1759640843,
-      "acquired_date_iso": "2025-10-05T05:07:23+00:00",
-      "acquired_amount": 8125000,
-      "points_after_signing": 119.0,
-      "rounds_after_signing": 23
-    },
-    {
       "user_id": 11678835.0,
       "user_name": "Julia",
       "player_id": 18398,
@@ -8786,6 +9545,17 @@ window.BIWENGER_DASHBOARD_DATA = {
       "acquired_amount": 7730000,
       "points_after_signing": 119.0,
       "rounds_after_signing": 19
+    },
+    {
+      "user_id": 5684093.0,
+      "user_name": "CD Cornisa Azul",
+      "player_id": 10276,
+      "player_name": "Cucho",
+      "acquired_date": 1759640843,
+      "acquired_date_iso": "2025-10-05T05:07:23+00:00",
+      "acquired_amount": 8125000,
+      "points_after_signing": 119.0,
+      "rounds_after_signing": 23
     },
     {
       "user_id": 8127478.0,
@@ -8808,6 +9578,17 @@ window.BIWENGER_DASHBOARD_DATA = {
       "acquired_amount": 3670000,
       "points_after_signing": 116.0,
       "rounds_after_signing": 25
+    },
+    {
+      "user_id": 10089858.0,
+      "user_name": "Karlox F.C.",
+      "player_id": 38867,
+      "player_name": "Ounahi",
+      "acquired_date": 1758085491,
+      "acquired_date_iso": "2025-09-17T05:04:51+00:00",
+      "acquired_amount": 2740010,
+      "points_after_signing": 115.0,
+      "rounds_after_signing": 20
     },
     {
       "user_id": 8128710.0,
@@ -8885,17 +9666,6 @@ window.BIWENGER_DASHBOARD_DATA = {
       "acquired_amount": 3661000,
       "points_after_signing": 94.0,
       "rounds_after_signing": 17
-    },
-    {
-      "user_id": 10089858.0,
-      "user_name": "Karlox F.C.",
-      "player_id": 38962,
-      "player_name": "Mikautadze",
-      "acquired_date": 1767938912,
-      "acquired_date_iso": "2026-01-09T06:08:32+00:00",
-      "acquired_amount": 7111111,
-      "points_after_signing": 93.0,
-      "rounds_after_signing": 18
     }
   ],
   "top_first_round_signings": [
@@ -8922,21 +9692,21 @@ window.BIWENGER_DASHBOARD_DATA = {
     {
       "user_id": 8127478.0,
       "user_name": "Arregui",
-      "player_id": 23403,
-      "player_name": "Mingueza",
-      "acquired_date_iso": "2025-10-30T06:07:26+00:00",
-      "first_round": "Jornada 11",
-      "first_round_order": 12,
-      "first_round_points": 15.0
-    },
-    {
-      "user_id": 8127478.0,
-      "user_name": "Arregui",
       "player_id": 31707,
       "player_name": "Álvaro Carreras",
       "acquired_date_iso": "2026-01-24T06:07:37+00:00",
       "first_round": "Jornada 23",
       "first_round_order": 25,
+      "first_round_points": 15.0
+    },
+    {
+      "user_id": 8127478.0,
+      "user_name": "Arregui",
+      "player_id": 23403,
+      "player_name": "Mingueza",
+      "acquired_date_iso": "2025-10-30T06:07:26+00:00",
+      "first_round": "Jornada 11",
+      "first_round_order": 12,
       "first_round_points": 15.0
     },
     {
@@ -9010,13 +9780,43 @@ window.BIWENGER_DASHBOARD_DATA = {
       "first_round_points": 13.0
     },
     {
+      "user_id": 8128710.0,
+      "user_name": "Los vengadores",
+      "player_id": 33516,
+      "player_name": "Uche",
+      "acquired_date_iso": "2025-08-09T05:07:09+00:00",
+      "first_round": "Jornada 1",
+      "first_round_order": 1,
+      "first_round_points": 13.0
+    },
+    {
       "user_id": 6822272.0,
       "user_name": "Ricardo J",
-      "player_id": 32460,
-      "player_name": "Héctor Fort",
-      "acquired_date_iso": "2025-12-10T06:09:15+00:00",
-      "first_round": "Jornada 17",
-      "first_round_order": 19,
+      "player_id": 17731,
+      "player_name": "Catena",
+      "acquired_date_iso": "2025-11-20T06:07:39+00:00",
+      "first_round": "Jornada 13",
+      "first_round_order": 14,
+      "first_round_points": 11.0
+    },
+    {
+      "user_id": 8128710.0,
+      "user_name": "Los vengadores",
+      "player_id": 26095,
+      "player_name": "Arnau Martínez",
+      "acquired_date_iso": "2025-09-30T05:10:11+00:00",
+      "first_round": "Jornada 8",
+      "first_round_order": 9,
+      "first_round_points": 11.0
+    },
+    {
+      "user_id": 11678835.0,
+      "user_name": "Julia",
+      "player_id": 18916,
+      "player_name": "Gudelj",
+      "acquired_date_iso": "2025-10-14T05:07:57+00:00",
+      "first_round": "Jornada 10",
+      "first_round_order": 11,
       "first_round_points": 11.0
     },
     {
@@ -9032,71 +9832,41 @@ window.BIWENGER_DASHBOARD_DATA = {
     {
       "user_id": 6822272.0,
       "user_name": "Ricardo J",
-      "player_id": 17731,
-      "player_name": "Catena",
-      "acquired_date_iso": "2025-11-20T06:07:39+00:00",
-      "first_round": "Jornada 13",
-      "first_round_order": 14,
-      "first_round_points": 11.0
-    },
-    {
-      "user_id": 11678835.0,
-      "user_name": "Julia",
-      "player_id": 18916,
-      "player_name": "Gudelj",
-      "acquired_date_iso": "2025-10-14T05:07:57+00:00",
-      "first_round": "Jornada 10",
-      "first_round_order": 11,
+      "player_id": 32460,
+      "player_name": "Héctor Fort",
+      "acquired_date_iso": "2025-12-10T06:09:15+00:00",
+      "first_round": "Jornada 17",
+      "first_round_order": 19,
       "first_round_points": 11.0
     },
     {
       "user_id": 8128710.0,
       "user_name": "Los vengadores",
-      "player_id": 26095,
-      "player_name": "Arnau Martínez",
-      "acquired_date_iso": "2025-09-30T05:10:11+00:00",
-      "first_round": "Jornada 8",
-      "first_round_order": 9,
-      "first_round_points": 11.0
-    },
-    {
-      "user_id": 6822272.0,
-      "user_name": "Ricardo J",
-      "player_id": 24732,
-      "player_name": "Gavi",
-      "acquired_date_iso": "2026-01-14T06:08:17+00:00",
-      "first_round": "Jornada 31",
-      "first_round_order": 35,
+      "player_id": 8747,
+      "player_name": "Moncayola",
+      "acquired_date_iso": "2025-09-01T05:03:47+00:00",
+      "first_round": "Jornada 4",
+      "first_round_order": 5,
       "first_round_points": 10.0
     },
     {
       "user_id": 8127478.0,
       "user_name": "Arregui",
-      "player_id": 2597,
-      "player_name": "Fornals",
-      "acquired_date_iso": "2025-10-05T05:07:23+00:00",
-      "first_round": "Jornada 9",
-      "first_round_order": 10,
+      "player_id": 30789,
+      "player_name": "Giuliano Simeone",
+      "acquired_date_iso": "2026-03-28T06:06:17+00:00",
+      "first_round": "Jornada 30",
+      "first_round_order": 34,
       "first_round_points": 10.0
     },
     {
       "user_id": 11678835.0,
       "user_name": "Julia",
-      "player_id": 17021,
-      "player_name": "Unai Simón",
-      "acquired_date_iso": "2025-08-13T05:07:42+00:00",
-      "first_round": "Jornada 1",
-      "first_round_order": 1,
-      "first_round_points": 10.0
-    },
-    {
-      "user_id": 10089858.0,
-      "user_name": "Karlox F.C.",
-      "player_id": 24474,
-      "player_name": "Robert Navarro",
-      "acquired_date_iso": "2025-08-09T05:07:09+00:00",
-      "first_round": "Jornada 1",
-      "first_round_order": 1,
+      "player_id": 24326,
+      "player_name": "Pathé Ciss",
+      "acquired_date_iso": "2026-03-22T06:07:18+00:00",
+      "first_round": "Jornada 32",
+      "first_round_order": 37,
       "first_round_points": 10.0
     },
     {
@@ -9110,43 +9880,43 @@ window.BIWENGER_DASHBOARD_DATA = {
       "first_round_points": 10.0
     },
     {
-      "user_id": 10089858.0,
-      "user_name": "Karlox F.C.",
-      "player_id": 30789,
-      "player_name": "Giuliano Simeone",
-      "acquired_date_iso": "2025-09-25T05:07:29+00:00",
-      "first_round": "Jornada 7",
-      "first_round_order": 8,
-      "first_round_points": 10.0
-    },
-    {
-      "user_id": 6822272.0,
-      "user_name": "Ricardo J",
-      "player_id": 25398,
-      "player_name": "Pubill",
-      "acquired_date_iso": "2026-02-01T06:05:00+00:00",
-      "first_round": "Jornada 25",
-      "first_round_order": 28,
-      "first_round_points": 10.0
-    },
-    {
       "user_id": 6826480.0,
       "user_name": "Víctor Orta",
-      "player_id": 37725,
-      "player_name": "Affengruber",
-      "acquired_date_iso": "2026-01-07T06:09:19+00:00",
-      "first_round": "Jornada 20",
-      "first_round_order": 22,
+      "player_id": 9090,
+      "player_name": "Dmitrovic",
+      "acquired_date_iso": "2026-03-15T06:10:07+00:00",
+      "first_round": "Jornada 30",
+      "first_round_order": 34,
       "first_round_points": 10.0
     },
     {
-      "user_id": 6822272.0,
-      "user_name": "Ricardo J",
-      "player_id": 31027,
-      "player_name": "Arda Güler",
-      "acquired_date_iso": "2026-01-10T06:06:12+00:00",
-      "first_round": "Jornada 20",
-      "first_round_order": 22,
+      "user_id": 8128710.0,
+      "user_name": "Los vengadores",
+      "player_id": 257,
+      "player_name": "Escandell",
+      "acquired_date_iso": "2025-08-21T05:08:31+00:00",
+      "first_round": "Jornada 2",
+      "first_round_order": 2,
+      "first_round_points": 10.0
+    },
+    {
+      "user_id": 8127478.0,
+      "user_name": "Arregui",
+      "player_id": 2597,
+      "player_name": "Fornals",
+      "acquired_date_iso": "2025-10-05T05:07:23+00:00",
+      "first_round": "Jornada 9",
+      "first_round_order": 10,
+      "first_round_points": 10.0
+    },
+    {
+      "user_id": 8128710.0,
+      "user_name": "Los vengadores",
+      "player_id": 26271,
+      "player_name": "Yamal",
+      "acquired_date_iso": "2025-09-10T05:09:20+00:00",
+      "first_round": "Jornada 7",
+      "first_round_order": 8,
       "first_round_points": 10.0
     }
   ]
